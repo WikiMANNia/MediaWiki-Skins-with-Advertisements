@@ -1,9 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": ["WikiMANNia"]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "The classic MediaWiki skin since 2004, named after the black-and-white photo of a book in the page background",
+	"wima-desc": "Based on [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], it provides four possible advertising spaces that are filled by LocalSettings.php.",
 	"wima.css": "/* All CSS here will be loaded for users of the Wima skin */",
 	"wima.js": "/* All JavaScript here will be loaded for users of the Wima skin */",
 	"wima-jumptotop": "back to top",
@@ -14,5 +14,11 @@
 	"wima-cactions-label": "Page actions",
 	"wima-notifications-link": "Notifications ($1)",
 	"wima-notifications-link-none": "Notifications",
-	"wima-responsive-label": "Enable responsive Wima design"
+	"wima-responsive-label": "Enable responsive Wima design",
+	"wima-advertising": "Advertising",
+	"wima-eventnote": "Event",
+	"wima-hint": "Hint",
+	"wima-donations": "We ask for",
+	"wima-facebook": "Visit us on",
+	"wima-labelled": "labelled with"
 }

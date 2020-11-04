@@ -11,7 +11,7 @@
 		]
 	},
 	"skinname-wima": "{{name}}",
-	"wima-desc": "{{desc|what=skin|name=Wima|url=https://www.mediawiki.org/wiki/Skin:MonoBook}}",
+	"wima-desc": "{{desc|what=skin|name=Wima|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-wima}}",
 	"wima.css": "{{optional}}\nCSS applied to users using Wima skin.",
 	"wima.js": "{{optional}}\nJS for users using Wima skin.",
 	"wima-jumptotop": "Label for mobile link icon to jump to top of page",

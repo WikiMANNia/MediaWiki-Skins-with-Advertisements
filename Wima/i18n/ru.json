@@ -6,11 +6,12 @@
 			"Movses",
 			"Okras",
 			"Ole Yves",
-			"Stjn"
+			"Stjn",
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "Классическая тема оформления MediaWiki, созданная в 2004 году и названая в честь чёрно-белой фотографии книги с фонового изображения страницы",
+	"wima-desc": "Основываясь на [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], он предоставляет четыре возможных рекламных пространства, которые заполняются LocalSettings.php.",
 	"wima.css": "/* Размещённый здесь CSS будет применяться к теме оформления Wima */",
 	"wima.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Wima */",
 	"wima-jumptotop": "возврат наверх",
@@ -21,5 +22,11 @@
 	"wima-cactions-label": "Действия на странице",
 	"wima-notifications-link": "Уведомления ($1)",
 	"wima-notifications-link-none": "Уведомления",
-	"wima-responsive-label": "Включить оформление Wima"
+	"wima-responsive-label": "Включить оформление Wima",
+	"wima-advertising": "Реклама",
+	"wima-eventnote": "Событие",
+	"wima-hint": "Записка",
+	"wima-donations": "Мы просим",
+	"wima-facebook": "Посетите нас на",
+	"wima-labelled": "отмеченный"
 }

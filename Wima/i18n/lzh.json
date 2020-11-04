@@ -3,6 +3,6 @@
 		"authors": []
 	},
 	"skinname-wima": "Wima",
-	"wima.css": "/* 此之 CSS 用於單書面之簿也 */",
-	"wima.js": "/* 此之JavaScript將載於用單書面之簿 */"
+	"wima.css": "/* 此之 CSS 用於 Wima 面之簿也 */",
+	"wima.js": "/* 此之JavaScript將載於用 Wima 面之簿 */"
 }

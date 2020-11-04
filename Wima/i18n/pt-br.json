@@ -8,7 +8,7 @@
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "O tema clássico do MediaWiki desde 2004, assim chamado pela imagem preto e branco de um livro que é colocada no plano de fundo da página",
+	"wima-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
 	"wima.css": "/* CSS colocado aqui irá afetar usuários do tema Wima */",
 	"wima.js": "/* Qualquer JavaScript aqui colocado será carregado para usuários usando o tema Wima */",
 	"wima-jumptotop": "voltar ao topo",
