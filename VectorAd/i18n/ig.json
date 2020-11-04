@@ -5,16 +5,16 @@
 			"Uzoma Ozurumba"
 		]
 	},
-	"vector-action-addsection": "Tinyé Okwu",
-	"vector-action-delete": "Kàcha",
-	"vector-action-move": "Papụ̀",
-	"vector-action-protect": "Cẹdolu",
-	"vector-action-undelete": "Á gbàkashikwà",
-	"vector-action-unprotect": "Nchẹdo mgbanwe",
-	"vector-view-create": "Kèe",
-	"vector-view-edit": "Mèzi",
-	"vector-view-history": "Lèe ị̀ta",
-	"vector-view-view": "Gụ̀ọ",
-	"vector-view-viewsource": "Zi mkpurụ",
-	"vector-more-actions": "Ọzọ kwa"
+	"vectorad-action-addsection": "Tinyé Okwu",
+	"vectorad-action-delete": "Kàcha",
+	"vectorad-action-move": "Papụ̀",
+	"vectorad-action-protect": "Cẹdolu",
+	"vectorad-action-undelete": "Á gbàkashikwà",
+	"vectorad-action-unprotect": "Nchẹdo mgbanwe",
+	"vectorad-view-create": "Kèe",
+	"vectorad-view-edit": "Mèzi",
+	"vectorad-view-history": "Lèe ị̀ta",
+	"vectorad-view-view": "Gụ̀ọ",
+	"vectorad-view-viewsource": "Zi mkpurụ",
+	"vectorad-more-actions": "Ọzọ kwa"
 }

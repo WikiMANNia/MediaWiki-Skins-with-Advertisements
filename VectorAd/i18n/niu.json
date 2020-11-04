@@ -4,8 +4,8 @@
 			"Fanjiayi"
 		]
 	},
-	"vector-action-delete": "Tamate",
-	"vector-action-move": "Une",
-	"vector-action-protect": "Puipui",
-	"vector-view-edit": "Fakahakohako"
+	"vectorad-action-delete": "Tamate",
+	"vectorad-action-move": "Une",
+	"vectorad-action-protect": "Puipui",
+	"vectorad-view-edit": "Fakahakohako"
 }

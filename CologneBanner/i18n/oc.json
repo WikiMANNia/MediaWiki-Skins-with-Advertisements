@@ -5,9 +5,9 @@
 			"Jfblanc"
 		]
 	},
-	"cologneblue.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Cologne Blue */",
-	"cologneblue.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Cologne Blue unicament. */",
-	"skinname-cologneblue": "Colonha Blau",
+	"skinname-colognebanner": "Colonha Banner",
+	"colognebanner.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Colonha Banner */",
+	"colognebanner.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Colonha Banner unicament. */",
 	"qbfind": "Recercar",
 	"qbbrowse": "Far desfilar",
 	"qbedit": "Modificar",

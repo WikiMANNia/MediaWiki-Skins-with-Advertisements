@@ -4,14 +4,14 @@
 			"Paraw2"
 		]
 	},
-	"vector-action-addsection": "بابەت تازە بدە سەری",
-	"vector-action-delete": "بسڕەوە",
-	"vector-action-move": "جیوەجی بکە",
-	"vector-action-protect": "بپیەرێزەێ",
-	"vector-view-create": "درسکردن",
-	"vector-view-edit": "وێراشتەێ بکە",
-	"vector-view-history": "دیرۆکەگەی بۊن",
-	"vector-view-view": "بخوەنە",
-	"vector-view-viewsource": "سەرچاوەگەێ بۊن",
-	"vector-more-actions": "فرەتر"
+	"vectorad-action-addsection": "بابەت تازە بدە سەری",
+	"vectorad-action-delete": "بسڕەوە",
+	"vectorad-action-move": "جیوەجی بکە",
+	"vectorad-action-protect": "بپیەرێزەێ",
+	"vectorad-view-create": "درسکردن",
+	"vectorad-view-edit": "وێراشتەێ بکە",
+	"vectorad-view-history": "دیرۆکەگەی بۊن",
+	"vectorad-view-view": "بخوەنە",
+	"vectorad-view-viewsource": "سەرچاوەگەێ بۊن",
+	"vectorad-more-actions": "فرەتر"
 }

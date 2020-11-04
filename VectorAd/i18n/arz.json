@@ -6,18 +6,18 @@
 			"Ramsis II"
 		]
 	},
-	"vector.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
-	"vector.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
-	"vector-action-addsection": "ضيف موضوع",
-	"vector-action-delete": "مسح",
-	"vector-action-move": "نقل",
-	"vector-action-protect": "حمايه",
-	"vector-action-undelete": "الغى المسح",
-	"vector-action-unprotect": "غير الحمايه",
-	"vector-view-create": "اعمل",
-	"vector-view-edit": "تعديل",
-	"vector-view-history": "استعراض التاريخ",
-	"vector-view-view": "قرايه",
-	"vector-view-viewsource": "استعراض المصدر",
-	"vector-more-actions": "اكتر"
+	"vectorad.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
+	"vectorad.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
+	"vectorad-action-addsection": "ضيف موضوع",
+	"vectorad-action-delete": "مسح",
+	"vectorad-action-move": "نقل",
+	"vectorad-action-protect": "حمايه",
+	"vectorad-action-undelete": "الغى المسح",
+	"vectorad-action-unprotect": "غير الحمايه",
+	"vectorad-view-create": "اعمل",
+	"vectorad-view-edit": "تعديل",
+	"vectorad-view-history": "استعراض التاريخ",
+	"vectorad-view-view": "قرايه",
+	"vectorad-view-viewsource": "استعراض المصدر",
+	"vectorad-more-actions": "اكتر"
 }

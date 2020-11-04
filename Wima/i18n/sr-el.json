@@ -5,17 +5,17 @@
 			"Zoranzoki21"
 		]
 	},
-	"skinname-monobook": "Monobuk",
-	"monobook-desc": "Klasična Medijaviki tema iz 2004, nazvana po crno-beloj fotografiji knjige u pozadini stranice",
-	"monobook.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Monobuk“ */",
-	"monobook.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Monobuk“ */",
-	"monobook-jumptotop": "nazad na vrh",
-	"monobook-jumptopersonal": "korisničke alatke",
-	"monobook-jumptonavigation": "Idi na navigaciju",
-	"monobook-jumptosearch": "Idi na pretragu",
-	"monobook-more-actions": "Više",
-	"monobook-cactions-label": "Radnje za stranicu",
-	"monobook-notifications-link": "Obaveštenja ($1)",
-	"monobook-notifications-link-none": "Obaveštenja",
-	"monobook-responsive-label": "Omogući responzivan dizajn Monobuka"
+	"skinname-wima": "Wima",
+	"wima-desc": "Klasična Medijaviki tema iz 2004, nazvana po crno-beloj fotografiji knjige u pozadini stranice",
+	"wima.css": "/* CSS postavljen ovde će uticati na sve korisnike teme Wima */",
+	"wima.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu Wima */",
+	"wima-jumptotop": "nazad na vrh",
+	"wima-jumptopersonal": "korisničke alatke",
+	"wima-jumptonavigation": "Idi na navigaciju",
+	"wima-jumptosearch": "Idi na pretragu",
+	"wima-more-actions": "Više",
+	"wima-cactions-label": "Radnje za stranicu",
+	"wima-notifications-link": "Obaveštenja ($1)",
+	"wima-notifications-link-none": "Obaveštenja",
+	"wima-responsive-label": "Omogući responzivan dizajn Wima"
 }

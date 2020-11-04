@@ -4,17 +4,18 @@
 			"HalanTul"
 		]
 	},
-	"vector-skin-desc": "Аныгы, саҥардыллыбыт, тупсарыллыбыт MonoBook",
-	"vector-action-addsection": "Тиэмэ эбии",
-	"vector-action-delete": "Сот",
-	"vector-action-move": "Аатын уларыт",
-	"vector-action-protect": "Уларыйбат гын",
-	"vector-action-undelete": "Төннөр",
-	"vector-action-unprotect": "Көмүскэлин уларыт",
-	"vector-view-create": "Ай",
-	"vector-view-edit": "Уларыт",
-	"vector-view-history": "Устуоруйатын көрүү",
-	"vector-view-view": "Ааҕыы",
-	"vector-view-viewsource": "Бэлиэлэрин көрүү",
-	"vector-more-actions": "Эбии"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Аныгы, саҥардыллыбыт, тупсарыллыбыт MonoBook",
+	"vectorad-action-addsection": "Тиэмэ эбии",
+	"vectorad-action-delete": "Сот",
+	"vectorad-action-move": "Аатын уларыт",
+	"vectorad-action-protect": "Уларыйбат гын",
+	"vectorad-action-undelete": "Төннөр",
+	"vectorad-action-unprotect": "Көмүскэлин уларыт",
+	"vectorad-view-create": "Ай",
+	"vectorad-view-edit": "Уларыт",
+	"vectorad-view-history": "Устуоруйатын көрүү",
+	"vectorad-view-view": "Ааҕыы",
+	"vectorad-view-viewsource": "Бэлиэлэрин көрүү",
+	"vectorad-more-actions": "Эбии"
 }

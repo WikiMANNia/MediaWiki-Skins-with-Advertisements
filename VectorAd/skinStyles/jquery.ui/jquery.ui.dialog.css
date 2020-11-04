@@ -9,7 +9,7 @@
  * http://docs.jquery.com/UI/Dialog#theming
  */
 .ui-dialog { position: absolute; top: 0; left: 0; padding: .2em; width: 300px; overflow: hidden; }
-.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative;  }
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative; }
 .ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .1em 0; }
 .ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
 .ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
@@ -21,7 +21,7 @@
 .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
 .ui-draggable .ui-dialog-titlebar { cursor: move; }
 
-/* Customizations for MediaWiki Vector */
+/* Customizations for MediaWiki VectorAd */
 
 body .ui-dialog .ui-dialog-titlebar-close:hover {
 	text-decoration: none;

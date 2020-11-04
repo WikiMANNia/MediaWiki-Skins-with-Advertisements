@@ -6,17 +6,17 @@
 			"BadDog"
 		]
 	},
-	"skinname-monobook": "Монобук",
-	"monobook-desc": "Класична Медијавики тема из 2004, названа по црно-белој фотографији књиге у позадини странице",
-	"monobook.css": "/* CSS постављен овде ће утицати на све кориснике теме „Монобук“ */",
-	"monobook.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Монобук“ */",
-	"monobook-jumptotop": "назад на врх",
-	"monobook-jumptopersonal": "корисничке алатке",
-	"monobook-jumptonavigation": "Иди на навигацију",
-	"monobook-jumptosearch": "Иди на претрагу",
-	"monobook-more-actions": "Више",
-	"monobook-cactions-label": "Радње за страницу",
-	"monobook-notifications-link": "Обавештења ($1)",
-	"monobook-notifications-link-none": "Обавештења",
-	"monobook-responsive-label": "Омогући респонзиван дизајн Монобука"
+	"skinname-wima": "Wima",
+	"wima-desc": "Класична Медијавики тема из 2004, названа по црно-белој фотографији књиге у позадини странице",
+	"wima.css": "/* CSS постављен овде ће утицати на све кориснике теме Wima */",
+	"wima.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему Wima */",
+	"wima-jumptotop": "назад на врх",
+	"wima-jumptopersonal": "корисничке алатке",
+	"wima-jumptonavigation": "Иди на навигацију",
+	"wima-jumptosearch": "Иди на претрагу",
+	"wima-more-actions": "Више",
+	"wima-cactions-label": "Радње за страницу",
+	"wima-notifications-link": "Обавештења ($1)",
+	"wima-notifications-link-none": "Обавештења",
+	"wima-responsive-label": "Омогући респонзиван дизајн Wima"
 }

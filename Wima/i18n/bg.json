@@ -4,17 +4,17 @@
 			"StanProg"
 		]
 	},
-	"skinname-monobook": "Монобук",
-	"monobook-desc": "Класически облик на MediaWiki от 2004 година, кръстен на черно-бялата снимка използвана за фон на страницата",
-	"monobook.css": "/* Чрез редактиране на този файл можете да промените облика Монобук */",
-	"monobook.js": "/* Остаряла страница; използвайте [[MediaWiki:Common.js]] */",
-	"monobook-jumptotop": "върни се най-горе",
-	"monobook-jumptopersonal": "потребителски инструменти",
-	"monobook-jumptonavigation": "Направо към навигацията",
-	"monobook-jumptosearch": "Направо към търсенето",
-	"monobook-more-actions": "Още",
-	"monobook-cactions-label": "Действия на страницата",
-	"monobook-notifications-link": "Известия ($1)",
-	"monobook-notifications-link-none": "Известия",
-	"monobook-responsive-label": "Включване на адаптивния MonoBook дизайн"
+	"skinname-wima": "Wima",
+	"wima-desc": "Класически облик на MediaWiki от 2004 година, кръстен на черно-бялата снимка използвана за фон на страницата",
+	"wima.css": "/* Чрез редактиране на този файл можете да промените облика Wima */",
+	"wima.js": "/* Остаряла страница; използвайте [[MediaWiki:Common.js]] */",
+	"wima-jumptotop": "върни се най-горе",
+	"wima-jumptopersonal": "потребителски инструменти",
+	"wima-jumptonavigation": "Направо към навигацията",
+	"wima-jumptosearch": "Направо към търсенето",
+	"wima-more-actions": "Още",
+	"wima-cactions-label": "Действия на страницата",
+	"wima-notifications-link": "Известия ($1)",
+	"wima-notifications-link-none": "Известия",
+	"wima-responsive-label": "Включване на адаптивния Wima дизайн"
 }

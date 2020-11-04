@@ -5,13 +5,13 @@
 			"Peteris"
 		]
 	},
-	"vector-action-delete": "Āupausinais",
-	"vector-action-move": "Prapīdais",
-	"vector-action-protect": "Kūnsteis",
-	"vector-action-unprotect": "Etkūnteis",
-	"vector-view-create": "Teīkeis",
-	"vector-view-edit": "Redigīs",
-	"vector-view-history": "Enwaidinnais istōrijan",
-	"vector-view-view": "Skaitāis",
-	"vector-view-viewsource": "Enwaidinnais appun"
+	"vectorad-action-delete": "Āupausinais",
+	"vectorad-action-move": "Prapīdais",
+	"vectorad-action-protect": "Kūnsteis",
+	"vectorad-action-unprotect": "Etkūnteis",
+	"vectorad-view-create": "Teīkeis",
+	"vectorad-view-edit": "Redigīs",
+	"vectorad-view-history": "Enwaidinnais istōrijan",
+	"vectorad-view-view": "Skaitāis",
+	"vectorad-view-viewsource": "Enwaidinnais appun"
 }

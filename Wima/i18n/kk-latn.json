@@ -1,6 +1,8 @@
 {
-	"@metadata": [],
-	"skinname-monobook": "Dara kitap (monobook)",
-	"monobook.css": "/* Mında ornalastırılğan CSS tek «Dara kitap» (monobook) mänerin paýdalanwşılarına ıqpal etedi */",
-	"monobook.js": "/* Mındağı JavaScript tek «Dara kitap» (monobook) mänerin paýdalanwşılar üşin jegiledi */"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-wima": "Dara kitap (wima)",
+	"wima.css": "/* Mında ornalastırılğan CSS tek «Dara kitap» (wima) mänerin paýdalanwşılarına ıqpal etedi */",
+	"wima.js": "/* Mındağı JavaScript tek «Dara kitap» (wima) mänerin paýdalanwşılar üşin jegiledi */"
 }

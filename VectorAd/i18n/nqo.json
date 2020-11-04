@@ -5,13 +5,13 @@
 			"Lanciné.kounfantoh.fofana"
 		]
 	},
-	"vector-action-addsection": "ߥߟߊ߬ߘߊ߫ ߝߙߊ߬",
-	"vector-action-delete": "ߊ߬ ߖߏ߬ߛߌ߬",
-	"vector-action-move": "ߊ߬ ߛߋ߲߬ߓߐ߫",
-	"vector-action-protect": "ߊ߬ ߟߊߞߊ߲ߘߊ߫",
-	"vector-view-create": "ߟߊߘߊ߲߫",
-	"vector-view-edit": "ߊ߬ ߡߊߝߊ߬ߟߋ߲߬",
-	"vector-view-history": "ߕߊ߬ߡߌ߲߬ߣߍ߲ ߠߎ߫ ߦߌ߬ߘߊ߬",
-	"vector-view-view": "ߊ߬ ߞߊ߬ߙߊ߲߬",
-	"vector-more-actions": "ߜߘߍ߫ ߟߎ߬"
+	"vectorad-action-addsection": "ߥߟߊ߬ߘߊ߫ ߝߙߊ߬",
+	"vectorad-action-delete": "ߊ߬ ߖߏ߬ߛߌ߬",
+	"vectorad-action-move": "ߊ߬ ߛߋ߲߬ߓߐ߫",
+	"vectorad-action-protect": "ߊ߬ ߟߊߞߊ߲ߘߊ߫",
+	"vectorad-view-create": "ߟߊߘߊ߲߫",
+	"vectorad-view-edit": "ߊ߬ ߡߊߝߊ߬ߟߋ߲߬",
+	"vectorad-view-history": "ߕߊ߬ߡߌ߲߬ߣߍ߲ ߠߎ߫ ߦߌ߬ߘߊ߬",
+	"vectorad-view-view": "ߊ߬ ߞߊ߬ߙߊ߲߬",
+	"vectorad-more-actions": "ߜߘߍ߫ ߟߎ߬"
 }

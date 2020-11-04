@@ -4,11 +4,11 @@
 			"Lalotahes"
 		]
 	},
-	"vector-action-move": " tilkoraeh",
-	"vector-view-create": "paskayzaeh",
-	"vector-view-edit": " bienji",
-	"vector-view-history": "komita’ kahayza’an kin’i’iyaeh",
-	"vector-view-view": "kiSka:at",
-	"vector-view-viewsource": " komita’ ka yuensema:",
-	"vector-more-actions": "akoy"
+	"vectorad-action-move": " tilkoraeh",
+	"vectorad-view-create": "paskayzaeh",
+	"vectorad-view-edit": " bienji",
+	"vectorad-view-history": "komita’ kahayza’an kin’i’iyaeh",
+	"vectorad-view-view": "kiSka:at",
+	"vectorad-view-viewsource": " komita’ ka yuensema:",
+	"vectorad-more-actions": "akoy"
 }

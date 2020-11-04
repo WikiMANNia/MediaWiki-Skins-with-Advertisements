@@ -1,8 +1,10 @@
 {
-	"@metadata": [],
-	"cologneblue.css": "/* Mında ornalastırılğan CSS tek «Köln zeñgirligi» (cologneblue) mänerin paýdalanwşılarına ıqpal etedi skin */",
-	"cologneblue.js": "/* Mındağı JavaScript tek «Köln zeñgirligi» (cologneblue) mänerin paýdalanwşılar üşin jegiledi */",
-	"skinname-cologneblue": "Köln zeñgirligi (cologneblue)",
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "Köln zeñgirligi (colognebanner)",
+	"colognebanner.css": "/* Mında ornalastırılğan CSS tek «Köln zeñgirligi» (colognebanner) mänerin paýdalanwşılarına ıqpal etedi skin */",
+	"colognebanner.js": "/* Mındağı JavaScript tek «Köln zeñgirligi» (colognebanner) mänerin paýdalanwşılar üşin jegiledi */",
 	"qbfind": "Tabw",
 	"qbbrowse": "Şolw",
 	"qbedit": "Öñdew",

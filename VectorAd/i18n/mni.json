@@ -4,13 +4,13 @@
 			"Awangba Mangang"
 		]
 	},
-	"vector-action-addsection": "ꯅꯩꯅꯕ ꯍꯤꯔꯝ ꯍꯥꯞꯆꯤꯟꯂꯨ",
-	"vector-action-delete": "ꯀꯛꯊꯠꯄꯥ",
-	"vector-action-move": "ꯂꯦꯡꯍꯟꯕꯥ",
-	"vector-action-protect": "ꯉꯥꯛꯊꯣꯛꯂꯕꯥ",
-	"vector-view-create": "ꯁꯥꯕꯥ",
-	"vector-view-edit": "ꯁꯦꯝꯒꯠꯄꯥ",
-	"vector-view-history": "ꯄꯨꯋꯥꯔꯤ ꯎꯨꯠꯂꯨ",
-	"vector-view-view": "ꯄꯥꯑꯣ",
-	"vector-more-actions": "ꯋꯥꯠꯂꯤ"
+	"vectorad-action-addsection": "ꯅꯩꯅꯕ ꯍꯤꯔꯝ ꯍꯥꯞꯆꯤꯟꯂꯨ",
+	"vectorad-action-delete": "ꯀꯛꯊꯠꯄꯥ",
+	"vectorad-action-move": "ꯂꯦꯡꯍꯟꯕꯥ",
+	"vectorad-action-protect": "ꯉꯥꯛꯊꯣꯛꯂꯕꯥ",
+	"vectorad-view-create": "ꯁꯥꯕꯥ",
+	"vectorad-view-edit": "ꯁꯦꯝꯒꯠꯄꯥ",
+	"vectorad-view-history": "ꯄꯨꯋꯥꯔꯤ ꯎꯨꯠꯂꯨ",
+	"vectorad-view-view": "ꯄꯥꯑꯣ",
+	"vectorad-more-actions": "ꯋꯥꯠꯂꯤ"
 }

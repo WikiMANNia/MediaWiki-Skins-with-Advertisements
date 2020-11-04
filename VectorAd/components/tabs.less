@@ -5,7 +5,7 @@
  */
 
 /* Namespaces and Views */
-.vectorTabs {
+.vectoradTabs {
 	float: left;
 	height: 2.5em;
 	.background-image('images/tab-break.png');
@@ -93,7 +93,7 @@
 }
 
 /* Variants and Actions */
-.vectorMenu {
+.vectoradMenu {
 	direction: ltr;
 	float: left;
 	cursor: pointer;
@@ -165,12 +165,12 @@
 
 	// This is in a separate block, so that browsers supporting :hover but not :checked still apply the rule above
 	// Support: IE8
-	.vectorMenuCheckbox:checked ~ .menu {
+	.vectoradMenuCheckbox:checked ~ .menu {
 		opacity: 1;
 		visibility: visible;
 	}
 
-	// FIXME: `.vectorMenu ul` can be removed with purged HTML cache
+	// FIXME: `.vectoradMenu ul` can be removed with purged HTML cache
 	ul {
 		list-style: none none;
 		padding: 0;
@@ -201,7 +201,7 @@
 	}
 }
 
-#mw-head .vectorMenu h3 {
+#mw-head .vectoradMenu h3 {
 	float: left;
 	.background-image('images/tab-break.png');
 	background-repeat: no-repeat;
@@ -209,15 +209,15 @@
 	font-size: 1em;
 	height: 2.5em;
 	// `padding-right` >= `1px` effectively moves the "background border" outside of the element to
-	// act like a real border. It is necessary for `.vectorMenu .menu` dropdown to align well.
+	// act like a real border. It is necessary for `.vectoradMenu .menu` dropdown to align well.
 	// 0.5em equals `8px` at computed `font-size` of `14px` as visually harmonically with
-	// `padding-left` in `.vectorMenu h3 span`
+	// `padding-left` in `.vectoradMenu h3 span`
 	padding: 0 0.5em 0 0;
 	margin: 0 -1px 0 0;
 }
 
 // Invisible checkbox covering the dropdown menu handle
-.vectorMenuCheckbox {
+.vectoradMenuCheckbox {
 	cursor: pointer;
 	position: absolute;
 	top: 0;

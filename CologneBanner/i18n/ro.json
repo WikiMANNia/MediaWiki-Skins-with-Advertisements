@@ -8,9 +8,9 @@
 			"Wintereu"
 		]
 	},
-	"cologneblue.css": "/* CSS plasate aici vor afecta utilizatorii stilului Cologne Blue */",
-	"skinname-cologneblue": "Albastru de Cologne",
-	"cologneblue-desc": "Un aspect simplu cu o formatare minimă",
+	"skinname-colognebanner": "Banner de Cologne",
+	"colognebanner.css": "/* CSS plasate aici vor afecta utilizatorii stilului Banner de Cologne */",
+	"colognebanner-desc": "Un aspect simplu cu o formatare minimă",
 	"qbfind": "Găsește",
 	"qbbrowse": "Răsfoiește",
 	"qbedit": "Modificare",

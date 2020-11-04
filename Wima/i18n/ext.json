@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"monobook.js": "/* Antigu; gasta [[MediaWiki:common.js]] */"
+	"@metadata": {
+		"authors": []
+	},
+	"wima.js": "/* Antigu; gasta [[MediaWiki:common.js]] */"
 }

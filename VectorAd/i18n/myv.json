@@ -5,16 +5,16 @@
 			"Rueter"
 		]
 	},
-	"vector-action-addsection": "Поладомс мезде кортамс",
-	"vector-action-delete": "Нардамс",
-	"vector-action-move": "Печтевтемс",
-	"vector-action-protect": "Аравтомс ванстомас",
-	"vector-action-undelete": "Вельмевтемс нардазенть",
-	"vector-action-unprotect": "Полавтомс ванстоманзо",
-	"vector-view-create": "Теемс-Шкамс",
-	"vector-view-edit": "Витнемс-петнемс",
-	"vector-view-history": "Ваномс юронзо-путовксонзо",
-	"vector-view-view": "Ловномс",
-	"vector-view-viewsource": "Ваномс косто саезь",
-	"vector-more-actions": "Седе ламо"
+	"vectorad-action-addsection": "Поладомс мезде кортамс",
+	"vectorad-action-delete": "Нардамс",
+	"vectorad-action-move": "Печтевтемс",
+	"vectorad-action-protect": "Аравтомс ванстомас",
+	"vectorad-action-undelete": "Вельмевтемс нардазенть",
+	"vectorad-action-unprotect": "Полавтомс ванстоманзо",
+	"vectorad-view-create": "Теемс-Шкамс",
+	"vectorad-view-edit": "Витнемс-петнемс",
+	"vectorad-view-history": "Ваномс юронзо-путовксонзо",
+	"vectorad-view-view": "Ловномс",
+	"vectorad-view-viewsource": "Ваномс косто саезь",
+	"vectorad-more-actions": "Седе ламо"
 }

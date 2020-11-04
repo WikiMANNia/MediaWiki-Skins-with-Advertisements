@@ -7,17 +7,17 @@
 			"Piramidion"
 		]
 	},
-	"skinname-monobook": "Моно-книга",
-	"monobook-desc": "Класична тема оформлення MediaWiki з 2004 року, названа за чорно-білим фото книги на фоні сторінки",
-	"monobook.css": "/* Розміщений тут CSS буде застосовуватися до всіх тем оформлення Monobook */",
-	"monobook.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Моно-книга */",
-	"monobook-jumptotop": "повернутися вгору",
-	"monobook-jumptopersonal": "користувацькі інструменти",
-	"monobook-jumptonavigation": "Перейти до навігації",
-	"monobook-jumptosearch": "Перейти до пошуку",
-	"monobook-more-actions": "Більше",
-	"monobook-cactions-label": "Дії над сторінкою",
-	"monobook-notifications-link": "Сповіщення ($1)",
-	"monobook-notifications-link-none": "Сповіщення",
-	"monobook-responsive-label": "Увімкнути адаптивне оформлення MonoBook"
+	"skinname-wima": "Wima",
+	"wima-desc": "Класична тема оформлення MediaWiki з 2004 року, названа за чорно-білим фото книги на фоні сторінки",
+	"wima.css": "/* Розміщений тут CSS буде застосовуватися до всіх тем оформлення Wima */",
+	"wima.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Wima */",
+	"wima-jumptotop": "повернутися вгору",
+	"wima-jumptopersonal": "користувацькі інструменти",
+	"wima-jumptonavigation": "Перейти до навігації",
+	"wima-jumptosearch": "Перейти до пошуку",
+	"wima-more-actions": "Більше",
+	"wima-cactions-label": "Дії над сторінкою",
+	"wima-notifications-link": "Сповіщення ($1)",
+	"wima-notifications-link-none": "Сповіщення",
+	"wima-responsive-label": "Увімкнути адаптивне оформлення Wima"
 }

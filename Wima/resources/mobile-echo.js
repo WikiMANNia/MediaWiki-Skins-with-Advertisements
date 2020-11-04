@@ -8,7 +8,7 @@ $( function () {
 		notificationsString;
 
 	// Move echo badges in/out of p-personal
-	function monoBookMobileMoveEchoIcons() {
+	function wimaMobileMoveEchoIcons() {
 		if ( notificationIcons.length ) {
 			if ( !echoHackActive && $( window ).width() <= mobileCutoffWidth ) {
 				$( '#echo-hack-badges' ).append( notificationIcons );
@@ -22,13 +22,13 @@ $( function () {
 		}
 	}
 
-	function monoBookMobileEchoHack() {
+	function wimaMobileEchoHack() {
 		if ( notificationIcons.length ) {
 			if ( !echoHacked && $( window ).width() <= mobileCutoffWidth ) {
 				if ( notifications ) {
-					notificationsString = mw.msg( 'monobook-notifications-link', notifications );
+					notificationsString = mw.msg( 'wima-notifications-link', notifications );
 				} else {
-					notificationsString = mw.msg( 'monobook-notifications-link-none' );
+					notificationsString = mw.msg( 'wima-notifications-link-none' );
 				}
 
 				// add inline p-personal echo link
@@ -47,10 +47,10 @@ $( function () {
 				echoHacked = true;
 			}
 
-			monoBookMobileMoveEchoIcons();
+			wimaMobileMoveEchoIcons();
 		}
 	}
 
-	$( window ).on( 'resize', monoBookMobileEchoHack );
-	monoBookMobileEchoHack();
+	$( window ).on( 'resize', wimaMobileEchoHack );
+	wimaMobileEchoHack();
 } );

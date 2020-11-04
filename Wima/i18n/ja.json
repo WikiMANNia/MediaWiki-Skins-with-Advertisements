@@ -8,14 +8,14 @@
 			"Darklanlan"
 		]
 	},
-	"skinname-monobook": "モノブック",
-	"monobook-desc": "ページ背景にモノクロの本の写真があることから名付けられた、2004年以来のクラシックなMediaWiki外装。",
-	"monobook.css": "/* ここに記述したCSSはモノブック外装の利用者に影響します */",
-	"monobook.js": "/* ここにあるすべてのJavaScriptは、モノブック外装を使用している利用者に対して読み込まれます */",
-	"monobook-jumptotop": "トップに戻る",
-	"monobook-jumptonavigation": "ナビゲーションに移動",
-	"monobook-jumptosearch": "検索に移動",
-	"monobook-notifications-link": "通知 ($1件)",
-	"monobook-notifications-link-none": "通知",
-	"monobook-responsive-label": "レスポンシブデザインのモノブックを有効にする"
+	"skinname-wima": "モノブック",
+	"wima-desc": "ページ背景にモノクロの本の写真があることから名付けられた、2004年以来のクラシックなMediaWiki外装。",
+	"wima.css": "/* ここに記述したCSSはモノブック外装の利用者に影響します */",
+	"wima.js": "/* ここにあるすべてのJavaScriptは、モノブック外装を使用している利用者に対して読み込まれます */",
+	"wima-jumptotop": "トップに戻る",
+	"wima-jumptonavigation": "ナビゲーションに移動",
+	"wima-jumptosearch": "検索に移動",
+	"wima-notifications-link": "通知 ($1件)",
+	"wima-notifications-link-none": "通知",
+	"wima-responsive-label": "レスポンシブデザインのモノブックを有効にする"
 }

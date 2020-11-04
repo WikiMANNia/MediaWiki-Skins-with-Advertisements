@@ -6,18 +6,18 @@
 			"Исмаил Садуев"
 		]
 	},
-	"skinname-vector": "Векторан",
-	"vector-skin-desc": "ХӀокху хенан MonoBook-ан верси кечдинчу карладахаршца а, дуккха а тодаршца юзабилити чохь",
-	"vector-action-addsection": "Тема тӀетоха",
-	"vector-action-delete": "ДӀаяккхар",
-	"vector-action-move": "ЦӀе хийцар",
-	"vector-action-protect": "Ларъяр",
-	"vector-action-undelete": "МеттахӀоттае",
-	"vector-action-unprotect": "Ларъяр хийцар",
-	"vector-view-create": "Кхоллар",
-	"vector-view-edit": "Нисъе",
-	"vector-view-history": "АгӀона хийцамаш",
-	"vector-view-view": "Éшар",
-	"vector-view-viewsource": "Билглонашка хьажа",
-	"vector-more-actions": "Кхин"
+	"skinname-vectorad": "Векторан",
+	"vectorad-skin-desc": "ХӀокху хенан MonoBook-ан верси кечдинчу карладахаршца а, дуккха а тодаршца юзабилити чохь",
+	"vectorad-action-addsection": "Тема тӀетоха",
+	"vectorad-action-delete": "ДӀаяккхар",
+	"vectorad-action-move": "ЦӀе хийцар",
+	"vectorad-action-protect": "Ларъяр",
+	"vectorad-action-undelete": "МеттахӀоттае",
+	"vectorad-action-unprotect": "Ларъяр хийцар",
+	"vectorad-view-create": "Кхоллар",
+	"vectorad-view-edit": "Нисъе",
+	"vectorad-view-history": "АгӀона хийцамаш",
+	"vectorad-view-view": "Éшар",
+	"vectorad-view-viewsource": "Билглонашка хьажа",
+	"vectorad-more-actions": "Кхин"
 }

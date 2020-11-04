@@ -5,17 +5,18 @@
 			"Belkacem77"
 		]
 	},
-	"vector-skin-desc": "Lqem atrar n MonoBook s wudem ilemẓi akked ddeqs n usnerni ucbiḥ",
-	"vector-action-addsection": "Rnud ameggay",
-	"vector-action-delete": "Mḥu",
-	"vector-action-move": "Snifel isem",
-	"vector-action-protect": "Mmesten",
-	"vector-action-undelete": "Uɣaled",
-	"vector-action-unprotect": "Beddel amesten",
-	"vector-view-create": "Rnu",
-	"vector-view-edit": "Ẓreg",
-	"vector-view-history": "Wali amazray",
-	"vector-view-view": "Ɣer",
-	"vector-view-viewsource": "Ẓer aɣbalu",
-	"vector-more-actions": "Ugar"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Lqem atrar n MonoBook s wudem ilemẓi akked ddeqs n usnerni ucbiḥ",
+	"vectorad-action-addsection": "Rnud ameggay",
+	"vectorad-action-delete": "Mḥu",
+	"vectorad-action-move": "Snifel isem",
+	"vectorad-action-protect": "Mmesten",
+	"vectorad-action-undelete": "Uɣaled",
+	"vectorad-action-unprotect": "Beddel amesten",
+	"vectorad-view-create": "Rnu",
+	"vectorad-view-edit": "Ẓreg",
+	"vectorad-view-history": "Wali amazray",
+	"vectorad-view-view": "Ɣer",
+	"vectorad-view-viewsource": "Ẓer aɣbalu",
+	"vectorad-more-actions": "Ugar"
 }

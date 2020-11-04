@@ -6,16 +6,16 @@
 			"Joao Xavier"
 		]
 	},
-	"vector-action-addsection": "Adjuntar topiko",
-	"vector-action-delete": "Efacar",
-	"vector-action-move": "Movar",
-	"vector-action-protect": "Protektar",
-	"vector-action-undelete": "Rekuperar",
-	"vector-action-unprotect": "Chanjar protektado",
-	"vector-view-create": "Krear",
-	"vector-view-edit": "Redaktar",
-	"vector-view-history": "Vidar versionaro",
-	"vector-view-view": "Lektar",
-	"vector-view-viewsource": "Vidar fonto",
-	"vector-more-actions": "Pluse"
+	"vectorad-action-addsection": "Adjuntar topiko",
+	"vectorad-action-delete": "Efacar",
+	"vectorad-action-move": "Movar",
+	"vectorad-action-protect": "Protektar",
+	"vectorad-action-undelete": "Rekuperar",
+	"vectorad-action-unprotect": "Chanjar protektado",
+	"vectorad-view-create": "Krear",
+	"vectorad-view-edit": "Redaktar",
+	"vectorad-view-history": "Vidar versionaro",
+	"vectorad-view-view": "Lektar",
+	"vectorad-view-viewsource": "Vidar fonto",
+	"vectorad-more-actions": "Pluse"
 }

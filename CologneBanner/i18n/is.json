@@ -8,10 +8,10 @@
 			"Steinninn"
 		]
 	},
-	"cologneblue.css": "/* Allt CSS sem sett er hér mun  hafa áhrif á alla notendur Kölnarblátt-skinnsins. */",
-	"cologneblue.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Kölnarblátt-skinnsins. */",
-	"skinname-cologneblue": "Kölnarblátt",
-	"cologneblue-desc": "Létt skinn með lágmarks-sniðum",
+	"skinname-colognebanner": "Kölnarbanner",
+	"colognebanner.css": "/* Allt CSS sem sett er hér mun hafa áhrif á alla notendur Kölnarbanner-skinnsins. */",
+	"colognebanner.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Kölnarbanner-skinnsins. */",
+	"colognebanner-desc": "Létt skinn með lágmarks-sniðum",
 	"qbfind": "Finna",
 	"qbbrowse": "Flakka",
 	"qbedit": "Breyta",

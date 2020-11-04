@@ -4,11 +4,11 @@
 			"Anok kutai jang"
 		]
 	},
-	"vector-action-addsection": "Kas tamba baru",
-	"vector-action-move": "Kas pindah",
-	"vector-view-create": "Biking",
-	"vector-view-edit": "Kas ubah",
-	"vector-view-history": "Lia versi lama",
-	"vector-view-view": "Baca",
-	"vector-more-actions": "Laeng-laeng"
+	"vectorad-action-addsection": "Kas tamba baru",
+	"vectorad-action-move": "Kas pindah",
+	"vectorad-view-create": "Biking",
+	"vectorad-view-edit": "Kas ubah",
+	"vectorad-view-history": "Lia versi lama",
+	"vectorad-view-view": "Baca",
+	"vectorad-more-actions": "Laeng-laeng"
 }

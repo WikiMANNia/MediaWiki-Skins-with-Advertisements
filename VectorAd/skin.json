@@ -1,26 +1,26 @@
 {
-	"name": "Vector",
+	"name": "VectorAd",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Vector",
-	"descriptionmsg": "vector-skin-desc",
-	"namemsg": "skinname-vector",
+	"url": "https://www.mediawiki.org/wiki/Skin:VectorAd",
+	"descriptionmsg": "vectorad-skin-desc",
+	"namemsg": "skinname-vectorad",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
 	},
 	"ConfigRegistry": {
-		"vector": "GlobalVarConfig::newInstance"
+		"vectorad": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vector": "Vector"
+		"vectorad": "VectorAd"
 	},
 	"MessagesDirs": {
-		"Vector": [
+		"VectorAd": [
 			"i18n"
 		]
 	},
@@ -38,7 +38,7 @@
 	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
 	"ResourceModules": {
 		"skins.vector.styles": {
-			"class": "Vector\\ResourceLoaderLessModule",
+			"class": "VectorAd\\ResourceLoaderLessModule",
 			"targets": [ "desktop", "mobile" ],
 			"styles": {
 				"screen.less": {
@@ -70,7 +70,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Vector"
+		"remoteSkinPath": "VectorAd"
 	},
 	"ResourceModuleSkinStyles": {
 		"vector": {
@@ -98,10 +98,10 @@
 		}
 	},
 	"config": {
-		"VectorUseSimpleSearch": true,
-		"VectorUseIconWatch": true,
-		"VectorResponsive": false,
-		"VectorPrintLogo": false
+		"VectorAdUseSimpleSearch": true,
+		"VectorAdUseIconWatch": true,
+		"VectorAdResponsive": false,
+		"VectorAdPrintLogo": false
 	},
 	"manifest_version": 1
 }

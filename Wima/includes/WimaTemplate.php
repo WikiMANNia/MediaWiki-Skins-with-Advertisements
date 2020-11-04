@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -27,10 +27,10 @@
 /**
  * @ingroup Skins
  */
-class MonoBookTemplate extends BaseTemplate {
+class WimaTemplate extends BaseTemplate {
 
 	/**
-	 * Template filter callback for MonoBook skin.
+	 * Template filter callback for Wima skin.
 	 * Takes an associative array of data set from a SkinTemplate-based
 	 * class, and a wrapper for MediaWiki's localization database, and
 	 * outputs a formatted page.
@@ -41,7 +41,7 @@ class MonoBookTemplate extends BaseTemplate {
 		$html .= Html::openElement( 'div', [ 'id' => 'globalWrapper' ] );
 
 		$html .= Html::openElement( 'div', [ 'id' => 'column-content' ] );
-		$html .= Html::rawElement( 'div', [ 'id' => 'content', 'class' => 'mw-body',  'role' => 'main' ],
+		$html .= Html::rawElement( 'div', [ 'id' => 'content', 'class' => 'mw-body', 'role' => 'main' ],
 			Html::element( 'a', [ 'id' => 'top' ] ) .
 			$this->getIfExists( 'sitenotice', [
 				'wrapper' => 'div',
@@ -72,10 +72,10 @@ class MonoBookTemplate extends BaseTemplate {
 				] ] ) .
 				Html::element( 'div', [ 'id' => 'jump-to-nav' ] ) .
 				Html::element( 'a', [ 'href' => '#column-one', 'class' => 'mw-jump-link' ],
-					$this->getMsg( 'monobook-jumptonavigation' )->text()
+					$this->getMsg( 'wima-jumptonavigation' )->text()
 				) .
 				Html::element( 'a', [ 'href' => '#searchInput', 'class' => 'mw-jump-link' ],
-					$this->getMsg( 'monobook-jumptosearch' )->text()
+					$this->getMsg( 'wima-jumptosearch' )->text()
 				) .
 				'<!-- start content -->' .
 
@@ -87,7 +87,7 @@ class MonoBookTemplate extends BaseTemplate {
 				$this->getClear()
 			)
 		);
-		$html .= $this->deprecatedHookHack( 'MonoBookAfterContent' );
+		$html .= $this->deprecatedHookHack( 'WimaAfterContent' );
 		$html .= Html::closeElement( 'div' );
 
 		$html .= Html::rawElement( 'div',
@@ -115,11 +115,11 @@ class MonoBookTemplate extends BaseTemplate {
 			) .
 			$this->getMobileNavigationIcon(
 				'p-personal',
-				$this->getMsg( 'monobook-jumptopersonal' )->text()
+				$this->getMsg( 'wima-jumptopersonal' )->text()
 			) .
 			$this->getMobileNavigationIcon(
 				'globalWrapper',
-				$this->getMsg( 'monobook-jumptotop' )->text()
+				$this->getMsg( 'wima-jumptotop' )->text()
 			)
 		);
 		$html .= '<!-- end of the left (by default at least) column -->';
@@ -168,10 +168,10 @@ class MonoBookTemplate extends BaseTemplate {
 
 		// Normal cactions
 		if ( $tabCount > 2 ) {
-			$html .= $this->getBox( 'cactions', $allTabs, 'monobook-cactions-label' );
+			$html .= $this->getBox( 'cactions', $allTabs, 'wima-cactions-label' );
 		} else {
 			// Is redundant with spoof, hide normal cactions entirely in mobile
-			$html .= $this->getBox( 'cactions', $allTabs, 'monobook-cactions-label',
+			$html .= $this->getBox( 'cactions', $allTabs, 'wima-cactions-label',
 				[ 'extra-classes' => 'nomobile' ]
 			);
 		}
@@ -186,7 +186,7 @@ class MonoBookTemplate extends BaseTemplate {
 		if ( $tabCount !== 1 ) {
 			// Is not special page or stuff, append a 'more'
 			$tabs['more'] = [
-				'text' => $this->getMsg( 'monobook-more-actions' )->text(),
+				'text' => $this->getMsg( 'wima-more-actions' )->text(),
 				'href' => '#p-cactions',
 				'id' => 'ca-more'
 			];
@@ -206,7 +206,7 @@ class MonoBookTemplate extends BaseTemplate {
 			];
 		}
 
-		$html .= $this->getBox( 'cactions-mobile', $tabs, 'monobook-cactions-label' );
+		$html .= $this->getBox( 'cactions-mobile', $tabs, 'wima-cactions-label' );
 
 		return $html;
 	}
@@ -308,11 +308,11 @@ class MonoBookTemplate extends BaseTemplate {
 
 		$html .= $this->getBox( 'tb', $this->getToolbox(), 'toolbox', [ 'hooks' => [
 			// Deprecated hooks
-			'MonoBookTemplateToolboxEnd' => [ &$skin ],
+			'WimaTemplateToolboxEnd' => [ &$skin ],
 			'SkinTemplateToolboxEnd' => [ &$skin, true ]
 		] ] );
 
-		$html .= $this->deprecatedHookHack( 'MonoBookAfterToolbox' );
+		$html .= $this->deprecatedHookHack( 'WimaAfterToolbox' );
 
 		return $html;
 	}

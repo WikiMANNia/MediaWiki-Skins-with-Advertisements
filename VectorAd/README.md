@@ -1,10 +1,10 @@
-Vector Skin
+VectorAd Skin
 ========================
 
 Configuration options
 ---------------------
 
-### $wgVectorPrintLogo
+### $wgVectorAdPrintLogo
 
 Logo used in print styles. Keys are `url`, `width`, and `height` (in
 pixels). Note that this solution only works correctly if the image
@@ -18,7 +18,7 @@ The URL can be absolute or relative.
 
 Example configuration:
 
-	$wgVectorPrintLogo = [
+	$wgVectorAdPrintLogo = [
 		'url' => 'https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg',
 		'width' => 174,
 		'height' => 27

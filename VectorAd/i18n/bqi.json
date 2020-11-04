@@ -5,13 +5,13 @@
 			"Isevand"
 		]
 	},
-	"vector-action-addsection": "داسۊن اْزاف کونین",
-	"vector-action-delete": "پاکسا کردن",
-	"vector-action-move": "جابجا کردن",
-	"vector-action-protect": "هناڌاری ۉ پٱلڌاری",
-	"vector-view-create": "راس كردن",
-	"vector-view-edit": "آلشدکاری کردن",
-	"vector-view-history": "ديڌن ڤیرگار",
-	"vector-view-view": "خوندن",
-	"vector-more-actions": "بیشتر"
+	"vectorad-action-addsection": "داسۊن اْزاف کونین",
+	"vectorad-action-delete": "پاکسا کردن",
+	"vectorad-action-move": "جابجا کردن",
+	"vectorad-action-protect": "هناڌاری ۉ پٱلڌاری",
+	"vectorad-view-create": "راس كردن",
+	"vectorad-view-edit": "آلشدکاری کردن",
+	"vectorad-view-history": "ديڌن ڤیرگار",
+	"vectorad-view-view": "خوندن",
+	"vectorad-more-actions": "بیشتر"
 }

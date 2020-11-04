@@ -5,16 +5,16 @@
 			"Midnight Gambler"
 		]
 	},
-	"vector-action-addsection": "Abschnitt hinzufüche",
-	"vector-action-delete": "Lösche",
-	"vector-action-move": "Verschiebe",
-	"vector-action-protect": "Schütz",
-	"vector-action-undelete": "Wiederherstelle",
-	"vector-action-unprotect": "Seiteschutz ännre",
-	"vector-view-create": "Erstell",
-	"vector-view-edit": "Beoorbeite",
-	"vector-view-history": "Versionsgeschicht",
-	"vector-view-view": "Lese",
-	"vector-view-viewsource": "Quelltext oonzeiche",
-	"vector-more-actions": "Meahr"
+	"vectorad-action-addsection": "Abschnitt hinzufüche",
+	"vectorad-action-delete": "Lösche",
+	"vectorad-action-move": "Verschiebe",
+	"vectorad-action-protect": "Schütz",
+	"vectorad-action-undelete": "Wiederherstelle",
+	"vectorad-action-unprotect": "Seiteschutz ännre",
+	"vectorad-view-create": "Erstell",
+	"vectorad-view-edit": "Beoorbeite",
+	"vectorad-view-history": "Versionsgeschicht",
+	"vectorad-view-view": "Lese",
+	"vectorad-view-viewsource": "Quelltext oonzeiche",
+	"vectorad-more-actions": "Meahr"
 }

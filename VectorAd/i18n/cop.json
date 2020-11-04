@@ -5,10 +5,10 @@
 			"Bloomaround"
 		]
 	},
-	"vector-action-addsection": "ⲧⲟⲩϩⲟ ⲟⲩⲑⲉⲙⲁ",
-	"vector-view-create": "ⲑⲁⲙⲓⲟ",
-	"vector-view-edit": "ϫⲓⲛⲫⲱⲛϩ",
-	"vector-view-history": "ⲁⲛⲁⲩ ⲉϯϩⲓⲥⲧⲟⲣⲓⲁ",
-	"vector-view-view": "ⲱϣ",
-	"vector-more-actions": "ϩⲟⲩⲟ ⲉⲣⲟⲥ"
+	"vectorad-action-addsection": "ⲧⲟⲩϩⲟ ⲟⲩⲑⲉⲙⲁ",
+	"vectorad-view-create": "ⲑⲁⲙⲓⲟ",
+	"vectorad-view-edit": "ϫⲓⲛⲫⲱⲛϩ",
+	"vectorad-view-history": "ⲁⲛⲁⲩ ⲉϯϩⲓⲥⲧⲟⲣⲓⲁ",
+	"vectorad-view-view": "ⲱϣ",
+	"vectorad-more-actions": "ϩⲟⲩⲟ ⲉⲣⲟⲥ"
 }

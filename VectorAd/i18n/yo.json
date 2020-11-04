@@ -4,16 +4,16 @@
 			"Demmy"
 		]
 	},
-	"vector-action-addsection": "Àfikún orí-ọ̀rọ̀",
-	"vector-action-delete": "Ìparẹ́",
-	"vector-action-move": "Ìyípòdà",
-	"vector-action-protect": "Àbò",
-	"vector-action-undelete": "Ìmúkúrò ìparẹ́",
-	"vector-action-unprotect": "Ìyípadà àbò",
-	"vector-view-create": "Ṣ'èdá",
-	"vector-view-edit": "Àtúnṣe",
-	"vector-view-history": "Wo ìtàn",
-	"vector-view-view": "Àwòkà",
-	"vector-view-viewsource": "Wo àmìọ̀rọ̀",
-	"vector-more-actions": "Ọ̀pọ̀"
+	"vectorad-action-addsection": "Àfikún orí-ọ̀rọ̀",
+	"vectorad-action-delete": "Ìparẹ́",
+	"vectorad-action-move": "Ìyípòdà",
+	"vectorad-action-protect": "Àbò",
+	"vectorad-action-undelete": "Ìmúkúrò ìparẹ́",
+	"vectorad-action-unprotect": "Ìyípadà àbò",
+	"vectorad-view-create": "Ṣ'èdá",
+	"vectorad-view-edit": "Àtúnṣe",
+	"vectorad-view-history": "Wo ìtàn",
+	"vectorad-view-view": "Àwòkà",
+	"vectorad-view-viewsource": "Wo àmìọ̀rọ̀",
+	"vectorad-more-actions": "Ọ̀pọ̀"
 }

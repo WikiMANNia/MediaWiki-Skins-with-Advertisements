@@ -4,13 +4,13 @@
 			"Marwan Mohamad"
 		]
 	},
-	"vector-action-addsection": "Duhengi topik",
-	"vector-action-delete": "Luluta",
-	"vector-action-move": "Heyiya",
-	"vector-action-protect": "Dahayi",
-	"vector-view-create": "Mohutu",
-	"vector-view-edit": "Boli'o",
-	"vector-view-history": "Bilohi riwayati",
-	"vector-view-view": "Baca",
-	"vector-more-actions": "Uweewo"
+	"vectorad-action-addsection": "Duhengi topik",
+	"vectorad-action-delete": "Luluta",
+	"vectorad-action-move": "Heyiya",
+	"vectorad-action-protect": "Dahayi",
+	"vectorad-view-create": "Mohutu",
+	"vectorad-view-edit": "Boli'o",
+	"vectorad-view-history": "Bilohi riwayati",
+	"vectorad-view-view": "Baca",
+	"vectorad-more-actions": "Uweewo"
 }
