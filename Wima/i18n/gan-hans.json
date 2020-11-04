@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"wima.css": "/* 个首𠮶 CSS 会碍到正用Monobook皮肤𠮶用户 */",
+	"wima.css": "/* 箇首嗰 CSS 會礙到正用Wima皮膚嗰用戶 */",
 	"wima.js": "/* 伓再使用；请用[[MediaWiki:common.js]] */"
 }

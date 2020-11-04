@@ -1,10 +1,12 @@
 {
 	"name": "Wima",
+	"version": "1.31.1",
 	"author": [
 		"Gabriel Wicke",
+		"WikiMANNia",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Wima",
+	"url": "https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/releases/tag/1.31.10-w",
 	"descriptionmsg": "wima-desc",
 	"namemsg": "skinname-wima",
 	"license-name": "GPL-2.0-or-later",

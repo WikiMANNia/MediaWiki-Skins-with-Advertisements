@@ -6,7 +6,7 @@
 			"Srdjan m"
 		]
 	},
-	"skinname-wima": "MonoKnjiga",
+	"skinname-wima": "Wima",
 	"wima-desc": "Klasična MediaWiki tema iz 2004. Dobila je ime po crnobijeloj slici knjige u pozadini stranice",
 	"wima.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Wima skin */",
 	"wima.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Wima skin */"

@@ -6,6 +6,7 @@
 		]
 	},
 	"skinname-wima": "Wima",
+	"wima-desc": "Klasický vzhľad MediaWiki od roku 2004, pomenovaný po čiernobielej fotografii knihy v pozadí stránky",
 	"wima.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Wima */",
 	"wima.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Wima */"
 }

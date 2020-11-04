@@ -1,31 +1,31 @@
 /* 6.0 - only fixes */
 /* content area */
 /* workaround for various ie float bugs */
-div#column-content {
+#column-content {
 	float: none;
 	margin-left: 0;
 	height: 1%;
 }
 
-div#column-content .mw-body {
+#column-content .mw-body {
 	margin-left: 12.2em;
 	margin-top: 3em;
 	height: 1%;
 }
 
-.rtl div#column-content .mw-body {
+.rtl #column-content .mw-body {
 	margin-right: 12.2em;
 	margin-left: 0;
 }
 
-div#column-one {
+#column-one {
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 4;
 }
 
-.rtl div#column-one {
+.rtl #column-one {
 	left: auto;
 	right: 0;
 }
@@ -47,7 +47,7 @@ div#column-one {
 	margin-top: 0;
 }
 
-* html div#column-content {
+* html #column-content {
 	display: inline;
 	margin-bottom: 0;
 }
