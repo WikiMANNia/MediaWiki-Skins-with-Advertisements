@@ -73,8 +73,8 @@ class CologneBannerTemplate extends BaseTemplate {
 				$s[] = $this->makeListItem( $key, $data, array( 'tag' => 'span' ) );
 			}
 
-			$html = wfMessage( 'otherlanguages' )->text()
-				. wfMessage( 'colon-separator' )->text()
+			$html = wfMessage( 'otherlanguages' )->escaped()
+				. wfMessage( 'colon-separator' )->escaped()
 				. $this->getSkin()->getLanguage()->pipeList( $s );
 		}
 
@@ -90,9 +90,7 @@ class CologneBannerTemplate extends BaseTemplate {
 		$content = '';
 		wfRunHooks( 'BaseTemplateAfterPortlet', array( $this, $name, &$content ) );
 
-		$html = $content !== '' ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
-
-		return $html;
+		return ( $content !== '' ) ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
 	}
 
 	function pageTitleLinks() {
@@ -206,7 +204,7 @@ class CologneBannerTemplate extends BaseTemplate {
 			$lines[] = $this->otherLanguages();
 		}
 
-		return implode( array_filter( $lines ), "<br />\n" ) . "<br />\n";
+		return implode( "<br />\n", array_filter( $lines ) ) . "<br />\n";
 	}
 
 	function talkLink() {
@@ -313,13 +311,7 @@ class CologneBannerTemplate extends BaseTemplate {
 			</div>
 		</div>
 		<div id="article" class="mw-body" role="main">
-		<?php
-		if ( $this->getSkin()->getSiteNotice() ) {
-			?>
-			<div id="siteNotice"><?php echo $this->getSkin()->getSiteNotice() ?></div>
-		<?php
-		}
-		?>
+		<?php echo $this->getSitenoticeOrAdvertisementBox(); ?>
 		<?php echo $this->getIndicators(); ?>
 		<h1 id="firstHeading" lang="<?php
 		$this->data['pageLanguage'] = $this->getSkin()->getTitle()->getPageViewLanguage()->getHtmlCode();
@@ -360,6 +352,7 @@ class CologneBannerTemplate extends BaseTemplate {
 	 */
 	function afterContent() {
 		ob_start();
+		echo $this->getAdvertisementBoxUnten();
 		?>
 		</div>
 		<div id="footer">
@@ -415,16 +408,16 @@ class CologneBannerTemplate extends BaseTemplate {
 			$this->getSkin()->mainPageLink(),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'aboutpage' )->inContentLanguage()->text() ),
-				wfMessage( 'about' )->text()
+				wfMessage( 'about' )->escaped()
 			),
 			Linker::makeExternalLink(
 				Skin::makeInternalOrExternalUrl( wfMessage( 'helppage' )->inContentLanguage()->text() ),
-				wfMessage( 'help' )->text(),
+				wfMessage( 'help' )->escaped(),
 				false
 			),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'faqpage' )->inContentLanguage()->text() ),
-				wfMessage( 'faq' )->text()
+				wfMessage( 'faq' )->escaped()
 			),
 		);
 
@@ -489,12 +482,28 @@ class CologneBannerTemplate extends BaseTemplate {
 	 *
 	 * @return string
 	 */
-	function quickBar() {
+	private function quickBar() {
+		global $wgAdSidebarTopCode, $wgAdSidebarBottomCode;
+		global $wgAdSidebarTopType, $wgAdSidebarBottomType;
+
 		// Massage the sidebar. We want to:
 		// * place SEARCH at the beginning
 		// * add new portlets before TOOLBOX (or at the end, if it's missing)
 		// * remove LANGUAGES (langlinks are displayed elsewhere)
 		$orig_bar = $this->data['sidebar'];
+		/* ------------------------------------------------- //
+		   WikiMANNia hack - Add DonationBox and FacebookBox
+		// ------------------------------------------------- */
+		if ($this->getDonationBox() != '') {
+			$orig_bar = array_merge ( $orig_bar, array( 'donations' => $this->getDonationBox() ) );
+		}
+		if ($this->getFacebookBox() != '') {
+			$orig_bar = array_merge ( $orig_bar, array( 'facebook' => $this->getFacebookBox() ) );
+		}
+		if ($this->getAltersklassifizierungBox() != '') {
+			$orig_bar = array_merge ( $orig_bar, array( 'labelled' => $this->getAltersklassifizierungBox() ) );
+		}
+		/* ------------------------------------------------- */
 		$bar = array();
 		$hasToolbox = false;
 
@@ -546,14 +555,23 @@ class CologneBannerTemplate extends BaseTemplate {
 		foreach ( $bar as $heading => $data ) {
 			// Numeric strings gets an integer when set as key, cast back - T73639
 			$heading = (string)$heading;
-
+			if ( $heading == 'AD1' ) {
+				if ( isset($wgAdSidebarTopCode) ) {
+					$heading = isset($wgAdSidebarTopType) ? $wgAdSidebarTopType : 'advertising';
+					$data    = $this->getWimaData( $wgAdSidebarTopCode );
+				}
+			} elseif ( $heading == 'AD2' ) {
+				if ( isset($wgAdSidebarBottomCode) ) {
+					$heading = isset($wgAdSidebarBottomType) ? $wgAdSidebarBottomType : 'advertising';
+					$data    = $this->getWimaData( $wgAdSidebarBottomCode );
+				}
+			}
 			$portletId = Sanitizer::escapeId( "p-$heading" );
 			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
-			$headingHTML = "<h3>";
-			$headingHTML .= $headingMsg->exists()
+			$headingHTML = $headingMsg->exists()
 				? $headingMsg->escaped()
 				: htmlspecialchars( $heading );
-			$headingHTML .= "</h3>";
+			$headingHTML = "<h3>{$headingHTML}</h3>";
 			$listHTML = "";
 
 			if ( is_array( $data ) ) {
@@ -587,12 +605,12 @@ class CologneBannerTemplate extends BaseTemplate {
 	}
 
 	/**
-	 * @param string $label
+	 * @param string $which
 	 * @return string
 	 */
 	function searchForm( $which ) {
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
-		$action = $this->data['searchaction'];
+		$action = htmlspecialchars( $this->data['searchaction'] );
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
 			. "\" method=\"get\" class=\"inline\" action=\"$action\">";
 		if ( $which == 'footer' ) {
@@ -617,5 +635,153 @@ class CologneBannerTemplate extends BaseTemplate {
 		$s .= '</form>';
 
 		return $s;
+	}
+
+	/**
+	 * Renderer for advertisement block
+	 *
+	 * @return string html
+	 */
+	private function getSitenoticeOrAdvertisementBox() {
+		global $wgTopBannerCode;
+		$issetSitenoticeBox    = $this->getSkin()->getSiteNotice();
+		$issetAdvertisementBox = isset($wgTopBannerCode);
+
+		if ($issetSitenoticeBox && $issetAdvertisementBox) {
+			if ( rand(0, 1) ) {
+				return $this->getSitenoticeBox();
+			} else {
+				return $this->getAdvertisementBoxOben();
+			}
+		} elseif ($issetSitenoticeBox) {
+			return $this->getSitenoticeBox();
+		} elseif ($issetAdvertisementBox) {
+			return $this->getAdvertisementBoxOben();
+		}
+
+		return '';
+	}
+	private function getSitenoticeBox() {
+		return '<div id="siteNotice">' . $this->getSkin()->getSiteNotice() . '</div>';
+	}
+	private function getAdvertisementBoxOben() {
+		global $wgTopBannerCode, $wgTopBannerStyle, $wgTopBannerType;
+		$style1 = 'text-align:left;';
+		$style2 = isset($wgTopBannerStyle) ? $wgTopBannerStyle : '';
+
+		return $this->getAdvertisementBox($wgTopBannerCode, $wgTopBannerType, $style1, $style2);
+	}
+	private function getAdvertisementBoxUnten() {
+		global $wgBottomBannerCode, $wgBottomBannerStyle, $wgBottomBannerType;
+		$style1 = 'clear:both; margin-top:1em; text-align:left;';
+		$style2 = isset($wgBottomBannerStyle) ? $wgBottomBannerStyle : '';
+
+		return $this->getAdvertisementBox($wgBottomBannerCode, $wgBottomBannerType, $style1, $style2);
+	}
+	private function getAdvertisementBox($code, $type, $style1, $style2) {
+
+		if (isset($code)) {
+			$msg_key = isset($type) ? $type : 'advertising';
+			return '<div title="Link mit Skripte" style="' . $style1 . '">'
+			      . $this->getMsg( $msg_key ) . ':'
+			      . '<div style="' . $style2 . '">'
+			      . $code
+			      . '</div></div>';
+		}
+
+		return '';
+	}
+
+	/**
+	 * Renderer for donation block
+	 *
+	 * @return string html
+	 */
+	private function getDonationBox() {
+		global $wgDonationButton, $wgDonationButtonIMG, $wgDonationButtonURL;
+		global $wgLanguageCode;
+		if ( empty($wgDonationButton) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonIMG) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($wgDonationButton === 'true') || ($wgDonationButton === true)) {
+			// If the passed URL ends with a '=', append the language abbreviation to make the donation page language sensitive.
+			// Wenn die übergebene URL mit einem '=' endet, das Sprachenkürzel anhängen, um die Spendenseite sprachsensitiv zu behandeln.
+			if (substr ( $wgDonationButtonURL, (strlen ( $wgDonationButtonURL ) - 1), 1 ) === '=') {
+				$wgDonationButtonURL .= ((strlen ( wfMessage( 'lang' ) ) == 2) ? wfMessage( 'lang' ) : $wgLanguageCode);
+			}
+			if (substr ( $wgDonationButtonIMG, 0, 1 ) !== '/') {
+				$wgDonationButtonIMG = '/' . $wgDonationButtonIMG;
+			}
+			// If the domin contains a subdomain, try adjusting the subdomain of the language selection to select the button image language sensitively.
+			// Wenn die Domin eine Subdomain enthält, versuche die Subdomain der Sprachauswahl anzupassen, um das Button-Bild sprachsensitiv auszuwählen.
+			$tmpServerDomain = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, '//' )+2);
+			$tmpServerDomain = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '/' ));
+			$tmpDonationButtonIMG = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, $tmpServerDomain ) + strlen ( $tmpServerDomain ));
+			if (substr_count ( $tmpServerDomain, '.' ) == 2) {
+				$tmpLang = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '.' ));
+				if (strlen ( wfMessage( 'lang' ) ) == 2) {
+					$tmpServerDomain = wfMessage( 'lang' ) . substr ( $tmpServerDomain, strpos ( $tmpServerDomain, '.' ));
+				}
+			}
+			$html = '<div title="Reiner Link ohne Skripte" class="body" align="center">';
+			$html .= '<a href="//' . $wgDonationButtonURL . '"><img alt="Donate-Button" src="//' . $tmpServerDomain . $tmpDonationButtonIMG . '" style="margin-top:6px; width:92px; height:26px;" /></a>';
+			$html .= '</div>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for wima block
+	 *
+	 * @return string html
+	 */
+	private function getWimaBox( $buttonActive, $buttonIMG, $buttonURL, $buttonAlt, $buttonStyle ) {
+
+		if ( empty($buttonActive) ) return ''; // Do nothing
+		if ( empty($buttonIMG) ) return ''; // Do nothing
+		if ( empty($buttonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($buttonActive === 'true') || ($buttonActive === true)) {
+			$html = '<div title="Reiner Link ohne Skripte" class="body" style="margin-left:-5px;text-align:center;">';
+			$html .= '<a href="//' . $buttonURL . '"><img alt="'.$buttonAlt.'" src="//' . $buttonIMG . '" style="'.$buttonStyle.'" /></a>';
+			$html .= '</div>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for WimaData
+	 *
+	 * @return string html
+	 */
+	private function getWimaData( $content ) {
+		return '<div style="border: #68a solid 2px; background-color: #fff; padding-bottom:4px;">' . $content . '</div>';
+	}
+
+	/**
+	 * Renderer for facebook block
+	 *
+	 * @return string html
+	 */
+	private function getFacebookBox() {
+		global $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL;
+
+		return $this->getWimaBox( $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL, 'Facebook-Button', 'width:148px; height:57px;' );
+	}
+
+	/**
+	 * Renderer for Altersklassifizierung block
+	 *
+	 * @return string html
+	 */
+	private function getAltersklassifizierungBox() {
+		global $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL;
+
+		return $this->getWimaBox( $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL, 'AgeClassification-Button', 'width:148px; height:28px;' );
 	}
 }

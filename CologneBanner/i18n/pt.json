@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Colônia Bandeira",
+	"colognebanner-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Cologne Blue], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
 	"colognebanner.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Colônia Bandeira */",
-	"colognebanner.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Colônia Bandeira */"
+	"colognebanner.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Colônia Bandeira */",
+	"advertising": "Publicidade",
+	"eventnote": "Evento",
+	"hint": "Nota",
+	"donations": "Pedimos",
+	"facebook": "Visite-nos no",
+	"labelled": "marcado com"
 }

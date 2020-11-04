@@ -1,11 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Keuls Bannetje",
-	"colognebanner-desc": "Een lichtgewicht uiterlijk met minimale opmaak",
-	"colognebanner.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Keuls Bannetje */",
-	"colognebanner.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Keuls Bannetje gebruiken */"
+	"colognebanner-desc": "Op basis van [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Keuls Blauw] biedt het vier mogelijke advertentieruimtes die door LocalSettings.php worden ingevuld.",
+	"colognebanner.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Keuls Bannetje */",
+	"colognebanner.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Keuls Bannetje gebruiken */",
+	"advertising": "Publiciteit",
+	"eventnote": "Evenement",
+	"hint": "Briefje",
+	"donations": "Wij vragen om",
+	"facebook": "Bezoek ons op",
+	"labelled": "gemarkeerd met"
 }
