@@ -6,17 +6,18 @@
 			"Pippinu"
 		]
 	},
-	"vector-skin-desc": "Virsioni muderna di MonoBook cu' n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
-	"vector-action-addsection": "Agghiunci argumentu",
-	"vector-action-delete": "Cancella",
-	"vector-action-move": "Sposta",
-	"vector-action-protect": "Pruteggi",
-	"vector-action-undelete": "Annulla la cancillazzioni",
-	"vector-action-unprotect": "Cancia la prutizzioni",
-	"vector-view-create": "Crea",
-	"vector-view-edit": "Cancia",
-	"vector-view-history": "Talìa la crunuluggìa",
-	"vector-view-view": "Leggi",
-	"vector-view-viewsource": "Talìa lu surgenti",
-	"vector-more-actions": "Àutri cosi"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Virsioni muderna di MonoBook cu' n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
+	"vectorad-action-addsection": "Agghiunci argumentu",
+	"vectorad-action-delete": "Cancella",
+	"vectorad-action-move": "Sposta",
+	"vectorad-action-protect": "Pruteggi",
+	"vectorad-action-undelete": "Annulla la cancillazzioni",
+	"vectorad-action-unprotect": "Cancia la prutizzioni",
+	"vectorad-view-create": "Crea",
+	"vectorad-view-edit": "Cancia",
+	"vectorad-view-history": "Talìa la crunuluggìa",
+	"vectorad-view-view": "Leggi",
+	"vectorad-view-viewsource": "Talìa lu surgenti",
+	"vectorad-more-actions": "Àutri cosi"
 }

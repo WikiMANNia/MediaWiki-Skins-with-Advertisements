@@ -4,6 +4,6 @@
 			"Dead3y3"
 		]
 	},
-	"cologneblue.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Cologne Blue skin */",
-	"cologneblue.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Cologne Blue skin */"
+	"colognebanner.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Cologne Banner skin */",
+	"colognebanner.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Cologne Blue skin */"
 }

@@ -5,17 +5,18 @@
 			"Saluyot"
 		]
 	},
-	"vector-skin-desc": "Moderno a bersion ti MonoBook nga addaan iti baro a langa ken adu kadagiti naserbi a panagpasayaat",
-	"vector-action-addsection": "Agnayon ti topiko",
-	"vector-action-delete": "Ikkaten",
-	"vector-action-move": "Iyalis",
-	"vector-action-protect": "Salakniban",
-	"vector-action-undelete": "Isubli ti inikkat",
-	"vector-action-unprotect": "Sukatan ti salaknib",
-	"vector-view-create": "Agaramid",
-	"vector-view-edit": "Urnosen",
-	"vector-view-history": "Kitaen ti pakasaritaan",
-	"vector-view-view": "Basaen",
-	"vector-view-viewsource": "Kitaen ti taudan",
-	"vector-more-actions": "Adu pay"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Moderno a bersion ti MonoBook nga addaan iti baro a langa ken adu kadagiti naserbi a panagpasayaat",
+	"vectorad-action-addsection": "Agnayon ti topiko",
+	"vectorad-action-delete": "Ikkaten",
+	"vectorad-action-move": "Iyalis",
+	"vectorad-action-protect": "Salakniban",
+	"vectorad-action-undelete": "Isubli ti inikkat",
+	"vectorad-action-unprotect": "Sukatan ti salaknib",
+	"vectorad-view-create": "Agaramid",
+	"vectorad-view-edit": "Urnosen",
+	"vectorad-view-history": "Kitaen ti pakasaritaan",
+	"vectorad-view-view": "Basaen",
+	"vectorad-view-viewsource": "Kitaen ti taudan",
+	"vectorad-more-actions": "Adu pay"
 }

@@ -1,10 +1,12 @@
 {
-	"@metadata": [],
-	"vector-action-delete": "ڊاھيو",
-	"vector-action-move": "چوريو",
-	"vector-action-protect": "تحفظيو",
-	"vector-action-unprotect": "اڻتحفظيو",
-	"vector-view-create": "سرجيو",
-	"vector-view-edit": "سنواريو",
-	"vector-view-viewsource": "ڪوڊ ڏسو"
+	"@metadata": {
+		"authors": []
+	},
+	"vectorad-action-delete": "ڊاھيو",
+	"vectorad-action-move": "چوريو",
+	"vectorad-action-protect": "تحفظيو",
+	"vectorad-action-unprotect": "اڻتحفظيو",
+	"vectorad-view-create": "سرجيو",
+	"vectorad-view-edit": "سنواريو",
+	"vectorad-view-viewsource": "ڪوڊ ڏسو"
 }

@@ -5,17 +5,17 @@
 			"Къарачайлы"
 		]
 	},
-	"skinname-vector": "Вектор",
-	"vector-action-addsection": "Джангы тема къош",
-	"vector-action-delete": "Кетер",
-	"vector-action-move": "Атын ауушдур",
-	"vector-action-protect": "Джакъла",
-	"vector-action-undelete": "Къайтар",
-	"vector-action-unprotect": "Джакълауну тюрлендир",
-	"vector-view-create": "Къура",
-	"vector-view-edit": "Тюрлендир",
-	"vector-view-history": "Тарихи",
-	"vector-view-view": "Окъу",
-	"vector-view-viewsource": "Кодха къара",
-	"vector-more-actions": "Энтда"
+	"skinname-vectorad": "Вектор",
+	"vectorad-action-addsection": "Джангы тема къош",
+	"vectorad-action-delete": "Кетер",
+	"vectorad-action-move": "Атын ауушдур",
+	"vectorad-action-protect": "Джакъла",
+	"vectorad-action-undelete": "Къайтар",
+	"vectorad-action-unprotect": "Джакълауну тюрлендир",
+	"vectorad-view-create": "Къура",
+	"vectorad-view-edit": "Тюрлендир",
+	"vectorad-view-history": "Тарихи",
+	"vectorad-view-view": "Окъу",
+	"vectorad-view-viewsource": "Кодха къара",
+	"vectorad-more-actions": "Энтда"
 }

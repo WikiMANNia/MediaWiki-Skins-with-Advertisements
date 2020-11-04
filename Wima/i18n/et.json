@@ -4,8 +4,8 @@
 			"Pikne"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "2004. aastast pärinev klassikaline MediaWiki kujundus, mis on nime saanud lehekülje taustal oleva mustvalge raamatu foto järgi",
-	"monobook.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki MonoBooki-kujunduse kasutajaid. */",
-	"monobook.js": "/* Siin asuv JavaScript laaditakse MonoBooki-kujunduse kasutajate jaoks. */"
+	"skinname-wima": "Wima",
+	"wima-desc": "2004. aastast pärinev klassikaline MediaWiki kujundus, mis on nime saanud lehekülje taustal oleva mustvalge raamatu foto järgi",
+	"wima.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Wimai-kujunduse kasutajaid. */",
+	"wima.js": "/* Siin asuv JavaScript laaditakse Wimai-kujunduse kasutajate jaoks. */"
 }

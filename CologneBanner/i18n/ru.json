@@ -7,8 +7,8 @@
 			"NBS"
 		]
 	},
-	"cologneblue.css": "/* Размещённый здесь CSS будет применяться к теме оформления Cologne Blue */",
-	"cologneblue.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Cologne Blue */",
-	"skinname-cologneblue": "Кёльнская тоска",
-	"cologneblue-desc": "Лёгкая тема оформления с минимальным форматированием."
+	"skinname-colognebanner": "Кёльнская тоска",
+	"colognebanner-desc": "Лёгкая тема оформления с минимальным форматированием.",
+	"colognebanner.css": "/* Размещённый здесь CSS будет применяться к теме оформления Cologne Banner */",
+	"colognebanner.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Cologne Banner */"
 }

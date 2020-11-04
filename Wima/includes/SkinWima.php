@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -28,11 +28,11 @@
  * Inherit main code from SkinTemplate, set the CSS and template filter.
  * @ingroup Skins
  */
-class SkinMonoBook extends SkinTemplate {
-	/** Using MonoBook. */
-	public $skinname = 'monobook';
-	public $stylename = 'MonoBook';
-	public $template = 'MonoBookTemplate';
+class SkinWima extends SkinTemplate {
+	/** Using Wima. */
+	public $skinname = 'wima';
+	public $stylename = 'Wima';
+	public $template = 'WimaTemplate';
 
 	/**
 	 * @param OutputPage $out

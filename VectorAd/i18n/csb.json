@@ -5,15 +5,15 @@
 			"Kuvaly"
 		]
 	},
-	"vector-action-addsection": "Dodôj témã",
-	"vector-action-delete": "Rëmôj",
-	"vector-action-move": "Przeniesë",
-	"vector-action-protect": "Zazychrëjë",
-	"vector-action-undelete": "Doprowôdzë nazôd",
-	"vector-action-unprotect": "Òdzychrëjë",
-	"vector-view-create": "Ùsôdzë",
-	"vector-view-edit": "Edicëjô",
-	"vector-view-history": "Historëjô lopka",
-	"vector-view-view": "Czëtôj",
-	"vector-view-viewsource": "Zdrojowi tekst"
+	"vectorad-action-addsection": "Dodôj témã",
+	"vectorad-action-delete": "Rëmôj",
+	"vectorad-action-move": "Przeniesë",
+	"vectorad-action-protect": "Zazychrëjë",
+	"vectorad-action-undelete": "Doprowôdzë nazôd",
+	"vectorad-action-unprotect": "Òdzychrëjë",
+	"vectorad-view-create": "Ùsôdzë",
+	"vectorad-view-edit": "Edicëjô",
+	"vectorad-view-history": "Historëjô lopka",
+	"vectorad-view-view": "Czëtôj",
+	"vectorad-view-viewsource": "Zdrojowi tekst"
 }

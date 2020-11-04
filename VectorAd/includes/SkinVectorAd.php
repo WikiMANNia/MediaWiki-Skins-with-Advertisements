@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -26,17 +26,17 @@
  * SkinTemplate class for Vector skin
  * @ingroup Skins
  */
-class SkinVector extends SkinTemplate {
-	public $skinname = 'vector';
-	public $stylename = 'Vector';
-	public $template = 'VectorTemplate';
+class SkinVectorAd extends SkinTemplate {
+	public $skinname = 'vectorad';
+	public $stylename = 'VectorAd';
+	public $template = 'VectorAdTemplate';
 	/**
 	 * @var Config
 	 */
-	private $vectorConfig;
+	private $vectoradConfig;
 
 	public function __construct() {
-		$this->vectorConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vector' );
+		$this->vectoradConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vectorad' );
 	}
 
 	/**
@@ -75,6 +75,6 @@ class SkinVector extends SkinTemplate {
 	 * Override to pass our Config instance to it
 	 */
 	public function setupTemplate( $classname, $repository = false, $cache_dir = false ) {
-		return new $classname( $this->vectorConfig );
+		return new $classname( $this->vectoradConfig );
 	}
 }

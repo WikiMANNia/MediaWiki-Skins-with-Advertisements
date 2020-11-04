@@ -5,7 +5,7 @@
 			"Rudko"
 		]
 	},
-	"cologneblue.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska modrá */",
-	"cologneblue.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska modrá */",
-	"skinname-cologneblue": "Kolínska modrá"
+	"colognebanner.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska modrá */",
+	"colognebanner.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska modrá */",
+	"skinname-colognebanner": "Kolínska modrá"
 }

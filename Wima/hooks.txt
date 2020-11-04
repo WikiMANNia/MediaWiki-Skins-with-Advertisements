@@ -1,8 +1,8 @@
-Hooks provided by the MonoBook skin.
+Hooks provided by the Wima skin.
 
-'MonoBookTemplateToolboxEnd': DEPRECATED. Called by Monobook skin after toolbox
+'WimaTemplateToolboxEnd': DEPRECATED. Called by Wima skin after toolbox
 links have been rendered (useful for adding more). Note: this is only run for
-the Monobook skin. To add items to the toolbox you should use the
+the Wima skin. To add items to the toolbox you should use the
 SkinTemplateToolboxEnd hook instead, which works for all "SkinTemplate"-type
 skins.
 $tools: array of tools

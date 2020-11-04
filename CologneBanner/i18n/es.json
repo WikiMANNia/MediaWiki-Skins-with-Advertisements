@@ -7,8 +7,8 @@
 			"Vivaelcelta"
 		]
 	},
-	"cologneblue.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Cologne Blue */",
-	"cologneblue.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la piel Colonia azul */",
-	"skinname-cologneblue": "Colonia azul",
-	"cologneblue-desc": "Un tema ligero con formato minimalista"
+	"skinname-colognebanner": "Colonia Banderín",
+	"colognebanner-desc": "Un tema ligero con formato minimalista",
+	"colognebanner.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Colonia Banderín */",
+	"colognebanner.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la piel Colonia Banderín */"
 }

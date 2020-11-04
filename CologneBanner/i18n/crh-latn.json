@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Köln asretligi"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "Köln asretligi"
 }

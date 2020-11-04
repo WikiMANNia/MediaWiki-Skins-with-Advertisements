@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "கொலோன் (Cologne) நீலம் Blue"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "கொலோன் (Cologne) நீலம் Blue"
 }

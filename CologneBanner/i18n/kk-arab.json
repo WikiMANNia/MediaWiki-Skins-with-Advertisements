@@ -1,6 +1,8 @@
 {
-	"@metadata": [],
-	"cologneblue.css": "/* مىندا ورنالاستىرىلعان CSS تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلارىنا ىقپال ەتەدى skin */",
-	"cologneblue.js": "/* مىنداعى JavaScript تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلار ٴۇشىن جەگىلەدى */",
-	"skinname-cologneblue": "كولن زەڭگىرلىگى (cologneblue)"
+	"@metadata": {
+		"authors": []
+	},
+	"colognebanner.css": "/* مىندا ورنالاستىرىلعان CSS تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلارىنا ىقپال ەتەدى skin */",
+	"colognebanner.js": "/* مىنداعى JavaScript تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلار ٴۇشىن جەگىلەدى */",
+	"skinname-colognebanner": "كولن زەڭگىرلىگى (cologneblue)"
 }

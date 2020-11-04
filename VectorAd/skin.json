@@ -1,23 +1,23 @@
 {
-	"name": "Vector",
+	"name": "VectorAd",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Vector",
-	"descriptionmsg": "vector-skin-desc",
-	"namemsg": "skinname-vector",
+	"url": "https://www.mediawiki.org/wiki/Skin:VectorAd",
+	"descriptionmsg": "vectorad-skin-desc",
+	"namemsg": "skinname-vectorad",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ConfigRegistry": {
-		"vector": "GlobalVarConfig::newInstance"
+		"vectorad": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vector": "Vector"
+		"vectorad": "VectorAd"
 	},
 	"MessagesDirs": {
-		"Vector": [
+		"VectorAd": [
 			"i18n"
 		]
 	},
@@ -50,7 +50,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Vector"
+		"remoteSkinPath": "VectorAd"
 	},
 	"ResourceModuleSkinStyles": {
 		"vector": {
@@ -79,7 +79,7 @@
 		}
 	},
 	"config": {
-		"VectorUseSimpleSearch": true,
-		"VectorUseIconWatch": true
+		"VectorAdUseSimpleSearch": true,
+		"VectorAdUseIconWatch": true
 	}
 }

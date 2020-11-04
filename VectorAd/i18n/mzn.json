@@ -5,15 +5,15 @@
 			"محک"
 		]
 	},
-	"vector-action-addsection": "ترنه گپ بزوئن",
-	"vector-action-delete": "پاک هاکردن",
-	"vector-action-move": "دکش هاکردن",
-	"vector-action-protect": "زلفن بزوئن",
-	"vector-action-undelete": "دباره بنویشته بیّن",
-	"vector-action-unprotect": "زلفن عوض هاکردن",
-	"vector-view-create": "بساتن",
-	"vector-view-edit": "دچی‌ین",
-	"vector-view-history": "تاریخچه ره بَدی‌ین",
-	"vector-view-view": "بخوندستن",
-	"vector-view-viewsource": "ونه منبع ره هارشائن"
+	"vectorad-action-addsection": "ترنه گپ بزوئن",
+	"vectorad-action-delete": "پاک هاکردن",
+	"vectorad-action-move": "دکش هاکردن",
+	"vectorad-action-protect": "زلفن بزوئن",
+	"vectorad-action-undelete": "دباره بنویشته بیّن",
+	"vectorad-action-unprotect": "زلفن عوض هاکردن",
+	"vectorad-view-create": "بساتن",
+	"vectorad-view-edit": "دچی‌ین",
+	"vectorad-view-history": "تاریخچه ره بَدی‌ین",
+	"vectorad-view-view": "بخوندستن",
+	"vectorad-view-viewsource": "ونه منبع ره هارشائن"
 }

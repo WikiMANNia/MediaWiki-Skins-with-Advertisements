@@ -5,7 +5,7 @@
 			"Vugar 1981"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook.css": "/* Burada yerləşən CSS Monobook skin istifadəçilərinə tətbiq olunur */",
-	"monobook.js": "/* Burada MonoBook skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */"
+	"skinname-wima": "Wima",
+	"wima.css": "/* Burada yerləşən CSS Wima skin istifadəçilərinə tətbiq olunur */",
+	"wima.js": "/* Burada Wima skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */"
 }

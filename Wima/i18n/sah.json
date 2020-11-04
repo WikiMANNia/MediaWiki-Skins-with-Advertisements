@@ -4,6 +4,6 @@
 			"HalanTul"
 		]
 	},
-	"monobook.css": "/* Манна оҥоһуллубут CSS Monobook диэн скиҥҥа туһаныллыа */",
-	"monobook.js": "/* Эргэрбит; маны туһан:[[MediaWiki:common.js]] */"
+	"wima.css": "/* Манна оҥоһуллубут CSS Wima диэн скиҥҥа туһаныллыа */",
+	"wima.js": "/* Эргэрбит; маны туһан:[[MediaWiki:common.js]] */"
 }

@@ -9,17 +9,17 @@
 			"Tomasdd"
 		]
 	},
-	"skinname-vector": "Vektorinė",
-	"vector-action-addsection": "Pridėti temą",
-	"vector-action-delete": "Ištrinti",
-	"vector-action-move": "Pervardyti",
-	"vector-action-protect": "Užrakinti",
-	"vector-action-undelete": "Atkurti",
-	"vector-action-unprotect": "Keisti apsaugą",
-	"vector-view-create": "Kurti",
-	"vector-view-edit": "Redaguoti",
-	"vector-view-history": "Peržiūrėti istoriją",
-	"vector-view-view": "Skaityti",
-	"vector-view-viewsource": "Žiūrėti kodą",
-	"vector-more-actions": "Daugiau"
+	"skinname-vectorad": "Vektorinė",
+	"vectorad-action-addsection": "Pridėti temą",
+	"vectorad-action-delete": "Ištrinti",
+	"vectorad-action-move": "Pervardyti",
+	"vectorad-action-protect": "Užrakinti",
+	"vectorad-action-undelete": "Atkurti",
+	"vectorad-action-unprotect": "Keisti apsaugą",
+	"vectorad-view-create": "Kurti",
+	"vectorad-view-edit": "Redaguoti",
+	"vectorad-view-history": "Peržiūrėti istoriją",
+	"vectorad-view-view": "Skaityti",
+	"vectorad-view-viewsource": "Žiūrėti kodą",
+	"vectorad-more-actions": "Daugiau"
 }

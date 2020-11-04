@@ -5,17 +5,17 @@
 			"Calak"
 		]
 	},
-	"skinname-vector": "ڤێکتۆر",
-	"vector-action-addsection": "بابەت دابنێ",
-	"vector-action-delete": "بیسڕەوە",
-	"vector-action-move": "بیگوازەوە",
-	"vector-action-protect": "بیپارێزە",
-	"vector-action-undelete": "سڕینەوە بگەڕێنەوە",
-	"vector-action-unprotect": "پاراستن بگۆڕە",
-	"vector-view-create": "دروستکردن",
-	"vector-view-edit": "دەستکاریی بکە",
-	"vector-view-history": "مێژووەکەی ببینە",
-	"vector-view-view": "بیخوێنەوە",
-	"vector-view-viewsource": "سەرچاوەکەی ببینە",
-	"vector-more-actions": "زیاتر"
+	"skinname-vectorad": "ڤێکتۆر",
+	"vectorad-action-addsection": "بابەت دابنێ",
+	"vectorad-action-delete": "بیسڕەوە",
+	"vectorad-action-move": "بیگوازەوە",
+	"vectorad-action-protect": "بیپارێزە",
+	"vectorad-action-undelete": "سڕینەوە بگەڕێنەوە",
+	"vectorad-action-unprotect": "پاراستن بگۆڕە",
+	"vectorad-view-create": "دروستکردن",
+	"vectorad-view-edit": "دەستکاریی بکە",
+	"vectorad-view-history": "مێژووەکەی ببینە",
+	"vectorad-view-view": "بیخوێنەوە",
+	"vectorad-view-viewsource": "سەرچاوەکەی ببینە",
+	"vectorad-more-actions": "زیاتر"
 }

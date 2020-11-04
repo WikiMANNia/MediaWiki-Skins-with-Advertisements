@@ -4,10 +4,10 @@
 			"Sibande"
 		]
 	},
-	"vector-action-addsection": "Ngeta sihloko",
-	"vector-action-move": "Khweshisa",
-	"vector-view-create": "Create",
-	"vector-view-edit": "Hlela",
-	"vector-view-history": "Bona umlandvo",
-	"vector-view-view": "Fundza"
+	"vectorad-action-addsection": "Ngeta sihloko",
+	"vectorad-action-move": "Khweshisa",
+	"vectorad-view-create": "Create",
+	"vectorad-view-edit": "Hlela",
+	"vectorad-view-history": "Bona umlandvo",
+	"vectorad-view-view": "Fundza"
 }

@@ -5,8 +5,8 @@
 			"Sjoerddebruin"
 		]
 	},
-	"skinname-monobook": "Monobook",
-	"monobook-desc": "De klassieke MediaWiki-vormgeving sinds 2004, genoemd naar de zwart-witfoto van een boek op de achtergrond van de pagina",
-	"monobook.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Monobook */",
-	"monobook.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Monobook gebruiken */"
+	"skinname-wima": "Wima",
+	"wima-desc": "De klassieke MediaWiki-vormgeving sinds 2004, genoemd naar de zwart-witfoto van een boek op de achtergrond van de pagina",
+	"wima.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Wima */",
+	"wima.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Wima gebruiken */"
 }

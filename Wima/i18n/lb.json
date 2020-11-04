@@ -4,8 +4,8 @@
 			"Robby"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "De klassesche Look vu MediaWiki zanter 2004, benannt no der Schwaarzwäissfoto vun engem Buch am Hannergrond vun der Säit",
-	"monobook.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Monobook''  */",
-	"monobook.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn MonoBook benotzt */"
+	"skinname-wima": "Wima",
+	"wima-desc": "De klassesche Look vu MediaWiki zanter 2004, benannt no der Schwaarzwäissfoto vun engem Buch am Hannergrond vun der Säit",
+	"wima.css": "/* Dës CSS huet nëmmen Afloss op de Skin Wima */",
+	"wima.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn Wima benotzt */"
 }

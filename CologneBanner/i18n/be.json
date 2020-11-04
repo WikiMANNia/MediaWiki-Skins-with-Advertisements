@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Сіні Кёльн"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "Сіні Кёльн"
 }

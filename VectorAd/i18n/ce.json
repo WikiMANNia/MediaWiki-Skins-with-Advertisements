@@ -5,17 +5,17 @@
 			"Умар"
 		]
 	},
-	"skinname-vector": "Векторан",
-	"vector-action-addsection": "ТӀетоха хьедар",
-	"vector-action-delete": "ДӀаяккха",
-	"vector-action-move": "ЦӀе хийца",
-	"vector-action-protect": "Гlаролла дé",
-	"vector-action-undelete": "МеттахӀоттае",
-	"vector-action-unprotect": "ГӀароллех къаста",
-	"vector-view-create": "Кхоллар",
-	"vector-view-edit": "Нисъе",
-	"vector-view-history": "АгӀона хийцамаш",
-	"vector-view-view": "Éшар",
-	"vector-view-viewsource": "Билглонашка хьажа",
-	"vector-more-actions": "Кхин"
+	"skinname-vectorad": "Векторан",
+	"vectorad-action-addsection": "ТӀетоха хьедар",
+	"vectorad-action-delete": "ДӀаяккха",
+	"vectorad-action-move": "ЦӀе хийца",
+	"vectorad-action-protect": "Гlаролла дé",
+	"vectorad-action-undelete": "МеттахӀоттае",
+	"vectorad-action-unprotect": "ГӀароллех къаста",
+	"vectorad-view-create": "Кхоллар",
+	"vectorad-view-edit": "Нисъе",
+	"vectorad-view-history": "АгӀона хийцамаш",
+	"vectorad-view-view": "Éшар",
+	"vectorad-view-viewsource": "Билглонашка хьажа",
+	"vectorad-more-actions": "Кхин"
 }

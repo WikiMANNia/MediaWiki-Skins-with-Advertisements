@@ -8,17 +8,17 @@
 			"Derslek"
 		]
 	},
-	"skinname-vector": "Сызымлы",
-	"vector-action-addsection": "Яңа тема өстәү",
-	"vector-action-delete": "Бетерү",
-	"vector-action-move": "Күчерү",
-	"vector-action-protect": "Яклау",
-	"vector-action-undelete": "Кайтару",
-	"vector-action-unprotect": "Яклауны үзгәртү",
-	"vector-view-create": "Төзү",
-	"vector-view-edit": "Үзгәртү",
-	"vector-view-history": "Тарихын карау",
-	"vector-view-view": "Уку",
-	"vector-view-viewsource": "Чыганагын карау",
-	"vector-more-actions": "Тагын"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-action-addsection": "Яңа тема өстәү",
+	"vectorad-action-delete": "Бетерү",
+	"vectorad-action-move": "Күчерү",
+	"vectorad-action-protect": "Яклау",
+	"vectorad-action-undelete": "Кайтару",
+	"vectorad-action-unprotect": "Яклауны үзгәртү",
+	"vectorad-view-create": "Төзү",
+	"vectorad-view-edit": "Үзгәртү",
+	"vectorad-view-history": "Тарихын карау",
+	"vectorad-view-view": "Уку",
+	"vectorad-view-viewsource": "Чыганагын карау",
+	"vectorad-more-actions": "Тагын"
 }

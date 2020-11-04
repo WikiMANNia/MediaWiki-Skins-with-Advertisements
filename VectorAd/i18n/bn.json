@@ -9,17 +9,17 @@
 			"Wikitanvir"
 		]
 	},
-	"skinname-vector": "ভেক্টর",
-	"vector-action-addsection": "বিষয় যোগ",
-	"vector-action-delete": "অপসারণ",
-	"vector-action-move": "স্থানান্তর",
-	"vector-action-protect": "সুরক্ষা",
-	"vector-action-undelete": "পুনরুদ্ধার",
-	"vector-action-unprotect": "সুরক্ষা পরিবর্তন",
-	"vector-view-create": "তৈরি",
-	"vector-view-edit": "সম্পাদনা",
-	"vector-view-history": "ইতিহাস দেখুন",
-	"vector-view-view": "পড়ুন",
-	"vector-view-viewsource": "উৎস দেখুন",
-	"vector-more-actions": "আরও"
+	"skinname-vectorad": "ভেক্টর",
+	"vectorad-action-addsection": "বিষয় যোগ",
+	"vectorad-action-delete": "অপসারণ",
+	"vectorad-action-move": "স্থানান্তর",
+	"vectorad-action-protect": "সুরক্ষা",
+	"vectorad-action-undelete": "পুনরুদ্ধার",
+	"vectorad-action-unprotect": "সুরক্ষা পরিবর্তন",
+	"vectorad-view-create": "তৈরি",
+	"vectorad-view-edit": "সম্পাদনা",
+	"vectorad-view-history": "ইতিহাস দেখুন",
+	"vectorad-view-view": "পড়ুন",
+	"vectorad-view-viewsource": "উৎস দেখুন",
+	"vectorad-more-actions": "আরও"
 }

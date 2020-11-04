@@ -7,16 +7,16 @@
 			"Edinwiki"
 		]
 	},
-	"vector-action-addsection": "Dodaj temu",
-	"vector-action-delete": "Izbriši",
-	"vector-action-move": "Preusmjeri",
-	"vector-action-protect": "Zaštiti",
-	"vector-action-undelete": "Vrati obrisano",
-	"vector-action-unprotect": "Promijeni zaštitu",
-	"vector-view-create": "Napravi",
-	"vector-view-edit": "Uredi",
-	"vector-view-history": "Pregled historije",
-	"vector-view-view": "Čitanje",
-	"vector-view-viewsource": "Pogledaj izvor",
-	"vector-more-actions": "Više"
+	"vectorad-action-addsection": "Dodaj temu",
+	"vectorad-action-delete": "Izbriši",
+	"vectorad-action-move": "Preusmjeri",
+	"vectorad-action-protect": "Zaštiti",
+	"vectorad-action-undelete": "Vrati obrisano",
+	"vectorad-action-unprotect": "Promijeni zaštitu",
+	"vectorad-view-create": "Napravi",
+	"vectorad-view-edit": "Uredi",
+	"vectorad-view-history": "Pregled historije",
+	"vectorad-view-view": "Čitanje",
+	"vectorad-view-viewsource": "Pogledaj izvor",
+	"vectorad-more-actions": "Više"
 }

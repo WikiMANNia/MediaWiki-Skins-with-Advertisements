@@ -4,6 +4,6 @@
 			"Diego Queiroz"
 		]
 	},
-	"cologneblue.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do skin Azul colonial */",
-	"skinname-cologneblue": "Azul colonial"
+	"skinname-colognebanner": "Colônia Bandeira",
+	"colognebanner.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do skin Colônia Bandeira */"
 }

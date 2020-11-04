@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -27,10 +27,10 @@
 /**
  * @ingroup Skins
  */
-class MonoBookTemplate extends BaseTemplate {
+class WimaTemplate extends BaseTemplate {
 
 	/**
-	 * Template filter callback for MonoBook skin.
+	 * Template filter callback for Wima skin.
 	 * Takes an associative array of data set from a SkinTemplate-based
 	 * class, and a wrapper for MediaWiki's localization database, and
 	 * outputs a formatted page.
@@ -266,7 +266,7 @@ class MonoBookTemplate extends BaseTemplate {
 
 	/**
 	 * Prints the cactions bar.
-	 * Shared between MonoBook and Modern
+	 * Shared between Wima, MonoBook and Modern
 	 */
 	function cactions() {
 		?>
@@ -302,7 +302,7 @@ class MonoBookTemplate extends BaseTemplate {
 
 					<?php
 					}
-					wfRunHooks( 'MonoBookTemplateToolboxEnd', array( &$this ) );
+					wfRunHooks( 'WimaTemplateToolboxEnd', array( &$this ) );
 					wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this, true ) );
 					?>
 				</ul>

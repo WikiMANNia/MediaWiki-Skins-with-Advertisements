@@ -4,6 +4,6 @@
 			"Maartenvdbent"
 		]
 	},
-	"monobook.css": "/* Littikschrieuwen nit twinge */",
-	"monobook.js": "/* Ferallerd; benutsje insteede deerfon [[MediaWiki:common.js]] */"
+	"wima.css": "/* Littikschrieuwen nit twinge */",
+	"wima.js": "/* Ferallerd; benutsje insteede deerfon [[MediaWiki:common.js]] */"
 }

@@ -5,16 +5,16 @@
 			"Bouron"
 		]
 	},
-	"vector-action-addsection": "Нæуæг ныхас бакæнын",
-	"vector-action-delete": "Схафын",
-	"vector-action-move": "Ном ивын",
-	"vector-action-protect": "Сæхгæнын",
-	"vector-action-undelete": "Рацаразын",
-	"vector-action-unprotect": "Ивын хъахъхъæд",
-	"vector-view-create": "Скæнын",
-	"vector-view-edit": "Ивын",
-	"vector-view-history": "Истори",
-	"vector-view-view": "Кæсын",
-	"vector-view-viewsource": "Код кæсын",
-	"vector-more-actions": "Фылдæр"
+	"vectorad-action-addsection": "Нæуæг ныхас бакæнын",
+	"vectorad-action-delete": "Схафын",
+	"vectorad-action-move": "Ном ивын",
+	"vectorad-action-protect": "Сæхгæнын",
+	"vectorad-action-undelete": "Рацаразын",
+	"vectorad-action-unprotect": "Ивын хъахъхъæд",
+	"vectorad-view-create": "Скæнын",
+	"vectorad-view-edit": "Ивын",
+	"vectorad-view-history": "Истори",
+	"vectorad-view-view": "Кæсын",
+	"vectorad-view-viewsource": "Код кæсын",
+	"vectorad-more-actions": "Фылдæр"
 }

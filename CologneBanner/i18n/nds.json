@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Kölsch Blau"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "Kölsch Blau"
 }

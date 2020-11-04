@@ -5,16 +5,16 @@
 			"Oldstoneage"
 		]
 	},
-	"vector-action-addsection": "زيد موضوع",
-	"vector-action-delete": "امحي",
-	"vector-action-move": "حول",
-	"vector-action-protect": "بروجي",
-	"vector-action-undelete": "ردّ كيما كان",
-	"vector-action-unprotect": "بدّل الـحماية",
-	"vector-view-create": "أصنع",
-	"vector-view-edit": "بدل",
-	"vector-view-history": "روح للتاريخي",
-	"vector-view-view": "أقرى",
-	"vector-view-viewsource": "شوف المصدر",
-	"vector-more-actions": "زيادة"
+	"vectorad-action-addsection": "زيد موضوع",
+	"vectorad-action-delete": "امحي",
+	"vectorad-action-move": "حول",
+	"vectorad-action-protect": "بروجي",
+	"vectorad-action-undelete": "ردّ كيما كان",
+	"vectorad-action-unprotect": "بدّل الـحماية",
+	"vectorad-view-create": "أصنع",
+	"vectorad-view-edit": "بدل",
+	"vectorad-view-history": "روح للتاريخي",
+	"vectorad-view-view": "أقرى",
+	"vectorad-view-viewsource": "شوف المصدر",
+	"vectorad-more-actions": "زيادة"
 }

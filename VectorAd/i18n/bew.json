@@ -4,8 +4,8 @@
 			"Naval Scene"
 		]
 	},
-	"vector-action-delete": "Ngapus",
-	"vector-action-move": "Pindahin",
-	"vector-action-undelete": "Balikin nyang keapus",
-	"vector-view-create": "Bikin"
+	"vectorad-action-delete": "Ngapus",
+	"vectorad-action-move": "Pindahin",
+	"vectorad-action-undelete": "Balikin nyang keapus",
+	"vectorad-view-create": "Bikin"
 }

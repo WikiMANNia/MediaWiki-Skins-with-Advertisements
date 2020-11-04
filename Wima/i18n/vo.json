@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"monobook.css": "/* El CSS isio pepladöl otefon gebanis padafomäta: Monobook */"
+	"@metadata": {
+		"authors": []
+	},
+	"wima.css": "/* El CSS isio pepladöl otefon gebanis padafomäta: Wima */"
 }

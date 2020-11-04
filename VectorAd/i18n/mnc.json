@@ -4,12 +4,12 @@
 			"Minggantu"
 		]
 	},
-	"vector-action-delete": "Dabgire",
-	"vector-action-move": "Guribure",
-	"vector-action-protect": "Karmara",
-	"vector-view-create": "Ilibure",
-	"vector-view-edit": "banjibume arara",
-	"vector-view-history": "ere šu wen i suduri be baicara",
-	"vector-view-view": "hūlara",
-	"vector-view-viewsource": "da šu wen be baicara"
+	"vectorad-action-delete": "Dabgire",
+	"vectorad-action-move": "Guribure",
+	"vectorad-action-protect": "Karmara",
+	"vectorad-view-create": "Ilibure",
+	"vectorad-view-edit": "banjibume arara",
+	"vectorad-view-history": "ere šu wen i suduri be baicara",
+	"vectorad-view-view": "hūlara",
+	"vectorad-view-viewsource": "da šu wen be baicara"
 }

@@ -7,15 +7,15 @@
 			"Siklawy"
 		]
 	},
-	"vector-action-addsection": "1офтхьабз",
-	"vector-action-delete": "ЛъэкӀ",
-	"vector-action-move": "Хьы",
-	"vector-action-protect": "Иухъумэ",
-	"vector-action-undelete": "Умылъэк1",
-	"vector-action-unprotect": "Умыухъумэ",
-	"vector-view-create": "Игъэхъу",
-	"vector-view-edit": "Гъэтэрэзыжь",
-	"vector-view-history": "Тарихъым eплъ",
-	"vector-view-view": "Едж",
-	"vector-view-viewsource": "Еплъ лъапсэм"
+	"vectorad-action-addsection": "1офтхьабз",
+	"vectorad-action-delete": "ЛъэкӀ",
+	"vectorad-action-move": "Хьы",
+	"vectorad-action-protect": "Иухъумэ",
+	"vectorad-action-undelete": "Умылъэк1",
+	"vectorad-action-unprotect": "Умыухъумэ",
+	"vectorad-view-create": "Игъэхъу",
+	"vectorad-view-edit": "Гъэтэрэзыжь",
+	"vectorad-view-history": "Тарихъым eплъ",
+	"vectorad-view-view": "Едж",
+	"vectorad-view-viewsource": "Еплъ лъапсэм"
 }

@@ -5,7 +5,7 @@
 			"Kal-El"
 		]
 	},
-	"cologneblue.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Cologne Blue skin */",
-	"cologneblue.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Cologne Blue skin */",
-	"skinname-cologneblue": "Kelnsko plavo"
+	"colognebanner.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Cologne Banner skin */",
+	"colognebanner.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Cologne Banner skin */",
+	"skinname-colognebanner": "Kelnsko plavo"
 }

@@ -5,14 +5,14 @@
 			"The Discoverer"
 		]
 	},
-	"vector-action-addsection": "Vixoi zodd",
-	"vector-action-delete": "Kadd",
-	"vector-action-move": "Zago bodol",
-	"vector-action-protect": "Rakh",
-	"vector-view-create": "Roch",
-	"vector-view-edit": "Sudar",
-	"vector-view-history": "Itihas polloi",
-	"vector-view-view": "Vach",
-	"vector-view-viewsource": "Mull polloi",
-	"vector-more-actions": "Anik"
+	"vectorad-action-addsection": "Vixoi zodd",
+	"vectorad-action-delete": "Kadd",
+	"vectorad-action-move": "Zago bodol",
+	"vectorad-action-protect": "Rakh",
+	"vectorad-view-create": "Roch",
+	"vectorad-view-edit": "Sudar",
+	"vectorad-view-history": "Itihas polloi",
+	"vectorad-view-view": "Vach",
+	"vectorad-view-viewsource": "Mull polloi",
+	"vectorad-more-actions": "Anik"
 }
