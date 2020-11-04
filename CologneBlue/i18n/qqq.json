@@ -1,20 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25",
-			"Umherirrender",
-			"Shirayuki",
-			"Raymond",
 			"EugeneZelenko",
 			"Matma Rex",
+			"Meno25",
 			"Nemo bis",
 			"Orlodrim",
-			"Siddhartha Ghai"
+			"Raymond",
+			"Shirayuki",
+			"Siddhartha Ghai",
+			"Umherirrender"
 		]
 	},
+	"skinname-cologneblue": "{{name}}",
 	"cologneblue.css": "{{optional}}",
 	"cologneblue.js": "{{optional}}",
-	"skinname-cologneblue": "{{name}}",
 	"cologneblue-desc": "{{desc|what=skin|name=Cologne Blue|url=https://www.mediawiki.org/wiki/Skin:Cologne_Blue}}",
 	"qbfind": "Alternative for \"search\" as used in Cologne Blue skin.\n{{Identical|Find}}",
 	"qbbrowse": "Heading in sidebar menu in CologneBlue skin as seen in [[File:CologneBlue sidebar qqx.png]]\n{{Identical|Browse}}",

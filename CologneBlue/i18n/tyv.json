@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agilight",
 			"Sborsody"
 		]
 	},
 	"skinname-cologneblue": "Cologne Blue",
 	"qbfind": "Дилээри",
-	"qbbrowse": "Каралаары",
+	"qbbrowse": "Чижеглей көөр",
 	"qbedit": "Өскертири",
 	"qbpageoptions": "Бо арын",
 	"qbmyoptions": "Мээң арыннарым",

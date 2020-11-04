@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער",
-			"Yidel"
+			"Yidel",
+			"פוילישער"
 		]
 	},
-	"cologneblue.css": "/* CSS געשטעלט דא ווירקט נאר אויפן קעלנישן־בלוי סקין */",
 	"skinname-cologneblue": "קעלניש בלוי",
+	"cologneblue.css": "/* CSS געשטעלט דא ווירקט נאר אויפן קעלנישן־בלוי סקין */",
 	"qbfind": "טרעף",
 	"qbbrowse": "בלעטערן",
 	"qbedit": "ענדערן",

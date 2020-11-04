@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kening Aldgilles",
+			"PiefPafPier",
 			"Robin van der Vliet",
 			"Snakesteuben"
 		]
 	},
+	"skinname-cologneblue": "Keulsk Blau",
 	"qbfind": "Sykje",
 	"qbbrowse": "Blêdzje",
 	"qbedit": "Bewurkje",

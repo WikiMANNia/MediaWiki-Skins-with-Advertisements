@@ -1,18 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Manop",
-			"Octahedron80",
 			"Aefgh39622",
 			"Ans",
+			"Geonuch",
 			"Horus",
-			"Passawuth",
-			"Geonuch"
+			"Manop",
+			"Octahedron80",
+			"Passawuth"
 		]
 	},
+	"skinname-cologneblue": "น้ำเงินโคโลญจ์",
 	"cologneblue.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
 	"cologneblue.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
-	"skinname-cologneblue": "น้ำเงินโคโลญจ์",
 	"cologneblue-desc": "สกินเบา ๆ ด้วยรูปแบบมินิมอล",
 	"qbfind": "ค้นหา",
 	"qbbrowse": "สืบค้น",

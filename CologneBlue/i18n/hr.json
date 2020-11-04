@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bugoslav",
 			"Dalibor Bosits",
 			"Roberta F.",
 			"SpeedyGonsales",
@@ -8,9 +9,10 @@
 		]
 	},
 	"skinname-cologneblue": "Kölnska plava",
-	"qbfind": "Nađi",
-	"qbbrowse": "Pregledaj",
-	"qbedit": "Uredi",
+	"cologneblue-desc": "Nezahtijevni izgled sučelja s minimalnim formatiranjem",
+	"qbfind": "Tražilica",
+	"qbbrowse": "Vodič",
+	"qbedit": "Oruđe",
 	"qbpageoptions": "Postavke stranice",
 	"qbmyoptions": "Moje stranice",
 	"faqpage": "Project:FAQ",
@@ -22,6 +24,6 @@
 	"unprotectthispage": "Promijeni zaštitu ove stranice",
 	"talkpage": "Razgovor o ovoj stranici",
 	"articlepage": "Vidi članak",
-	"userpage": "Vidi suradnikovu stranicu",
+	"userpage": "Vidi suradničku stranicu",
 	"projectpage": "Vidi stranicu o projektu"
 }

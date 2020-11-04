@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Frokor",
 			"Eirik",
+			"Frokor",
 			"Jon Harald Søby",
 			"Njardarlogar"
 		]
 	},
+	"skinname-cologneblue": "Kölnerblå",
 	"cologneblue.css": "/* CSS i denne fila vil gjelde alle som nyttar drakta Kølnerblå */",
 	"cologneblue.js": "/* Javascript i denne fila vil gjelde for brukarar av drakta Kølnerblå */",
-	"skinname-cologneblue": "Kölnerblå",
 	"qbfind": "Finn",
 	"qbbrowse": "Bla gjennom",
 	"qbedit": "Endre",

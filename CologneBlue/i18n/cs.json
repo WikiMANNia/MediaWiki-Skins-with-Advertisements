@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dvorapa",
 			"Li-sung",
-			"Mormegil",
 			"Littledogboy",
-			"Dvorapa"
+			"Mormegil"
 		]
 	},
+	"skinname-cologneblue": "Kolínská modř",
 	"cologneblue.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled „Kolínská modř“ */",
 	"cologneblue.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu „Kolínská modř“ */",
-	"skinname-cologneblue": "Kolínská modř",
 	"cologneblue-desc": "Odlehčený vzhled s minimálním formátováním",
 	"qbfind": "Hledání",
 	"qbbrowse": "Listování",

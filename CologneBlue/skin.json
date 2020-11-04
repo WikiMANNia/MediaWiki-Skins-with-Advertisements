@@ -22,7 +22,10 @@
 	},
 	"ResourceModules": {
 		"skins.cologneblue": {
+			"class": "ResourceLoaderSkinModule",
+			"features": [ "legacy" ],
 			"styles": {
+				"resources/oldshared.css": {},
 				"resources/screen.css": {
 					"media": "screen"
 				},
@@ -39,12 +42,13 @@
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {
 			"+oojs-ui-core.styles": "resources/ooui.less",
+			"+ext.echo.styles.badge": "resources/ext.echo.styles.badge.css",
 			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
 		}
 	},
 	"AutoloadClasses": {
-		"SkinCologneBlue": "SkinCologneBlue.php",
-		"CologneBlueTemplate": "CologneBlueTemplate.php"
+		"SkinCologneBlue": "includes/SkinCologneBlue.php",
+		"CologneBlueTemplate": "includes/CologneBlueTemplate.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }

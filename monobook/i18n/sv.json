@@ -3,6 +3,7 @@
 		"authors": [
 			"Lejonel",
 			"Lokal Profil",
+			"Mjälten",
 			"Skalman",
 			"WikiPhoenix"
 		]
@@ -19,5 +20,5 @@
 	"monobook-cactions-label": "Sidåtgärder",
 	"monobook-notifications-link": "Aviseringar ($1)",
 	"monobook-notifications-link-none": "Aviseringar",
-	"monobook-responsive-label": "Aktivera responsiv MonoBook-design"
+	"monobook-responsive-label": "Aktivera responsiv MonoBook-utseende"
 }

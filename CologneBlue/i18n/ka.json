@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010",
 			"Alsandro",
+			"David1010",
 			"Dawid Deutschland",
 			"Sopho"
 		]
 	},
-	"cologneblue.css": "/* აქ ჩასმული CSS გამოყენებული იქნება კელნის ლურჯი გაფორმების თემაში */",
 	"skinname-cologneblue": "კელნის ლურჯი",
+	"cologneblue.css": "/* აქ ჩასმული CSS გამოყენებული იქნება კელნის ლურჯი გაფორმების თემაში */",
 	"qbfind": "მოძებნე",
 	"qbbrowse": "გადახედე",
 	"qbedit": "რედაქტირება",

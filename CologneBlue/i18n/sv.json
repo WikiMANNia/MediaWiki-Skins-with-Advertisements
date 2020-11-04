@@ -1,19 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil",
 			"Boivie",
 			"Habj",
 			"Jopparn",
 			"Lejonel",
+			"Lokal Profil",
 			"M.M.S.",
 			"Sannab",
 			"WikiPhoenix"
 		]
 	},
+	"skinname-cologneblue": "Cologne blå",
 	"cologneblue.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Cologne blå */",
 	"cologneblue.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Cologne blå */",
-	"skinname-cologneblue": "Cologne blå",
 	"cologneblue-desc": "Ett lättviktsutseende med minimal formatering",
 	"qbfind": "Hitta",
 	"qbbrowse": "Bläddra igenom",
