@@ -28,9 +28,9 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * Run the skin and build html
 	 */
-	function execute() {
+	public function execute() {
 		// Suppress warnings to prevent notices about missing indexes in $this->data
-		wfSuppressWarnings();
+		Wikimedia\suppressWarnings();
 		$this->html( 'headelement' );
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
@@ -39,14 +39,14 @@ class CologneBlueTemplate extends BaseTemplate {
 		$this->html( 'dataAfterContent' );
 		$this->printTrail();
 		echo "\n</body></html>";
-		wfRestoreWarnings();
+		Wikimedia\restoreWarnings();
 	}
 
 	/**
 	 * Language/charset variant links for classic-style skins
 	 * @return string
 	 */
-	function variantLinks() {
+	private function variantLinks() {
 		$s = [];
 
 		$variants = $this->data['content_navigation']['variants'];
@@ -61,7 +61,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function otherLanguages() {
+	private function otherLanguages() {
 		if ( $this->config->get( 'HideInterlanguageLinks' ) ) {
 			return "";
 		}
@@ -77,8 +77,8 @@ class CologneBlueTemplate extends BaseTemplate {
 				$s[] = $this->makeListItem( $key, $data, [ 'tag' => 'span' ] );
 			}
 
-			$html = wfMessage( 'otherlanguages' )->text()
-				. wfMessage( 'colon-separator' )->text()
+			$html = wfMessage( 'otherlanguages' )->escaped()
+				. wfMessage( 'colon-separator' )->escaped()
 				. $this->getSkin()->getLanguage()->pipeList( $s );
 		}
 
@@ -103,7 +103,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function pageTitleLinks() {
+	private function pageTitleLinks() {
 		$s = [];
 		$footlinks = $this->getFooterLinks();
 
@@ -119,11 +119,11 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @param string $key Key to be passed to makeListItem()
 	 * @param array $navlink Navlink suitable for processNavlinkForDocument()
-	 * @param string $message Key of the message to use in place of standard text
+	 * @param string|null $message Key of the message to use in place of standard text
 	 *
 	 * @return string
 	 */
-	function processBottomLink( $key, $navlink, $message = null ) {
+	private function processBottomLink( $key, $navlink, $message = null ) {
 		if ( !$navlink ) {
 			// Empty navlinks might be passed.
 			return null;
@@ -143,7 +143,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function bottomLinks() {
+	private function bottomLinks() {
 		$toolbox = $this->getToolbox();
 		$content_nav = $this->data['content_navigation'];
 
@@ -232,11 +232,11 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function talkLink() {
+	private function talkLink() {
 		$title = $this->getSkin()->getTitle();
 
-		if ( $title->getNamespace() == NS_SPECIAL ) {
-			// No discussion links for special pages
+		if ( !$title->canHaveTalkPage() ) {
+			// No discussion link if talk page cannot exist
 			return "";
 		}
 
@@ -291,7 +291,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *   is removed entirely. Default is 'cb-'.
 	 * @return array
 	 */
-	function processNavlinkForDocument( $navlink, $idPrefix = 'cb-' ) {
+	private function processNavlinkForDocument( $navlink, $idPrefix = 'cb-' ) {
 		if ( $navlink['id'] ) {
 			$navlink['single-id'] = $navlink['id']; // to allow for tooltip generation
 			$navlink['tooltiponly'] = true; // but no accesskeys
@@ -310,7 +310,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function beforeContent() {
+	private function beforeContent() {
 		ob_start();
 		?>
 		<div id="content">
@@ -382,7 +382,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function afterContent() {
+	private function afterContent() {
 		ob_start();
 		?>
 		</div>
@@ -434,12 +434,12 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function sysLinks() {
+	private function sysLinks() {
 		$s = [
 			$this->getSkin()->mainPageLink(),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'aboutpage' )->inContentLanguage()->text() ),
-				wfMessage( 'about' )->text()
+				wfMessage( 'about' )->escaped()
 			),
 			Linker::makeExternalLink(
 				Skin::makeInternalOrExternalUrl( wfMessage( 'helppage' )->inContentLanguage()->text() ),
@@ -448,7 +448,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'faqpage' )->inContentLanguage()->text() ),
-				wfMessage( 'faq' )->text()
+				wfMessage( 'faq' )->escaped()
 			),
 		];
 
@@ -468,7 +468,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param array $bar Sidebar data
 	 * @return array Modified sidebar data
 	 */
-	function sidebarAdditions( $bar ) {
+	private function sidebarAdditions( $bar ) {
 		// "This page" and "Edit" menus
 		// We need to do some massaging here... we reuse all of the items,
 		// except for $...['views']['view'], as $...['namespaces']['main'] and
@@ -510,11 +510,14 @@ class CologneBlueTemplate extends BaseTemplate {
 
 	/**
 	 * Compute the sidebar
-	 * @access private
+	 * @private
+	 * @suppress SecurityCheck-DoubleEscaped phan-taint-check can't distinguish
+	 *  between different array keys/values that have different taints.
+	 * @return-taint onlysafefor_html
 	 *
 	 * @return string
 	 */
-	function quickBar() {
+	private function quickBar() {
 		// Massage the sidebar. We want to:
 		// * place SEARCH at the beginning
 		// * add new portlets before TOOLBOX (or at the end, if it's missing)
@@ -572,13 +575,14 @@ class CologneBlueTemplate extends BaseTemplate {
 			// Numeric strings gets an integer when set as key, cast back - T73639
 			$heading = (string)$heading;
 
-			$portletId = Sanitizer::escapeId( "p-$heading" );
+			$portletId = Sanitizer::escapeIdForAttribute( "p-$heading" );
 			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
-			$headingHTML = "<h3>";
-			$headingHTML .= $headingMsg->exists()
-				? $headingMsg->escaped()
-				: htmlspecialchars( $heading );
-			$headingHTML .= "</h3>";
+			if ( $headingMsg->exists() ) {
+				$headingHTML = $headingMsg->escaped();
+			} else {
+				$headingHTML = htmlspecialchars( $heading );
+			}
+			$headingHTML = "<h3>{$headingHTML}</h3>";
 			$listHTML = "";
 
 			if ( is_array( $data ) ) {
@@ -599,8 +603,11 @@ class CologneBlueTemplate extends BaseTemplate {
 
 			if ( $listHTML ) {
 				$role = ( $heading == 'search' ) ? 'search' : 'navigation';
-				$s .= "<div class=\"portlet\" id=\"$portletId\" "
-					. "role=\"$role\">\n$headingHTML\n$listHTML\n</div>\n";
+				$s .= Html::rawElement( 'div', [
+					'class' => 'portlet',
+					'id' => $portletId,
+					'role' => $role,
+				], "$headingHTML\n$listHTML" );
 			}
 
 			$s .= $this->renderAfterPortlet( $heading );
@@ -615,7 +622,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param string $which
 	 * @return string
 	 */
-	function searchForm( $which ) {
+	private function searchForm( $which ) {
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
 		$action = $this->data['searchaction'];
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
