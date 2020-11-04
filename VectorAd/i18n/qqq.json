@@ -14,7 +14,7 @@
 		]
 	},
 	"skinname-vectorad": "{{name}}",
-	"vectorad-skin-desc": "{{desc|what=skin|name=VectorAd|url=https://www.mediawiki.org/wiki/Skin:Vector}}",
+	"vectorad-skin-desc": "{{desc|what=skin|name=VectorAd|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-vectorad}}",
 	"prefs-vectorad-enable-vectorad-1-label": "Label for the checkbox to force Legacy VectorAd operation accessible via Special:Preferences. When this checkbox is enabled, the December 2019 of VectorAd is used. When this checkbox is disabled, the actively developed version of VectorAd is used instead.",
 	"prefs-vectorad-enable-vectorad-1-help": "Detail explaining the operation of the prefs-vectorad-enable-vectorad-1-label checkbox.",
 	"vectorad-opt-out": "Text of link that takes the user to the Special:Preferences page so they can opt-out of the latest version of VectorAd and go back to legacy VectorAd.",

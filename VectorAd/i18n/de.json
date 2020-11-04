@@ -4,11 +4,12 @@
 			"Kghbln",
 			"Metalhead64",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Stellt eine modernisierte Benutzeroberfläche bereit.",
+	"vectorad-skin-desc": "Basierend auf [https://www.mediawiki.org/wiki/Skin:Vector Vector] stellt es vier mögliche Werbeplätze bereit, die von der LocalSettings.php befüllt werden.",
 	"prefs-vectorad-enable-vectorad-1-label": "Verwende Legacy-VectorAd",
 	"prefs-vectorad-enable-vectorad-1-help": "Im Laufe der nächsten Jahre werden wir den VectorAd-Skin schrittweise aktualisieren. Legacy-VectorAd wird es dir ermöglichen, die alte Version von VectorAd (Dezember 2019) anzusehen. Um mehr über die Aktualisierungen zu erfahren, gehe zu unserer [[mw:Reading/Web/Desktop_Improvements|Projektseite]].",
 	"vectorad-opt-out": "Umschalten zum bisherigen Aussehen",
@@ -29,5 +30,11 @@
 	"vectorad-view-viewsource": "Quelltext anzeigen",
 	"vectorad-jumptonavigation": "Zur Navigation springen",
 	"vectorad-jumptosearch": "Zur Suche springen",
-	"vectorad-more-actions": "Mehr"
+	"vectorad-more-actions": "Mehr",
+	"vectorad-advertising": "Werbung",
+	"vectorad-eventnote": "Veranstaltung",
+	"vectorad-hint": "Hinweis",
+	"vectorad-donations": "Wir bitten um",
+	"vectorad-facebook": "Besuchen Sie uns auf",
+	"vectorad-labelled": "gekennzeichnet mit"
 }

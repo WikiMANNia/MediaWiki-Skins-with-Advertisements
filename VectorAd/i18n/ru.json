@@ -9,11 +9,12 @@
 			"Okras",
 			"Ole Yves",
 			"Stjn",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Современная версия MonoBook с обновлённым оформлением и многими улучшениями в юзабилити",
+	"vectorad-skin-desc": "Основываясь на [https://www.mediawiki.org/wiki/Skin:Vector Vector], он предоставляет четыре возможных рекламных пространства, которые заполняются LocalSettings.php.",
 	"prefs-vectorad-enable-vectorad-1-label": "Использовать Устаревшее VectorAd",
 	"prefs-vectorad-enable-vectorad-1-help": "В течение следующих нескольких лет мы будем постепенно обновлять тему VectorAd. Устаревшее векторное позволит вам просмотреть старую версию VectorAd (по состоянию на декабрь 2019 года). Чтобы узнать больше об обновлениях, перейдите на нашу [[mw:Reading/Web/Desktop_Improvements|страницу проекта]].",
 	"vectorad-opt-out": "Переключиться на старый вид",
@@ -34,5 +35,11 @@
 	"vectorad-view-viewsource": "Просмотр кода",
 	"vectorad-jumptonavigation": "Перейти к навигации",
 	"vectorad-jumptosearch": "Перейти к поиску",
-	"vectorad-more-actions": "Ещё"
+	"vectorad-more-actions": "Ещё",
+	"vectorad-advertising": "Реклама",
+	"vectorad-eventnote": "Событие",
+	"vectorad-hint": "Записка",
+	"vectorad-donations": "Мы просим",
+	"vectorad-facebook": "Посетите нас на",
+	"vectorad-labelled": "отмеченный"
 }

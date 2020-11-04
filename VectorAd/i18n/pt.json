@@ -9,11 +9,12 @@
 			"MokaAkashiyaPT",
 			"Vitorvicentevalente",
 			"Waldir",
-			"Waldyrious"
+			"Waldyrious",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versão moderna do MonoBook com um aspeto fresco e várias melhorias de usabilidade",
+	"vectorad-skin-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:Vector Vector], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
 	"prefs-vectorad-enable-vectorad-1-label": "Usar o VectorAd antigo",
 	"prefs-vectorad-enable-vectorad-1-help": "Durante os próximos anos iremos atualizar gradualmente o tema VectorAd. O VectorAd antigo permitirá ver a versão antiga do tema VectorAd (a partir de dezembro de 2019). Para saber mais sobre as atualizações, consulte a [[mw:Reading/Web/Desktop_Improvements|página do projeto]].",
 	"vectorad-opt-out": "Mudar para aparência antiga",
@@ -34,5 +35,11 @@
 	"vectorad-view-viewsource": "Ver fonte",
 	"vectorad-jumptonavigation": "Saltar para a navegação",
 	"vectorad-jumptosearch": "Saltar para a pesquisa",
-	"vectorad-more-actions": "Mais"
+	"vectorad-more-actions": "Mais",
+	"vectorad-advertising": "Publicidade",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Pedimos",
+	"vectorad-facebook": "Visite-nos no",
+	"vectorad-labelled": "marcado com"
 }

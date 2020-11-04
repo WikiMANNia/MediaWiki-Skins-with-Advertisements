@@ -12,11 +12,12 @@
 			"MarcoAurelio",
 			"Miguel2706",
 			"Platonides",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versión moderna de MonoBook, con un aspecto actualizado y muchas mejoras de usabilidad",
+	"vectorad-skin-desc": "Basado en [https://www.mediawiki.org/wiki/Skin:Vector Vector], proporciona cuatro posibles espacios publicitarios que son llenados por LocalSettings.php.",
 	"prefs-vectorad-enable-vectorad-1-label": "Utilizar versión heredada de VectorAd",
 	"vectorad-opt-out": "Cambiar a la apariencia anterior",
 	"vectorad-opt-out-tooltip": "Cambie su configuración para volver al aspecto anterior de la máscara (VectorAd heredado)",
@@ -26,6 +27,7 @@
 	"vectorad-action-delete": "Borrar",
 	"vectorad-action-move": "Trasladar",
 	"vectorad-action-protect": "Proteger",
+	"vectorad-action-toggle-sidebar": "Alternar la barra lateral",
 	"vectorad-action-undelete": "Restaurar",
 	"vectorad-action-unprotect": "Cambiar protección",
 	"vectorad-view-create": "Crear",
@@ -35,5 +37,11 @@
 	"vectorad-view-viewsource": "Ver código",
 	"vectorad-jumptonavigation": "Ir a la navegación",
 	"vectorad-jumptosearch": "Ir a la búsqueda",
-	"vectorad-more-actions": "Más"
+	"vectorad-more-actions": "Más",
+	"vectorad-advertising": "Publicidad",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Rogamos que puedas",
+	"vectorad-facebook": "Visítanos en",
+	"vectorad-labelled": "marcado con"
 }

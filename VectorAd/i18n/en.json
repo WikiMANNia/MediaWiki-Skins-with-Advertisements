@@ -1,9 +1,12 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MediaWiki",
+			"WikiMANNia"
+		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Modern version of MonoBook with fresh look and many usability improvements",
+	"vectorad-skin-desc": "Based on [https://www.mediawiki.org/wiki/Skin:Vector Vector], it provides four possible advertising spaces that are filled by LocalSettings.php.",
 	"prefs-vectorad-enable-vectorad-1-label": "Use Legacy VectorAd",
 	"prefs-vectorad-enable-vectorad-1-help": "Over the next few years, we will be gradually updating the VectorAd skin. Legacy VectorAd will allow you to view the old version of VectorAd (as of December 2019). To learn more about the updates, go to our [[mw:Reading/Web/Desktop_Improvements|project page]].",
 	"vectorad-opt-out": "Switch to old look",
@@ -24,5 +27,11 @@
 	"vectorad-view-viewsource": "View source",
 	"vectorad-jumptonavigation": "Jump to navigation",
 	"vectorad-jumptosearch": "Jump to search",
-	"vectorad-more-actions": "More"
+	"vectorad-more-actions": "More",
+	"vectorad-advertising": "Advertising",
+	"vectorad-eventnote": "Event",
+	"vectorad-hint": "Hint",
+	"vectorad-donations": "We ask for",
+	"vectorad-facebook": "Visit us on",
+	"vectorad-labelled": "labelled with"
 }

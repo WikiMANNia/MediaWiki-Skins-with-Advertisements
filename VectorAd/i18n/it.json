@@ -8,11 +8,12 @@
 			"Gianfranco",
 			"Melos",
 			"Pietrodn",
-			"Scompo"
+			"Scompo",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versione moderna del MonoBook con un aspetto rinnovato e molti miglioramenti dell'usabilità",
+	"vectorad-skin-desc": "Basato su [https://www.mediawiki.org/wiki/Skin:Vector Vector], fornisce quattro possibili spazi pubblicitari che possono essere riempiti da LocalSettings.php.",
 	"vectorad-opt-out-tooltip": "Cambia le tue impostazioni per ritornare alla visualizzazione della skin precedente (legacy VectorAd)",
 	"vectorad.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema VectorAd */",
 	"vectorad.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema VectorAd */",
@@ -20,6 +21,7 @@
 	"vectorad-action-delete": "Cancella",
 	"vectorad-action-move": "Sposta",
 	"vectorad-action-protect": "Proteggi",
+	"vectorad-action-toggle-sidebar": "Alternare la barra laterale",
 	"vectorad-action-undelete": "Ripristina",
 	"vectorad-action-unprotect": "Cambia la protezione",
 	"vectorad-view-create": "Crea",
@@ -27,5 +29,11 @@
 	"vectorad-view-history": "Cronologia",
 	"vectorad-view-view": "Leggi",
 	"vectorad-view-viewsource": "Visualizza wikitesto",
-	"vectorad-more-actions": "Altro"
+	"vectorad-more-actions": "Altro",
+	"vectorad-advertising": "Pubblicità",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Chiediamo",
+	"vectorad-facebook": "Visitaci su",
+	"vectorad-labelled": "contrassegnato con"
 }

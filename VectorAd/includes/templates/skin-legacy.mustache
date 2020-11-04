@@ -37,6 +37,7 @@
 <div id="content" class="mw-body" role="main">
 	<a id="top"></a>
 	<div id="siteNotice" class="mw-body-content">{{{html-site-notice}}}</div>
+	{{#html-site-banner}}<div id="siteBanner" class="mw-body-content">{{{html-site-banner}}}</div>{{/html-site-banner}}
 	{{>Indicators}}
 	<h1 id="firstHeading" class="firstHeading" lang="{{page-langcode}}">{{{html-title}}}</h1>
 	<div id="bodyContent" class="mw-body-content">
@@ -52,6 +53,7 @@
 		<a class="mw-jump-link" href="#mw-head">{{msg-vectorad-jumptonavigation}}</a>
 		<a class="mw-jump-link" href="#searchInput">{{msg-vectorad-jumptosearch}}</a>
 		{{{html-body-content}}}
+		{{#html-bottombanner}}<div id="bottomBanner" class="mw-body-banner">{{{html-bottombanner}}}</div>{{/html-bottombanner}}
 		{{{html-categories}}}
 	</div>
 </div>

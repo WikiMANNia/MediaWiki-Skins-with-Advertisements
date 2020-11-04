@@ -11,11 +11,12 @@
 			"Niridya",
 			"Od1n",
 			"Pamputt",
-			"Wladek92"
+			"Wladek92",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Version moderne de MonoBook avec un aspect rajeuni et beaucoup d’améliorations ergonomiques",
+	"vectorad-skin-desc": "Basé sur [https://www.mediawiki.org/wiki/Skin:Vector Vector], il fournit quatre espaces publicitaires possibles qui sont remplis par LocalSettings.php.",
 	"prefs-vectorad-enable-vectorad-1-label": "Utiliser l’ancienne version de VectorAd",
 	"prefs-vectorad-enable-vectorad-1-help": "Dans les années à venir, nous mettrons progressivement à jour l’habillage VectorAd. La version héritée de VectorAd vous permet de voir l’ancien habillage de VectorAd (tel qu’il était en décembre 2019). Pour en savoir plus, rendez-vous sur [[mw:Reading/Web/Desktop_Improvements|project page]].",
 	"vectorad-opt-out": "Basculer vers l’ancien habillage",
@@ -36,5 +37,11 @@
 	"vectorad-view-viewsource": "Voir la source",
 	"vectorad-jumptonavigation": "Sauter à la navigation",
 	"vectorad-jumptosearch": "Sauter à la recherche",
-	"vectorad-more-actions": "Plus"
+	"vectorad-more-actions": "Plus",
+	"vectorad-advertising": "Publicité",
+	"vectorad-eventnote": "Événement",
+	"vectorad-hint": "Conseil",
+	"vectorad-donations": "Nous vous demandons de",
+	"vectorad-facebook": "Visitez-nous sur",
+	"vectorad-labelled": "marqué avec"
 }
