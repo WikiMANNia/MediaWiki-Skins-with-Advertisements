@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -28,15 +28,15 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 /**
- * SkinTemplate class for Vector skin
+ * SkinTemplate class for VectorAd skin
  * @ingroup Skins
  */
-class SkinVector extends SkinTemplate {
+class SkinVectorAd extends SkinTemplate {
 
-	protected static $bodyClasses = array( 'vector-animateLayout' );
+	protected static $bodyClasses = array( 'vectorad-animateLayout' );
 
-	var $skinname = 'vector', $stylename = 'vector',
-		$template = 'VectorTemplate', $useHeadElement = true;
+	var $skinname = 'vectorad', $stylename = 'vectorad',
+		$template = 'VectorAdTemplate', $useHeadElement = true;
 
 	/**
 	 * Initializes output page and sets up skin-specific parameters
@@ -68,7 +68,7 @@ class SkinVector extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 
 		$styles = array( 'mediawiki.skinning.interface', 'skins.vector.styles' );
-		wfRunHooks( 'SkinVectorStyleModules', array( $this, &$styles ) );
+		wfRunHooks( 'SkinVectorAdStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
 
@@ -88,10 +88,10 @@ class SkinVector extends SkinTemplate {
 }
 
 /**
- * QuickTemplate class for Vector skin
+ * QuickTemplate class for VectorAd skin
  * @ingroup Skins
  */
-class VectorTemplate extends BaseTemplate {
+class VectorAdTemplate extends BaseTemplate {
 
 	/* Functions */
 
@@ -99,12 +99,12 @@ class VectorTemplate extends BaseTemplate {
 	 * Outputs the entire contents of the (X)HTML page
 	 */
 	public function execute() {
-		global $wgVectorUseIconWatch;
+		global $wgVectorAdUseIconWatch;
 
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
 
-		if ( $wgVectorUseIconWatch ) {
+		if ( $wgVectorAdUseIconWatch ) {
 			$mode = $this->getSkin()->getUser()->isWatched( $this->getSkin()->getRelevantTitle() ) ? 'unwatch' : 'watch';
 			if ( isset( $nav['actions'][$mode] ) ) {
 				$nav['views'][$mode] = $nav['actions'][$mode];
@@ -335,7 +335,7 @@ class VectorTemplate extends BaseTemplate {
 	 * @param $elements array
 	 */
 	protected function renderNavigation( $elements ) {
-		global $wgVectorUseSimpleSearch;
+		global $wgVectorAdUseSimpleSearch;
 
 		// If only one element was given, wrap it in an array, allowing more
 		// flexible arguments
@@ -350,7 +350,7 @@ class VectorTemplate extends BaseTemplate {
 			switch ( $element ) {
 				case 'NAMESPACES':
 ?>
-<div id="p-namespaces" role="navigation" class="vectorTabs<?php if ( count( $this->data['namespace_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-namespaces-label">
+<div id="p-namespaces" role="navigation" class="vectoradTabs<?php if ( count( $this->data['namespace_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-namespaces-label">
 	<h3 id="p-namespaces-label"><?php $this->msg( 'namespaces' ) ?></h3>
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 		<?php foreach ( $this->data['namespace_urls'] as $link ) { ?>
@@ -362,8 +362,8 @@ class VectorTemplate extends BaseTemplate {
 				break;
 				case 'VARIANTS':
 ?>
-<div id="p-variants" role="navigation" class="vectorMenu<?php if ( count( $this->data['variant_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-variants-label">
-	<h3 id="mw-vector-current-variant">
+<div id="p-variants" role="navigation" class="vectoradMenu<?php if ( count( $this->data['variant_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-variants-label">
+	<h3 id="mw-vectorad-current-variant">
 	<?php foreach ( $this->data['variant_urls'] as $link ) { ?>
 		<?php if ( stripos( $link['attributes'], 'selected' ) !== false ) { ?>
 			<?php echo htmlspecialchars( $link['text'] ) ?>
@@ -383,7 +383,7 @@ class VectorTemplate extends BaseTemplate {
 				break;
 				case 'VIEWS':
 ?>
-<div id="p-views" role="navigation" class="vectorTabs<?php if ( count( $this->data['view_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-views-label">
+<div id="p-views" role="navigation" class="vectoradTabs<?php if ( count( $this->data['view_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-views-label">
 	<h3 id="p-views-label"><?php $this->msg( 'views' ) ?></h3>
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 		<?php foreach ( $this->data['view_urls'] as $link ) { ?>
@@ -400,7 +400,7 @@ class VectorTemplate extends BaseTemplate {
 				break;
 				case 'ACTIONS':
 ?>
-<div id="p-cactions" role="navigation" class="vectorMenu<?php if ( count( $this->data['action_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-cactions-label">
+<div id="p-cactions" role="navigation" class="vectoradMenu<?php if ( count( $this->data['action_urls'] ) == 0 ) { echo ' emptyPortlet'; } ?>" aria-labelledby="p-cactions-label">
 	<h3 id="p-cactions-label"><span><?php $this->msg( 'actions' ) ?></span><a href="#"></a></h3>
 	<div class="menu">
 		<ul<?php $this->html( 'userlangattributes' ) ?>>
@@ -432,7 +432,7 @@ class VectorTemplate extends BaseTemplate {
 <div id="p-search" role="search">
 	<h3<?php $this->html( 'userlangattributes' ) ?>><label for="searchInput"><?php $this->msg( 'search' ) ?></label></h3>
 	<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-		<?php if ( $wgVectorUseSimpleSearch ) { ?>
+		<?php if ( $wgVectorAdUseSimpleSearch ) { ?>
 			<div id="simpleSearch">
 		<?php } else { ?>
 			<div>

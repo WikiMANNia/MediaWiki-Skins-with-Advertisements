@@ -3,13 +3,13 @@ Styling for namespace tabs (page, discussion) and views (read, edit, view histor
 */
 
 /* Navigation Labels */
-div.vectorTabs h3,
-div.vectorMenu h3 span {
+div.vectoradTabs h3,
+div.vectoradMenu h3 span {
 	display: none;
 }
 
 /* Namespaces and Views */
-div.vectorTabs {
+div.vectoradTabs {
 	/* @noflip */
 	float: left;
 	height: 2.5em;
@@ -99,7 +99,7 @@ div.vectorTabs {
 		background-position: bottom right;
 		background-repeat: no-repeat;
 
-		a  {
+		a {
 			/* For IE6, overridden later to display:block by modern browsers */
 			display: inline-block;
 			padding-top: 1.25em;
@@ -115,7 +115,7 @@ div.vectorTabs {
 }
 
 /* Variants and Actions */
-div.vectorMenu {
+div.vectoradMenu {
 	/* @noflip */
 	direction: ltr;
 	/* @noflip */
@@ -128,22 +128,22 @@ div.vectorMenu {
 	.transition(background-position 250ms);
 }
 
-div.vectorMenu.menuForceShow {
+div.vectoradMenu.menuForceShow {
 	background-position: 100% 100%;
 }
 
-div.vectorMenuFocus {
+div.vectoradMenuFocus {
 	.background-image-svg('images/arrow-down-focus-icon.svg', 'images/arrow-down-focus-icon.png');
 	background-position: 100% 60%;
 }
 
-body.rtl div.vectorMenu {
+body.rtl div.vectoradMenu {
 	/* @noflip */
 	direction: rtl;
 }
 
 /* OVERRIDDEN BY COMPLIANT BROWSERS */
-div#mw-head div.vectorMenu h3 {
+div#mw-head div.vectoradMenu h3 {
 	/* @noflip */
 	float: left;
 	.background-image('images/tab-break.png');
@@ -153,12 +153,12 @@ div#mw-head div.vectorMenu h3 {
 }
 
 /* IGNORED BY IE6 */
-div#mw-head div.vectorMenu > h3 {
+div#mw-head div.vectoradMenu > h3 {
 	background-image: none;
 }
 
-div#mw-head div.vectorMenu h4,
-div.vectorMenu#p-variants #mw-vector-current-variant {
+div#mw-head div.vectoradMenu h4,
+div.vectoradMenu#p-variants #mw-vectorad-current-variant {
 	display: inline-block;
 	float: left;
 	font-size: 0.8em;
@@ -169,7 +169,7 @@ div.vectorMenu#p-variants #mw-vector-current-variant {
 }
 
 /* OVERRIDDEN BY COMPLIANT BROWSERS */
-div.vectorMenu h3 a {
+div.vectoradMenu h3 a {
 	display: inline-block;
 	width: 24px;
 	height: 1.9em;
@@ -180,11 +180,11 @@ div.vectorMenu h3 a {
 }
 
 /* IGNORED BY IE6 */
-div.vectorMenu h3 > a {
+div.vectoradMenu h3 > a {
 	display: block;
 }
 
-div.vectorMenu div.menu {
+div.vectoradMenu div.menu {
 	position: relative;
 	display: none;
 	clear: both;
@@ -192,32 +192,32 @@ div.vectorMenu div.menu {
 }
 
 /* OVERRIDDEN BY COMPLIANT BROWSERS */
-body.rtl div.vectorMenu div.menu {
+body.rtl div.vectoradMenu div.menu {
 	/* @noflip */
 	margin-left: 24px;
 }
 
 /* IGNORED BY IE6 */
-body.rtl div.vectorMenu > div.menu {
+body.rtl div.vectoradMenu > div.menu {
 	/* @noflip */
 	margin-left: auto;
 }
 
 /* IGNORED BY IE6 */
 /* Also fixes old versions of FireFox */
-body.rtl div.vectorMenu > div.menu,
+body.rtl div.vectoradMenu > div.menu,
 x:-moz-any-link {
 	/* @noflip */
 	margin-left: 23px;
 }
 
 /* Enable forcing showing of the menu for accessibility */
-div.vectorMenu:hover div.menu,
-div.vectorMenu.menuForceShow div.menu {
+div.vectoradMenu:hover div.menu,
+div.vectoradMenu.menuForceShow div.menu {
 	display: block;
 }
 
-div.vectorMenu ul {
+div.vectoradMenu ul {
 	position: absolute;
 	background-color: white;
 	border: solid 1px silver;
@@ -231,19 +231,19 @@ div.vectorMenu ul {
 }
 
 /* Fixes old versions of FireFox */
-div.vectorMenu ul,
+div.vectoradMenu ul,
 x:-moz-any-link {
 	min-width: 5em;
 }
 
 /* Returns things back to normal in modern versions of FireFox */
-div.vectorMenu ul,
+div.vectoradMenu ul,
 x:-moz-any-link,
 x:default {
 	min-width: 0;
 }
 
-div.vectorMenu li {
+div.vectoradMenu li {
 	padding: 0;
 	margin: 0;
 	text-align: left;
@@ -251,7 +251,7 @@ div.vectorMenu li {
 }
 
 /* OVERRIDDEN BY COMPLIANT BROWSERS */
-div.vectorMenu li a {
+div.vectoradMenu li a {
 	display: inline-block;
 	padding: 0.5em;
 	white-space: nowrap;
@@ -261,12 +261,12 @@ div.vectorMenu li a {
 }
 
 /* IGNORED BY IE6 */
-div.vectorMenu li > a {
+div.vectoradMenu li > a {
 	display: block;
 }
 
-div.vectorMenu li.selected a,
-div.vectorMenu li.selected a:visited {
+div.vectoradMenu li.selected a,
+div.vectoradMenu li.selected a:visited {
 	color: #333;
 	text-decoration: none;
 }

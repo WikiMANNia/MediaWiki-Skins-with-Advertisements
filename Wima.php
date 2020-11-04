@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -34,10 +34,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @todo document
  * @ingroup Skins
  */
-class SkinMonoBook extends SkinTemplate {
-	/** Using monobook. */
-	var $skinname = 'monobook', $stylename = 'monobook',
-		$template = 'MonoBookTemplate', $useHeadElement = true;
+class SkinWima extends SkinTemplate {
+	/** Using wima. */
+	var $skinname = 'wima', $stylename = 'wima',
+		$template = 'WimaTemplate', $useHeadElement = true;
 
 	/**
 	 * @param $out OutputPage
@@ -45,12 +45,11 @@ class SkinMonoBook extends SkinTemplate {
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		$out->addModuleStyles( array( 'mediawiki.skinning.interface', 'skins.monobook.styles' ) );
+		$out->addModuleStyles( array( 'mediawiki.skinning.interface', 'skins.wima.styles' ) );
 
 		// TODO: Migrate all of these
-		$out->addStyle( 'monobook/IE60Fixes.css', 'screen', 'IE 6' );
-		$out->addStyle( 'monobook/IE70Fixes.css', 'screen', 'IE 7' );
-
+		$out->addStyle( $this->stylename . '/IE60Fixes.css', 'screen', 'IE 6' );
+		$out->addStyle( $this->stylename . '/IE70Fixes.css', 'screen', 'IE 7' );
 	}
 }
 
@@ -58,10 +57,10 @@ class SkinMonoBook extends SkinTemplate {
  * @todo document
  * @ingroup Skins
  */
-class MonoBookTemplate extends BaseTemplate {
+class WimaTemplate extends BaseTemplate {
 
 	/**
-	 * Template filter callback for MonoBook skin.
+	 * Template filter callback for Wima skin.
 	 * Takes an associative array of data set from a SkinTemplate-based
 	 * class, and a wrapper for MediaWiki's localization database, and
 	 * outputs a formatted page.
@@ -230,7 +229,7 @@ echo $footerEnd;
 
 	/**
 	 * Prints the cactions bar.
-	 * Shared between MonoBook and Modern
+	 * Shared between Wima, MonoBook and Modern
 	 */
 	function cactions() {
 ?>
@@ -262,7 +261,7 @@ echo $footerEnd;
 
 <?php
 		}
-		wfRunHooks( 'MonoBookTemplateToolboxEnd', array( &$this ) );
+		wfRunHooks( 'WimaTemplateToolboxEnd', array( &$this ) );
 		wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this, true ) );
 ?>
 			</ul>
