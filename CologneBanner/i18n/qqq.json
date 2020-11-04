@@ -10,5 +10,5 @@
 	"skinname-colognebanner": "{{name}}",
 	"colognebanner.css": "{{optional}}",
 	"colognebanner.js": "{{optional}}",
-	"colognebanner-desc": "{{desc|what=skin|name=Cologne Banner|url=https://www.mediawiki.org/wiki/Skin:Cologne_Blue}}"
+	"colognebanner-desc": "{{desc|what=skin|name=Cologne Banner|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_27-colognebanner}}"
 }

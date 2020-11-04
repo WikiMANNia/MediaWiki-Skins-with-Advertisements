@@ -4,11 +4,18 @@
 			"Kaganer",
 			"Okras",
 			"Rave",
-			"NBS"
+			"NBS",
+			"WikiMANNia"
 		]
 	},
-	"skinname-colognebanner": "Кёльнская тоска",
-	"colognebanner-desc": "Лёгкая тема оформления с минимальным форматированием.",
-	"colognebanner.css": "/* Размещённый здесь CSS будет применяться к теме оформления Cologne Banner */",
-	"colognebanner.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Cologne Banner */"
+	"skinname-colognebanner": "Кёльнская Знамя",
+	"colognebanner-desc": "Основываясь на [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Кёльнская тоска], он предоставляет четыре возможных рекламных пространства, которые заполняются LocalSettings.php.",
+	"colognebanner.css": "/* Размещённый здесь CSS будет применяться к теме оформления Кёльнская Знамя */",
+	"colognebanner.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Кёльнская Знамя */",
+	"advertising": "Реклама",
+	"eventnote": "Событие",
+	"hint": "Записка",
+	"donations": "Мы просим",
+	"facebook": "Посетите нас на",
+	"labelled": "отмеченный"
 }

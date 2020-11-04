@@ -4,8 +4,8 @@
 			"Guycn2"
 		]
 	},
-	"colognebanner.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב CologneBlue בלבד */",
-	"colognebanner.js": "/* כל סקריפט JavaScript שנכתב כאן ירוץ רק עבור המשתמשים בעיצוב CologneBlue */",
-	"skinname-colognebanner": "מים כחולים",
-	"colognebanner-desc": "מעטפת קלה עם עיצוב מינימלי"
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "מעטפת קלה עם עיצוב מינימלי",
+	"colognebanner.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"מים כחולים\" בלבד */",
+	"colognebanner.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"מים כחולים\" בלבד */"
 }

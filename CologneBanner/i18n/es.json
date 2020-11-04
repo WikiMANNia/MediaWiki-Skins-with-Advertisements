@@ -5,11 +5,18 @@
 			"Locos epraix",
 			"Sanbec",
 			"Vivaelcelta",
-			"Macofe"
+			"Macofe",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Colonia Banderín",
-	"colognebanner-desc": "Una apariencia ligera con formato minimalista",
+	"colognebanner-desc": "Based on [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Colonia Azul], it provides four possible advertising spaces that are filled by LocalSettings.php.",
 	"colognebanner.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Colonia Banderín */",
-	"colognebanner.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Colonia Banderín */"
+	"colognebanner.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Colonia Banderín */",
+	"advertising": "Publicidad",
+	"eventnote": "Evento",
+	"hint": "Nota",
+	"donations": "Rogamos que puedas",
+	"facebook": "Visítanos en",
+	"labelled": "marcado con"
 }

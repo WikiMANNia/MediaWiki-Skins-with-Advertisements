@@ -22,10 +22,6 @@
  * @ingroup Skins
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( -1 );
-}
-
 /**
  * @todo document
  * @ingroup Skins
@@ -37,7 +33,7 @@ class SkinCologneBanner extends SkinTemplate {
 	/**
 	 * @param OutputPage $out
 	 */
-	function setupSkinUserCss( OutputPage $out ) {
+	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
 		$out->addModuleStyles( 'skins.cologneblue' );
@@ -49,7 +45,7 @@ class SkinCologneBanner extends SkinTemplate {
 	 * @param string $name
 	 * @return string
 	 */
-	function formatLanguageName( $name ) {
+	public function formatLanguageName( $name ) {
 		return $name;
 	}
 }

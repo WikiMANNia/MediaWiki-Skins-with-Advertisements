@@ -3,11 +3,18 @@
 		"authors": [
 			"Gomoko",
 			"IAlex",
-			"Zetud"
+			"Zetud",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Bannière de Cologne",
-	"colognebanner-desc": "Un habillage léger avec une mise en forme minimale",
+	"colognebanner-desc": "Basé sur [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Bleu de Cologne], il fournit quatre espaces publicitaires possibles qui sont remplis par LocalSettings.php.",
 	"colognebanner.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Bannière de Cologne. */",
-	"colognebanner.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Bannière de Cologne uniquement */"
+	"colognebanner.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Bannière de Cologne uniquement */",
+	"advertising": "Publicité",
+	"eventnote": "Événement",
+	"hint": "Conseil",
+	"donations": "Nous vous demandons de",
+	"facebook": "Visitez-nous sur",
+	"labelled": "marqué avec"
 }

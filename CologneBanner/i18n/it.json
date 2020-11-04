@@ -3,11 +3,18 @@
 		"authors": [
 			"Darth Kule",
 			"FRacco",
-			"Beta16"
+			"Beta16",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Colonia Bandiera",
-	"colognebanner-desc": "Tema leggero con formattazione minima",
-	"colognebanner.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema Cologne Banner */",
-	"colognebanner.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema Cologne Banner */"
+	"colognebanner-desc": "Basato su [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Colonia Blu], fornisce quattro possibili spazi pubblicitari che possono essere riempiti da LocalSettings.php.",
+	"colognebanner.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema Colonia Bandiera */",
+	"colognebanner.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema Colonia Bandiera */",
+	"advertising": "Pubblicità",
+	"eventnote": "Evento",
+	"hint": "Nota",
+	"donations": "Chiediamo",
+	"facebook": "Visitaci su",
+	"labelled": "contrassegnato con"
 }
