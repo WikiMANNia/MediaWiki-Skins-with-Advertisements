@@ -1,11 +1,14 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MediaWiki",
+			"WikiMANNia"
+		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Based on [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Cologne Blue], it provides four possible advertising spaces that are filled by LocalSettings.php.",
 	"colognebanner.css": "/* All CSS here will be loaded for users of the Cologne Banner skin */",
 	"colognebanner.js": "/* All JavaScript here will be loaded for users of the Cologne Banner skin */",
-	"colognebanner-desc": "A lightweight skin with minimal formatting",
 	"qbfind": "Find",
 	"qbbrowse": "Browse",
 	"qbedit": "Edit",
@@ -21,5 +24,11 @@
 	"talkpage": "Discuss this page",
 	"articlepage": "View content page",
 	"userpage": "View user page",
-	"projectpage": "View project page"
+	"projectpage": "View project page",
+	"advertising": "Advertising",
+	"eventnote": "Event",
+	"hint": "Hint",
+	"donations": "We ask for",
+	"facebook": "Visit us on",
+	"labelled": "labelled with"
 }

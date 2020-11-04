@@ -9,9 +9,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Tema pejero co formatasion minima",
 	"colognebanner.css": "/* All CSS here will be loaded for users of the Cologne Banner skin */",
 	"colognebanner.js": "/* All JavaScript here will be loaded for users of the Cologne Banner skin */",
-	"colognebanner-desc": "Tema pejero co formatasion minima",
 	"qbfind": "Cata fora",
 	"qbbrowse": "Sfoja",
 	"qbedit": "Modìfega",

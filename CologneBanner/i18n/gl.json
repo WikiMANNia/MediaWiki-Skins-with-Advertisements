@@ -8,9 +8,9 @@
 		]
 	},
 	"skinname-colognebanner": "Bandeira colonial",
+	"colognebanner-desc": "Un tema lixeiro con formato minimalista",
 	"colognebanner.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Bandeira colonial */",
 	"colognebanner.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Bandeira colonial */",
-	"colognebanner-desc": "Un tema lixeiro con formato minimalista",
 	"qbfind": "Procurar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

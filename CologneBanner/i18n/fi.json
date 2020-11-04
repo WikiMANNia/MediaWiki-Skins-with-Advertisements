@@ -11,9 +11,9 @@
 		]
 	},
 	"skinname-colognebanner": "Kölnin banner",
+	"colognebanner-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
 	"colognebanner.css": "/* Tämä sivu sisältää Kölnin banner -ulkoasua muuttavia tyylejä. */",
 	"colognebanner.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin banner -tyyliin */",
-	"colognebanner-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
 	"qbfind": "Etsi",
 	"qbbrowse": "Selaa",
 	"qbedit": "Muokkaa",

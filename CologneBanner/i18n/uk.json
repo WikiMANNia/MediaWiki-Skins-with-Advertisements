@@ -10,9 +10,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Легка тема оформлення з мінімальними форматуванням.",
 	"colognebanner.css": "/* Розміщений тут CSS-код буде використаний для користувачів з налаштованою темою оформлення Cologne Banner блакитне */",
 	"colognebanner.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Cologne Banner */",
-	"colognebanner-desc": "Легка тема оформлення з мінімальними форматуванням.",
 	"qbfind": "Знайти",
 	"qbbrowse": "Переглянути",
 	"qbedit": "Редагувати",

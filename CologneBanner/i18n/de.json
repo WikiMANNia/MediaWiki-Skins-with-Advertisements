@@ -4,13 +4,14 @@
 			"Kghbln",
 			"Khaledelmansoury",
 			"Metalhead64",
-			"The Evil IP address"
+			"The Evil IP address",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Kölnisch Banner",
+	"colognebanner-desc": "Basierend auf [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Kölnisch-Blau] stellt es vier mögliche Werbeplätze bereit, die von der LocalSettings.php befüllt werden.",
 	"colognebanner.css": "/* Das folgende CSS wird für Benutzer der Kölnisch-Banner-Benutzeroberfläche geladen. */",
 	"colognebanner.js": "/* Das folgende JavaScript wird für Benutzer der Kölnisch-Banner-Benutzeroberfläche geladen. */",
-	"colognebanner-desc": "Stellt eine minimalistische Benutzeroberfläche bereit",
 	"qbfind": "Finden",
 	"qbbrowse": "Durchsuchen",
 	"qbedit": "Bearbeiten",
@@ -26,5 +27,11 @@
 	"talkpage": "Diese Seite diskutieren",
 	"articlepage": "Inhaltsseite anzeigen",
 	"userpage": "Benutzerseite anzeigen",
-	"projectpage": "Projektseite anzeigen"
+	"projectpage": "Projektseite anzeigen",
+	"advertising": "Werbung",
+	"eventnote": "Veranstaltung",
+	"hint": "Hinweis",
+	"donations": "Wir bitten um",
+	"facebook": "Besuche uns auf",
+	"labelled": "gekennzeichnet mit"
 }

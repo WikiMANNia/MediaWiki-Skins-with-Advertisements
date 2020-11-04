@@ -7,9 +7,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Лесно руво со најмало форматирање",
 	"colognebanner.css": "/* Тука поставениот CSS ќе се применува врз корисниците што го избрале рувото „Cologne Banner“ */",
 	"colognebanner.js": "/* Тука поставениот JavaScript ќе им се вчитува на корисниците што го користат рувото „Cologne Banner“ */",
-	"colognebanner-desc": "Лесно руво со најмало форматирање",
 	"qbfind": "Најди",
 	"qbbrowse": "Прелистај",
 	"qbedit": "Уреди",

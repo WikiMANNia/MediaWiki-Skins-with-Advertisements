@@ -9,9 +9,9 @@
 		]
 	},
 	"skinname-colognebanner": "Kelnsko banner",
+	"colognebanner-desc": "Lagana tema sa minimalnim formatiranjem",
 	"colognebanner.css": "/* CSS postavljen ovde će uticati na sve korisnike teme Kelnsko banner */",
 	"colognebanner.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu Kelnsko banner */",
-	"colognebanner-desc": "Lagana tema sa minimalnim formatiranjem",
 	"qbfind": "Pronađite",
 	"qbbrowse": "Pregled",
 	"qbedit": "Uređivanje",

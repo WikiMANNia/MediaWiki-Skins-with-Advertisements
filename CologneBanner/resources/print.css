@@ -4,3 +4,11 @@
 #footer-navigation {
 	display: none;
 }
+
+/* Helps to format text properly in advertising. */
+#quickbar p {
+	font-weight: normal;
+	line-height: 1.2em;
+	margin: 2pt 2pt 0 5pt;
+	color: #000;
+}

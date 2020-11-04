@@ -13,9 +13,9 @@
 		]
 	},
 	"skinname-colognebanner": "Kolonja Banner",
+	"colognebanner-desc": "Leĝera etoso kun minimuma aranĝado",
 	"colognebanner.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Banner temo. */",
 	"colognebanner.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Banner temo. */",
-	"colognebanner-desc": "Leĝera etoso kun minimuma aranĝado",
 	"qbfind": "Serĉi",
 	"qbbrowse": "Foliumi",
 	"qbedit": "Redakti",

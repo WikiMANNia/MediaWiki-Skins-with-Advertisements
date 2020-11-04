@@ -8,9 +8,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Lekka skórka z minimalnym formatowaniem",
 	"colognebanner.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Cologne Banner */",
 	"colognebanner.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Cologne Banner */",
-	"colognebanner-desc": "Lekka skórka z minimalnym formatowaniem",
 	"qbfind": "Znajdź",
 	"qbbrowse": "Przeglądanie",
 	"qbedit": "Edycja",

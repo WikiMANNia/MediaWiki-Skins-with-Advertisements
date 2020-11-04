@@ -9,8 +9,8 @@
 		]
 	},
 	"skinname-colognebanner": "Banner de Cologne",
-	"colognebanner.css": "/* CSS plasate aici vor afecta utilizatorii stilului Banner de Cologne */",
 	"colognebanner-desc": "Un aspect simplu cu o formatare minimă",
+	"colognebanner.css": "/* CSS plasate aici vor afecta utilizatorii stilului Banner de Cologne */",
 	"qbfind": "Găsește",
 	"qbbrowse": "Răsfoiește",
 	"qbedit": "Modificare",

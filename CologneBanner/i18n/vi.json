@@ -7,9 +7,9 @@
 		]
 	},
 	"skinname-colognebanner": "Banner Cologne",
+	"colognebanner-desc": "Giao diện nhẹ nhàng có ít định dạng",
 	"colognebanner.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Banner Cologne */",
 	"colognebanner.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Banner Cologne */",
-	"colognebanner-desc": "Giao diện nhẹ nhàng có ít định dạng",
 	"qbfind": "Tìm kiếm",
 	"qbbrowse": "Duyệt",
 	"qbedit": "Sửa đổi",

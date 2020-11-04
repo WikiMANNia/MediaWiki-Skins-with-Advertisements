@@ -7,9 +7,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "מעטפת קלה עם עיצוב מינימלי",
 	"colognebanner.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"מים כחולים\" בלבד */",
 	"colognebanner.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"מים כחולים\" בלבד */",
-	"colognebanner-desc": "מעטפת קלה עם עיצוב מינימלי",
 	"qbfind": "חיפוש",
 	"qbbrowse": "ניווט",
 	"qbedit": "עריכה",

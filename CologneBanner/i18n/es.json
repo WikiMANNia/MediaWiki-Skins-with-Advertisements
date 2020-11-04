@@ -11,13 +11,14 @@
 			"Spacebirdy",
 			"Themasterriot",
 			"VegaDark",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Colonia Banderín",
+	"colognebanner-desc": "Based on [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Colonia Azul], it provides four possible advertising spaces that are filled by LocalSettings.php.",
 	"colognebanner.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Colonia Banderín */",
 	"colognebanner.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Colonia Banderín */",
-	"colognebanner-desc": "Una apariencia ligera con formato minimalista",
 	"qbfind": "Buscar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",
@@ -33,5 +34,11 @@
 	"talkpage": "Discutir esta página",
 	"articlepage": "Ver artículo",
 	"userpage": "Ver página de usuario",
-	"projectpage": "Ver página del proyecto"
+	"projectpage": "Ver página del proyecto",
+	"advertising": "Publicidad",
+	"eventnote": "Evento",
+	"hint": "Nota",
+	"donations": "Rogamos que puedas",
+	"facebook": "Visítanos en",
+	"labelled": "marcado con"
 }

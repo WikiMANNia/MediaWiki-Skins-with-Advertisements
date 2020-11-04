@@ -6,8 +6,8 @@
 		]
 	},
 	"skinname-colognebanner": "Colonha Banner",
-	"colognebanner.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Cologne Banner */",
-	"colognebanner.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Cologne Banner unicament. */",
+	"colognebanner.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Colonha Banner */",
+	"colognebanner.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Colonha Banner unicament. */",
 	"qbfind": "Recercar",
 	"qbbrowse": "Far desfilar",
 	"qbedit": "Modificar",

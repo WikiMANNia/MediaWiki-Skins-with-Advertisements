@@ -7,9 +7,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "Rupa ringan dengan pemformatan minimum",
 	"colognebanner.css": "/* Kod CSS yang terletak di sini akan mempengaruhi pengguna yang memakai rupa Cologne Banner */",
 	"colognebanner.js": "/* Sebarang kod JavaScript di sini akan dimuat oleh sesiapa yang memakai rupa Cologne Banner */",
-	"colognebanner-desc": "Rupa ringan dengan pemformatan minimum",
 	"qbfind": "Cari",
 	"qbbrowse": "Semak imbas",
 	"qbedit": "Sunting",

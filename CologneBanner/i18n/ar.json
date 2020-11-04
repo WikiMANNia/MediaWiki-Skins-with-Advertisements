@@ -9,9 +9,9 @@
 		]
 	},
 	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "واجهة خفيفة بالحد الأدنى من التنسيقات",
 	"colognebanner.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة كولون بلو */",
 	"colognebanner.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة كولون بلو */",
-	"colognebanner-desc": "واجهة خفيفة بالحد الأدنى من التنسيقات",
 	"qbfind": "جد",
 	"qbbrowse": "تصفح",
 	"qbedit": "عدل",
