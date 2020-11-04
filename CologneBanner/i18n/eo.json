@@ -1,16 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Objectivesea",
 			"Gamliel Fishkin",
 			"KuboF",
 			"LyzTyphone",
+			"Mirin",
+			"Objectivesea",
 			"Robin van der Vliet",
 			"Tlustulimu",
-			"Yekrats"
+			"Yekrats",
+			"YvesNevelsteen"
 		]
 	},
 	"skinname-colognebanner": "Kolonja Banner",
+	"colognebanner-desc": "Leĝera etoso kun minimuma aranĝado",
 	"colognebanner.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Banner temo. */",
 	"colognebanner.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Banner temo. */",
 	"qbfind": "Serĉi",
@@ -19,14 +22,14 @@
 	"qbpageoptions": "Ĉi tiu paĝo",
 	"qbmyoptions": "Miaj paĝoj",
 	"faqpage": "Project:Oftaj demandoj",
-	"editthispage": "Redakti la paĝon",
+	"editthispage": "Redakti ĉi tiun paĝon",
 	"create-this-page": "Krei ĉi tiun paĝon",
 	"deletethispage": "Forigi ĉi tiun paĝon",
 	"undeletethispage": "Restarigi tiun ĉi paĝon",
-	"protectthispage": "Protekti la paĝon",
-	"unprotectthispage": "Ŝanĝi protekton de ĉi tiu paĝo",
-	"talkpage": "Diskuti la paĝon",
-	"articlepage": "Vidi enhavan paĝon",
-	"userpage": "Vidi uzantopaĝon",
-	"projectpage": "Rigardi projektopaĝon"
+	"protectthispage": "Protekti ĉi tiun paĝon",
+	"unprotectthispage": "Ŝanĝi la protektadon de ĉi tiu paĝo",
+	"talkpage": "Pridiskuti ĉi tiun paĝon",
+	"articlepage": "Vidi la enhavan paĝon",
+	"userpage": "Vidi la uzantopaĝon",
+	"projectpage": "Vidi la projektopaĝon"
 }

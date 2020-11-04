@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Athena in Wonderland",
 			"Cecílio",
-			"MokaAkashiyaPT",
-			"Athena in Wonderland"
+			"MokaAkashiyaPT"
 		]
 	},
-	"skinname-colognebanner": "Azul quelonial",
+	"skinname-colognebanner": "Banner quelonial",
 	"qbfind": "Percurar",
 	"qbbrowse": "Nabegar",
 	"qbedit": "Eiditar",

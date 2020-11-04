@@ -1,21 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25",
-			"Umherirrender",
-			"Shirayuki",
-			"Raymond",
 			"EugeneZelenko",
 			"Matma Rex",
+			"Meno25",
 			"Nemo bis",
 			"Orlodrim",
-			"Siddhartha Ghai"
+			"Raymond",
+			"Shirayuki",
+			"Siddhartha Ghai",
+			"Umherirrender"
 		]
 	},
 	"skinname-colognebanner": "{{name}}",
 	"colognebanner.css": "{{optional}}",
 	"colognebanner.js": "{{optional}}",
-	"colognebanner-desc": "{{desc|what=skin|name=Cologne Banner|url=https://www.mediawiki.org/wiki/Skin:Cologne_Blue}}",
+	"colognebanner-desc": "{{desc|what=skin|name=Cologne Banner|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_31-colognebanner}}",
 	"qbfind": "Alternative for \"search\" as used in Cologne Banner skin.\n{{Identical|Find}}",
 	"qbbrowse": "Heading in sidebar menu in Cologne Banner skin as seen in [[File:CologneBanner sidebar qqx.png]]\n{{Identical|Browse}}",
 	"qbedit": "Heading in sidebar menu in Cologne Banner skin as seen in http://i.imgur.com/I08Y3jW.png\n{{Identical|Edit}}",

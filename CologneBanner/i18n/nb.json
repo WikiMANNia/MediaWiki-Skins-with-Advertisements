@@ -7,9 +7,9 @@
 		]
 	},
 	"skinname-colognebanner": "Kølnerbanner",
+	"colognebanner-desc": "En lettvekterdrakt med minimal formatering",
 	"colognebanner.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Kølnerbanner */",
 	"colognebanner.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Kølnerbanner */",
-	"colognebanner-desc": "En lettvekterdrakt med minimal formatering",
 	"qbfind": "Finn",
 	"qbbrowse": "Bla gjennom",
 	"qbedit": "Rediger",

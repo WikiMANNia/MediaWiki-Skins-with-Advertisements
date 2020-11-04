@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25",
 			"Khaled",
+			"Meno25",
 			"Mido",
 			"أحمد",
 			"زكريا"
 		]
 	},
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner-desc": "واجهة خفيفة بالحد الأدنى من التنسيقات",
 	"colognebanner.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة كولون بلو */",
 	"colognebanner.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة كولون بلو */",
-	"skinname-colognebanner": "كولون بلو",
-	"colognebanner-desc": "تصميم خفيف بالحد الأدنى من التنسيقات.",
 	"qbfind": "جد",
 	"qbbrowse": "تصفح",
 	"qbedit": "عدل",
@@ -20,7 +20,7 @@
 	"faqpage": "Project:أسئلة متكررة",
 	"editthispage": "عدل هذه الصفحة",
 	"create-this-page": "أنشئ صفحة بهذا العنوان",
-	"deletethispage": "احذف هذه الصفحة",
+	"deletethispage": "حذف هذه الصفحة",
 	"undeletethispage": "استرجع هذه الصفحة",
 	"protectthispage": "احم هذه الصفحة",
 	"unprotectthispage": "غير حماية هذه الصفحة",

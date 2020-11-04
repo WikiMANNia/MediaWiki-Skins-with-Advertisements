@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Veeven",
 			"Chaduvari",
 			"Mpradeep",
-			"Praveen Illa"
+			"Praveen Illa",
+			"Veeven"
 		]
 	},
-	"skinname-colognebanner": "కలోన్ నీలం",
+	"skinname-colognebanner": "Cologne Banner",
 	"qbfind": "వెతుకు",
 	"qbbrowse": "విహరించు",
 	"qbedit": "సవరించు",

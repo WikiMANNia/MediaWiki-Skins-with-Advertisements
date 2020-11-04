@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар",
 			"Sasan700",
-			"Исмаил Садуев"
+			"Исмаил Садуев",
+			"Умар"
 		]
 	},
-	"skinname-colognebanner": "Кёльнин сингаттам",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Минимум форматашца атта тема.",
 	"qbfind": "Лахар",
 	"qbbrowse": "Хьажар",

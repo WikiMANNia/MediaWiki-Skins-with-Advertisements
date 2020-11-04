@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"វ័ណថារិទ្ធ",
 			"Chhorran",
 			"Kiensvay",
 			"Lovekhmer",
 			"Thearith",
-			"គីមស៊្រុន"
+			"គីមស៊្រុន",
+			"វ័ណថារិទ្ធ"
 		]
 	},
-	"skinname-colognebanner": "ទឹកអប់ខៀវ",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Cologne Banner */",
 	"qbfind": "ស្វែងរក",
 	"qbbrowse": "រាវរក",

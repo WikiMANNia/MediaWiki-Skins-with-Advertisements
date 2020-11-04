@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער",
-			"Yidel"
+			"Yidel",
+			"פוילישער"
 		]
 	},
-	"skinname-colognebanner": "קעלניש בלוי",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner.css": "/* CSS געשטעלט דא ווירקט נאר אויפן קעלנישן־בלוי סקין */",
 	"qbfind": "טרעף",
 	"qbbrowse": "בלעטערן",

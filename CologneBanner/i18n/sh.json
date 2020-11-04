@@ -3,14 +3,16 @@
 		"authors": [
 			"Conquistador",
 			"Kolega2357",
-			"OC Ripper"
+			"OC Ripper",
+			"Vlad5250"
 		]
 	},
-	"qbfind": "Pronađite",
+	"colognebanner-desc": "Lagana tema sa najmanjim formatiranjem",
+	"qbfind": "Nađi",
 	"qbbrowse": "Pregledaj - Прегледај",
 	"qbedit": "Uredi",
-	"qbpageoptions": "Opcije stranice",
-	"qbmyoptions": "Moje opcije",
+	"qbpageoptions": "Ova stranica",
+	"qbmyoptions": "Moje stranice",
 	"faqpage": "Project:ČPP",
 	"editthispage": "Uredite ovu stranicu",
 	"create-this-page": "Stvori ovu stranicu",
@@ -18,7 +20,7 @@
 	"undeletethispage": "Vrati ovu stranicu",
 	"protectthispage": "Zaštiti ovu stranicu",
 	"unprotectthispage": "Promijeni zaštitu za ovu stranicu",
-	"talkpage": "Razgovaraj o ovoj stranici - Разговарај о овој страници",
+	"talkpage": "Razgovor - Разговор",
 	"articlepage": "Vidi stranicu sadržaja",
 	"userpage": "Pogledaj korisničku stranicu - Погледај корисничку страницу",
 	"projectpage": "Pogledajte stranicu projekta"

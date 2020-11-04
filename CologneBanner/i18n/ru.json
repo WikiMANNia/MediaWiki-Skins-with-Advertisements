@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahonc",
 			"Kaganer",
+			"Lunacy1911",
+			"NBS",
 			"Okras",
 			"Rave",
-			"NBS",
-			"Ahonc",
-			"Lunacy1911",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"WikiMANNia"
 		]
 	},
 	"skinname-colognebanner": "Кёльнская Знамя",
-	"colognebanner-desc": "Лёгкая тема оформления с минимальным форматированием.",
+	"colognebanner-desc": "Основываясь на [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Кёльнская тоска], он предоставляет четыре возможных рекламных пространства, которые заполняются LocalSettings.php.",
 	"colognebanner.css": "/* Размещённый здесь CSS будет применяться к теме оформления Кёльнская Знамя */",
 	"colognebanner.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Кёльнская Знамя */",
 	"qbfind": "Поиск",
@@ -29,5 +30,11 @@
 	"talkpage": "Обсудить эту страницу",
 	"articlepage": "Просмотреть статью",
 	"userpage": "Просмотреть страницу участника",
-	"projectpage": "Просмотреть страницу проекта"
+	"projectpage": "Просмотреть страницу проекта",
+	"advertising": "Реклама",
+	"eventnote": "Событие",
+	"hint": "Записка",
+	"donations": "Мы просим",
+	"facebook": "Посетите нас на",
+	"labelled": "отмеченный"
 }

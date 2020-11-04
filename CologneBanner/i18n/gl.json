@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño",
 			"Elisardojm",
 			"Prevert",
+			"Toliño",
 			"Xosé"
 		]
 	},
-	"colognebanner.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Azul colonial */",
-	"colognebanner.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Azul colonial */",
-	"skinname-colognebanner": "Azul colonial",
+	"skinname-colognebanner": "Bandeira colonial",
 	"colognebanner-desc": "Un tema lixeiro con formato minimalista",
+	"colognebanner.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Bandeira colonial */",
+	"colognebanner.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Bandeira colonial */",
 	"qbfind": "Procurar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

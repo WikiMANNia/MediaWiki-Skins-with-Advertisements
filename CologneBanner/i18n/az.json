@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vago",
 			"Gulmammad",
 			"Mushviq Abdulla",
 			"PPerviz",
 			"PrinceValiant",
-			"Sortilegus"
+			"Sortilegus",
+			"Vago"
 		]
 	},
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner.css": "/* Burada yerləşən CSS Cologne Banner skin istifadəçilərinə tətbiq olunur */",
 	"colognebanner.js": "/* Burada Cologne Banner skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
-	"skinname-colognebanner": "Cologne Banner",
 	"qbfind": "Tap",
 	"qbbrowse": "Gözdən keçir",
 	"qbedit": "Redaktə",

@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dj",
-			"ViDam",
 			"Dani",
-			"Tacsipacsi"
+			"Dj",
+			"Tacsipacsi",
+			"ViDam"
 		]
 	},
 	"skinname-colognebanner": "Kölni banner",
+	"colognebanner-desc": "Egy pehelykönnyű felület minimális formázással",
 	"colognebanner.css": "/* Az ide elhelyezett CSS hatással lesz a Kölni banner felület használóira */",
 	"colognebanner.js": "/* A Kölni banner felületet használó szerkesztők számára betöltendő JavaScriptek */",
-	"colognebanner-desc": "Egy pehelykönnyű felület minimális formázással",
 	"qbfind": "Keresés",
 	"qbbrowse": "Böngészés",
 	"qbedit": "Szerkesztés",

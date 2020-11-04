@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25",
 			"Ghaly",
+			"Meno25",
 			"Ramsis II"
 		]
 	},
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمى واجهة كولون بلو */",
 	"colognebanner.js": "/* أى جافاسكريبت هنا ح تتحمل لليوزرز اللى بيستعملو واجهة كولون بلو */",
-	"skinname-colognebanner": "كولون بلو",
 	"qbfind": "تدوير",
 	"qbbrowse": "تصفح",
 	"qbedit": "عدل",
@@ -16,7 +16,7 @@
 	"qbmyoptions": "صفحاتى",
 	"faqpage": "Project:اسئله بتتسئل كتير",
 	"editthispage": "عدل الصفحه دى",
-	"create-this-page": "أنشيء الصفحه دى",
+	"create-this-page": "اعمل الصفحه دى",
 	"deletethispage": "امسح الصفحه دى",
 	"undeletethispage": "استرجاع الصفحه دى",
 	"protectthispage": "احمى الصفحه دى",

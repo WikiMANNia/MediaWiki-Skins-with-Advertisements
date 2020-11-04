@@ -6,9 +6,9 @@
 			"Yanteng3"
 		]
 	},
-	"skinname-colognebanner": "馨藍",
-	"colognebanner.css": "/* 此之 CSS 用於馨藍面之簿也 */",
-	"colognebanner.js": "/* 此之JavaScript將載於用馨藍面之簿 */",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* 此之 CSS 用於 Cologne Banner 面之簿也 */",
+	"colognebanner.js": "/* 此之JavaScript將載於用 Cologne Banner 面之簿 */",
 	"qbfind": "尋",
 	"qbbrowse": "覽",
 	"qbedit": "纂",

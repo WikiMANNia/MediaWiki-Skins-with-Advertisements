@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Janezdrilc"
 		]
 	},
-	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Lahka koža z minimalnim oblikovanjem",
 	"qbfind": "Poišči",
 	"qbbrowse": "Prebrskaj",
 	"qbedit": "Uredi",
 	"qbpageoptions": "Možnosti strani",
 	"qbmyoptions": "Moje strani",
-	"faqpage": "Project:Najpogostejša vprašanja",
+	"faqpage": "Project:Pogosta vprašanja",
 	"editthispage": "Uredi stran",
 	"create-this-page": "Ustvari stran",
 	"deletethispage": "Briši stran",

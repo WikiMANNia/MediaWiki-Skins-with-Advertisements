@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Artsiom91",
 			"Mechanizatar",
 			"Mienski",
 			"Yury Tarasievich",
@@ -8,7 +9,7 @@
 			"Чаховіч Уладзіслаў"
 		]
 	},
-	"skinname-colognebanner": "Сіні Кёльн",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Лёгкая тэма афармлення з мінімальным фарматаваннем",
 	"qbfind": "Знайсці",
 	"qbbrowse": "Выбраць",
@@ -18,7 +19,7 @@
 	"faqpage": "Project:ЧАПЫ",
 	"editthispage": "Правіць гэту старонку",
 	"create-this-page": "Стварыць старонку",
-	"deletethispage": "Сцерці гэту старонку",
+	"deletethispage": "Выдаліць гэту старонку",
 	"undeletethispage": "Аднавіць гэту старонку",
 	"protectthispage": "Пачаць ахоўваць гэтую старонку",
 	"unprotectthispage": "Змяніць ахову гэтай старонкі",

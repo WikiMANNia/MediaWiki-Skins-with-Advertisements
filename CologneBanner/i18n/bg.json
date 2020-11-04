@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"DCLXVI",
 			"StanProg",
-			"DCLXVI"
+			"Vlad5250"
 		]
 	},
-	"skinname-colognebanner": "Кьолнско синьо",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Олекотен облик с минимално форматиране",
 	"qbfind": "Търсене",
 	"qbbrowse": "Избор",
@@ -19,7 +20,7 @@
 	"undeletethispage": "Възстановяване на страницата",
 	"protectthispage": "Защита",
 	"unprotectthispage": "Промяна на защитата на тази страница",
-	"talkpage": "Дискусионна страница",
+	"talkpage": "Обсъждане на страницата",
 	"articlepage": "Преглед на страница",
 	"userpage": "Потребителска страница",
 	"projectpage": "Проектна страница"
