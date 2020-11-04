@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": []
-	},
-	"skinname-wima": "Wima",
-	"wima.css": "/** Ovdje idu izmjene wima stylesheeta */",
-	"wima.js": "/* Ne rabi se više; molimo rabite [[MediaWiki:common.js]] */"
-}

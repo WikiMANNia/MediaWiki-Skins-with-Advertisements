@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": []
-	},
-	"skinname-wima": "單書",
-	"wima.css": "/* 此之 CSS 用於單書面之簿也 */",
-	"wima.js": "/* 此之JavaScript將載於用單書面之簿 */"
-}
