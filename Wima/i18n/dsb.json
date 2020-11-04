@@ -6,6 +6,6 @@
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima.css": "/* How zaměstnjony CSS wustatkujo se na wužywarje monobook-šata */",
-	"wima.js": "/* Slědujucy JavaScript zacytajo se za wužywarjow, kótarež skin Wima wužywaju */"
+	"wima.css": "/* How zaměstnjony CSS wustatkujo se na wužywarje wima-šata */",
+	"wima.js": "/* Slědujucy JavaScript zacytajo se za wužywarjow, kótarež skin wima wužywaju */"
 }

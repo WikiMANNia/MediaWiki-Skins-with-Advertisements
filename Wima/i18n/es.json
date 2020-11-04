@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fitoschido",
 			"Sanbec",
 			"Vivaelcelta",
-			"Fitoschido"
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "El tema clásico de MediaWiki desde 2004, cuyo nombre viene de la foto en blanco y negro de un libro en el fondo",
+	"wima-desc": "Basado en [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], proporciona cuatro posibles espacios publicitarios que son llenados por LocalSettings.php.",
 	"wima.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Wima */",
-	"wima.js": "/* El código JavaScript que se ponga aquí será cargado por los usuarios de la apariencia Wima */"
+	"wima.js": "/* El código JavaScript que se ponga aquí será cargado por los usuarios de la apariencia Wima */",
+	"wima-advertising": "Publicidad",
+	"wima-eventnote": "Evento",
+	"wima-hint": "Nota",
+	"wima-donations": "Rogamos que puedas",
+	"wima-facebook": "Visítanos en",
+	"wima-labelled": "marcado con"
 }

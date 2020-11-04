@@ -2,11 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Darth Kule"
+			"Darth Kule",
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "La skin classica di MediaWiki dal 2004, prende il nome dall'immagine in bianco e nero del libro usata come sfondo della pagina",
-	"wima.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano la skin Wima */",
-	"wima.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano la skin Wima */"
+	"wima-desc": "Basato su [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], fornisce quattro possibili spazi pubblicitari che possono essere riempiti da LocalSettings.php.",
+	"wima.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema Wima */",
+	"wima.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema Wima */",
+	"wima-advertising": "Pubblicità",
+	"wima-eventnote": "Evento",
+	"wima-hint": "Nota",
+	"wima-donations": "Chiediamo",
+	"wima-facebook": "Visitaci su",
+	"wima-labelled": "contrassegnato con"
 }

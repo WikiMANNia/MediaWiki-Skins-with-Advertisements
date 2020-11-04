@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xiaomingyan",
 			"Cwek",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Xiaomingyan"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima.css": "/* 放置于这里的CSS将影响使用MonoBook皮肤的用户 */",
-	"wima.js": "/* 这里的任何JavaScript将为使用MonoBook皮肤的用户加载 */",
-	"wima-desc": "自2004年就出现的经典MediaWiki皮肤，命名依据一本书中某页面的黑白照片背景"
+	"wima-desc": "自2004年就出现的经典MediaWiki皮肤，命名依据一本书中某页面的黑白照片背景",
+	"wima.css": "/* 这里放置的CSS将影响使用Wima皮肤的用户 */",
+	"wima.js": "/* 这里的任何JavaScript将为使用Wima皮肤的用户加载 */"
 }

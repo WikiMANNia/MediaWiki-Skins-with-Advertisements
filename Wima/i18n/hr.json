@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Bugoslav"
+		]
 	},
 	"skinname-wima": "Wima",
+	"wima-desc": "Klasična tema dizajna MediaWiki od godine 2004., nazvana je u čast crno-bijele fotografije iz knjige, koju se rabilo kao pozadinu stranice",
 	"wima.css": "/** Ovdje idu izmjene wima stylesheeta */",
 	"wima.js": "/* Ne rabi se više; molimo rabite [[MediaWiki:common.js]] */"
 }

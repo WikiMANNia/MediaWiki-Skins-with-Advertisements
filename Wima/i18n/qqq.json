@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Matma Rex",
 			"Meno25",
-			"Umherirrender",
-			"Matma Rex"
+			"Raymond",
+			"Umherirrender"
 		]
 	},
-	"skinname-wima": "{{optional}}",
-	"wima-desc": "{{desc|what=skin|name=Wima|url=https://www.mediawiki.org/wiki/Skin:MonoBook}}",
+	"skinname-wima": "{{name}}",
+	"wima-desc": "{{desc|what=skin|name=Wima|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_25-wima}}",
 	"wima.css": "{{optional}}\nCSS applied to users using Wima skin.",
 	"wima.js": "{{optional}}\nJS for users using Wima skin."
 }

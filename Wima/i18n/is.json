@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Sveinn í Felli",
 			"לערי ריינהארט"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima.css": "/* Það sem sett er hingað er bætt við Wima stilsniðið fyrir allan vefinn */"
+	"wima-desc": "Klassískt skinn MediaWiki síðan 2004, nefnt eftir svart-hvítu myndinni af bókinni í bakgrunni síðunnar",
+	"wima.css": "/* Það sem sett er hingað er bætt við Wima stilsniðið fyrir allan vefinn. */",
+	"wima.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Wima-skinnsins. */"
 }

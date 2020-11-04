@@ -3,18 +3,18 @@
 /* workaround for various ie float bugs */
 
 /* This bit is needed to make links clickable... WTF */
-div#column-content .mw-body {
+#column-content .mw-body {
 	margin-left: 12.2em;
 	margin-top: 3em;
 	height: 1%;
 }
 
-.rtl div#column-content .mw-body {
+.rtl #column-content .mw-body {
 	margin-right: 12.2em;
 	margin-left: 0;
 }
 
-.rtl div#column-one {
+.rtl #column-one {
 	/* For some reason it tries to inherit the padding-top into every div,
 	 * and I can't figure out how to get it back off.
 	 * Margin works correctly for this use, though.
@@ -90,7 +90,7 @@ div.tleft {
 }
 */
 
-div#footer li {
+#footer li {
 	/* Work around bug with inline <li> tags with right margins and nowrap */
 	margin-right: 0;
 }

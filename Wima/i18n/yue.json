@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ktchankt"
+		]
 	},
 	"skinname-wima": "Wima",
+	"wima-desc": "2004年開始用嘅MediaWiki經典外觀，個名嚟自版面背景嘅書嘅黑白相",
 	"wima.css": "/* 響呢度放 CSS 碼去改用戶用嘅 Wima 畫面 */",
 	"wima.js": "/* 響每一次個頁面載入時，用 Wima 畫面嘅用戶都會載入呢度任何嘅JavaScript */"
 }
