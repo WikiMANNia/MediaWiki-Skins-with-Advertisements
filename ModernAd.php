@@ -31,7 +31,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @todo document
  * @ingroup Skins
  */
-class SkinModern extends SkinTemplate {
+class SkinModernAd extends SkinTemplate {
 	var $skinname = 'modern', $stylename = 'modern',
 		$template = 'ModernTemplate', $useHeadElement = true;
 
@@ -48,7 +48,7 @@ class SkinModern extends SkinTemplate {
  * @todo document
  * @ingroup Skins
  */
-class ModernTemplate extends MonoBookTemplate {
+class ModernAdTemplate extends WimaTemplate {
 
 	/**
 	 * Template filter callback for Modern skin.
