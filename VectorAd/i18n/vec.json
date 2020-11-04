@@ -3,21 +3,22 @@
 		"authors": [
 			"Alunardon90",
 			"Candalua",
+			"Fierodelveneto",
 			"Frigotoni",
 			"GatoSelvadego",
 			"Vajotwo"
 		]
 	},
 	"vectorad-action-addsection": "Xonta discusion",
-	"vectorad-action-delete": "Scanseƚa",
+	"vectorad-action-delete": "Descançeła",
 	"vectorad-action-move": "Sposta",
-	"vectorad-action-protect": "Protegi",
-	"vectorad-action-undelete": "Recupera",
+	"vectorad-action-protect": "Protexi",
+	"vectorad-action-undelete": "Recùpara",
 	"vectorad-action-unprotect": "Canbia ƚa protesion",
 	"vectorad-view-create": "Crea",
 	"vectorad-view-edit": "Canbia",
-	"vectorad-view-history": "Varda ƚa stòria",
+	"vectorad-view-history": "Varda l'istorego",
 	"vectorad-view-view": "Lexi",
 	"vectorad-view-viewsource": "Varda el testo",
-	"vectorad-more-actions": "Piassè"
+	"vectorad-more-actions": "Piasè"
 }

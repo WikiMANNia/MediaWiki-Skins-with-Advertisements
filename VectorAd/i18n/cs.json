@@ -1,14 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dvorapa",
+			"Matěj Suchánek",
 			"Mormegil",
-			"Dvorapa"
+			"Patriccck"
 		]
 	},
 	"skinname-vectorad": "VektorAd",
-	"vectorad-skin-desc": "Moderní verze MonoBooku s novějším vzhledem a vylepšenou použitelností",
-	"vectorad.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled VektorAd. */",
-	"vectorad.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu VektorAd. */",
+	"vectorad-skin-desc": "Moderní verze vzhledu Kniha s novějším vzhledem a vylepšenou použitelností",
+	"vectorad.css": "/* Veškeré zde uvedené CSS bude načítáno uživatelům vzhledu „Vektor“ */",
+	"vectorad.js": "/* Veškerý zde uvedený JavaScript bude načítán uživatelům vzhledu „Vektor“ */",
 	"vectorad-action-addsection": "Přidat téma",
 	"vectorad-action-delete": "Smazat",
 	"vectorad-action-move": "Přesunout",

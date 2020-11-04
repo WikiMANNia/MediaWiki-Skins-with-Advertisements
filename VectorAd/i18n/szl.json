@@ -3,20 +3,21 @@
 		"authors": [
 			"Britscher",
 			"Gaj777",
-			"Przemub",
 			"Krol111",
-			"Przem(1)s"
+			"Przem(1)s",
+			"Przemub",
+			"Uostofchuodnego"
 		]
 	},
-	"vectorad-action-addsection": "Nowo tajla",
-	"vectorad-action-delete": "Wyćepej",
-	"vectorad-action-move": "Przećep",
+	"vectorad-action-addsection": "Przidej tymat",
+	"vectorad-action-delete": "Skasuj",
+	"vectorad-action-move": "Przeniyś",
 	"vectorad-action-protect": "Zawrzij",
 	"vectorad-action-undelete": "Wćep",
 	"vectorad-action-unprotect": "Uodymkńij",
-	"vectorad-view-create": "Stwůrz",
+	"vectorad-view-create": "Stwōrz",
 	"vectorad-view-edit": "Edytuj",
-	"vectorad-view-history": "Uobocz gyszichta",
+	"vectorad-view-history": "Pokŏż historyjõ",
 	"vectorad-view-view": "Czytej",
 	"vectorad-view-viewsource": "Zdrzůdłowy tekst",
 	"vectorad-more-actions": "Wiyncyj"

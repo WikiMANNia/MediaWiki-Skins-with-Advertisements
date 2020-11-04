@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Filipinayzd",
-			"Geopoet"
+			"Geopoet",
+			"ShimunUfesoj"
 		]
 	},
-	"vectorad-action-addsection": "Idagdag an topic",
+	"vectorad-action-addsection": "Magdagdag nin pag-uulayan",
 	"vectorad-action-delete": "puráon",
 	"vectorad-action-move": "Ibalyó",
 	"vectorad-action-protect": "Protektaran",
@@ -14,7 +15,7 @@
 	"vectorad-view-create": "Magmukna",
 	"vectorad-view-edit": "Liwatón",
 	"vectorad-view-history": "Tanawon sa historiya",
-	"vectorad-view-view": "Basáha",
+	"vectorad-view-view": "Basáhon",
 	"vectorad-view-viewsource": "Hilingón an ginikánan",
 	"vectorad-more-actions": "Kadugangan"
 }

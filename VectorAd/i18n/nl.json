@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Calak",
+			"Mainframe98",
 			"Romaine",
 			"SPQRobin",
 			"Siebrand",
-			"Troefkaart",
 			"Sjoerddebruin",
-			"Mainframe98"
+			"Troefkaart",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Moderne versie van MonoBook met een fris uiterlijk en verbeteringen op het gebied van gebruiksvriendelijkheid",
+	"vectorad-skin-desc": "Op basis van [https://www.mediawiki.org/wiki/Skin:Vector Vector] biedt het vier mogelijke advertentieruimtes die door LocalSettings.php worden ingevuld.",
 	"vectorad.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk VectorAd */",
 	"vectorad.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk VectorAd gebruiken */",
 	"vectorad-action-addsection": "Kopje toevoegen",
@@ -27,5 +28,11 @@
 	"vectorad-view-viewsource": "Brontekst bekijken",
 	"vectorad-jumptonavigation": "Naar navigatie springen",
 	"vectorad-jumptosearch": "Naar zoeken springen",
-	"vectorad-more-actions": "Meer"
+	"vectorad-more-actions": "Meer",
+	"vectorad-advertising": "Publiciteit",
+	"vectorad-eventnote": "Evenement",
+	"vectorad-hint": "Briefje",
+	"vectorad-donations": "Wij vragen om",
+	"vectorad-facebook": "Bezoek ons op",
+	"vectorad-labelled": "gemarkeerd met"
 }

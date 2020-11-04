@@ -3,20 +3,20 @@
 		"authors": [
 			"Darth Kule",
 			"EugeneZelenko",
-			"Lloffiwr",
-			"Shirayuki",
-			"Umherirrender",
-			"Matma Rex",
 			"Liuxinyu970226",
-			"Raymond",
+			"Lloffiwr",
+			"Matma Rex",
 			"Metalhead64",
-			"Tacsipacsi"
+			"Raymond",
+			"Shirayuki",
+			"Tacsipacsi",
+			"Umherirrender"
 		]
 	},
 	"skinname-vectorad": "{{name}}",
 	"vectorad.css": "{{optional}}",
 	"vectorad.js": "{{optional}}",
-	"vectorad-skin-desc": "{{desc|what=skin|name=VectorAd|url=https://www.mediawiki.org/wiki/Skin:Vector}}",
+	"vectorad-skin-desc": "{{desc|what=skin|name=VectorAd|url=https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_33-vectorad}}",
 	"vectorad-action-addsection": "Used in the VectorAd skin. See for example {{canonicalurl:Talk:Main_Page|useskin=vectorad}}\n{{Identical|Add topic}}",
 	"vectorad-action-delete": "Used in the VectorAd skin, as the name of a tab at the top of the page. See for example {{canonicalurl:Translating:MediaWiki|useskin=vectorad}}\n\n{{Identical|Delete}}",
 	"vectorad-action-move": "Used in the VectorAd skin, on the tabs at the top of the page. See for example {{canonicalurl:Talk:Main_Page|useskin=vectorad}}\n\n{{Identical|Move}}",

@@ -32,10 +32,33 @@ class VectorAdTemplate extends BaseTemplate {
 	 * Outputs the entire contents of the HTML page
 	 */
 	public function execute() {
+		global $wgTopBannerCode;
+		$issetSitenoticeBox    = $this->data['sitenotice'];
+		$issetAdvertisementBox = isset($wgTopBannerCode);
+
+		// Randomly display either the sitenotice or the banner ad.
+		// Zeige zufallsgesteuert entweder die Sitenotice oder den Werbebanner an.
+		if ($issetSitenoticeBox && $issetAdvertisementBox) {
+			if ( rand(0, 1) ) {
+#				$this->data['sitenotice'] = [...]; // is yet set
+				$this->data['sitebanner'] = null;
+			} else {
+				$this->data['sitenotice'] = null;
+				$this->data['sitebanner'] = $this->getAdvertisementBoxOben();
+			}
+		} elseif ($issetSitenoticeBox) {
+#			$this->data['sitenotice'] = [...]; // is yet set
+			$this->data['sitebanner'] = null;
+		} elseif ($issetAdvertisementBox) {
+			$this->data['sitenotice'] = null;
+			$this->data['sitebanner'] = $this->getAdvertisementBoxOben();
+		}
+		$this->data['bottombanner'] = $this->getAdvertisementBoxUnten();
+
 		$this->data['namespace_urls'] = $this->data['content_navigation']['namespaces'];
-		$this->data['view_urls'] = $this->data['content_navigation']['views'];
-		$this->data['action_urls'] = $this->data['content_navigation']['actions'];
-		$this->data['variant_urls'] = $this->data['content_navigation']['variants'];
+		$this->data['view_urls']      = $this->data['content_navigation']['views'];
+		$this->data['action_urls']    = $this->data['content_navigation']['actions'];
+		$this->data['variant_urls']   = $this->data['content_navigation']['variants'];
 
 		// Move the watch/unwatch star outside of the collapsed "actions" menu to the main "views" menu
 		if ( $this->config->get( 'VectorAdUseIconWatch' ) ) {
@@ -58,6 +81,7 @@ class VectorAdTemplate extends BaseTemplate {
 		$params = [
 			'html-headelement' => $this->get( 'headelement', '' ),
 			'html-sitenotice' => $this->get( 'sitenotice', null ),
+			'html-sitebanner' => $this->get( 'sitebanner', null ),
 			'html-indicators' => $this->getIndicators(),
 			'page-langcode' => $this->getSkin()->getTitle()->getPageViewLanguage()->getHtmlCode(),
 			'page-isarticle' => (bool)$this->data['isarticle'],
@@ -89,6 +113,7 @@ class VectorAdTemplate extends BaseTemplate {
 			'html-printfooter' => $this->get( 'printfooter', null ),
 			'html-catlinks' => $this->get( 'catlinks', '' ),
 			'html-dataAfterContent' => $this->get( 'dataAfterContent', '' ),
+			'html-bottombanner' => $this->get( 'bottombanner', null ),
 			// From MWDebug::getHTMLDebugLog (when $wgShowDebug is enabled)
 			'html-debuglog' => $this->get( 'debughtml', '' ),
 			// From BaseTemplate::getTrail (handles bottom JavaScript)
@@ -112,7 +137,7 @@ class VectorAdTemplate extends BaseTemplate {
 			<div id="mw-panel">
 				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="<?php
 					echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] )
-					?>"<?php
+					?>" <?php
 					echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
 					?>></a></div>
 				<?php $this->renderPortals( $this->data['sidebar'] ); ?>
@@ -173,6 +198,22 @@ class VectorAdTemplate extends BaseTemplate {
 	 * @param array $portals
 	 */
 	protected function renderPortals( array $portals ) {
+		global $wgAdSidebarTopCode, $wgAdSidebarBottomCode;
+		global $wgAdSidebarTopType, $wgAdSidebarBottomType;
+		/* ------------------------------------------------- //
+		   WikiMANNia hack - Add DonationBox and FacebookBox
+		// ------------------------------------------------- */
+		if ( !empty( $this->getDonationBox() ) ) {
+			$portals = array_merge ( $portals, [ 'donations' => $this->getDonationBox() ] );
+		}
+		if ( !empty( $this->getFacebookBox() ) ) {
+			$portals = array_merge ( $portals, [ 'facebook' => $this->getFacebookBox() ] );
+		}
+		if ( !empty( $this->getAltersklassifizierungBox() ) ) {
+			$portals = array_merge ( $portals, [ 'labelled' => $this->getAltersklassifizierungBox() ] );
+		}
+		/* ------------------------------------------------- */
+
 		// Force the rendering of the following portals
 		if ( !isset( $portals['TOOLBOX'] ) ) {
 			$portals['TOOLBOX'] = true;
@@ -191,6 +232,18 @@ class VectorAdTemplate extends BaseTemplate {
 
 			switch ( $name ) {
 				case 'SEARCH':
+					break;
+				case 'AD1':
+					if ( !empty( $wgAdSidebarTopCode ) ) {
+						$tmp_name = isset($wgAdSidebarTopType) ? $wgAdSidebarTopType : 'advertising';
+						$this->renderPortal( 'advertising', $wgAdSidebarTopCode, $tmp_name );
+					}
+					break;
+				case 'AD2':
+					if ( !empty( $wgAdSidebarBottomCode ) ) {
+						$tmp_name = isset($wgAdSidebarBottomType) ? $wgAdSidebarBottomType : 'advertising';
+						$this->renderPortal( 'advertising', $wgAdSidebarBottomCode, $tmp_name );
+					}
 					break;
 				case 'TOOLBOX':
 					$this->renderPortal( 'tb', $this->getToolbox(), 'toolbox', 'SkinTemplateToolboxEnd' );
@@ -219,18 +272,23 @@ class VectorAdTemplate extends BaseTemplate {
 			$msg = $name;
 		}
 		$msgObj = $this->getMsg( $msg );
-		$labelId = Sanitizer::escapeIdForAttribute( "p-$name-label" );
+		$labelId = htmlspecialchars( Sanitizer::escapeIdForAttribute( "p-$name-label" ) );
+		$body_class = 'body';
+		if ( $name === 'advertising' )  $body_class = 'body2';
+		if ( $name === 'facebook'  )    $body_class = 'body3';
+		if ( $name === 'donations' )    $body_class = 'body3';
+		if ( $name === 'labelled' )     $body_class = 'body3';
 		?>
 		<div class="portal" role="navigation" id="<?php
 		echo htmlspecialchars( Sanitizer::escapeIdForAttribute( "p-$name" ) )
-		?>"<?php
+		?>" <?php
 		echo Linker::tooltip( 'p-' . $name )
-		?> aria-labelledby="<?php echo htmlspecialchars( $labelId ) ?>">
-			<h3<?php $this->html( 'userlangattributes' ) ?> id="<?php echo htmlspecialchars( $labelId )
+		?> aria-labelledby="<?php echo $labelId ?>">
+			<h3<?php $this->html( 'userlangattributes' ) ?> id="<?php echo $labelId
 				?>"><?php
 				echo htmlspecialchars( $msgObj->exists() ? $msgObj->text() : $msg );
 				?></h3>
-			<div class="body">
+			<div class="<?php echo $body_class ?>">
 				<?php
 				if ( is_array( $content ) ) {
 				?>
@@ -352,7 +410,7 @@ class VectorAdTemplate extends BaseTemplate {
 						<h3 id="p-cactions-label"><span><?php
 							$this->msg( 'vectorad-more-actions' )
 						?></span></h3>
-						<ul class="menu"<?php $this->html( 'userlangattributes' ) ?>>
+						<ul class="menu" <?php $this->html( 'userlangattributes' ) ?>>
 							<?php
 							foreach ( $this->data['action_urls'] as $key => $item ) {
 								echo $this->makeListItem( $key, $item );
@@ -479,5 +537,123 @@ class VectorAdTemplate extends BaseTemplate {
 		unset( $item['redundant'] );
 
 		return parent::makeListItem( $key, $item, $options );
+	}
+
+	/**
+	 * Renderer for advertisement block
+	 *
+	 * @return string html
+	 */
+	private function getAdvertisementBoxOben() {
+		global $wgTopBannerCode, $wgTopBannerStyle, $wgTopBannerType;
+		$id    = 'siteNotice';
+		$class = 'body';
+		$style = $wgTopBannerStyle;
+
+		return $this->getAdvertisementBox( $wgTopBannerCode, $wgTopBannerType, $id, $class, $style );
+	}
+	private function getAdvertisementBoxUnten() {
+		global $wgBottomBannerCode, $wgBottomBannerStyle, $wgBottomBannerType;
+		$id    = 'bottomBanner';
+		$class = 'body';
+		$style = $wgBottomBannerStyle;
+
+		return $this->getAdvertisementBox( $wgBottomBannerCode, $wgBottomBannerType, $id, $class, $style );
+	}
+	private function getAdvertisementBox( $code, $type, $id, $class, $style ) {
+
+		if ( isset( $code ) ) {
+			$msg_key = isset($type) ? $type : 'advertising';
+			return $this->getMsg( 'vectorad-' . $msg_key ) . ':' .
+				'<div class="' . $class .
+				( isset($style) ? '" style="' . $style : '' ) .
+			    '">' .
+			    $code .
+			    '</div>';
+		}
+
+		return '';
+	}
+
+	/**
+	 * Renderer for donation block
+	 *
+	 * @return string html
+	 */
+	private function getDonationBox() {
+		global $wgDonationButton, $wgDonationButtonIMG, $wgDonationButtonURL;
+		global $wgLanguageCode;
+		if ( empty($wgDonationButton) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonIMG) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($wgDonationButton === 'true') || ($wgDonationButton === true)) {
+			// If the passed URL ends with a '=', append the language abbreviation to make the donation page language sensitive.
+			// Wenn die übergebene URL mit einem '=' endet, das Sprachenkürzel anhängen, um die Spendenseite sprachsensitiv zu behandeln.
+			if (substr ( $wgDonationButtonURL, (strlen ( $wgDonationButtonURL ) - 1), 1 ) === '=') {
+				$wgDonationButtonURL .= ((strlen ( wfMessage( 'lang' ) ) == 2) ? wfMessage( 'lang' ) : $wgLanguageCode);
+			}
+			if (substr ( $wgDonationButtonIMG, 0, 1 ) !== '/') {
+				$wgDonationButtonIMG = '/' . $wgDonationButtonIMG;
+			}
+			// If the domin contains a subdomain, try adjusting the subdomain of the language selection to select the button image language sensitively.
+			// Wenn die Domin eine Subdomain enthält, versuche die Subdomain der Sprachauswahl anzupassen, um das Button-Bild sprachsensitiv auszuwählen.
+			$tmpServerDomain = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, '//' )+2);
+			$tmpServerDomain = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '/' ));
+			$tmpDonationButtonIMG = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, $tmpServerDomain ) + strlen ( $tmpServerDomain ));
+			if (substr_count ( $tmpServerDomain, '.' ) == 2) {
+				$tmpLang = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '.' ));
+				if (strlen ( wfMessage( 'lang' ) ) == 2) {
+					$tmpServerDomain = wfMessage( 'lang' ) . substr ( $tmpServerDomain, strpos ( $tmpServerDomain, '.' ));
+				}
+			}
+			$html = '<a href="//' . $wgDonationButtonURL . '"><img alt="Donate-Button" src="//' . $tmpServerDomain . $tmpDonationButtonIMG . '" style="height:26px; width:92px;" /></a>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for wima block
+	 *
+	 * @return string html
+	 */
+	private function getWimaBox( $buttonActive, $buttonIMG, $buttonURL, $buttonAlt, $buttonStyle ) {
+
+		if ( empty($buttonActive) ) return ''; // Do nothing
+		if ( empty($buttonIMG) ) return ''; // Do nothing
+		if ( empty($buttonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($buttonActive === 'true') || ($buttonActive === true)) {
+			$html = '<div title="Reiner Link ohne Skripte" class="body" style="margin-left:-5px;text-align:center;">';
+			$html .= '<a href="//' . $buttonURL . '"><img alt="'.$buttonAlt.'" src="//' . $buttonIMG . '" style="'.$buttonStyle.'" /></a>';
+			$html .= '</div>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for facebook block
+	 *
+	 * @return string html
+	 */
+	private function getFacebookBox() {
+		global $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL;
+
+		return $this->getWimaBox( $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL, 'Facebook-Button', 'width:148px; height:57px;' );
+	}
+
+	/**
+	 * Renderer for Altersklassifizierung block
+	 *
+	 * @return string html
+	 */
+	private function getAltersklassifizierungBox() {
+		global $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL;
+
+		return $this->getWimaBox( $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL, 'AgeClassification-Button', 'width:148px; height:28px;' );
 	}
 }

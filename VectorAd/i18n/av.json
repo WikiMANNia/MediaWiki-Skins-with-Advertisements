@@ -1,11 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар",
-			"Gazimagomedov"
+			"Gazimagomedov",
+			"Умар"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "MonoBook'алъул цӀияб версия цияб куцгун ва цӀиял юзабилитиялгун",
 	"vectorad-action-addsection": "Тема жубазе",
 	"vectorad-action-delete": "БацIцIине",

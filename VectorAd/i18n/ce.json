@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар",
-			"Исмаил Садуев"
+			"Исмаил Садуев",
+			"Умар"
 		]
 	},
-	"skinname-vectorad": "Векторан",
+	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "ХӀокху хенан MonoBook-ан верси кечдинчу карладахаршца а, дуккха а тодаршца юзабилити чохь",
 	"vectorad-action-addsection": "Тема тӀетоха",
 	"vectorad-action-delete": "ДӀаяккхар",
@@ -15,9 +15,11 @@
 	"vectorad-action-undelete": "МеттахӀоттае",
 	"vectorad-action-unprotect": "Ларъяр хийцар",
 	"vectorad-view-create": "Кхоллар",
-	"vectorad-view-edit": "Нисъе",
-	"vectorad-view-history": "АгӀона хийцамаш",
-	"vectorad-view-view": "Éшар",
+	"vectorad-view-edit": "Нисъе бӀаьра",
+	"vectorad-view-history": "АгӀонан хийцамаш",
+	"vectorad-view-view": "Ешар",
 	"vectorad-view-viewsource": "Билглонашка хьажа",
+	"vectorad-jumptonavigation": "Навигацин тӀегӀо",
+	"vectorad-jumptosearch": "Лахарна тӀегӀо",
 	"vectorad-more-actions": "Кхин"
 }

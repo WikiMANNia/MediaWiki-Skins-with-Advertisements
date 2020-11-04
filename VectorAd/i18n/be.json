@@ -1,14 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Artsiom91",
 			"Mikalai Udodau",
 			"Yury Tarasievich",
 			"Дзяніс Тутэйшы",
-			"Хомелка",
-			"Artsiom91"
+			"Хомелка"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Сучасная версія вокладкі Манабук, з абноўленым відам і шматлікімі зручнымі паляпшэннямі",
 	"vectorad-action-addsection": "Дадаць тэму",
 	"vectorad-action-delete": "Выдаліць",

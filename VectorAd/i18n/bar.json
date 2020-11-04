@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Bua333",
+			"Joe Watzmo",
 			"Mucalexx",
-			"Joe Watzmo"
+			"WikiBayer"
 		]
 	},
 	"vectorad-action-addsection": "An Obschnitt dazua doa",
 	"vectorad-action-delete": "Leschn",
 	"vectorad-action-move": "Vaschiabm",
-	"vectorad-action-protect": "Schitzn",
+	"vectorad-action-protect": "schitzn",
 	"vectorad-action-undelete": "Wiederherstön",
 	"vectorad-action-unprotect": "freigeem",
 	"vectorad-view-create": "Aufbaun",

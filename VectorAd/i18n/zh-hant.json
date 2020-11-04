@@ -3,16 +3,16 @@
 		"authors": [
 			"Cwlin0416",
 			"Justincheng12345",
-			"Liuxinyu970226",
-			"Mark85296341",
+			"Kly",
 			"LNDDYL",
-			"Kly"
+			"Liuxinyu970226",
+			"Mark85296341"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "現代版的 MonoBook，有著較新穎的外觀與許多使用性的改進",
 	"vectorad.css": "/* 此 CSS 會影響使用 VectorAd 介面外觀的使用者 */",
 	"vectorad.js": "/* 此 JavaScript 會用於使用 VectorAd 介面外觀的使用者 */",
-	"vectorad-skin-desc": "現代版的 MonoBook，有著較新穎的外觀與許多使用性的改進",
 	"vectorad-action-addsection": "新增話題",
 	"vectorad-action-delete": "刪除",
 	"vectorad-action-move": "移動",

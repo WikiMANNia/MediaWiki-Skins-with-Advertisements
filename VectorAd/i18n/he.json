@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Rotemliss",
-			"Guycn2"
+			"Guycn2",
+			"Rotemliss"
 		]
 	},
-	"skinname-vectorad": "וקטור",
+	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "גרסה מודרנית של העיצוב \"מונובוק\" עם מראה רענן ושיפורי שמישות רבים",
 	"vectorad.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"וקטור\" בלבד */",
 	"vectorad.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"וקטור\" בלבד */",

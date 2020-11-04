@@ -8,8 +8,8 @@
 	},
 	"skinname-vectorad": "VektorAd",
 	"vectorad-skin-desc": "MonoBooki uuem versioon värskema väljanägemise ja mitme kasutajasõbralikuma täiendusega",
-	"vectorad.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki VektorAdi-kujunduse kasutajaid. */",
-	"vectorad.js": "/* Siin asuv JavaScript laaditakse kõigi VektorAdi-kujunduse kasutajate jaoks. */",
+	"vectorad.css": "/* Siin asuv kaskaadilaadistik laaditakse kõigi Vektori ad-kujunduse kasutajate jaoks. */",
+	"vectorad.js": "/* Siin asuv JavaScript laaditakse kõigi Vektori ad-kujunduse kasutajate jaoks. */",
 	"vectorad-action-addsection": "Lisa teema",
 	"vectorad-action-delete": "Kustuta",
 	"vectorad-action-move": "Teisalda",
@@ -21,5 +21,7 @@
 	"vectorad-view-history": "Näita ajalugu",
 	"vectorad-view-view": "Vaata",
 	"vectorad-view-viewsource": "Vaata lähteteksti",
+	"vectorad-jumptonavigation": "Mine navigeerimisribale",
+	"vectorad-jumptosearch": "Mine otsikasti",
 	"vectorad-more-actions": "Veel"
 }

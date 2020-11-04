@@ -2,15 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Ktchankt",
+			"Roy17",
 			"Waihorace",
-			"Yueman",
-			"Roy17"
+			"Yueman"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "MonoBook嘅摩登版，有新嘅樣，又有好多功能改進",
 	"vectorad.css": "/* 響呢度放 CSS 碼去改用戶用嘅域達畫面 */",
 	"vectorad.js": "/* 響每一次個頁面載入時，用域達畫面嘅用戶都會載入呢度任何嘅JavaScript */",
-	"vectorad-skin-desc": "MonoBook嘅摩登版，有新嘅樣，又有好多功能改進",
 	"vectorad-action-addsection": "加主題",
 	"vectorad-action-delete": "剷走",
 	"vectorad-action-move": "搬",

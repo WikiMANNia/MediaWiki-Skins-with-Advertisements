@@ -4,14 +4,14 @@
 			"Calak",
 			"Crazymadlover",
 			"Evropi",
+			"Geraki",
+			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Protnet",
 			"ZaDiak",
-			"Geraki",
-			"Nikosgranturismogt"
+			"Αντιγόνη"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Σύγχρονη έκδοση του MonoBook με φρέσκια ματιά και πολλές βελτιώσεις χρηστικότητας",
 	"vectorad.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του VectorAd skin */",
 	"vectorad.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το VectorAd skin */",
@@ -26,7 +26,7 @@
 	"vectorad-view-history": "Προβολή ιστορικού",
 	"vectorad-view-view": "Ανάγνωση",
 	"vectorad-view-viewsource": "Προβολή κώδικα",
-	"vectorad-jumptonavigation": "Πήδηση στην πλοήγηση",
+	"vectorad-jumptonavigation": "Μετάβαση στην πλοήγηση",
 	"vectorad-jumptosearch": "Πήδηση στην αναζήτηση",
 	"vectorad-more-actions": "Περισσότερα"
 }

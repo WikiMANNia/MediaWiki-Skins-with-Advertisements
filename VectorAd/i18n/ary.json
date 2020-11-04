@@ -1,22 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Enzoreg",
-			"Zanatos",
 			"Abdeaitali",
-			"Reda Benkhadra"
+			"Enzoreg",
+			"Reda Benkhadra",
+			"SADI9I",
+			"SADIQUI",
+			"Zanatos"
 		]
 	},
-	"vectorad-action-addsection": "Zid topic",
-	"vectorad-action-delete": "Suprimi",
-	"vectorad-action-move": "Neqel",
-	"vectorad-action-protect": "Ḫami",
-	"vectorad-action-undelete": "rja lhadf",
-	"vectorad-action-unprotect": "Ḫiyed l-ḫimaya",
-	"vectorad-view-create": "Ĥṫareĝ",
-	"vectorad-view-edit": "Ĝedel",
-	"vectorad-view-history": "Ṫariĥ l-fiċyé",
+	"vectorad-action-addsection": "زيد شي موضوع",
+	"vectorad-action-delete": "حدف",
+	"vectorad-action-move": "حوّل",
+	"vectorad-action-protect": "حمي",
+	"vectorad-action-undelete": "لغي الحدف",
+	"vectorad-action-unprotect": "بدّل الحماية",
+	"vectorad-view-create": "أنشئ",
+	"vectorad-view-edit": "بدل",
+	"vectorad-view-history": "تاريخ",
 	"vectorad-view-view": "قرا",
-	"vectorad-view-viewsource": "Ċof l-masdar",
-	"vectorad-more-actions": "زيد"
+	"vectorad-view-viewsource": "شوف المصدر",
+	"vectorad-more-actions": "كتر"
 }

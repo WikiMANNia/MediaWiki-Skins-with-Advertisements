@@ -6,17 +6,18 @@
 			"Base",
 			"Calak",
 			"Dim Grits",
+			"Movses",
 			"NickK",
+			"Piramidion",
 			"Prima klasy4na",
-			"Тест",
 			"Ата",
-			"Piramidion"
+			"Тест"
 		]
 	},
-	"skinname-vectorad": "Векторне",
-	"vectorad.css": "/* Розміщений тут CSS-код буде використаний в темі оформлення Векторне */",
-	"vectorad.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують векторну тему оформлення */",
+	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Сучасна версія MonoBook зі свіжим виглядом і багатьма зручними покращеннями",
+	"vectorad.css": "/* Розміщений тут CSS-код буде використаний в темі оформлення VectorAd */",
+	"vectorad.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують VectorAd тему оформлення */",
 	"vectorad-action-addsection": "Додати тему",
 	"vectorad-action-delete": "Вилучити",
 	"vectorad-action-move": "Перейменувати",

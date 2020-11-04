@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Flixtey",
-			"Mybluberet",
-			"Gkbediako"
+			"Gkbediako",
+			"Mybluberet"
 		]
 	},
 	"vectorad-action-addsection": "Kɛ mlijaa yitso afata he",
@@ -12,7 +13,7 @@
 	"vectorad-action-protect": "Yibaamɔ",
 	"vectorad-view-create": "Bɔɔ",
 	"vectorad-view-edit": "Tsakemɔ",
-	"vectorad-view-history": "kwɛmɔ nibii ni eho",
+	"vectorad-view-history": "Kwɛmɔ nibii ni eho",
 	"vectorad-view-view": "Kanemɔ",
 	"vectorad-more-actions": "Pii"
 }

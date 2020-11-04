@@ -4,9 +4,9 @@
 			"ChrisPtDe"
 		]
 	},
-	"skinname-vectorad": "Vèctor",
-	"vectorad.css": "/* Lo code CSS betâ ique afècterat los usanciérs de l’habelyâjo « Vèctor ». */",
-	"vectorad.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo « Vèctor ». */",
+	"skinname-vectorad": "VèctorAd",
+	"vectorad.css": "/* Lo code CSS betâ ique afècterat los usanciérs de l’habelyâjo VèctorAd. */",
+	"vectorad.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo VèctorAd. */",
 	"vectorad-action-addsection": "Apondre na chousa",
 	"vectorad-action-delete": "Suprimar",
 	"vectorad-action-move": "Dèplaciér",

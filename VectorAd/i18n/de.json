@@ -4,11 +4,12 @@
 			"Kghbln",
 			"Metalhead64",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Stellt eine modernisierte Benutzeroberfläche bereit.",
+	"vectorad-skin-desc": "Basierend auf [https://www.mediawiki.org/wiki/Skin:Vector Vector] stellt es vier mögliche Werbeplätze bereit, die von der LocalSettings.php befüllt werden.",
 	"vectorad.css": "/* Das folgende CSS wird für Benutzer der VectorAd-Benutzeroberfläche geladen. */",
 	"vectorad.js": "/* Das folgende JavaScript wird für Benutzer der VectorAd-Benutzeroberfläche geladen. */",
 	"vectorad-action-addsection": "Abschnitt hinzufügen",
@@ -24,5 +25,11 @@
 	"vectorad-view-viewsource": "Quelltext anzeigen",
 	"vectorad-jumptonavigation": "Zur Navigation springen",
 	"vectorad-jumptosearch": "Zur Suche springen",
-	"vectorad-more-actions": "Mehr"
+	"vectorad-more-actions": "Mehr",
+	"vectorad-advertising": "Werbung",
+	"vectorad-eventnote": "Veranstaltung",
+	"vectorad-hint": "Hinweis",
+	"vectorad-donations": "Wir bitten um",
+	"vectorad-facebook": "Besuchen Sie uns auf",
+	"vectorad-labelled": "gekennzeichnet mit"
 }

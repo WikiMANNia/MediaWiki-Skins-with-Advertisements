@@ -2,22 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Kening Aldgilles",
-			"SK-luuut",
-			"Robin0van0der0vliet",
+			"PiefPafPier",
 			"Robin van der Vliet",
-			"PiefPafPier"
+			"Robin0van0der0vliet",
+			"SK-luuut"
 		]
 	},
+	"skinname-vectorad": "VektorAd",
+	"vectorad-skin-desc": "Moderne ferzje fan MonoBoek mei in fris oansjoch en protte noflike ferbetterings",
+	"vectorad.css": "/* Al it CSS hjirre sil foar brûkers fan de VektorAd-foarmjouwing laden wurde */",
+	"vectorad.js": "/* Al it JavaScript hjirre sil foar brûkers fan de VektorAd-foarmjouwing laden wurde */",
 	"vectorad-action-addsection": "Nij mêd",
-	"vectorad-action-delete": "Fuortsmite",
+	"vectorad-action-delete": "Wiskje",
 	"vectorad-action-move": "Omneame",
-	"vectorad-action-protect": "Beskermje",
-	"vectorad-action-undelete": "Tebeksette",
-	"vectorad-action-unprotect": "Beskerming fuorthelje",
+	"vectorad-action-protect": "Skoattelje",
+	"vectorad-action-undelete": "Wer teplak sette",
+	"vectorad-action-unprotect": "Befeiliging wizigje",
 	"vectorad-view-create": "Oanmeitsje",
 	"vectorad-view-edit": "Bewurkje",
-	"vectorad-view-history": "Skiednis sjen litte",
+	"vectorad-view-history": "Skiednis besjen",
 	"vectorad-view-view": "Lêze",
-	"vectorad-view-viewsource": "Besjoch de boarne",
+	"vectorad-view-viewsource": "Boarne besjen",
+	"vectorad-jumptonavigation": "Springe nei navigaasje",
+	"vectorad-jumptosearch": "Springe nei sykjen",
 	"vectorad-more-actions": "Mear"
 }

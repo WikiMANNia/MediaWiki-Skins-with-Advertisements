@@ -4,6 +4,7 @@
 <div id="content" class="mw-body" role="main">
 	<a id="top"></a>
 	{{#html-sitenotice}}<div id="siteNotice" class="mw-body-content">{{{html-sitenotice}}}</div>{{/html-sitenotice}}
+	{{#html-sitebanner}}<div id="siteBanner" class="mw-body-content">{{{html-sitebanner}}}</div>{{/html-sitebanner}}
 	{{{html-indicators}}}
 	<h1 id="firstHeading" class="firstHeading" lang="{{page-langcode}}">{{{html-title}}}</h1>
 	{{{html-prebodyhtml}}}
@@ -20,6 +21,7 @@
 		<a class="mw-jump-link" href="#mw-head">{{msg-jumptonavigation}}</a>
 		<a class="mw-jump-link" href="#p-search">{{msg-jumptosearch}}</a>
 		{{{html-bodycontent}}}
+		{{#html-bottombanner}}<div id="bottomBanner" class="mw-body-banner">{{{html-bottombanner}}}</div>{{/html-bottombanner}}
 		{{#html-printfooter}}
 		<div class="printfooter">{{{html-printfooter}}}</div>
 		{{/html-printfooter}}

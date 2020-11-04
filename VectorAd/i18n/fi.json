@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Crt",
 			"Nedergard",
 			"Nike",
 			"Pxos",
-			"SuperPete",
-			"01miki10"
+			"Pyscowicz",
+			"SuperPete"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
+	"skinname-vectorad": "Vektori Ad",
 	"vectorad-skin-desc": "Uudistettu versio MonoBookista raikkaalla ulkoasulla ja useilla käytettävyysparannuksilla",
-	"vectorad.css": "/* Tämä sivu sisältää VectorAd-ulkoasua muuttavia tyylejä. */",
-	"vectorad.js": "/* Tämän sivun JavaScript-koodi liitetään VectorAd-tyyliin */",
+	"vectorad.css": "/* Tämä sivu sisältää Vektori ad-ulkoasua muuttavia tyylejä. */",
+	"vectorad.js": "/* Tämän sivun JavaScript-koodi liitetään Vektori ad-tyyliin */",
 	"vectorad-action-addsection": "Lisää aihe",
 	"vectorad-action-delete": "Poista",
 	"vectorad-action-move": "Siirrä",

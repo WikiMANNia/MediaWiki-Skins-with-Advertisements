@@ -1,33 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Asmen",
 			"Calak",
-			"Erdemaslancan",
-			"Mirzali",
-			"Gorizon",
-			"Kumkumuk",
-			"Gırd",
-			"Velg",
-			"1917 Ekim Devrimi",
 			"Dılmıc",
-			"Gambollar"
+			"Erdemaslancan",
+			"Gambollar",
+			"Gorizon",
+			"Gırd",
+			"Kumkumuk",
+			"Mirzali",
+			"Orbot707",
+			"Velg"
 		]
 	},
 	"skinname-vectorad": "VektorAd",
 	"vectorad-skin-desc": "Asayışo de newe be versiyonê MonoBookiyo modern ra û weşkerdışê ke şenê bıgureniyê",
-	"vectorad-action-addsection": "Mewzu vıraze",
+	"vectorad-action-addsection": "Mewzu dek",
 	"vectorad-action-delete": "Bestere",
 	"vectorad-action-move": "Bıkırışe",
 	"vectorad-action-protect": "Bışevekne",
-	"vectorad-action-undelete": "Peyser biya",
+	"vectorad-action-undelete": "Meestere",
 	"vectorad-action-unprotect": "Sıtarnayışi bıvurne",
 	"vectorad-view-create": "Vıraze",
 	"vectorad-view-edit": "Bıvurne",
-	"vectorad-view-history": "Verênan bıvêne",
+	"vectorad-view-history": "Verêni bıvêne",
 	"vectorad-view-view": "Bıwane",
-	"vectorad-view-viewsource": "Rêçi bıvin",
-	"vectorad-jumptonavigation": "Xıl de pusula",
+	"vectorad-view-viewsource": "Çımeyi bıvêne",
+	"vectorad-jumptonavigation": "Xıl de be pusula",
 	"vectorad-jumptosearch": "Xıl de cıgeyrayışi",
-	"vectorad-more-actions": "Tayêna"
+	"vectorad-more-actions": "Zêde"
 }
