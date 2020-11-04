@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"500000000006城",
+			"Cwek",
 			"Hydra",
 			"Liangent",
 			"Liuxinyu970226",
-			"Xiaomingyan",
-			"Cwek"
+			"Xiaomingyan"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "提供清新的外观和许多可用性改进的现代版MonoBook",
-	"vectorad.css": "/* 放置于这里的CSS将影响使用Vector皮肤的用户 */",
-	"vectorad.js": "/* 这里的任何JavaScript将为使用Vector皮肤的用户加载 */",
+	"vectorad.css": "/* 这里放置的CSS将影响使用 VectorAd 皮肤的用户 */",
+	"vectorad.js": "/* 这里的任何JavaScript将为使用 VectorAd 皮肤的用户加载 */",
 	"vectorad-action-addsection": "添加话题",
 	"vectorad-action-delete": "删除",
 	"vectorad-action-move": "移动",

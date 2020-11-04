@@ -23,7 +23,7 @@
  */
 
 /**
- * SkinTemplate class for Vector skin
+ * SkinTemplate class for VectorAd skin
  * @ingroup Skins
  */
 class SkinVectorAd extends SkinTemplate {
@@ -56,14 +56,14 @@ class SkinVectorAd extends SkinTemplate {
 				"/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
 		);
 
-		$out->addModules( array( 'skins.vector.js' ) );
+		$out->addModules( 'skins.vector.js' );
 	}
 
 	/**
 	 * Loads skin and user CSS files.
 	 * @param OutputPage $out
 	 */
-	function setupSkinUserCss( OutputPage $out ) {
+	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
 		$styles = array( 'mediawiki.skinning.interface', 'skins.vector.styles' );

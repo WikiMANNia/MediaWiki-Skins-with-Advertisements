@@ -6,7 +6,7 @@
 			"Woraponboonkerd"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
+	"skinname-vectorad": "เวกเตอร์",
 	"vectorad.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
 	"vectorad.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
 	"vectorad-action-addsection": "เพิ่มหัวข้อ",

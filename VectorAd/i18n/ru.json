@@ -1,16 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alexander Yukal",
 			"Ignatus",
 			"JenVan",
 			"Kaganer",
 			"Nemo bis",
 			"Okras",
-			"Александр Сигачёв"
+			"Ole Yves",
+			"Stjn",
+			"Александр Сигачёв",
+			"WikiMANNia"
 		]
 	},
-	"skinname-vectorad": "Векторное",
-	"vectorad-skin-desc": "Современная версия MonoBook с обновлённым оформлением и многими улучшениями в юзабилити",
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Основываясь на [https://www.mediawiki.org/wiki/Skin:Vector Vector], он предоставляет четыре возможных рекламных пространства, которые заполняются LocalSettings.php.",
 	"vectorad.css": "/* Размещённый здесь CSS будет применяться к векторной теме оформления */",
 	"vectorad.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления VectorAd */",
 	"vectorad-action-addsection": "Добавить тему",
@@ -23,6 +27,12 @@
 	"vectorad-view-edit": "Править",
 	"vectorad-view-history": "История",
 	"vectorad-view-view": "Читать",
-	"vectorad-view-viewsource": "Просмотр разметки",
-	"vectorad-more-actions": "Ещё"
+	"vectorad-view-viewsource": "Просмотр кода",
+	"vectorad-more-actions": "Ещё",
+	"vectorad-advertising": "Реклама",
+	"vectorad-eventnote": "Событие",
+	"vectorad-hint": "Записка",
+	"vectorad-donations": "Мы просим",
+	"vectorad-facebook": "Посетите нас на",
+	"vectorad-labelled": "отмеченный"
 }
