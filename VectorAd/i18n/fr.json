@@ -4,13 +4,19 @@
 			"Akeron",
 			"Crochet.david",
 			"DavidL",
+			"DePlusJean",
+			"Eneelk",
 			"Gomoko",
 			"Jean-Frédéric",
-			"Od1n"
+			"Niridya",
+			"Od1n",
+			"Pamputt",
+			"Wladek92",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Version moderne de MonoBook avec un aspect rajeuni et beaucoup d’améliorations ergonomiques",
+	"vectorad-skin-desc": "Basé sur [https://www.mediawiki.org/wiki/Skin:Vector Vector], il fournit quatre espaces publicitaires possibles qui sont remplis par LocalSettings.php.",
 	"vectorad.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage VectorAd. */",
 	"vectorad.js": "/* Tout code JavaScript placé ici sera chargé pour les utilisateurs de l’habillage VectorAd */",
 	"vectorad-action-addsection": "Ajouter un sujet",
@@ -21,8 +27,14 @@
 	"vectorad-action-unprotect": "Changer la protection",
 	"vectorad-view-create": "Créer",
 	"vectorad-view-edit": "Modifier",
-	"vectorad-view-history": "Historique",
+	"vectorad-view-history": "Voir l’historique",
 	"vectorad-view-view": "Lire",
 	"vectorad-view-viewsource": "Voir la source",
-	"vectorad-more-actions": "Plus"
+	"vectorad-more-actions": "Plus",
+	"vectorad-advertising": "Publicité",
+	"vectorad-eventnote": "Événement",
+	"vectorad-hint": "Conseil",
+	"vectorad-donations": "Nous vous demandons de",
+	"vectorad-facebook": "Visitez-nous sur",
+	"vectorad-labelled": "marqué avec"
 }

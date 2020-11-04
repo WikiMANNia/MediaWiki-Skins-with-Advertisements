@@ -3,16 +3,18 @@
 		"authors": [
 			"Abanima",
 			"Calak",
+			"Khaled",
 			"Meno25",
 			"Mido",
 			"OsamaK",
 			"أحمد",
+			"ديفيد",
 			"زكريا",
-			"Khaled"
+			"علاء"
 		]
 	},
-	"skinname-vectorad": "فكتور",
-	"vectorad-skin-desc": "نسة حديثة من مونوبوك بمظهر جديد وسهولة الاستخدام",
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "نسخة حديثة من مونوبوك بمظهر جديد وتحسينات لسهولة الاستخدام",
 	"vectorad.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة فكتور */",
 	"vectorad.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة فكتور */",
 	"vectorad-action-addsection": "أضف موضوعا",
@@ -23,8 +25,8 @@
 	"vectorad-action-unprotect": "غير الحماية",
 	"vectorad-view-create": "أنشئ",
 	"vectorad-view-edit": "عدل",
-	"vectorad-view-history": "اعرض التاريخ",
+	"vectorad-view-history": "تاريخ",
 	"vectorad-view-view": "اقرأ",
-	"vectorad-view-viewsource": "اعرض المصدر",
-	"vectorad-more-actions": "مزيد"
+	"vectorad-view-viewsource": "عرض المصدر",
+	"vectorad-more-actions": "المزيد"
 }

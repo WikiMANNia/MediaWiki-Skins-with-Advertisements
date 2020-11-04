@@ -1,17 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
 			"Cainamarques",
 			"Diego Queiroz",
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
 			"Giro720",
+			"He7d3r",
 			"Helder.wiki",
-			555,
-			"He7d3r"
+			"Opraco",
+			555
 		]
 	},
-	"vectorad.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do skin VectorAd */",
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:Vector Vector], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
+	"vectorad.css": "/* CSS colocado aqui irá afetar usuários do tema VectorAd */",
+	"vectorad.js": "/* Qualquer JavaScript aqui colocado será carregado para usuários usando o tema VectorAd */",
 	"vectorad-action-addsection": "Adicionar tópico",
-	"vectorad-action-delete": "Eliminar",
+	"vectorad-action-delete": "Excluir",
 	"vectorad-action-move": "Mover",
 	"vectorad-action-protect": "Proteger",
 	"vectorad-action-undelete": "Restaurar",

@@ -1,15 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alireza Ivaz",
 			"Calak",
+			"DEXi",
 			"Ebraminio",
 			"Huji",
+			"Ladsgroup",
 			"Reza1615",
 			"Zack90"
 		]
 	},
-	"skinname-vectorad": "برداری",
-	"vectorad-skin-desc": "نسخه مدرن منوبوک با نگاه تازه و بهبود قابلیت استفاده",
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "نگارش مدرن مونوبوک با نمای تازه و بهینه‌سازی‌های کاربردی",
 	"vectorad.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ وکتور استفاده کنند تحت تاثیر قرار می‌دهند. */",
 	"vectorad.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ وکتور  بارگیری می‌شود * /",
 	"vectorad-action-addsection": "افزودن بخش",

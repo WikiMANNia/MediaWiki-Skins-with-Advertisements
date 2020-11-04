@@ -1,7 +1,7 @@
-@import "mediawiki.mixins";
-@import "personalMenu";
-@import "search";
-@import "tabs";
+@import 'mediawiki.mixins';
+@import 'personalMenu';
+@import 'search';
+@import 'tabs';
 
 /* Hide, but keep accessible for screen-readers */
 #mw-navigation h2 {
@@ -15,8 +15,8 @@
 	background-position: bottom left;
 	background-repeat: repeat-x;
 	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
-	background-image: url('images/page-fade.png');
-	.vertical-gradient(@body-background-color, @menu-background-color, 50%, 100%);
+	background-image: url( images/page-fade.png );
+	.vertical-gradient( @body-background-color, @menu-background-color, 50%, 100% );
 	background-color: @body-background-color;
 }
 
@@ -26,7 +26,7 @@
 	height: 5em;
 }
 
-div#mw-head {
+#mw-head {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -77,7 +77,7 @@ div#mw-head {
 }
 
 /* Panel */
-div#mw-panel {
+#mw-panel {
 	font-size: @menu-main-font-size;
 	position: absolute;
 	top: 160px;
@@ -85,31 +85,32 @@ div#mw-panel {
 	width: 10em;
 	left: 0;
 
-	div.portal {
+	.portal {
 		margin: 0 0.6em 0 0.7em;
 		padding: 0.25em 0;
 		direction: ltr;
 		background-position: top left;
 		background-repeat: no-repeat;
-		.background-image('images/portal-break.png');
 
 		h3 {
+			.background-image( 'images/portal-break.png' );
+			background-position: center bottom;
+			background-repeat: no-repeat;
 			font-size: @menu-main-heading-font-size;
 			color: @menu-main-heading-color;
 			font-weight: normal;
-			margin: 0;
+			margin: 0.5em 0 0 0;
 			padding: @menu-main-heading-padding;
 			cursor: default;
 			border: none;
 		}
 
-		div.body {
+		.body {
 			margin: @menu-main-body-margin;
 			padding-top: 0;
 
 			ul {
-				list-style-type: none;
-				list-style-image: none;
+				list-style: none none;
 				margin: 0;
 				padding: @menu-main-body-padding;
 
@@ -128,6 +129,34 @@ div#mw-panel {
 					}
 				}
 			}
+		}
+
+		.body2 {
+			background: white;
+			margin-left: 0;
+			margin-top: .3em;
+			padding: 0 0 .1em 0;
+
+			/* Helps to format text properly in advertising. */
+			p {
+				line-height: 1.125em;
+				font-size: @menu-main-body-font-size;
+				padding: 0 0.2em 0 0.5em;
+			}
+			p.small {
+				font-size: 0.65em;
+			}
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.body3 {
+			margin-left: 0;
+			margin-top: .3em;
+			padding: 0;
+			text-align: center;
 		}
 	}
 
