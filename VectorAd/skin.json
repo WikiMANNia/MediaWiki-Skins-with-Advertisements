@@ -25,8 +25,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SkinVector": "SkinVector.php",
-		"VectorTemplate": "VectorTemplate.php"
+		"SkinVectorAd": "includes/SkinVectorAd.php",
+		"VectorAdTemplate": "includes/VectorAdTemplate.php"
 	},
 	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
 	"ResourceModules": {

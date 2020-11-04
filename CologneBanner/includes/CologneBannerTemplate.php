@@ -26,34 +26,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-/**
- * @todo document
- * @ingroup Skins
- */
-class SkinCologneBlue extends SkinTemplate {
-	public $skinname = 'cologneblue';
-	public $template = 'CologneBlueTemplate';
-
-	/**
-	 * @param OutputPage $out
-	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
-		$out->addModuleStyles( 'skins.cologneblue' );
-	}
-
-	/**
-	 * Override langlink formatting behavior not to uppercase the language names.
-	 * See otherLanguages() in CologneBlueTemplate.
-	 * @param string $name
-	 * @return string
-	 */
-	function formatLanguageName( $name ) {
-		return $name;
-	}
-}
-
 class CologneBlueTemplate extends BaseTemplate {
 	function execute() {
 		// Suppress warnings to prevent notices about missing indexes in $this->data
