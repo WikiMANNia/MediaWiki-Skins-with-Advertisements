@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
+			"Mirin",
 			"Objectivesea",
 			"Yekrats"
 		]
 	},
-	"skinname-vectorad": "Vektoro",
-	"vectorad.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Vektora temo. */",
-	"vectorad.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Vektora temo. */",
+	"skinname-vectorad": "Vektoro Ad",
+	"vectorad-skin-desc": "Moderna versio de MonoBook kun freŝa aspekto kaj plibonigo de uzebleco",
+	"vectorad.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Vektora Ad temo. */",
+	"vectorad.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Vektora Ad temo. */",
 	"vectorad-action-addsection": "Aldoni temon",
 	"vectorad-action-delete": "Forigi",
 	"vectorad-action-move": "Alinomi",
@@ -20,5 +22,7 @@
 	"vectorad-view-history": "Vidi historion",
 	"vectorad-view-view": "Legi",
 	"vectorad-view-viewsource": "Vidi fonton",
+	"vectorad-jumptonavigation": "Salti al navigilo",
+	"vectorad-jumptosearch": "Salti al serĉilo",
 	"vectorad-more-actions": "Pli"
 }

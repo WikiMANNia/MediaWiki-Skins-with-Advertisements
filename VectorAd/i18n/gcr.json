@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"LeGuyanaisPure"
+			"LeGuyanaisPure",
+			"Léon973"
 		]
 	},
 	"vectorad-action-addsection": "Ajouté roun sijè",
-	"vectorad-action-delete": "Souprimé",
+	"vectorad-action-delete": "Siprimen",
 	"vectorad-action-move": "Rounonmen",
 	"vectorad-action-protect": "Protéjé",
 	"vectorad-view-create": "Kréyé",

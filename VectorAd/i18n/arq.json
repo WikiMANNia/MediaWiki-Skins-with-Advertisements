@@ -2,11 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Bachounda",
-			"Oldstoneage",
-			"GeekEmad"
+			"GeekEmad",
+			"Oldstoneage"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "طبعة جديدة تاع مونوبوك، ب شبحة جديدة و تحسانات فل إستعماليّة",
 	"vectorad-action-addsection": "زيد موضوع",
 	"vectorad-action-delete": "امحي",

@@ -1,18 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukabia"
+			"Ukabia",
+			"Uzoma Ozurumba"
 		]
 	},
 	"vectorad-action-addsection": "Tinyé Okwu",
 	"vectorad-action-delete": "Kàcha",
-	"vectorad-action-move": "Páfụ",
+	"vectorad-action-move": "Papụ̀",
 	"vectorad-action-protect": "Cẹdolu",
 	"vectorad-action-undelete": "Á gbàkashikwà",
 	"vectorad-action-unprotect": "Nchẹdo mgbanwe",
-	"vectorad-view-create": "Ké",
+	"vectorad-view-create": "Kèe",
 	"vectorad-view-edit": "Mèzi",
-	"vectorad-view-history": "Zí ịta",
-	"vectorad-view-view": "Gụ́",
-	"vectorad-view-viewsource": "Zi mkpurụ"
+	"vectorad-view-history": "Lèe ị̀ta",
+	"vectorad-view-view": "Gụ̀ọ",
+	"vectorad-view-viewsource": "Zi mkpurụ",
+	"vectorad-more-actions": "Ọzọ kwa"
 }

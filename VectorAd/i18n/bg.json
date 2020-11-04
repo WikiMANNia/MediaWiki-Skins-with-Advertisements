@@ -7,7 +7,6 @@
 			"StanProg"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Модерна версия на MonoBook с обновен дизайн и много подобрения на ползваемостта",
 	"vectorad-action-addsection": "Добавяне на тема",
 	"vectorad-action-delete": "Изтриване",
@@ -20,5 +19,7 @@
 	"vectorad-view-history": "История",
 	"vectorad-view-view": "Преглед",
 	"vectorad-view-viewsource": "Преглед на кода",
+	"vectorad-jumptonavigation": "Направо към навигацията",
+	"vectorad-jumptosearch": "Направо към търсенето",
 	"vectorad-more-actions": "Още"
 }

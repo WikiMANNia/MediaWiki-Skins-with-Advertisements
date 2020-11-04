@@ -3,7 +3,8 @@
 		"authors": [
 			"OC Ripper",
 			"Conquistador",
-			"Srdjan m"
+			"Srdjan m",
+			"BadDog"
 		]
 	},
 	"vectorad-action-addsection": "Dodaj temu",
@@ -14,7 +15,7 @@
 	"vectorad-action-unprotect": "Promijeni zaštitu",
 	"vectorad-view-create": "Napravi",
 	"vectorad-view-edit": "Uredi",
-	"vectorad-view-history": "Vidi historiju",
+	"vectorad-view-history": "Historija/Историја",
 	"vectorad-view-view": "Čitaj",
 	"vectorad-view-viewsource": "Vidi izvor (source)",
 	"vectorad-more-actions": "Više"

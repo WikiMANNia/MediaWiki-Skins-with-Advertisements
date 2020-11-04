@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Axel xadolik",
 			"Wikimistusik"
 		]
 	},
@@ -12,5 +13,6 @@
 	"vectorad-view-edit": "Betara",
 	"vectorad-view-history": "Wira va izvot",
 	"vectorad-view-view": "Belira",
-	"vectorad-view-viewsource": "klitawira"
+	"vectorad-view-viewsource": "klitawira",
+	"vectorad-more-actions": "Loon"
 }

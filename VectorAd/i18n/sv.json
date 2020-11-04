@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Lokal Profil",
 			"Martinwiss",
 			"Najami",
 			"Skalman",
-			"WikiPhoenix",
-			"Lokal Profil"
+			"Sturban",
+			"WikiPhoenix"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Modern version av MonoBook med ett nytt utseende och flera användarvänlighetsförbättringar",
 	"vectorad.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet VectorAd */",
 	"vectorad.js": "/* JavaScript här kommer att laddas för dem som använder utseendet VectorAd */",
-	"vectorad-skin-desc": "Modern version av MonoBook med ett nytt utseende och flera användarvänlighetsförbättringar",
 	"vectorad-action-addsection": "Nytt ämne",
 	"vectorad-action-delete": "Radera",
 	"vectorad-action-move": "Flytta",
@@ -21,7 +22,9 @@
 	"vectorad-view-create": "Skapa",
 	"vectorad-view-edit": "Redigera",
 	"vectorad-view-history": "Visa historik",
-	"vectorad-view-view": "Visa",
+	"vectorad-view-view": "Läs",
 	"vectorad-view-viewsource": "Visa källa",
+	"vectorad-jumptonavigation": "Hoppa till navigering",
+	"vectorad-jumptosearch": "Hoppa till sök",
 	"vectorad-more-actions": "Mer"
 }

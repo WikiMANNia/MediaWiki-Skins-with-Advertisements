@@ -2,12 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Janezdrilc",
 			"Smihael",
-			"Yerpo",
-			"Janezdrilc"
+			"Yerpo"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Sodobna različica MonoBook s svežim videzom in mnogimi izboljšavami uporabnosti",
 	"vectorad-action-addsection": "Dodaj temo",
 	"vectorad-action-delete": "Izbriši",

@@ -7,13 +7,14 @@
 			"Shirayuki",
 			"Whym",
 			"青子守歌",
-			"Takot"
+			"Takot",
+			"Otokoume"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "新しい見た目でユーザビリティが改善された、モダンバージョンのMonobook。",
 	"vectorad.css": "/* ここに記述したCSSはベクター外装の利用者に影響します */",
 	"vectorad.js": "/* ここにあるすべてのJavaScriptは、ベクター外装を使用している利用者に対して読み込まれます */",
-	"vectorad-skin-desc": "新しい見た目でユーザビリティが改善された、モダンバージョンのWima。",
 	"vectorad-action-addsection": "話題追加",
 	"vectorad-action-delete": "削除",
 	"vectorad-action-move": "移動",
@@ -25,5 +26,7 @@
 	"vectorad-view-history": "履歴表示",
 	"vectorad-view-view": "閲覧",
 	"vectorad-view-viewsource": "ソースを閲覧",
+	"vectorad-jumptonavigation": "ナビゲーションに移動",
+	"vectorad-jumptosearch": "検索に移動",
 	"vectorad-more-actions": "その他"
 }

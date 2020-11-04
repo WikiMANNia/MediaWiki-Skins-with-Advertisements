@@ -2,18 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Bua333",
-			"Mucalexx"
+			"Joe Watzmo",
+			"Mucalexx",
+			"WikiBayer"
 		]
 	},
 	"vectorad-action-addsection": "An Obschnitt dazua doa",
 	"vectorad-action-delete": "Leschn",
 	"vectorad-action-move": "Vaschiabm",
-	"vectorad-action-protect": "Schitzn",
+	"vectorad-action-protect": "schitzn",
 	"vectorad-action-undelete": "Wiederherstön",
 	"vectorad-action-unprotect": "freigeem",
 	"vectorad-view-create": "Aufbaun",
 	"vectorad-view-edit": "Werkln",
 	"vectorad-view-history": "Gschicht oschaugn",
 	"vectorad-view-view": "Lesn",
-	"vectorad-view-viewsource": "Quejtext ozoagn"
+	"vectorad-view-viewsource": "Quejtext ozoagn",
+	"vectorad-more-actions": "Meara"
 }

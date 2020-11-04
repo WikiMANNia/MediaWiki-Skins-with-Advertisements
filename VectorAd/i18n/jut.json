@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jyllanj"
+			"Jyllanj",
+			"Ghiutun"
 		]
 	},
 	"vectorad-action-addsection": "Ny emn",
 	"vectorad-action-move": "Flytt",
+	"vectorad-action-protect": "Beskøtt",
 	"vectorad-view-create": "Oprett",
 	"vectorad-view-edit": "Redigiir",
 	"vectorad-view-history": "Sie historik",

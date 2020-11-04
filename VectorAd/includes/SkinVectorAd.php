@@ -77,7 +77,7 @@ class SkinVectorAd extends SkinTemplate {
 	 * Loads skin and user CSS files.
 	 * @param OutputPage $out
 	 */
-	function setupSkinUserCss( OutputPage $out ) {
+	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
 		$out->addModuleStyles( [

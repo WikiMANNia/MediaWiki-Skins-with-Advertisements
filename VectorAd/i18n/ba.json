@@ -3,12 +3,12 @@
 		"authors": [
 			"Assele",
 			"Haqmar",
-			"Рустам Нурыев",
-			"Sagan"
+			"Sagan",
+			"Рустам Нурыев"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Хәҙерге заман «VectorAd» күренеше, биҙәлеш яүыртылған һәм яңы мөмкинлектәр файҙаланылған",
+	"vectorad-skin-desc": "Хәҙерге заман VectorAd күренеше, биҙәлеш яүыртылған һәм яңы мөмкинлектәр файҙаланылған",
 	"vectorad-action-addsection": "Тема өҫтәргә",
 	"vectorad-action-delete": "Юйырға",
 	"vectorad-action-move": "Исемен үҙгәртергә",

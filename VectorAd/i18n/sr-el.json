@@ -3,17 +3,18 @@
 		"authors": [
 			"Michaello",
 			"Milicevic01",
+			"Obsuser",
 			"Rancher",
-			"Жељко Тодоровић",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Жељко Тодоровић"
 		]
 	},
-	"skinname-vectorad": "Vektorska",
-	"vectorad-skin-desc": "Moderno izdanje Monobuka sa svežim izgledom i mnogo korisnih poboljšanja",
+	"skinname-vectorad": "Vektorsko",
+	"vectorad-skin-desc": "Moderna verzija Monobuka sa svežim izgledom i mnogo korisnih poboljšanja",
 	"vectorad.css": "/* CSS postavljen ovde će uticati na sve korisnike vektorske teme */",
-	"vectorad.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste vektorsku temu */",
+	"vectorad.js": "/* JavaScript postavljen ovde će se učitati za sve one koji koriste vektorsku temu */",
 	"vectorad-action-addsection": "Dodaj temu",
-	"vectorad-action-delete": "Obriši",
+	"vectorad-action-delete": "Izbriši",
 	"vectorad-action-move": "Premesti",
 	"vectorad-action-protect": "Zaštiti",
 	"vectorad-action-undelete": "Vrati",
@@ -22,6 +23,8 @@
 	"vectorad-view-edit": "Uredi",
 	"vectorad-view-history": "Istorija",
 	"vectorad-view-view": "Čitaj",
-	"vectorad-view-viewsource": "Izvorni kod",
+	"vectorad-view-viewsource": "Izvor",
+	"vectorad-jumptonavigation": "Idi na navigaciju",
+	"vectorad-jumptosearch": "Idi na pretragu",
 	"vectorad-more-actions": "Više"
 }

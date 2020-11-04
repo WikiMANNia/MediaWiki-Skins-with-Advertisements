@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kurniasan"
+			"Kurniasan",
+			"Notanotheramy"
 		]
 	},
 	"vectorad-action-move": "Paléccé'",
-	"vectorad-view-create": "Ebbu",
+	"vectorad-view-create": "ᨆᨙᨅᨘ",
 	"vectorad-view-edit": "Padéccéng",
-	"vectorad-view-view": "Baca",
-	"vectorad-view-viewsource": "Ita sumber"
+	"vectorad-view-view": "ᨅᨌ",
+	"vectorad-view-viewsource": "Ita sumber",
+	"vectorad-more-actions": "ᨒᨕᨗᨊᨕᨙ"
 }

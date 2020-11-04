@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jun Misugi",
 			"Paulu"
 		]
 	},
@@ -13,5 +14,6 @@
 	"vectorad-view-edit": "Mudificà",
 	"vectorad-view-history": "Vede a cronolugia",
 	"vectorad-view-view": "Leghje",
-	"vectorad-view-viewsource": "Vede a surghjente"
+	"vectorad-view-viewsource": "Vede a surghjente",
+	"vectorad-more-actions": "Più"
 }

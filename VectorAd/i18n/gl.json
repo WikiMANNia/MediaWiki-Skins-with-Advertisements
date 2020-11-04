@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Banjo",
 			"Elisardojm",
 			"Toliño",
 			"Vivaelcelta"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "Versión moderna da aparencia MonoBook, cun aspecto actualizado e moitas melloras na usabilidade",
 	"vectorad.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia VectorAd */",
 	"vectorad.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia VectorAd */",
@@ -21,5 +21,7 @@
 	"vectorad-view-history": "Ver o historial",
 	"vectorad-view-view": "Ler",
 	"vectorad-view-viewsource": "Ver o código fonte",
+	"vectorad-jumptonavigation": "Saltar ata a navegación",
+	"vectorad-jumptosearch": "Saltar á procura",
 	"vectorad-more-actions": "Máis"
 }

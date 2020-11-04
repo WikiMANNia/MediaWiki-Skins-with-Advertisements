@@ -5,16 +5,19 @@
 			"Crazymadlover",
 			"Dalton2",
 			"Fitoschido",
+			"Geryescalier",
+			"Ihojose",
 			"Locos epraix",
 			"Manuelt15",
 			"MarcoAurelio",
 			"Miguel2706",
 			"Platonides",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versión moderna de MonoBook, con un aspecto actualizado y muchas mejoras de usabilidad",
+	"vectorad-skin-desc": "Basado en [https://www.mediawiki.org/wiki/Skin:Vector Vector], proporciona cuatro posibles espacios publicitarios que son llenados por LocalSettings.php.",
 	"vectorad.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia VectorAd */",
 	"vectorad.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia VectorAd */",
 	"vectorad-action-addsection": "Sección nueva",
@@ -28,5 +31,13 @@
 	"vectorad-view-history": "Ver historial",
 	"vectorad-view-view": "Leer",
 	"vectorad-view-viewsource": "Ver código",
-	"vectorad-more-actions": "Más"
+	"vectorad-jumptonavigation": "Ir a la navegación",
+	"vectorad-jumptosearch": "Ir a la búsqueda",
+	"vectorad-more-actions": "Más",
+	"vectorad-advertising": "Publicidad",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Rogamos que puedas",
+	"vectorad-facebook": "Visítanos en",
+	"vectorad-labelled": "marcado con"
 }

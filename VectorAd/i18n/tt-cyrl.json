@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Derslek",
 			"Don Alessandro",
 			"Rinatus",
 			"Ильнар",
-			"Рашат Якупов",
-			"Derslek"
+			"Рашат Якупов"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
@@ -21,5 +21,7 @@
 	"vectorad-view-history": "Тарихын карау",
 	"vectorad-view-view": "Уку",
 	"vectorad-view-viewsource": "Чыганагын карау",
+	"vectorad-jumptonavigation": "Навигациягә күчү",
+	"vectorad-jumptosearch": "Эзләүгә күчү",
 	"vectorad-more-actions": "Тагын"
 }

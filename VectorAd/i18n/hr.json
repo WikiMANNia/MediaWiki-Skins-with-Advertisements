@@ -3,7 +3,9 @@
 		"authors": [
 			"Ex13",
 			"Tivek",
-			"Bugoslav"
+			"Bugoslav",
+			"BadDog",
+			"MaGa"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
@@ -12,12 +14,14 @@
 	"vectorad-action-delete": "Izbriši",
 	"vectorad-action-move": "Premjesti",
 	"vectorad-action-protect": "Zaštiti",
-	"vectorad-action-undelete": "Vrati",
+	"vectorad-action-undelete": "Vrati izbrisano",
 	"vectorad-action-unprotect": "Promijeni zaštitu",
-	"vectorad-view-create": "Započni",
+	"vectorad-view-create": "Stvori",
 	"vectorad-view-edit": "Uredi",
 	"vectorad-view-history": "Vidi povijest",
 	"vectorad-view-view": "Čitaj",
 	"vectorad-view-viewsource": "Vidi izvor",
+	"vectorad-jumptonavigation": "Prijeđi na navigaciju",
+	"vectorad-jumptosearch": "Prijeđi na pretraživanje",
 	"vectorad-more-actions": "Više"
 }

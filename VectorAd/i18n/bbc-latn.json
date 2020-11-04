@@ -2,6 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Daniel Harahap",
+			"NoiX180",
+			"Salomo Christian Hutajulu",
 			"WBT003Bugari",
 			"WBT006Hendra",
 			"WBT009Anju"
@@ -14,8 +16,9 @@
 	"vectorad-action-undelete": "unang sesa",
 	"vectorad-action-unprotect": "Uba parlindungan",
 	"vectorad-view-create": "Tompa",
-	"vectorad-view-edit": "Paubah",
+	"vectorad-view-edit": "Patota",
 	"vectorad-view-history": "Patudu andorang na",
 	"vectorad-view-view": "Jaha",
-	"vectorad-view-viewsource": "Ida haroanna"
+	"vectorad-view-viewsource": "Ida haroanna",
+	"vectorad-more-actions": "Lobian"
 }

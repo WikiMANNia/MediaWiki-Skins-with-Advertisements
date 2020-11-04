@@ -2,26 +2,29 @@
 	"@metadata": {
 		"authors": [
 			"Arystanbek",
+			"BaRaN6161 TURK",
 			"Emperyan",
 			"Joseph",
-			"Stultiwikia",
-			"Vito Genovese",
+			"Kumkumuk",
 			"Rapsar",
-			"Kumkumuk"
+			"Stultiwikia",
+			"Vito Genovese"
 		]
 	},
-	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "MonoBook Modern versiyonu ile taze bir görünüm ve iyi bir kullanım kolaylığı",
+	"skinname-vectorad": "Vektör Ad",
+	"vectorad-skin-desc": "MonoBook modern sürümünü ile taze bir görünüm ve iyi bir kullanım kolaylığı",
 	"vectorad-action-addsection": "Konu ekle",
 	"vectorad-action-delete": "Sil",
 	"vectorad-action-move": "Taşı",
 	"vectorad-action-protect": "Koru",
-	"vectorad-action-undelete": "Silinmeyi geri al",
+	"vectorad-action-undelete": "Geri al",
 	"vectorad-action-unprotect": "Korumayı değiştir",
 	"vectorad-view-create": "Oluştur",
 	"vectorad-view-edit": "Düzenle",
 	"vectorad-view-history": "Geçmişi gör",
 	"vectorad-view-view": "Oku",
 	"vectorad-view-viewsource": "Kaynağı gör",
-	"vectorad-more-actions": "Diğer"
+	"vectorad-jumptonavigation": "Gezinti kısmına atla",
+	"vectorad-jumptosearch": "Arama kısmına atla",
+	"vectorad-more-actions": "Daha fazla"
 }

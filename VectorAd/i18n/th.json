@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ans",
+			"Geonuch",
 			"Horus",
 			"Octahedron80",
-			"Woraponboonkerd",
-			"Ans"
+			"Woraponboonkerd"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
@@ -14,13 +15,15 @@
 	"vectorad-action-addsection": "เพิ่มหัวข้อ",
 	"vectorad-action-delete": "ลบ",
 	"vectorad-action-move": "เปลี่ยนชื่อ",
-	"vectorad-action-protect": "ล็อก",
+	"vectorad-action-protect": "ป้องกัน",
 	"vectorad-action-undelete": "กู้คืน",
-	"vectorad-action-unprotect": "เปลี่ยนการล็อก",
+	"vectorad-action-unprotect": "เปลี่ยนการป้องกัน",
 	"vectorad-view-create": "สร้าง",
 	"vectorad-view-edit": "แก้ไข",
 	"vectorad-view-history": "ดูประวัติ",
 	"vectorad-view-view": "อ่าน",
-	"vectorad-view-viewsource": "ดูโค้ด",
+	"vectorad-view-viewsource": "ดูต้นฉบับ",
+	"vectorad-jumptonavigation": "ไปยังการนำทาง",
+	"vectorad-jumptosearch": "ไปยังการค้นหา",
 	"vectorad-more-actions": "เพิ่มเติม"
 }

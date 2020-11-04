@@ -1,11 +1,13 @@
 {
 	"name": "VectorAd",
+	"version": "1.31.0",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
+		"WikiMANNia",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:VectorAd",
+	"url": "https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/releases/tag/1.31.10-va",
 	"descriptionmsg": "vectorad-skin-desc",
 	"namemsg": "skinname-vectorad",
 	"license-name": "GPL-2.0-or-later",

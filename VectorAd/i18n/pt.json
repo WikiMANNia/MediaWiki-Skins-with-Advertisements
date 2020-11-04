@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Athena in Wonderland",
 			"Crazymadlover",
 			"Giro720",
 			"Hamilton Abreu",
 			"Malafaya",
+			"MokaAkashiyaPT",
 			"Vitorvicentevalente",
 			"Waldir",
-			"MokaAkashiyaPT",
-			"Athena in Wonderland"
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versão moderna do MonoBook com um aspeto fresco e várias melhorias de usabilidade",
+	"vectorad-skin-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:Vector Vector], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
 	"vectorad.css": "/* Código CSS colocado aqui afectará os utilizadores do tema VectorAd */",
 	"vectorad.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema VectorAd */",
 	"vectorad-action-addsection": "Adicionar&nbsp;tópico",
@@ -26,5 +27,13 @@
 	"vectorad-view-history": "Ver histórico",
 	"vectorad-view-view": "Ler",
 	"vectorad-view-viewsource": "Ver fonte",
-	"vectorad-more-actions": "Mais"
+	"vectorad-jumptonavigation": "Saltar para a navegação",
+	"vectorad-jumptosearch": "Saltar para a pesquisa",
+	"vectorad-more-actions": "Mais",
+	"vectorad-advertising": "Publicidade",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Pedimos",
+	"vectorad-facebook": "Visite-nos no",
+	"vectorad-labelled": "marcado com"
 }

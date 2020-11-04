@@ -87,6 +87,9 @@
 		background-repeat: no-repeat;
 
 		h3 {
+			.background-image( 'images/portal-break.png' );
+			background-position: center bottom;
+			background-repeat: no-repeat;
 			font-size: @menu-main-heading-font-size;
 			color: @menu-main-heading-color;
 			font-weight: normal;
@@ -99,8 +102,6 @@
 		.body {
 			margin-left: @menu-main-body-margin-left;
 			padding-top: 0;
-			.background-image( 'images/portal-break.png' );
-			background-repeat: no-repeat;
 
 			ul {
 				list-style: none none;
@@ -124,6 +125,34 @@
 				}
 			}
 		}
+
+		.body2 {
+			background: white;
+			margin-left: 0;
+			margin-top: .3em;
+			padding: 0 0 .1em 0;
+
+			/* Helps to format text properly in advertising. */
+			p {
+				line-height: 1.125em;
+				font-size: @menu-main-body-font-size;
+				padding: 0 0.2em 0 0.5em;
+			}
+			p.small {
+				font-size: 0.65em;
+			}
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.body3 {
+			margin-left: 0;
+			margin-top: .3em;
+			padding: 0;
+			text-align: center;
+		}
 	}
 
 	/* First sidebar portlet. Not using :first-of-type for IE<=8 support. */
@@ -131,10 +160,11 @@
 		background-image: none;
 		margin-top: 1em;
 
+		/* Standard here is "display: none;", but above an advertisement there should be written "advertisement".
 		h3 {
 			display: none;
 		}
-
+*/
 		.body {
 			background-image: none;
 			margin-left: @menu-main-body-margin-left;

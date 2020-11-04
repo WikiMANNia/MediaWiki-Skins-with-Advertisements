@@ -3,15 +3,16 @@
 		"authors": [
 			"Beta16",
 			"Darth Kule",
+			"Elitre",
+			"FRacco",
 			"Gianfranco",
 			"Melos",
 			"Pietrodn",
-			"FRacco",
-			"Elitre"
+			"WikiMANNia"
 		]
 	},
 	"skinname-vectorad": "VectorAd",
-	"vectorad-skin-desc": "Versione moderna del MonoBook con un aspetto rinnovato e molti miglioramenti dell'usabilità",
+	"vectorad-skin-desc": "Basato su [https://www.mediawiki.org/wiki/Skin:Vector Vector], fornisce quattro possibili spazi pubblicitari che possono essere riempiti da LocalSettings.php.",
 	"vectorad.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema VectorAd */",
 	"vectorad.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema VectorAd */",
 	"vectorad-action-addsection": "Aggiungi discussione",
@@ -25,5 +26,11 @@
 	"vectorad-view-history": "Cronologia",
 	"vectorad-view-view": "Leggi",
 	"vectorad-view-viewsource": "Visualizza wikitesto",
-	"vectorad-more-actions": "Altro"
+	"vectorad-more-actions": "Altro",
+	"vectorad-advertising": "Pubblicità",
+	"vectorad-eventnote": "Evento",
+	"vectorad-hint": "Nota",
+	"vectorad-donations": "Chiediamo",
+	"vectorad-facebook": "Visitaci su",
+	"vectorad-labelled": "contrassegnato con"
 }

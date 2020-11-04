@@ -8,11 +8,12 @@
 			"Mido",
 			"OsamaK",
 			"أحمد",
+			"ديفيد",
 			"زكريا",
 			"علاء"
 		]
 	},
-	"skinname-vectorad": "فكتور",
+	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "نسخة حديثة من مونوبوك بمظهر جديد وتحسينات لسهولة الاستخدام",
 	"vectorad.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة فكتور */",
 	"vectorad.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة فكتور */",
@@ -27,5 +28,7 @@
 	"vectorad-view-history": "تاريخ",
 	"vectorad-view-view": "اقرأ",
 	"vectorad-view-viewsource": "عرض المصدر",
+	"vectorad-jumptonavigation": "اذهب إلى التنقل",
+	"vectorad-jumptosearch": "اذهب إلى البحث",
 	"vectorad-more-actions": "المزيد"
 }

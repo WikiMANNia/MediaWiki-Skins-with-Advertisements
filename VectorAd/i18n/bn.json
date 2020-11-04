@@ -2,28 +2,32 @@
 	"@metadata": {
 		"authors": [
 			"Aftab1995",
+			"Aftabuzzaman",
 			"Bellayet",
 			"Leemon2010",
 			"Nasir8891",
+			"Sourav Halder",
 			"Tauhid16",
 			"Wikitanvir",
-			"Aftabuzzaman"
+			"আফতাবুজ্জামান"
 		]
 	},
-	"skinname-vectorad": "ভেক্টর",
+	"skinname-vectorad": "VectorAd",
 	"vectorad-skin-desc": "নতুন চেহারা মনোবুকের আধুনিক সংস্করণ এবং আরো অনেক ব্যবহারযোগ্যতার উন্নতি",
 	"vectorad.css": "/* এখানে স্থাপিত CSS ভেক্টর আবরণ ব্যবহারকারীদের প্রভাবিত করবে */",
 	"vectorad.js": "/* এখানের যে কোন জাভাস্ক্রিপ্ট ভেক্টর আবরণ ব্যবহারকারীদের জন্য লোড হবে */",
-	"vectorad-action-addsection": "বিষয় যোগ",
+	"vectorad-action-addsection": "বিষয় যোগ করুন",
 	"vectorad-action-delete": "অপসারণ",
 	"vectorad-action-move": "স্থানান্তর",
 	"vectorad-action-protect": "সুরক্ষা",
 	"vectorad-action-undelete": "পুনরুদ্ধার",
 	"vectorad-action-unprotect": "সুরক্ষা পরিবর্তন",
-	"vectorad-view-create": "তৈরি",
+	"vectorad-view-create": "তৈরি করুন",
 	"vectorad-view-edit": "সম্পাদনা",
 	"vectorad-view-history": "ইতিহাস দেখুন",
 	"vectorad-view-view": "পড়ুন",
 	"vectorad-view-viewsource": "উৎস দেখুন",
+	"vectorad-jumptonavigation": "পরিভ্রমণে ঝাঁপ দিন",
+	"vectorad-jumptosearch": "অনুসন্ধানে ঝাঁপ দিন",
 	"vectorad-more-actions": "আরও"
 }
