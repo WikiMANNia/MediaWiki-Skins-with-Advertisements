@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu",
 			"Esbardu",
-			"Mikel"
+			"Mikel",
+			"Xuacu"
 		]
 	},
-	"skinname-colognebanner": "Banner Colonia",
-	"colognebanner.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Banner Colonia */",
-	"colognebanner.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Banner Colonia */",
+	"skinname-colognebanner": "Colonia Banderín",
 	"colognebanner-desc": "Un tema llixeru col mínimu formatu",
+	"colognebanner.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Colonia Banderín */",
+	"colognebanner.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Colonia Banderín */",
 	"qbfind": "Alcontrar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

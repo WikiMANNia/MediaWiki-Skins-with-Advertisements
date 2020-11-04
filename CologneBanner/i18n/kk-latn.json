@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": []
 	},
-	"skinname-colognebanner": "Köln zeñgirligi (colognebanner)",
-	"colognebanner.css": "/* Mında ornalastırılğan CSS tek «Köln zeñgirligi» (colognebanner) mänerin paýdalanwşılarına ıqpal etedi skin */",
-	"colognebanner.js": "/* Mındağı JavaScript tek «Köln zeñgirligi» (colognebanner) mänerin paýdalanwşılar üşin jegiledi */",
+	"skinname-colognebanner": "Köln banner",
+	"colognebanner.css": "/* Mında ornalastırılğan CSS tek Köln banner mänerin paýdalanwşılarına ıqpal etedi skin */",
+	"colognebanner.js": "/* Mındağı JavaScript tek Köln banner mänerin paýdalanwşılar üşin jegiledi */",
 	"qbfind": "Tabw",
 	"qbbrowse": "Şolw",
 	"qbedit": "Öñdew",

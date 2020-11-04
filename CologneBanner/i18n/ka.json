@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010",
 			"Alsandro",
+			"David1010",
 			"Dawid Deutschland",
 			"Sopho"
 		]
 	},
-	"skinname-colognebanner": "კელნის ლურჯი",
-	"colognebanner.css": "/* აქ ჩასმული CSS გამოყენებული იქნება კელნის ლურჯი გაფორმების თემაში */",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* აქ ჩასმული CSS გამოყენებული იქნება Cologne Banner გაფორმების თემაში */",
 	"qbfind": "მოძებნე",
 	"qbbrowse": "გადახედე",
 	"qbedit": "რედაქტირება",

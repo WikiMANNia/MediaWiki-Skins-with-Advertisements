@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Huji",
-			"Reza1615",
+			"Alireza Ivaz",
 			"Alirezaaa",
 			"Arian Ar",
 			"Ebraminio",
-			"ZxxZxxZ",
-			"Alireza Ivaz"
+			"Huji",
+			"Reza1615",
+			"ZxxZxxZ"
 		]
 	},
-	"skinname-colognebanner": "کلن بلو",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "پوستهٔ بسیار سبک  با کمینهٔ شکل‌بندی",
 	"colognebanner.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ کلون‌بلو استفاده کنند تحت تاثیر قرار می‌دهند. */",
 	"colognebanner.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ کلون بارگیری می‌شود * /",

@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cheers!",
 			"Minh Nguyen",
-			"Vinhtantran",
-			"Cheers!"
+			"Vinhtantran"
 		]
 	},
-	"skinname-colognebanner": "Xanh Cologne",
+	"skinname-colognebanner": "Banner Cologne",
 	"colognebanner-desc": "Giao diện nhẹ nhàng có ít định dạng",
-	"colognebanner.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Xanh Cologne */",
-	"colognebanner.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Xanh Cologne */",
+	"colognebanner.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Banner Cologne */",
+	"colognebanner.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Banner Cologne */",
 	"qbfind": "Tìm kiếm",
 	"qbbrowse": "Duyệt",
 	"qbedit": "Sửa đổi",

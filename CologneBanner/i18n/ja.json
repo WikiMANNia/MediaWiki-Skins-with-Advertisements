@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"青子守歌",
-			"Fryed-peach",
 			"Aotake",
-			"Ohgi"
+			"Fryed-peach",
+			"Ohgi",
+			"青子守歌"
 		]
 	},
-	"skinname-colognebanner": "ケルンブルー",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "最小限の書式設定しかない軽量な外装",
-	"colognebanner.css": "/* ここに記述したCSSはケルンブルー外装の利用者に影響します */",
-	"colognebanner.js": "/* ここにあるすべてのJavaScriptは、ケルンブルー外装を使用している利用者に対して読み込まれます */",
+	"colognebanner.css": "/* ここに記述したCSSは Cologne Banner 外装の利用者に影響します */",
+	"colognebanner.js": "/* ここにあるすべてのJavaScriptは、 Cologne Banner 外装を使用している利用者に対して読み込まれます */",
 	"qbfind": "検索",
 	"qbbrowse": "閲覧",
 	"qbedit": "編集",

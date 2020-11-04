@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Artsiom91",
 			"Mechanizatar",
 			"Mienski",
 			"Yury Tarasievich",
 			"Хомелка",
-			"Чаховіч Уладзіслаў",
-			"Artsiom91"
+			"Чаховіч Уладзіслаў"
 		]
 	},
-	"skinname-colognebanner": "Сіні Кёльн",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Лёгкая тэма афармлення з мінімальным фарматаваннем",
 	"qbfind": "Знайсці",
 	"qbbrowse": "Выбраць",

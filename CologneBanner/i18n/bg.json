@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg",
 			"DCLXVI",
+			"StanProg",
 			"Vlad5250"
 		]
 	},
-	"skinname-colognebanner": "Кьолнско синьо",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Олекотен облик с минимално форматиране",
 	"qbfind": "Търсене",
 	"qbbrowse": "Избор",

@@ -1,19 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"BadDog",
 			"Milicevic01",
 			"Rancher",
 			"Sasa Stefanovic",
 			"Slaven Kosanovic",
 			"Жељко Тодоровић",
-			"Сербијана",
-			"BadDog"
+			"Сербијана"
 		]
 	},
-	"colognebanner.css": "/* CSS постављен овде ће утицати на све кориснике теме „Келнско плава“ */",
-	"colognebanner.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Келнско плава“ */",
-	"skinname-colognebanner": "Келнско плаво",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "Лагана тема са минималним форматирањем",
+	"colognebanner.css": "/* CSS постављен овде ће утицати на све кориснике теме Cologne Banner */",
+	"colognebanner.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему Cologne Banner */",
 	"qbfind": "Пронађите",
 	"qbbrowse": "Преглед",
 	"qbedit": "Уређивање",
@@ -27,7 +27,7 @@
 	"protectthispage": "Заштити ову страницу",
 	"unprotectthispage": "Промени заштиту ове странице",
 	"talkpage": "Дискутуј о овој страници",
-	"articlepage": "Прикажи страницу са садржајем",
+	"articlepage": "Прикажи страницу садржаја",
 	"userpage": "Прикажи корисничку страницу",
 	"projectpage": "Прикажи страницу пројекта"
 }

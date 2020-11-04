@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Crt",
-			"Nedergard",
 			"McSalama",
+			"Nedergard",
 			"Nike",
 			"Pxos",
+			"Pyscowicz",
 			"Stryn"
 		]
 	},
-	"colognebanner.css": "/* Tämä sivu sisältää Kölnin sininen -ulkoasua muuttavia tyylejä. */",
-	"colognebanner.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin sininen -tyyliin */",
-	"skinname-colognebanner": "Kölnin sininen",
-	"colognebanner-desc": "Kevyt teema minimaalisella muotoilulla",
+	"skinname-colognebanner": "Kölnin banner",
+	"colognebanner-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
+	"colognebanner.css": "/* Tämä sivu sisältää Kölnin banner -ulkoasua muuttavia tyylejä. */",
+	"colognebanner.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin banner -tyyliin */",
 	"qbfind": "Etsi",
 	"qbbrowse": "Selaa",
 	"qbedit": "Muokkaa",

@@ -1,20 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil",
 			"Boivie",
 			"Habj",
 			"Jopparn",
 			"Lejonel",
+			"Lokal Profil",
 			"M.M.S.",
 			"Sannab",
 			"WikiPhoenix"
 		]
 	},
 	"skinname-colognebanner": "Cologne banner",
+	"colognebanner-desc": "Ett lättviktsutseende med minimal formatering",
 	"colognebanner.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Cologne banner */",
 	"colognebanner.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Cologne banner */",
-	"colognebanner-desc": "Ett lättviktsutseende med minimal formatering",
 	"qbfind": "Hitta",
 	"qbbrowse": "Bläddra igenom",
 	"qbedit": "Redigera",

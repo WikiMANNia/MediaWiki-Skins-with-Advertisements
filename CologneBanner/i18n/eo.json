@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Objectivesea",
 			"Gamliel Fishkin",
 			"KuboF",
 			"LyzTyphone",
+			"Mirin",
+			"Objectivesea",
 			"Robin van der Vliet",
 			"Tlustulimu",
 			"Yekrats",
@@ -12,6 +13,7 @@
 		]
 	},
 	"skinname-colognebanner": "Kolonja Banner",
+	"colognebanner-desc": "Leĝera etoso kun minimuma aranĝado",
 	"colognebanner.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Banner temo. */",
 	"colognebanner.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Banner temo. */",
 	"qbfind": "Serĉi",

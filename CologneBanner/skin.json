@@ -1,10 +1,12 @@
 {
 	"name": "Cologne Banner",
+	"version": "1.33.0",
 	"author": [
 		"Lee Daniel Crocker",
+		"WikiMANNia",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Cologne_Blue",
+	"url": "https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/releases/tag/1.33.4-cb",
 	"descriptionmsg": "colognebanner-desc",
 	"namemsg": "skinname-colognebanner",
 	"license-name": "GPL-2.0-or-later",

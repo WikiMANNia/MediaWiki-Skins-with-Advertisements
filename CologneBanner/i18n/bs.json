@@ -2,16 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Kal-El",
-			"Srdjan m",
 			"DzWiki",
-			"Edinwiki"
+			"Edinwiki",
+			"Kal-El",
+			"Srdjan m"
 		]
 	},
-	"colognebanner.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Cologne Banner skin */",
-	"colognebanner.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Cologne Banner skin */",
-	"skinname-colognebanner": "Kelnsko plava",
+	"skinname-colognebanner": "Kelnsko banner",
 	"colognebanner-desc": "Lagahna tema s minimalnim formatiranjem",
+	"colognebanner.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Kelnsko banner skin */",
+	"colognebanner.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Kelnsko banner skin */",
 	"qbfind": "Pronađi",
 	"qbbrowse": "Potraži",
 	"qbedit": "Uredi",

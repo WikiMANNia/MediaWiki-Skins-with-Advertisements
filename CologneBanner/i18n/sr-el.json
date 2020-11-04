@@ -4,14 +4,14 @@
 			"Milicevic01",
 			"Rancher",
 			"Slaven Kosanovic",
-			"Сербијана",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Сербијана"
 		]
 	},
-	"colognebanner.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Kelnsko plava“ */",
-	"colognebanner.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Kelnsko plava“ */",
-	"skinname-colognebanner": "Kelnsko plavo",
+	"skinname-colognebanner": "Kelnsko banner",
 	"colognebanner-desc": "Lagana tema sa minimalnim formatiranjem",
+	"colognebanner.css": "/* CSS postavljen ovde će uticati na sve korisnike teme Kelnsko banner */",
+	"colognebanner.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu Kelnsko banner */",
 	"qbfind": "Pronađite",
 	"qbbrowse": "Pregled",
 	"qbedit": "Uređivanje",

@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Manop",
-			"Octahedron80",
 			"Aefgh39622",
 			"Ans",
+			"Geonuch",
 			"Horus",
-			"Passawuth",
-			"Geonuch"
+			"Manop",
+			"Octahedron80",
+			"Passawuth"
 		]
 	},
-	"skinname-colognebanner": "น้ำเงินโคโลญจ์",
+	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "สกินเบา ๆ ด้วยรูปแบบมินิมอล",
 	"colognebanner.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
 	"colognebanner.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",

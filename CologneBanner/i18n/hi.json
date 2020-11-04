@@ -1,13 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siddhartha Ghai",
 			"Kaustubh",
 			"NehalDaveND",
-			"Sahilrathod"
+			"Sahilrathod",
+			"Siddhartha Ghai"
 		]
 	},
-	"skinname-colognebanner": "Cologne Banner",
 	"colognebanner-desc": "न्यूनतम प्रारूपण वाली एक हलकी-फुल्की त्वचा",
 	"qbfind": "खोजें",
 	"qbbrowse": "ब्राउज़",

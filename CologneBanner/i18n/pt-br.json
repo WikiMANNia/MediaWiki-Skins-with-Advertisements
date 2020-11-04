@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Diego Queiroz",
 			"Cainamarques",
+			"Diego Queiroz",
 			"Felipe L. Ewald",
 			"Giro720",
 			"TheEduGobi",
@@ -10,7 +10,7 @@
 		]
 	},
 	"skinname-colognebanner": "Colônia Bandeira",
-	"colognebanner-desc": "Um tema leve com formatação mínima",
+	"colognebanner-desc": "Baseado no [https://www.mediawiki.org/wiki/Skin:Cologne_Blue Colônia Azul], oferece quatro espaços publicitários possíveis que são preenchidos pelo LocalSettings.php.",
 	"colognebanner.css": "/* CSS colocado aqui irá afetar usuários do tema Colônia Bandeira */",
 	"colognebanner.js": "/* Qualquer JavaScript aqui colocado sera carregado para usuários do tema Colônia Bandeira */",
 	"qbfind": "Buscar",
