@@ -34,7 +34,7 @@
 		"remoteSkinPath": "Modern"
 	},
 	"AutoloadClasses": {
-		"SkinModern": "SkinModern.php",
-		"ModernTemplate": "SkinModern.php"
+		"SkinModernAd": "includes/SkinModernAd.php",
+		"ModernAdTemplate": "includes/ModernAdTemplate.php"
 	}
 }

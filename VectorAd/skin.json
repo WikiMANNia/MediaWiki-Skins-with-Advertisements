@@ -22,8 +22,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SkinVector": "SkinVector.php",
-		"VectorTemplate": "VectorTemplate.php"
+		"SkinVectorAd": "includes/SkinVectorAd.php",
+		"VectorAdTemplate": "includes/VectorAdTemplate.php"
 	},
 	"ResourceModules": {
 		"skins.vector.styles": {

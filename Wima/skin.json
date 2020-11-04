@@ -31,7 +31,7 @@
 		"remoteSkinPath": "MonoBook"
 	},
 	"AutoloadClasses": {
-		"SkinMonoBook": "SkinMonoBook.php",
-		"MonoBookTemplate": "MonoBookTemplate.php"
+		"SkinWima": "includes/SkinWima.php",
+		"WimaTemplate": "includes/WimaTemplate.php"
 	}
 }

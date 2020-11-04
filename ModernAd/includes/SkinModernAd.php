@@ -22,33 +22,11 @@
  * @ingroup Skins
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( -1 );
-}
-
-/**
- * Inherit main code from SkinTemplate, set the CSS and template filter.
- * @todo document
- * @ingroup Skins
- */
-class SkinModern extends SkinTemplate {
-	public $skinname = 'modern';
-	public $template = 'ModernTemplate';
-
-	/**
-	 * @param OutputPage $out
-	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'skins.modern' );
-	}
-}
-
 /**
  * @todo document
  * @ingroup Skins
  */
-class ModernTemplate extends MonoBookTemplate {
+class ModernAdTemplate extends WimaTemplate {
 
 	/**
 	 * Template filter callback for Modern skin.
