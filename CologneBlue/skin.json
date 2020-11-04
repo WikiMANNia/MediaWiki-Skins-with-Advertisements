@@ -7,7 +7,7 @@
 	"url": "https://www.mediawiki.org/wiki/Skin:Cologne_Blue",
 	"descriptionmsg": "cologneblue-desc",
 	"namemsg": "skinname-cologneblue",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"ValidSkinNames": {
 		"cologneblue": "CologneBlue"
@@ -22,7 +22,6 @@
 	},
 	"ResourceModules": {
 		"skins.cologneblue": {
-			"position": "top",
 			"styles": {
 				"resources/screen.css": {
 					"media": "screen"
@@ -39,12 +38,13 @@
 	},
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {
+			"+oojs-ui-core.styles": "resources/ooui.less",
 			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
 		}
 	},
 	"AutoloadClasses": {
 		"SkinCologneBlue": "SkinCologneBlue.php",
-		"CologneBlueTemplate": "SkinCologneBlue.php"
+		"CologneBlueTemplate": "CologneBlueTemplate.php"
 	},
 	"manifest_version": 1
 }
