@@ -84,8 +84,8 @@
 		}
 	},
 	"AutoloadClasses": {
-		"SkinMonoBook": "includes/SkinMonoBook.php",
-		"MonoBookTemplate": "includes/MonoBookTemplate.php"
+		"SkinWima": "includes/SkinWima.php",
+		"WimaTemplate": "includes/WimaTemplate.php"
 	},
 	"manifest_version": 1
 }

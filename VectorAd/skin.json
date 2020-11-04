@@ -25,14 +25,14 @@
 		]
 	},
 	"AutoloadClasses": {
-		"Vector\\Hooks": "includes/Hooks.php",
-		"SkinVector": "includes/SkinVector.php",
-		"VectorTemplate": "includes/VectorTemplate.php",
-		"Vector\\ResourceLoaderLessModule": "includes/ResourceLoaderLessModule.php"
+		"VectorAd\\Hooks": "includes/Hooks.php",
+		"SkinVectorAd": "includes/SkinVectorAd.php",
+		"VectorAdTemplate": "includes/VectorAdTemplate.php",
+		"VectorAd\\ResourceLoaderLessModule": "includes/ResourceLoaderLessModule.php"
 	},
 	"Hooks": {
 		"BeforePageDisplayMobile": [
-			"Vector\\Hooks::onBeforePageDisplayMobile"
+			"VectorAd\\Hooks::onBeforePageDisplayMobile"
 		]
 	},
 	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
