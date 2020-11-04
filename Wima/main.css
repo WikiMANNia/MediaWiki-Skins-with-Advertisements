@@ -1,5 +1,10 @@
 /*
 ** MediaWiki 'wima' style sheet for CSS2-capable browsers.
+** Copyright WikiMANNia - http://wikimannia.org
+** License: GPL (http://www.gnu.org/copyleft/gpl.html)
+**
+** Based on:
+** MediaWiki 'monobook' style sheet for CSS2-capable browsers.
 ** Copyright Gabriel Wicke - http://wikidev.net/
 ** License: GPL (http://www.gnu.org/copyleft/gpl.html)
 **
@@ -9,7 +14,7 @@
 ** All you guys rock :)
 */
 
-div#column-content {
+#column-content {
 	width: 100%;
 	float: right;
 	margin: 0 0 .6em -12.2em;
@@ -28,7 +33,7 @@ div#column-content {
 	line-height: 1.5em;
 }
 
-div#column-one {
+#column-one {
 	padding-top: 160px;
 }
 
@@ -58,7 +63,7 @@ body {
 }
 
 /* scale back up to a sane default */
-div#globalWrapper {
+#globalWrapper {
 	font-size: 127%;
 	width: 100%;
 	margin: 0;
@@ -181,7 +186,7 @@ table.rimage {
 }
 
 .pBody {
-	font-size: 95%;
+	font-size: .95em;
 	background-color: white;
 	color: black;
 	border-collapse: collapse;
@@ -189,16 +194,41 @@ table.rimage {
 	padding: 0 .8em .3em .5em;
 }
 
+.pBodyAd {
+	font-size: .95em;
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+	padding: 0 0 .3em 0;
+}
+.pBodyAd div, p {
+	line-height: 1.2em;
+	font-size: .95em;
+	padding: 0 .3em 0 .5em;
+}
+.pBodyAd p.small {
+	font-size: .85em;
+	padding: 0 .3em 0 .5em;
+}
+.pBodyAd img {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 /* allows .pBody styles to wrap around content added via BaseTemplateAfterPortlet hook */
-.pBody:after {
+.pBody:after,
+.pBodyAd:after {
 	content: '';
 	clear: both;
 	display: block;
 }
 
 .portlet ul {
+	font-size: .95em;
 	line-height: 1.5em;
-	font-size: 95%;
 }
 
 .portlet li {
@@ -503,7 +533,7 @@ li#ca-print {
 /*
 ** footer
 */
-div#footer {
+#footer {
 	background-color: white;
 	border-top: 1px solid #fabd23;
 	border-bottom: 1px solid #fabd23;
@@ -511,10 +541,10 @@ div#footer {
 	overflow: hidden;
 	padding: .4em 0 .3em 0;
 	text-align: center;
-	font-size: 90%;
+	font-size: .90em;
 }
 
-div#footer li {
+#footer li {
 	display: inline;
 	margin: 0 1.3em;
 }
@@ -536,11 +566,11 @@ div#footer li {
 }
 
 #userloginprompt, #languagelinks {
-	font-size: 85%;
+	font-size: .85em;
 }
 
 #login-sectiontip {
-	font-size: 85%;
+	font-size: .85em;
 	line-height: 1.2;
 	padding-top: 2em;
 }
@@ -616,31 +646,31 @@ div.noarticletext {
 	color: #000;
 }
 
-div#searchTargetContainer {
+#searchTargetContainer {
 	left: 10px;
 	top: 10px;
 	width: 90%;
 	background: white;
 }
 
-div#searchTarget {
+#searchTarget {
 	padding: 3px;
 	margin: 5px;
 	background: #F0F0F0;
 	border: solid 1px blue;
 }
 
-div#searchTarget ul li {
+#searchTarget ul li {
 	list-style-type: none;
 	list-style-image: none;
 }
 
-div#searchTarget ul li:before {
+#searchTarget ul li:before {
 	color: orange;
 	content: "\00BB \0020";
 }
 
-div#searchTargetHide {
+#searchTargetHide {
 	float: right;
 	border: solid 1px black;
 	background: #DCDCDC;
@@ -707,7 +737,7 @@ div.mw-lag-warn-high {
 .MediaTransformError td {
 	text-align: center;
 	vertical-align: middle;
-	font-size: 90%;
+	font-size: .90em;
 }
 
 /* Sometimes people don't want personal tools to be lowercase! */

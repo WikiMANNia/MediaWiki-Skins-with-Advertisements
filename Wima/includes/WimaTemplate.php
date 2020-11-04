@@ -47,15 +47,7 @@ class WimaTemplate extends BaseTemplate {
 			<div id="content" class="mw-body" role="main">
 				<a id="top"></a>
 				<?php
-				if ( $this->data['sitenotice'] ) {
-					?>
-					<div id="siteNotice"><?php
-					$this->html( 'sitenotice' )
-					?></div><?php
-				}
-				?>
-
-				<?php
+				echo $this->getSitenoticeOrAdvertisementBox();
 				echo $this->getIndicators();
 				// Loose comparison with '!=' is intentional, to catch null and false too, but not '0'
 				if ( $this->data['title'] != '' ) {
@@ -106,6 +98,7 @@ class WimaTemplate extends BaseTemplate {
 						$this->html( 'dataAfterContent'
 						);
 					}
+					echo $this->getAdvertisementBoxUnten();
 					?>
 					<div class="visualClear"></div>
 				</div>
@@ -219,6 +212,9 @@ class WimaTemplate extends BaseTemplate {
 	 * @param array $sidebar
 	 */
 	protected function renderPortals( $sidebar ) {
+		global $wgAdSidebarTopCode, $wgAdSidebarBottomCode;
+		global $wgAdSidebarTopType, $wgAdSidebarBottomType;
+
 		if ( !isset( $sidebar['SEARCH'] ) ) {
 			$sidebar['SEARCH'] = true;
 		}
@@ -241,12 +237,25 @@ class WimaTemplate extends BaseTemplate {
 				$this->searchBox();
 			} elseif ( $boxName == 'TOOLBOX' ) {
 				$this->toolbox();
+			} elseif ( $boxName == 'AD1' ) {
+				if ( isset($wgAdSidebarTopType) ) {
+					$tmp_name = isset($wgAdSidebarTopType) ? $wgAdSidebarTopType : 'advertising';
+					$this->customBox( 'advertising', $wgAdSidebarTopCode, $tmp_name );
+				}
+			} elseif ( $boxName == 'AD2' ) {
+				if ( isset($wgAdSidebarBottomCode) ) {
+					$tmp_name = isset($wgAdSidebarBottomType) ? $wgAdSidebarBottomType : 'advertising';
+					$this->customBox( 'advertising', $wgAdSidebarBottomCode, $tmp_name );
+				}
 			} elseif ( $boxName == 'LANGUAGES' ) {
 				$this->languageBox();
 			} else {
 				$this->customBox( $boxName, $content );
 			}
 		}
+		// Add box for donation page and Facebook linking
+		// Füge Box für Spendenseite und Facebook-Verlinkung hinzu
+		echo $this->getWimaBoxes();
 	}
 
 	function searchBox() {
@@ -367,7 +376,15 @@ class WimaTemplate extends BaseTemplate {
 	 * @param string $bar
 	 * @param array|string $cont
 	 */
-	function customBox( $bar, $cont ) {
+	function customBox( $bar, $cont, $msg = null ) {
+		if ( $msg === null ) {
+			$msg = $bar;
+		} else {
+			$msg = 'wima-' . $msg;
+		}
+		$body_class = ( $bar === 'advertising' ) ? 'pBodyAd' : 'pBody';
+		$msgObj = wfMessage( $msg );
+		$msg = htmlspecialchars( $msgObj->exists() ? $msgObj->text() : $msg );
 		$portletAttribs = array(
 			'class' => 'generated-sidebar portlet',
 			'id' => Sanitizer::escapeId( "p-$bar" ),
@@ -379,11 +396,10 @@ class WimaTemplate extends BaseTemplate {
 			$portletAttribs['title'] = $tooltip;
 		}
 		echo '	' . Html::openElement( 'div', $portletAttribs );
-		$msgObj = wfMessage( $bar );
 		?>
 
-		<h3><?php echo htmlspecialchars( $msgObj->exists() ? $msgObj->text() : $bar ); ?></h3>
-		<div class='pBody'>
+		<h3><?php echo $msg; ?></h3>
+		<div class="<?php echo $body_class ?>">
 			<?php
 			if ( is_array( $cont ) ) {
 				?>
@@ -408,5 +424,143 @@ class WimaTemplate extends BaseTemplate {
 		</div>
 		</div>
 	<?php
+	}
+
+	/**
+	 * Renderer for advertisement block
+	 *
+	 * @return string html
+	 */
+	private function getSitenoticeOrAdvertisementBox() {
+		global $wgTopBannerCode;
+		$html = '';
+		$issetSitenoticeBox    = $this->data['sitenotice'];
+		$issetAdvertisementBox = isset($wgTopBannerCode);
+
+		if ($issetSitenoticeBox && $issetAdvertisementBox) {
+			if ( rand(0, 1) ) {
+				$html = $this->getSitenoticeBox();
+			} else {
+				$html = $this->getAdvertisementBoxOben();
+			}
+		} elseif ($issetSitenoticeBox) {
+			$html = $this->getSitenoticeBox();
+		} elseif ($issetAdvertisementBox) {
+			$html = $this->getAdvertisementBoxOben();
+		}
+
+		return $html;
+	}
+	private function getSitenoticeBox() {
+		return '<div id="siteNotice">' . $this->html( "sitenotice" ) . '</div>';
+	}
+	private function getAdvertisementBoxOben() {
+		global $wgTopBannerCode, $wgTopBannerStyle, $wgTopBannerType;
+		$style1 = 'text-align:left;';
+		$style2 = isset($wgTopBannerStyle) ? $wgTopBannerStyle : 'border:1px solid blue; text-align:center;';
+
+		return $this->getAdvertisementBox($wgTopBannerCode, $wgTopBannerType, $style1, $style2);
+	}
+	private function getAdvertisementBoxUnten() {
+		global $wgBottomBannerCode, $wgBottomBannerStyle, $wgBottomBannerType;
+		$style1 = 'clear:both; margin-top:1em; text-align:left;';
+		$style2 = isset($wgBottomBannerStyle) ? $wgBottomBannerStyle : 'border:0; text-align:center;';
+
+		return $this->getAdvertisementBox($wgBottomBannerCode, $wgBottomBannerType, $style1, $style2);
+	}
+	private function getAdvertisementBox($code, $type, $style1, $style2) {
+
+		if ( isset($code) ) {
+			$msg_key = isset($type) ? $type : 'advertising';
+			return '<div id="p-advertising" title="Link mit Skripte" style="' . $style1 . '">'
+			      . $this->getMsg( 'wima-'.$msg_key )->text() . ':'
+			      . '<div style="' . $style2 . '">'
+			      . $code
+			      . '</div></div>';
+		}
+
+		return '';
+	}
+
+	/**
+	 * Renderer for donation block
+	 *
+	 * @return string html
+	 */
+	private function getDonationBox() {
+		global $wgDonationButton, $wgDonationButtonIMG, $wgDonationButtonURL;
+		global $wgLanguageCode;
+		if ( empty($wgDonationButton) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonIMG) ) return ''; // Do nothing
+		if ( empty($wgDonationButtonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($wgDonationButton === 'true') || ($wgDonationButton === true)) {
+			// If the passed URL ends with a '=', append the language abbreviation to make the donation page language sensitive.
+			// Wenn die übergebene URL mit einem '=' endet, das Sprachenkürzel anhängen, um die Spendenseite sprachsensitiv zu behandeln.
+			if (substr ( $wgDonationButtonURL, (strlen ( $wgDonationButtonURL ) - 1), 1 ) === '=') {
+				$wgDonationButtonURL .= ((strlen ( wfMessage( 'lang' ) ) == 2) ? wfMessage( 'lang' ) : $wgLanguageCode);
+			}
+			if (substr ( $wgDonationButtonIMG, 0, 1 ) !== '/') {
+				$wgDonationButtonIMG = '/' . $wgDonationButtonIMG;
+			}
+			// If the domin contains a subdomain, try adjusting the subdomain of the language selection to select the button image language sensitively.
+			// Wenn die Domin eine Subdomain enthält, versuche die Subdomain der Sprachauswahl anzupassen, um das Button-Bild sprachsensitiv auszuwählen.
+			$tmpServerDomain = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, '//' )+2);
+			$tmpServerDomain = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '/' ));
+			$tmpDonationButtonIMG = substr ( $wgDonationButtonIMG, strpos ( $wgDonationButtonIMG, $tmpServerDomain ) + strlen ( $tmpServerDomain ));
+			if (substr_count ( $tmpServerDomain, '.' ) == 2) {
+				$tmpLang = substr ( $tmpServerDomain, 0, strpos ( $tmpServerDomain, '.' ));
+				if (strlen ( wfMessage( 'lang' ) ) == 2) {
+					$tmpServerDomain = wfMessage( 'lang' ) . substr ( $tmpServerDomain, strpos ( $tmpServerDomain, '.' ));
+				}
+			}
+			$html = '<div class="portlet" id="p-donations" role="navigation">';
+			$html .= '<h3 id="p-donations-label">' . $this->getMsg( 'wima-donations' )->text() . '</h3>';
+			$html .= '<div title="Reiner Link ohne Skripte" class="body" align="center">';
+			$html .= '<a href="//' . $wgDonationButtonURL . '"><img alt="Donate-Button" src="//' . $tmpServerDomain . $tmpDonationButtonIMG . '" style="margin-top:6px; width:92px; height:26px;" /></a>';
+			$html .= '</div></div>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for wima block
+	 *
+	 * @return string html
+	 */
+	private function getWimaBox( $buttonActive, $buttonIMG, $buttonURL, $buttonLabel, $buttonAlt, $buttonStyle ) {
+
+		if ( empty($buttonActive) ) return ''; // Do nothing
+		if ( empty($buttonIMG) ) return ''; // Do nothing
+		if ( empty($buttonURL) ) return ''; // Do nothing
+		$html = '';
+
+		if (($buttonActive === 'true') || ($buttonActive === true)) {
+			$html = '<div class="portlet" id="p-'.$buttonLabel.'" role="navigation">';
+			$html .= '<h3 id="p-'.$buttonLabel.'-label">' . $this->getMsg( 'wima-'.$buttonLabel )->text() . '</h3>';
+			$html .= '<div title="Reiner Link ohne Skripte" class="body" align="center" style="margin-left:-5px;">';
+			$html .= '<a href="//' . $buttonURL . '"><img alt="'.$buttonAlt.'" src="//'.$buttonIMG.'" style="'.$buttonStyle.'" /></a>';
+			$html .= '</div></div>';
+		}
+
+		return $html;
+	}
+
+	/**
+	 * Renderer for wima block
+	 *
+	 * @return string html
+	 */
+	private function getWimaBoxes() {
+		global $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL;
+		global $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL;
+		$html = '';
+		$html .= $this->getDonationBox();
+		$html .= $this->getWimaBox( $wgFacebookButton, $wgFacebookButtonIMG, $wgFacebookButtonURL, 'facebook', 'Facebook-Button', 'width:148px; height:57px;' );
+		$html .= $this->getWimaBox( $wgAgeClassificationButton, $wgAgeClassificationButtonIMG, $wgAgeClassificationButtonURL, 'labelled', 'AgeClassification-Button', 'width:148px; height:28px;' );
+
+		return $html;
 	}
 } // end of class

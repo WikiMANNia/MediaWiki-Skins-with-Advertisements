@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dr Brains",
 			"Gomoko",
 			"Verdy p",
-			"Dr Brains"
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "L’habillage classique de MediaWiki depuis 2004, nommé d’après la photo en noir et blanc d’un livre dans l’arrière-plan de la page",
+	"wima-desc": "Basé sur [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook], il fournit quatre espaces publicitaires possibles qui sont remplis par LocalSettings.php.",
 	"wima.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Wima. */",
-	"wima.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage MonoBook uniquement. */"
+	"wima.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Wima uniquement. */",
+	"wima-advertising": "Publicité",
+	"wima-eventnote": "Événement",
+	"wima-hint": "Conseil",
+	"wima-donations": "Nous vous demandons de",
+	"wima-facebook": "Visitez-nous sur",
+	"wima-labelled": "marqué avec"
 }

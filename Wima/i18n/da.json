@@ -6,7 +6,7 @@
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "Den klassiske MediaWiki hud siden 2004, opkaldt efter det sort-hvide foto af en bog i baggrunden af siderne",
+	"wima-desc": "Det klassiske MediaWiki udseende siden 2004, opkaldt efter det sort-hvide foto af en bog i baggrunden af siderne",
 	"wima.css": "/** CSS inkluderet her vil være aktivt for brugere af Wima-temaet. */",
 	"wima.js": "/* JavaScript i denne fil vil indlæses for brugere af udseendet Wima. */"
 }

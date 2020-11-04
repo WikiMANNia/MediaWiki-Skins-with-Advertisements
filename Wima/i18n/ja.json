@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Fryed-peach",
-			"青子守歌",
-			"Takot"
+			"Takot",
+			"青子守歌"
 		]
 	},
-	"skinname-wima": "モノブック",
+	"skinname-wima": "Wima",
+	"wima-desc": "ページ背景にモノクロの本の写真があることから名付けられた、2004年以来のクラシックなMediaWiki外装。",
 	"wima.css": "/* ここに記述したCSSはモノブック外装の利用者に影響します */",
-	"wima.js": "/* ここにあるすべてのJavaScriptは、モノブック外装を使用している利用者に対して読み込まれます */",
-	"wima-desc": "ページ背景にモノクロの本の写真があることから名付けられた、2004年以来のクラシックなMediaWiki外装。"
+	"wima.js": "/* ここにあるすべてのJavaScriptは、モノブック外装を使用している利用者に対して読み込まれます */"
 }
