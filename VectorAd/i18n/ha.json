@@ -4,12 +4,12 @@
 			"DonCamillo"
 		]
 	},
-	"vector-action-delete": "Soke",
-	"vector-action-move": "Gusarwa",
-	"vector-action-protect": "A kare",
-	"vector-view-create": "Ƙirƙira",
-	"vector-view-edit": "Gyara",
-	"vector-view-history": "Nuna tarihin",
-	"vector-view-view": "Karanta",
-	"vector-more-actions": "Mafi"
+	"vectorad-action-delete": "Soke",
+	"vectorad-action-move": "Gusarwa",
+	"vectorad-action-protect": "A kare",
+	"vectorad-view-create": "Ƙirƙira",
+	"vectorad-view-edit": "Gyara",
+	"vectorad-view-history": "Nuna tarihin",
+	"vectorad-view-view": "Karanta",
+	"vectorad-more-actions": "Mafi"
 }

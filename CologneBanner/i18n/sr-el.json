@@ -7,10 +7,10 @@
 			"Сербијана"
 		]
 	},
-	"cologneblue.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Kelnsko plava“ */",
-	"cologneblue.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Kelnsko plava“ */",
-	"skinname-cologneblue": "Kelnsko plava",
-	"cologneblue-desc": "Lagana tema sa minimalnim formatiranjem",
+	"colognebanner.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Kelnsko plava“ */",
+	"colognebanner.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Kelnsko plava“ */",
+	"skinname-colognebanner": "Kelnsko plava",
+	"colognebanner-desc": "Lagana tema sa minimalnim formatiranjem",
 	"qbfind": "Pronađi",
 	"qbbrowse": "Potraži",
 	"qbedit": "Uredi",

@@ -4,13 +4,13 @@
 			"A R King"
 		]
 	},
-	"vector-action-addsection": "Yankwik temaj",
-	"vector-action-delete": "Shikishti",
-	"vector-action-move": "Shikijkwani",
-	"vector-action-undelete": "Shalkwepa",
-	"vector-view-create": "Shikchiwa",
-	"vector-view-edit": "Shikpata",
-	"vector-view-history": "Ken mupatak",
-	"vector-view-view": "Shiamatachia",
-	"vector-view-viewsource": "Shikita ne codigoj"
+	"vectorad-action-addsection": "Yankwik temaj",
+	"vectorad-action-delete": "Shikishti",
+	"vectorad-action-move": "Shikijkwani",
+	"vectorad-action-undelete": "Shalkwepa",
+	"vectorad-view-create": "Shikchiwa",
+	"vectorad-view-edit": "Shikpata",
+	"vectorad-view-history": "Ken mupatak",
+	"vectorad-view-view": "Shiamatachia",
+	"vectorad-view-viewsource": "Shikita ne codigoj"
 }

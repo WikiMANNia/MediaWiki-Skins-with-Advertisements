@@ -8,16 +8,16 @@
 			"ElizaMag"
 		]
 	},
-	"vector-action-addsection": "Тема тӀатоха",
-	"vector-action-delete": "ДӀадаккха",
-	"vector-action-move": "ЦӀи хувца",
-	"vector-action-protect": "Лораде",
-	"vector-action-undelete": "Хьаметтаоттаде",
-	"vector-action-unprotect": "Лорадар (гIо) хувца",
-	"vector-view-create": "Хьакхолла",
-	"vector-view-edit": "Нийсде",
-	"vector-view-history": "ОагӀон хувцамаш",
-	"vector-view-view": "Де́ша",
-	"vector-view-viewsource": "Хьалххе бӀаргтохара разметкага хьажар",
-	"vector-more-actions": "Кхы а"
+	"vectorad-action-addsection": "Тема тӀатоха",
+	"vectorad-action-delete": "ДӀадаккха",
+	"vectorad-action-move": "ЦӀи хувца",
+	"vectorad-action-protect": "Лораде",
+	"vectorad-action-undelete": "Хьаметтаоттаде",
+	"vectorad-action-unprotect": "Лорадар (гIо) хувца",
+	"vectorad-view-create": "Хьакхолла",
+	"vectorad-view-edit": "Нийсде",
+	"vectorad-view-history": "ОагӀон хувцамаш",
+	"vectorad-view-view": "Де́ша",
+	"vectorad-view-viewsource": "Хьалххе бӀаргтохара разметкага хьажар",
+	"vectorad-more-actions": "Кхы а"
 }

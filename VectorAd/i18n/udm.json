@@ -6,14 +6,14 @@
 			"Wadorgurt"
 		]
 	},
-	"vector-action-addsection": "Выль темаез ватсано",
-	"vector-action-delete": "Быдтоно",
-	"vector-action-move": "Нимзэ воштыны",
-	"vector-action-protect": "Утьыны",
-	"vector-view-create": "Кылдытоно",
-	"vector-view-edit": "Тупатоно",
-	"vector-view-history": "История",
-	"vector-view-view": "Лыдӟоно",
-	"vector-view-viewsource": "Кодзэ учкыны",
-	"vector-more-actions": "Эшшо"
+	"vectorad-action-addsection": "Выль темаез ватсано",
+	"vectorad-action-delete": "Быдтоно",
+	"vectorad-action-move": "Нимзэ воштыны",
+	"vectorad-action-protect": "Утьыны",
+	"vectorad-view-create": "Кылдытоно",
+	"vectorad-view-edit": "Тупатоно",
+	"vectorad-view-history": "История",
+	"vectorad-view-view": "Лыдӟоно",
+	"vectorad-view-viewsource": "Кодзэ учкыны",
+	"vectorad-more-actions": "Эшшо"
 }

@@ -4,11 +4,11 @@
 			"Gnangbade"
 		]
 	},
-	"vector-action-addsection": "Sɔɔzɩ tɔm natʋyʋ",
-	"vector-action-move": "Kɛzɩ",
-	"vector-view-create": "Lɩzɩ",
-	"vector-view-edit": "Ñɔɔzɩ",
-	"vector-view-history": "Caanaʋ tɔm kɛdʋʋ",
-	"vector-view-view": "Kalɩ",
-	"vector-more-actions": "Sɔzʋʋ"
+	"vectorad-action-addsection": "Sɔɔzɩ tɔm natʋyʋ",
+	"vectorad-action-move": "Kɛzɩ",
+	"vectorad-view-create": "Lɩzɩ",
+	"vectorad-view-edit": "Ñɔɔzɩ",
+	"vectorad-view-history": "Caanaʋ tɔm kɛdʋʋ",
+	"vectorad-view-view": "Kalɩ",
+	"vectorad-more-actions": "Sɔzʋʋ"
 }

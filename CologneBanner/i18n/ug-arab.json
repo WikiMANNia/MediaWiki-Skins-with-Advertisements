@@ -8,9 +8,9 @@
 			"Uzdil"
 		]
 	},
-	"cologneblue.css": "/* CSS placed here will affect users of the Cologne Blue skin */",
-	"cologneblue.js": "/* Any JavaScript here will be loaded for users using the Cologne Blue skin */",
-	"skinname-cologneblue": "Cologne Blue",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* CSS placed here will affect users of the Cologne Banner skin */",
+	"colognebanner.js": "/* Any JavaScript here will be loaded for users using the Cologne Banner skin */",
 	"qbfind": "ئىزدە:",
 	"qbbrowse": "كۆز يۈگۈرت",
 	"qbedit": "تەھرىرلەش",

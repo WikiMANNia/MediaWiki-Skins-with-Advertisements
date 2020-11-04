@@ -1,5 +1,5 @@
 /**
- * Collapsible Tabs for the Vector skin.
+ * Collapsible Tabs for the VectorAd skin.
  *
  * @class jQuery.plugin.collapsibleTabs
  */

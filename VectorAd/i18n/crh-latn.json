@@ -4,16 +4,16 @@
 			"Don Alessandro"
 		]
 	},
-	"vector-action-addsection": "Mevzu qoş",
-	"vector-action-delete": "Yoq et",
-	"vector-action-move": "Adını deñiştir",
-	"vector-action-protect": "Qorçala",
-	"vector-action-undelete": "Yañıdan yarat",
-	"vector-action-unprotect": "Qorçalavnı deñiştir",
-	"vector-view-create": "Yarat",
-	"vector-view-edit": "Deñiştir",
-	"vector-view-history": "Keçmişini köster",
-	"vector-view-view": "Oqu",
-	"vector-view-viewsource": "Menba kodunı köster",
-	"vector-more-actions": "Başqa areketler"
+	"vectorad-action-addsection": "Mevzu qoş",
+	"vectorad-action-delete": "Yoq et",
+	"vectorad-action-move": "Adını deñiştir",
+	"vectorad-action-protect": "Qorçala",
+	"vectorad-action-undelete": "Yañıdan yarat",
+	"vectorad-action-unprotect": "Qorçalavnı deñiştir",
+	"vectorad-view-create": "Yarat",
+	"vectorad-view-edit": "Deñiştir",
+	"vectorad-view-history": "Keçmişini köster",
+	"vectorad-view-view": "Oqu",
+	"vectorad-view-viewsource": "Menba kodunı köster",
+	"vectorad-more-actions": "Başqa areketler"
 }

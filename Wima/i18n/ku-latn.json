@@ -4,5 +4,5 @@
 			"Krinkle"
 		]
 	},
-	"monobook.css": "/* CSS placed here will affect users of the Monobook skin */"
+	"wima.css": "/* CSS placed here will affect users of the Wima skin */"
 }

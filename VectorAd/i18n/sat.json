@@ -8,16 +8,16 @@
 			"Ramjit Tudu"
 		]
 	},
-	"vector-action-addsection": "ᱥᱟᱛᱚᱢ ᱥᱮᱞᱮᱫ",
-	"vector-action-delete": "ᱜᱮᱫ ᱜᱤᱰᱤ",
-	"vector-action-move": "ᱩᱪᱟᱹᱲ",
-	"vector-action-protect": "ᱨᱩᱠᱷᱤᱭᱟᱹ",
-	"vector-action-undelete": "Bań getgiḍi",
-	"vector-action-unprotect": "Bodol rukhiyạ",
-	"vector-view-create": "ᱛᱮᱭᱟᱨ",
-	"vector-view-edit": "ᱥᱟᱯᱲᱟᱣ",
-	"vector-view-history": "ᱱᱟᱜᱟᱢ ᱧᱮᱞᱢᱮ",
-	"vector-view-view": "ᱯᱟᱲᱦᱟᱣᱢᱮ",
-	"vector-view-viewsource": "ᱯᱷᱮᱰᱟᱛ ᱧᱮᱞᱢᱮ",
-	"vector-more-actions": "ᱵᱟᱹᱲᱛᱤ"
+	"vectorad-action-addsection": "ᱥᱟᱛᱚᱢ ᱥᱮᱞᱮᱫ",
+	"vectorad-action-delete": "ᱜᱮᱫ ᱜᱤᱰᱤ",
+	"vectorad-action-move": "ᱩᱪᱟᱹᱲ",
+	"vectorad-action-protect": "ᱨᱩᱠᱷᱤᱭᱟᱹ",
+	"vectorad-action-undelete": "Bań getgiḍi",
+	"vectorad-action-unprotect": "Bodol rukhiyạ",
+	"vectorad-view-create": "ᱛᱮᱭᱟᱨ",
+	"vectorad-view-edit": "ᱥᱟᱯᱲᱟᱣ",
+	"vectorad-view-history": "ᱱᱟᱜᱟᱢ ᱧᱮᱞᱢᱮ",
+	"vectorad-view-view": "ᱯᱟᱲᱦᱟᱣᱢᱮ",
+	"vectorad-view-viewsource": "ᱯᱷᱮᱰᱟᱛ ᱧᱮᱞᱢᱮ",
+	"vectorad-more-actions": "ᱵᱟᱹᱲᱛᱤ"
 }

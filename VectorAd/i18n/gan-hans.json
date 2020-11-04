@@ -5,15 +5,15 @@
 			"Xiaomingyan"
 		]
 	},
-	"vector-action-addsection": "添主题",
-	"vector-action-delete": "删吥",
-	"vector-action-move": "移吥",
-	"vector-action-protect": "护到",
-	"vector-action-undelete": "望下删吥𠮶页面",
-	"vector-action-unprotect": "更改保护",
-	"vector-view-create": "创建",
-	"vector-view-edit": "编辑",
-	"vector-view-history": "望下历史",
-	"vector-view-view": "读",
-	"vector-view-viewsource": "望下原始码"
+	"vectorad-action-addsection": "添主题",
+	"vectorad-action-delete": "删吥",
+	"vectorad-action-move": "移吥",
+	"vectorad-action-protect": "护到",
+	"vectorad-action-undelete": "望下删吥𠮶页面",
+	"vectorad-action-unprotect": "更改保护",
+	"vectorad-view-create": "创建",
+	"vectorad-view-edit": "编辑",
+	"vectorad-view-history": "望下历史",
+	"vectorad-view-view": "读",
+	"vectorad-view-viewsource": "望下原始码"
 }

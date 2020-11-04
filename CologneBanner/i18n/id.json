@@ -9,10 +9,10 @@
 			"Farras"
 		]
 	},
-	"cologneblue.css": "/* CSS yang ada di sini akan diterapkan pada kulit Cologne Blue. */",
-	"cologneblue.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Cologne Blue */",
-	"skinname-cologneblue": "Biru Köln",
-	"cologneblue-desc": "Kulit yang ringan dengan format minimal",
+	"skinname-colognebanner": "Banner Köln",
+	"colognebanner.css": "/* CSS yang ada di sini akan diterapkan pada kulit Banner Köln. */",
+	"colognebanner.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Banner Köln. */",
+	"colognebanner-desc": "Kulit yang ringan dengan format minimal",
 	"qbfind": "Pencarian",
 	"qbbrowse": "Navigasi",
 	"qbedit": "Sunting",

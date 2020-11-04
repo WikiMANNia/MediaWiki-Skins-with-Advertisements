@@ -4,14 +4,14 @@
 			"Imdadb"
 		]
 	},
-	"vector-action-addsection": "Púskun sarhál",
-	"vector-action-delete": "Mesa",
-	"vector-action-move": "Surif",
-	"vector-action-protect": "Rakk",
-	"vector-view-create": "Biná",
-	"vector-view-edit": "Radbadal",
-	"vector-view-history": "Lekav e ur",
-	"vector-view-view": "Xuán",
-	"vector-view-viewsource": "Bumpad e ur",
-	"vector-more-actions": "Pen"
+	"vectorad-action-addsection": "Púskun sarhál",
+	"vectorad-action-delete": "Mesa",
+	"vectorad-action-move": "Surif",
+	"vectorad-action-protect": "Rakk",
+	"vectorad-view-create": "Biná",
+	"vectorad-view-edit": "Radbadal",
+	"vectorad-view-history": "Lekav e ur",
+	"vectorad-view-view": "Xuán",
+	"vectorad-view-viewsource": "Bumpad e ur",
+	"vectorad-more-actions": "Pen"
 }

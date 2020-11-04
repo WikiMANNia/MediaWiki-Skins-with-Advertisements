@@ -5,8 +5,8 @@
 			"Matma Rex"
 		]
 	},
-	"skinname-monobook": "Książka",
-	"monobook-desc": "Klasyczna skórka MediaWiki, stworzona w 2004 roku, nazwana od czarno-białego zdjęcia książki w tle strony",
-	"monobook.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Książka */",
-	"monobook.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Książka */"
+	"skinname-wima": "Wima",
+	"wima-desc": "Klasyczna skórka MediaWiki, stworzona w 2004 roku, nazwana od czarno-białego zdjęcia książki w tle strony",
+	"wima.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Wima */",
+	"wima.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Wima */"
 }

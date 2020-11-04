@@ -7,16 +7,16 @@
 			"Санюн Вадик"
 		]
 	},
-	"vector-action-addsection": "У ӱжашым тӱҥалаш",
-	"vector-action-delete": "Шӧраш",
-	"vector-action-move": "Лӱмым вашталташ",
-	"vector-action-protect": "Тӧрлатымаш деч аралаш",
-	"vector-action-undelete": "Шӧрымым пӧртылаш",
-	"vector-action-unprotect": "Оролым вашталташ",
-	"vector-view-create": "Ышташ",
-	"vector-view-edit": "Тӧрлаташ",
-	"vector-view-history": "Эртымгорным ончалаш",
-	"vector-view-view": "Лудаш",
-	"vector-view-viewsource": "Тӱҥалтыш текстым ончалаш",
-	"vector-more-actions": "Эше"
+	"vectorad-action-addsection": "У ӱжашым тӱҥалаш",
+	"vectorad-action-delete": "Шӧраш",
+	"vectorad-action-move": "Лӱмым вашталташ",
+	"vectorad-action-protect": "Тӧрлатымаш деч аралаш",
+	"vectorad-action-undelete": "Шӧрымым пӧртылаш",
+	"vectorad-action-unprotect": "Оролым вашталташ",
+	"vectorad-view-create": "Ышташ",
+	"vectorad-view-edit": "Тӧрлаташ",
+	"vectorad-view-history": "Эртымгорным ончалаш",
+	"vectorad-view-view": "Лудаш",
+	"vectorad-view-viewsource": "Тӱҥалтыш текстым ончалаш",
+	"vectorad-more-actions": "Эше"
 }

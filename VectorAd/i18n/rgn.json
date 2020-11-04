@@ -1,9 +1,11 @@
 {
-	"@metadata": [],
-	"vector-action-addsection": "Zonta una cjacarèda",
-	"vector-action-delete": "Scanzèla",
-	"vector-action-move": "Chèmbia nòm",
-	"vector-action-protect": "Metti-j una pruteziò",
-	"vector-action-undelete": "Armett a post",
-	"vector-action-unprotect": "Sbloca"
+	"@metadata": {
+		"authors": []
+	},
+	"vectorad-action-addsection": "Zonta una cjacarèda",
+	"vectorad-action-delete": "Scanzèla",
+	"vectorad-action-move": "Chèmbia nòm",
+	"vectorad-action-protect": "Metti-j una pruteziò",
+	"vectorad-action-undelete": "Armett a post",
+	"vectorad-action-unprotect": "Sbloca"
 }

@@ -4,13 +4,13 @@
 			"Paivud"
 		]
 	},
-	"vector-action-addsection": "Vassõn teema",
-	"vector-action-delete": "Pühi",
-	"vector-action-move": "Liikut",
-	"vector-action-protect": "Varjaa",
-	"vector-view-create": "Loo cülci",
-	"vector-view-edit": "Muuttaa",
-	"vector-view-history": "Istori",
-	"vector-view-view": "Lukõa",
-	"vector-view-viewsource": "Lähtekoodi"
+	"vectorad-action-addsection": "Vassõn teema",
+	"vectorad-action-delete": "Pühi",
+	"vectorad-action-move": "Liikut",
+	"vectorad-action-protect": "Varjaa",
+	"vectorad-view-create": "Loo cülci",
+	"vectorad-view-edit": "Muuttaa",
+	"vectorad-view-history": "Istori",
+	"vectorad-view-view": "Lukõa",
+	"vectorad-view-viewsource": "Lähtekoodi"
 }

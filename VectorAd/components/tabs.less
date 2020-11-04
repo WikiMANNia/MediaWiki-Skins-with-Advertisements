@@ -3,12 +3,12 @@
  */
 
 /* Navigation Labels */
-div.vectorTabs h3 {
+div.vectoradTabs h3 {
 	display: none;
 }
 
 /* Namespaces and Views */
-div.vectorTabs {
+div.vectoradTabs {
 	float: left;
 	height: 2.5em;
 	.background-image('images/tab-break.png');
@@ -110,7 +110,7 @@ div.vectorTabs {
 }
 
 /* Variants and Actions */
-div.vectorMenu {
+div.vectoradMenu {
 	direction: ltr;
 	float: left;
 	cursor: pointer;
@@ -118,7 +118,7 @@ div.vectorMenu {
 	line-height: 1.125em;
 }
 
-div#mw-head div.vectorMenu h3 {
+div#mw-head div.vectoradMenu h3 {
 	float: left;
 	.background-image('images/tab-break.png');
 	background-repeat: no-repeat;
@@ -126,12 +126,12 @@ div#mw-head div.vectorMenu h3 {
 	font-size: 1em;
 	height: 2.5em;
 	// `padding-right` >= `1px` effectively moves the "background border" outside of the element to act like a real
-	// border. It is necessary for `div.vectorMenu div.menu` dropdown to align well.
-	padding-right: 0.5em; // equals `8px` at computed `font-size` of `14px` as visually harmonically with `padding-left` in `div.vectorMenu h3 span`
+	// border. It is necessary for `div.vectoradMenu div.menu` dropdown to align well.
+	padding-right: 0.5em; // equals `8px` at computed `font-size` of `14px` as visually harmonically with `padding-left` in `div.vectoradMenu h3 span`
 	margin-right: -1px;
 }
 
-div.vectorMenu h3 {
+div.vectoradMenu h3 {
 	span {
 		position: relative;
 		display: block;
@@ -167,17 +167,17 @@ div.vectorMenu h3 {
 	}
 }
 
-div.vectorMenu .vectorMenuCheckbox:checked + h3 span:after {
+div.vectoradMenu .vectoradMenuCheckbox:checked + h3 span:after {
 	transform: scaleY( -1 );
 }
 
-div.vectorMenu .vectorMenuCheckbox:focus + h3 {
+div.vectoradMenu .vectoradMenuCheckbox:focus + h3 {
 	// Simulate browser focus ring
 	outline: dotted 1px; // Firefox style
 	outline: auto -webkit-focus-ring-color; // Webkit style
 }
 
-div.vectorMenu div.menu {
+div.vectoradMenu div.menu {
 	// Match the width of the dropdown "heading" (the tab)
 	min-width: 100%;
 	position: absolute;
@@ -194,16 +194,16 @@ div.vectorMenu div.menu {
 	z-index: 2;
 }
 
-div.vectorMenu:hover div.menu {
+div.vectoradMenu:hover div.menu {
 	display: block;
 }
 // This is in a separate block, so that browsers supporting :hover but not :checked still apply the rule above
 // Support: IE8
-div.vectorMenu .vectorMenuCheckbox:checked ~ div.menu {
+div.vectoradMenu .vectoradMenuCheckbox:checked ~ div.menu {
 	display: block;
 }
 
-div.vectorMenu ul {
+div.vectoradMenu ul {
 	list-style-type: none;
 	list-style-image: none;
 	padding: 0;
@@ -214,13 +214,13 @@ div.vectorMenu ul {
 // stylelint-disable selector-no-vendor-prefix, selector-type-no-unknown
 
 /* Fixes old versions of FireFox */
-div.vectorMenu ul,
+div.vectoradMenu ul,
 x:-moz-any-link {
 	min-width: 5em;
 }
 
 /* Returns things back to normal in modern versions of FireFox */
-div.vectorMenu ul,
+div.vectoradMenu ul,
 x:-moz-any-link,
 x:default {
 	min-width: 0;
@@ -228,7 +228,7 @@ x:default {
 
 // stylelint-enable selector-no-vendor-prefix, selector-type-no-unknown
 
-div.vectorMenu li {
+div.vectoradMenu li {
 	padding: 0;
 	margin: 0;
 	text-align: left;
@@ -236,7 +236,7 @@ div.vectorMenu li {
 }
 
 /* OVERRIDDEN BY COMPLIANT BROWSERS */
-div.vectorMenu li a {
+div.vectoradMenu li a {
 	display: inline-block;
 	padding: 0.625em;
 	white-space: nowrap;
@@ -246,18 +246,18 @@ div.vectorMenu li a {
 }
 
 /* IGNORED BY IE6 */
-div.vectorMenu li > a {
+div.vectoradMenu li > a {
 	display: block;
 }
 
-div.vectorMenu li.selected a,
-div.vectorMenu li.selected a:visited {
+div.vectoradMenu li.selected a,
+div.vectoradMenu li.selected a:visited {
 	color: #222;
 	text-decoration: none;
 }
 
 // Invisible checkbox covering the dropdown menu handle
-.vectorMenuCheckbox {
+.vectoradMenuCheckbox {
 	cursor: pointer;
 	position: absolute;
 	top: 0;
@@ -272,27 +272,27 @@ div.vectorMenu li.selected a:visited {
 	display: none;
 }
 
-:not( :checked ) > .vectorMenuCheckbox {
+:not( :checked ) > .vectoradMenuCheckbox {
 	// When the browser supports :checked, display it
 	display: block;
 }
 
-// Expand vectorMenu as basic tabs in IE6
+// Expand vectoradMenu as basic tabs in IE6
 // (IE6 doesn't support :hover on DIV)
-* html div.vectorMenu div.menu {
+* html div.vectoradMenu div.menu {
 	display: block;
 	position: static;
 	border: 0;
 }
-* html div#mw-head div.vectorMenu h3 {
+* html div#mw-head div.vectoradMenu h3 {
 	display: none;
 }
-* html div.vectorMenu li {
+* html div.vectoradMenu li {
 	float: left;
 	line-height: 1.125em;
 	border-right: 1px solid #a7d7f9;
 }
-* html div.vectorMenu li a {
+* html div.vectoradMenu li a {
 	padding-top: 1.25em;
 }
 

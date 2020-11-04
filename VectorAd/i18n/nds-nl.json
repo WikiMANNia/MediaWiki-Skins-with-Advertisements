@@ -4,16 +4,16 @@
 			"Servien"
 		]
 	},
-	"vector-action-addsection": "Niej onderwarp",
-	"vector-action-delete": "Vortdoon",
-	"vector-action-move": "Hernömen",
-	"vector-action-protect": "Beveiligen",
-	"vector-action-undelete": "Weerummeplaotsen",
-	"vector-action-unprotect": "Beveyliging wysigen",
-	"vector-view-create": "Anmaken",
-	"vector-view-edit": "Bewarken",
-	"vector-view-history": "Geskydenisse bekyken",
-	"vector-view-view": "Leasen",
-	"vector-view-viewsource": "Brontekste bekyken",
-	"vector-more-actions": "Meer"
+	"vectorad-action-addsection": "Niej onderwarp",
+	"vectorad-action-delete": "Vortdoon",
+	"vectorad-action-move": "Hernömen",
+	"vectorad-action-protect": "Beveiligen",
+	"vectorad-action-undelete": "Weerummeplaotsen",
+	"vectorad-action-unprotect": "Beveyliging wysigen",
+	"vectorad-view-create": "Anmaken",
+	"vectorad-view-edit": "Bewarken",
+	"vectorad-view-history": "Geskydenisse bekyken",
+	"vectorad-view-view": "Leasen",
+	"vectorad-view-viewsource": "Brontekste bekyken",
+	"vectorad-more-actions": "Meer"
 }

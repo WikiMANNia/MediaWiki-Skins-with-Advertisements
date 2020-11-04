@@ -9,10 +9,10 @@
 			555
 		]
 	},
-	"cologneblue.css": "/* CSS colocado aqui irá afetar usuários do tema Cologne Blue */",
-	"cologneblue.js": "/* Qualquer JavaScript aqui colocado sera carregado para usuários do tema Cologne Blue */",
-	"skinname-cologneblue": "Azul Colonial",
-	"cologneblue-desc": "Um tema leve com formatação mínima",
+	"skinname-colognebanner": "Colônia Bandeira",
+	"colognebanner-desc": "Um tema leve com formatação mínima",
+	"colognebanner.css": "/* CSS colocado aqui irá afetar usuários do tema Colônia Bandeira */",
+	"colognebanner.js": "/* Qualquer JavaScript aqui colocado sera carregado para usuários do tema Colônia Bandeira */",
 	"qbfind": "Buscar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

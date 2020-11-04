@@ -4,17 +4,18 @@
 			"Kandar"
 		]
 	},
-	"vector-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
-	"vector-action-addsection": "Tambah jejer",
-	"vector-action-delete": "Hapus",
-	"vector-action-move": "Pindahkeun",
-	"vector-action-protect": "Konci",
-	"vector-action-undelete": "Bolaykeun ngahapus",
-	"vector-action-unprotect": "Robah protéksi",
-	"vector-view-create": "Jieun",
-	"vector-view-edit": "Édit",
-	"vector-view-history": "Témbongkeun jujutan",
-	"vector-view-view": "Baca",
-	"vector-view-viewsource": "Témbongkeun sumber",
-	"vector-more-actions": "Lianna"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
+	"vectorad-action-addsection": "Tambah jejer",
+	"vectorad-action-delete": "Hapus",
+	"vectorad-action-move": "Pindahkeun",
+	"vectorad-action-protect": "Konci",
+	"vectorad-action-undelete": "Bolaykeun ngahapus",
+	"vectorad-action-unprotect": "Robah protéksi",
+	"vectorad-view-create": "Jieun",
+	"vectorad-view-edit": "Édit",
+	"vectorad-view-history": "Témbongkeun jujutan",
+	"vectorad-view-view": "Baca",
+	"vectorad-view-viewsource": "Témbongkeun sumber",
+	"vectorad-more-actions": "Lianna"
 }

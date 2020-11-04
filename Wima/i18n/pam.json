@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"monobook.css": "/* CSS a mikabit keni miapectuan la reng gagamit king Monobook a pabalat */"
+	"@metadata": {
+		"authors": []
+	},
+	"wima.css": "/* CSS a mikabit keni miapectuan la reng gagamit king Wima a pabalat */"
 }

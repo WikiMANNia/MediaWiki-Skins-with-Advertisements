@@ -5,18 +5,18 @@
 			"វ័ណថារិទ្ធ"
 		]
 	},
-	"skinname-vector": "វ៉ិចទ័រ​​",
-	"vector.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Vector */",
-	"vector-action-addsection": "បន្ថែម​ប្រធានបទ​",
-	"vector-action-delete": "លុបចោល",
-	"vector-action-move": "ប្តូរទីតាំង",
-	"vector-action-protect": "ការពារ",
-	"vector-action-undelete": "ឈប់លុបចោល",
-	"vector-action-unprotect": "ប្ដូរការការពារ",
-	"vector-view-create": "បង្កើត​",
-	"vector-view-edit": "កែប្រែ​",
-	"vector-view-history": "មើល​ប្រវត្តិ​",
-	"vector-view-view": "អាន",
-	"vector-view-viewsource": "មើល​កូដ",
-	"vector-more-actions": "ច្រើនទៀត"
+	"skinname-vectorad": "វ៉ិចទ័រ​​",
+	"vectorad.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក VectorAd */",
+	"vectorad-action-addsection": "បន្ថែម​ប្រធានបទ​",
+	"vectorad-action-delete": "លុបចោល",
+	"vectorad-action-move": "ប្តូរទីតាំង",
+	"vectorad-action-protect": "ការពារ",
+	"vectorad-action-undelete": "ឈប់លុបចោល",
+	"vectorad-action-unprotect": "ប្ដូរការការពារ",
+	"vectorad-view-create": "បង្កើត​",
+	"vectorad-view-edit": "កែប្រែ​",
+	"vectorad-view-history": "មើល​ប្រវត្តិ​",
+	"vectorad-view-view": "អាន",
+	"vectorad-view-viewsource": "មើល​កូដ",
+	"vectorad-more-actions": "ច្រើនទៀត"
 }

@@ -5,16 +5,16 @@
 			"JinJian"
 		]
 	},
-	"vector-action-addsection": "Igdugang hin himangrawon",
-	"vector-action-delete": "Para-a",
-	"vector-action-move": "Balhina",
-	"vector-action-protect": "Panalipda",
-	"vector-action-undelete": "Igbalik an ginpara",
-	"vector-action-unprotect": "Liwani an panalipod",
-	"vector-view-create": "Himo-a",
-	"vector-view-edit": "Igliwat",
-	"vector-view-history": "Kitaa an kaagi",
-	"vector-view-view": "Basaha",
-	"vector-view-viewsource": "Kitaa an ginkuhaan",
-	"vector-more-actions": "Damo pa"
+	"vectorad-action-addsection": "Igdugang hin himangrawon",
+	"vectorad-action-delete": "Para-a",
+	"vectorad-action-move": "Balhina",
+	"vectorad-action-protect": "Panalipda",
+	"vectorad-action-undelete": "Igbalik an ginpara",
+	"vectorad-action-unprotect": "Liwani an panalipod",
+	"vectorad-view-create": "Himo-a",
+	"vectorad-view-edit": "Igliwat",
+	"vectorad-view-history": "Kitaa an kaagi",
+	"vectorad-view-view": "Basaha",
+	"vectorad-view-viewsource": "Kitaa an ginkuhaan",
+	"vectorad-more-actions": "Damo pa"
 }

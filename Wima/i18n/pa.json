@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-monobook": "ਮੋਨੋਬੁੱਕ"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-wima": "ਮੋਨੋਬੁੱਕ"
 }

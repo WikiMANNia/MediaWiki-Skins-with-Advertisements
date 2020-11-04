@@ -14,18 +14,18 @@
 			"Gambollar"
 		]
 	},
-	"skinname-vector": "Vektor",
-	"vector-skin-desc": "Asayışo de newe be versiyonê MonoBookiyo modern ra û weşkerdışê ke şenê bıgureniyê",
-	"vector-action-addsection": "Mewzu vıraze",
-	"vector-action-delete": "Bestere",
-	"vector-action-move": "Bıkırışe",
-	"vector-action-protect": "Bısıtarne",
-	"vector-action-undelete": "Peyser biya",
-	"vector-action-unprotect": "Sıtarnayışi bıvurne",
-	"vector-view-create": "Vıraze",
-	"vector-view-edit": "Bıvırnê",
-	"vector-view-history": "Verênan bıvênê",
-	"vector-view-view": "Bıwanê",
-	"vector-view-viewsource": "Rêçi bıvin",
-	"vector-more-actions": "Tayêna"
+	"skinname-vectorad": "VektorAd",
+	"vectorad-skin-desc": "Asayışo de newe be versiyonê MonoBookiyo modern ra û weşkerdışê ke şenê bıgureniyê",
+	"vectorad-action-addsection": "Mewzu vıraze",
+	"vectorad-action-delete": "Bestere",
+	"vectorad-action-move": "Bıkırışe",
+	"vectorad-action-protect": "Bısıtarne",
+	"vectorad-action-undelete": "Peyser biya",
+	"vectorad-action-unprotect": "Sıtarnayışi bıvurne",
+	"vectorad-view-create": "Vıraze",
+	"vectorad-view-edit": "Bıvırnê",
+	"vectorad-view-history": "Verênan bıvênê",
+	"vectorad-view-view": "Bıwanê",
+	"vectorad-view-viewsource": "Rêçi bıvin",
+	"vectorad-more-actions": "Tayêna"
 }

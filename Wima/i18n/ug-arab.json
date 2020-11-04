@@ -4,7 +4,7 @@
 			"Arlin"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook.css": "/* CSS placed here will affect users of the Monobook skin */",
-	"monobook.js": "/* Any JavaScript here will be loaded for users using the MonoBook skin */"
+	"skinname-wima": "Wima",
+	"wima.css": "/* CSS placed here will affect users of the Wima skin */",
+	"wima.js": "/* Any JavaScript here will be loaded for users using the Wima skin */"
 }

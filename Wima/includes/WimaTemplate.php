@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -27,10 +27,10 @@
 /**
  * @ingroup Skins
  */
-class MonoBookTemplate extends BaseTemplate {
+class WimaTemplate extends BaseTemplate {
 
 	/**
-	 * Template filter callback for MonoBook skin.
+	 * Template filter callback for Wima skin.
 	 * Takes an associative array of data set from a SkinTemplate-based
 	 * class, and a wrapper for MediaWiki's localization database, and
 	 * outputs a formatted page.
@@ -41,7 +41,7 @@ class MonoBookTemplate extends BaseTemplate {
 		$html .= Html::openElement( 'div', [ 'id' => 'globalWrapper' ] );
 
 		$html .= Html::openElement( 'div', [ 'id' => 'column-content' ] );
-		$html .= Html::rawElement( 'div', [ 'id' => 'content', 'class' => 'mw-body',  'role' => 'main' ],
+		$html .= Html::rawElement( 'div', [ 'id' => 'content', 'class' => 'mw-body', 'role' => 'main' ],
 			Html::element( 'a', [ 'id' => 'top' ] ) .
 			$this->getIfExists( 'sitenotice', [
 				'wrapper' => 'div',
@@ -90,7 +90,7 @@ class MonoBookTemplate extends BaseTemplate {
 				$this->getClear()
 			)
 		);
-		$html .= $this->deprecatedHookHack( 'MonoBookAfterContent' );
+		$html .= $this->deprecatedHookHack( 'WimaAfterContent' );
 		$html .= Html::closeElement( 'div' );
 
 		$html .= Html::rawElement( 'div',
@@ -225,11 +225,11 @@ class MonoBookTemplate extends BaseTemplate {
 
 		$html .= $this->getBox( 'tb', $this->getToolbox(), 'toolbox', [ 'hooks' => [
 			// Deprecated hooks
-			'MonoBookTemplateToolboxEnd' => [ &$skin ],
+			'WimaTemplateToolboxEnd' => [ &$skin ],
 			'SkinTemplateToolboxEnd' => [ &$skin, true ]
 		] ] );
 
-		$html .= $this->deprecatedHookHack( 'MonoBookAfterToolbox' );
+		$html .= $this->deprecatedHookHack( 'WimaAfterToolbox' );
 
 		return $html;
 	}

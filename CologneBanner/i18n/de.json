@@ -7,10 +7,10 @@
 			"The Evil IP address"
 		]
 	},
-	"cologneblue.css": "/* Das folgende CSS wird für Benutzer der Kölnisch-Blau-Benutzeroberfläche geladen. */",
-	"cologneblue.js": "/* Das folgende JavaScript wird für Benutzer der Kölnisch-Blau-Benutzeroberfläche geladen. */",
-	"skinname-cologneblue": "Kölnisch Blau",
-	"cologneblue-desc": "Stellt eine minimalistische Benutzeroberfläche bereit",
+	"skinname-colognebanner": "Kölnisch Banner",
+	"colognebanner.css": "/* Das folgende CSS wird für Benutzer der Kölnisch-Banner-Benutzeroberfläche geladen. */",
+	"colognebanner.js": "/* Das folgende JavaScript wird für Benutzer der Kölnisch-Banner-Benutzeroberfläche geladen. */",
+	"colognebanner-desc": "Stellt eine minimalistische Benutzeroberfläche bereit",
 	"qbfind": "Finden",
 	"qbbrowse": "Durchsuchen",
 	"qbedit": "Bearbeiten",

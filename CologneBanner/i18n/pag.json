@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"qbpageoptions": "Ayan bolong",
 	"deletethispage": "Buralen so ayan page",
 	"protectthispage": "Iyagel yan bolong",

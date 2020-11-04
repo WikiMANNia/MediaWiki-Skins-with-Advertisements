@@ -6,16 +6,16 @@
 			"Mehtab ahmed"
 		]
 	},
-	"vector-action-addsection": "عنوان ڏيو",
-	"vector-action-delete": "ڊاھيو",
-	"vector-action-move": "چوريو",
-	"vector-action-protect": "تحفظيو",
-	"vector-action-undelete": "اڻ‌ڊاهيو",
-	"vector-action-unprotect": "تحفظ بدلايو",
-	"vector-view-create": "سرجيو",
-	"vector-view-edit": "سنواريو",
-	"vector-view-history": "سوانح ڏسو",
-	"vector-view-view": "پڙھو",
-	"vector-view-viewsource": "ڪوڊ ڏسو",
-	"vector-more-actions": "وڌيڪ"
+	"vectorad-action-addsection": "عنوان ڏيو",
+	"vectorad-action-delete": "ڊاھيو",
+	"vectorad-action-move": "چوريو",
+	"vectorad-action-protect": "تحفظيو",
+	"vectorad-action-undelete": "اڻ‌ڊاهيو",
+	"vectorad-action-unprotect": "تحفظ بدلايو",
+	"vectorad-view-create": "سرجيو",
+	"vectorad-view-edit": "سنواريو",
+	"vectorad-view-history": "سوانح ڏسو",
+	"vectorad-view-view": "پڙھو",
+	"vectorad-view-viewsource": "ڪوڊ ڏسو",
+	"vectorad-more-actions": "وڌيڪ"
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -23,22 +23,22 @@
  */
 
 /**
- * Skin subclass for Vector
+ * Skin subclass for VectorAd
  * @ingroup Skins
  */
-class SkinVector extends SkinTemplate {
-	public $skinname = 'vector';
-	public $stylename = 'Vector';
-	public $template = 'VectorTemplate';
+class SkinVectorAd extends SkinTemplate {
+	public $skinname = 'vectorad';
+	public $stylename = 'VectorAd';
+	public $template = 'VectorAdTemplate';
 	/**
 	 * @var Config
 	 */
-	private $vectorConfig;
+	private $vectoradConfig;
 	private $responsiveMode = false;
 
 	public function __construct() {
-		$this->vectorConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
-			->makeConfig( 'vector' );
+		$this->vectoradConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
+			->makeConfig( 'vectorad' );
 	}
 
 	/** @inheritDoc */
@@ -66,7 +66,7 @@ class SkinVector extends SkinTemplate {
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
 
-		if ( $this->vectorConfig->get( 'VectorResponsive' ) ) {
+		if ( $this->vectoradConfig->get( 'VectorAdResponsive' ) ) {
 			$this->enableResponsiveMode();
 		}
 
@@ -94,7 +94,7 @@ class SkinVector extends SkinTemplate {
 	 * @return QuickTemplate
 	 */
 	public function setupTemplate( $classname, $repository = false, $cache_dir = false ) {
-		return new $classname( $this->vectorConfig );
+		return new $classname( $this->vectoradConfig );
 	}
 
 	/**

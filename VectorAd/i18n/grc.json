@@ -6,16 +6,16 @@
 			"Gts-tg"
 		]
 	},
-	"vector-action-addsection": "Θέμα προστιθέναι",
-	"vector-action-delete": "Σβεννύναι",
-	"vector-action-move": "Κινεῖν",
-	"vector-action-protect": "Φυλάττειν",
-	"vector-action-undelete": "Ἀποκαθιστάναι",
-	"vector-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
-	"vector-view-create": "Ποιεῖν",
-	"vector-view-edit": "Μεταγράφειν",
-	"vector-view-history": "Ἱστορίαν ὁρᾶν",
-	"vector-view-view": "Ἀναγνῶναι",
-	"vector-view-viewsource": "Ὁρᾶν τὴν πηγήν",
-	"vector-more-actions": "Πλεῖον"
+	"vectorad-action-addsection": "Θέμα προστιθέναι",
+	"vectorad-action-delete": "Σβεννύναι",
+	"vectorad-action-move": "Κινεῖν",
+	"vectorad-action-protect": "Φυλάττειν",
+	"vectorad-action-undelete": "Ἀποκαθιστάναι",
+	"vectorad-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"vectorad-view-create": "Ποιεῖν",
+	"vectorad-view-edit": "Μεταγράφειν",
+	"vectorad-view-history": "Ἱστορίαν ὁρᾶν",
+	"vectorad-view-view": "Ἀναγνῶναι",
+	"vectorad-view-viewsource": "Ὁρᾶν τὴν πηγήν",
+	"vectorad-more-actions": "Πλεῖον"
 }

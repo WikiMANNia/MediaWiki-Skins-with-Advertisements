@@ -7,10 +7,10 @@
 			"Xosé"
 		]
 	},
-	"cologneblue.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Azul colonial */",
-	"cologneblue.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Azul colonial */",
-	"skinname-cologneblue": "Azul colonial",
-	"cologneblue-desc": "Un tema lixeiro con formato minimalista",
+	"colognebanner.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Azul colonial */",
+	"colognebanner.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Azul colonial */",
+	"skinname-colognebanner": "Azul colonial",
+	"colognebanner-desc": "Un tema lixeiro con formato minimalista",
 	"qbfind": "Procurar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

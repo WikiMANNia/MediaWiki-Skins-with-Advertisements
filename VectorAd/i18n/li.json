@@ -6,17 +6,18 @@
 			"Robin van der Vliet"
 		]
 	},
-	"vector-skin-desc": "Modern versie van MonoBook mit e frisj uterlik en verbaeteringe op 't gebeed van gebroeksvruntjelikheid",
-	"vector-action-addsection": "Voog köpke toe",
-	"vector-action-delete": "Ewegsjaffe",
-	"vector-action-move": "Verplaats",
-	"vector-action-protect": "Besjirm",
-	"vector-action-undelete": "Plaats trök",
-	"vector-action-unprotect": "Anger beveiliging",
-	"vector-view-create": "Maak aan",
-	"vector-view-edit": "Bewirk",
-	"vector-view-history": "Bekiek de gesjiedenis",
-	"vector-view-view": "Laes",
-	"vector-view-viewsource": "Bekiek bróntèks",
-	"vector-more-actions": "Mieë"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Modern versie van MonoBook mit e frisj uterlik en verbaeteringe op 't gebeed van gebroeksvruntjelikheid",
+	"vectorad-action-addsection": "Voog köpke toe",
+	"vectorad-action-delete": "Ewegsjaffe",
+	"vectorad-action-move": "Verplaats",
+	"vectorad-action-protect": "Besjirm",
+	"vectorad-action-undelete": "Plaats trök",
+	"vectorad-action-unprotect": "Anger beveiliging",
+	"vectorad-view-create": "Maak aan",
+	"vectorad-view-edit": "Bewirk",
+	"vectorad-view-history": "Bekiek de gesjiedenis",
+	"vectorad-view-view": "Laes",
+	"vectorad-view-viewsource": "Bekiek bróntèks",
+	"vectorad-more-actions": "Mieë"
 }
