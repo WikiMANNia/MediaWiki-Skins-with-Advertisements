@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Dead3y3"
-		]
-	},
-	"colognebanner.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Cologne Banner skin */",
-	"colognebanner.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Cologne Blue skin */"
-}
