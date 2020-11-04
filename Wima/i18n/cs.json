@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Danny B.",
+			"Dvorapa",
 			"Li-sung",
-			"Mormegil",
 			"Matěj Suchánek",
-			"Dvorapa"
+			"Mormegil",
+			"Patriccck"
 		]
 	},
 	"skinname-wima": "Wima",
 	"wima-desc": "Klasický vzhled MediaWiki od roku 2004, pojmenovaný po černobílé fotografii knihy v pozadí stránky",
-	"wima.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled Wima. */",
-	"wima.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu Wima. */",
+	"wima.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled Wima */",
+	"wima.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu Wima */",
 	"wima-jumptotop": "zpět na začátek",
 	"wima-jumptopersonal": "uživatelské nástroje",
 	"wima-jumptonavigation": "Skočit na navigaci",

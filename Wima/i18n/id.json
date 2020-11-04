@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arifin.wijaya",
 			"Iwan Novirion",
 			"Rex",
-			"Arifin.wijaya",
 			"William Surya Permana"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima.css": "/* CSS yang ada di sini akan diterapkan pada kulit Wima. */",
-	"wima.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Wima */",
 	"wima-desc": "Kulit MediaWiki klasik sejak tahun 2004, dinamai foto hitam-putih dari buku di latar belakang halaman",
+	"wima.css": "/* CSS yang ada di sini akan diterapkan pada kulit Wima. */",
+	"wima.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Wima. */",
 	"wima-jumptotop": "kembali ke atas",
 	"wima-jumptopersonal": "peralatan pengguna",
 	"wima-jumptonavigation": "Loncat ke navigasi",

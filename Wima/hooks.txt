@@ -1,10 +1,10 @@
 Hooks provided by the Wima skin.
 
-'WimaAfterContent': Called after div#content has been closed but right
-before div#column-content is closed. You can use this to inject items (such as
+'WimaAfterContent': Called after #content has been closed but right
+before #column-content is closed. You can use this to inject items (such as
 ads, for example) from an extension.
 
-'WimaAfterToolbox': Called in toolbox() after the toolbox portlet (div#p-tb)
+'WimaAfterToolbox': Called in toolbox() after the toolbox portlet (#p-tb)
 has been generated. You can use this to inject items (such as ads or a hit
 counter, for example) from an extension.
 This is the MonoBook counterpart to the VectorAfterToolbox hook in the Vector

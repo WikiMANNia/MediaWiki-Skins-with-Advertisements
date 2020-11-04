@@ -1,20 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mainframe98",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Mainframe98"
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "De klassieke MediaWiki-vormgeving sinds 2004, genoemd naar de zwart-witfoto van een boek op de achtergrond van de pagina",
+	"wima-desc": "Op basis van [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook] biedt het vier mogelijke advertentieruimtes die door LocalSettings.php worden ingevuld.",
 	"wima.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Wima */",
 	"wima.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Wima gebruiken */",
 	"wima-jumptotop": "terug naar boven",
+	"wima-jumptopersonal": "gebruikershulpmiddelen",
 	"wima-jumptonavigation": "Naar navigatie springen",
 	"wima-jumptosearch": "Naar zoeken springen",
 	"wima-more-actions": "Meer",
 	"wima-cactions-label": "Pagina-acties",
 	"wima-notifications-link": "Meldingen ($1)",
-	"wima-notifications-link-none": "Meldingen"
+	"wima-notifications-link-none": "Meldingen",
+	"wima-advertising": "Publiciteit",
+	"wima-eventnote": "Evenement",
+	"wima-hint": "Briefje",
+	"wima-donations": "Wij vragen om",
+	"wima-facebook": "Bezoek ons op",
+	"wima-labelled": "gemarkeerd met"
 }

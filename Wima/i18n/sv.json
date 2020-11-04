@@ -3,6 +3,7 @@
 		"authors": [
 			"Lejonel",
 			"Lokal Profil",
+			"Mjälten",
 			"Skalman",
 			"WikiPhoenix"
 		]
@@ -19,5 +20,5 @@
 	"wima-cactions-label": "Sidåtgärder",
 	"wima-notifications-link": "Aviseringar ($1)",
 	"wima-notifications-link-none": "Aviseringar",
-	"wima-responsive-label": "Aktivera responsiv Wima-design"
+	"wima-responsive-label": "Aktivera responsiv Wima-utseende"
 }

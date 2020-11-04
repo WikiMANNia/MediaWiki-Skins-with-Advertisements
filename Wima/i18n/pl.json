@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe",
-			"Matma Rex",
 			"Chrumps",
-			"Railfail536"
+			"Matma Rex",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
 		]
 	},
 	"skinname-wima": "Wima",
@@ -19,5 +20,5 @@
 	"wima-cactions-label": "Działania na stronie",
 	"wima-notifications-link": "Powiadomienia ($1)",
 	"wima-notifications-link-none": "Powiadomienia",
-	"wima-responsive-label": "Włącz responsywny design skórki Wima"
+	"wima-responsive-label": "Włącz responsywną skórkę Wima"
 }

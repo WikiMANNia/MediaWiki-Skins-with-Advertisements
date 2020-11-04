@@ -15,7 +15,7 @@
 ** Common styles across desktop and mobile
 */
 
-div#column-content {
+#column-content {
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -44,7 +44,8 @@ div#column-content {
 ** http://style.cleverchimp.com/font_size_intervals/altintervals.html
 */
 body {
-	font: x-small sans-serif;
+	font-family: sans-serif;
+	font-size: x-small; // Typical: 16px * 0.625 == 10px.
 	background: @background url( images/headbg.jpg ) 0 0 no-repeat;
 	// stylelint-disable value-list-comma-newline-after
 	/* @embed */
@@ -60,8 +61,8 @@ body {
 }
 
 /* scale back up to a sane default */
-div#globalWrapper {
-	font-size: 127%;
+#globalWrapper {
+	font-size: 127%; // Typical: x-small * 127% == 12.7px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -93,7 +94,9 @@ pre,
 	line-height: 1.1em;
 }
 
-#firstHeading {
+.firstHeading {
+	margin-top: 0.4em;
+	margin-bottom: 0.1em;
 	padding-top: 0;
 	overflow: visible;
 }
@@ -101,14 +104,12 @@ pre,
 .mw-indicators {
 	float: right;
 	line-height: 1.5em;
-	font-size: 95%;
+	font-size: .95em;
 }
 
 .mw-indicator {
 	display: -moz-inline-block;
 	display: inline-block;
-	zoom: 1;
-	*display: inline; /* stylelint-disable-line declaration-block-no-duplicate-properties */
 }
 
 .mw-jump-link:not( :focus ) {
@@ -120,7 +121,7 @@ pre,
 */
 
 #siteNotice {
-	font-size: 95%;
+	font-size: .95em;
 	padding: 0 0.9em;
 
 	p {
@@ -164,23 +165,38 @@ table.rimage {
 		background: transparent;
 		display: inline;
 		height: 1em;
-		font-size: 91%;
+		font-size: .91em;
+		font-weight: normal;
 		white-space: nowrap;
 	}
 
 	ul {
 		line-height: 1.5em;
-		font-size: 95%;
+		font-size: .95em;
 	}
 
 	li {
 		padding: 0;
 		margin: 0;
 	}
+
+	/* Wima additions for advertisements */
+	img {
+		height: auto;
+		width: 100%;
+	}
+	p {
+		font-size: .95em;
+		line-height: 1.2em;
+		margin: 0.2em 0.2em 0 0.5em;
+	}
+	p.small {
+		font-size: .85em;
+	}
 }
 
 .pBody {
-	font-size: 95%;
+	font-size: .95em;
 	color: @text-color;
 	border-collapse: collapse;
 
@@ -219,7 +235,7 @@ li#pt-anonuserpage {
 /*
 ** footer
 */
-#footer {
+.mw-footer {
 	background-color: @content-background;
 	border-top: 1px solid @orange-border;
 	border-bottom: 1px solid @orange-border;
@@ -227,7 +243,7 @@ li#pt-anonuserpage {
 	overflow: hidden;
 	padding: 0.4em 0 0.3em 0;
 	text-align: center;
-	font-size: 90%;
+	font-size: .90em;
 
 	li {
 		display: inline;
@@ -237,11 +253,11 @@ li#pt-anonuserpage {
 
 #userloginprompt,
 #languagelinks {
-	font-size: 85%;
+	font-size: .85em;
 }
 
 #login-sectiontip {
-	font-size: 85%;
+	font-size: .85em;
 	line-height: 1.2;
 	padding-top: 2em;
 }
@@ -362,7 +378,7 @@ div.mw-lag-warn-high {
 	td {
 		text-align: center;
 		vertical-align: middle;
-		font-size: 90%;
+		font-size: .90em;
 	}
 }
 

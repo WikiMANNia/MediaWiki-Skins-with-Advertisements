@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ерней",
 			"Ильнар"
 		]
 	},
@@ -13,5 +14,5 @@
 	"wima-more-actions": "Тагын",
 	"wima-cactions-label": "Биттәге гамәлләр",
 	"wima-notifications-link": "Хəбəрнамəләр ($1)",
-	"wima-notifications-link-none": "Хəбəрнамəләр"
+	"wima-notifications-link-none": "Белдермәләр"
 }

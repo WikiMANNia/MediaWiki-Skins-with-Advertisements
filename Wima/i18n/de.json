@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Geitost",
+			"Kghbln",
 			"Metalhead64",
-			"Kghbln"
+			"WikiMANNia"
 		]
 	},
 	"skinname-wima": "Wima",
-	"wima-desc": "Stellt eine klassische Benutzeroberfläche bereit",
+	"wima-desc": "Basierend auf [https://www.mediawiki.org/wiki/Skin:MonoBook MonoBook] stellt es vier mögliche Werbeplätze bereit, die von der LocalSettings.php befüllt werden.",
 	"wima.css": "/* Das folgende CSS wird für Benutzer der Benutzeroberfläche Wima geladen. */",
 	"wima.js": "/* Das folgende JavaScript wird für Benutzer der Benutzeroberfläche Wima geladen. */",
 	"wima-jumptotop": "Zurück nach oben",
@@ -18,5 +19,11 @@
 	"wima-cactions-label": "Seitenaktionen",
 	"wima-notifications-link": "Benachrichtigungen ($1)",
 	"wima-notifications-link-none": "Benachrichtigungen",
-	"wima-responsive-label": "Responsives Wima-Design aktivieren"
+	"wima-responsive-label": "Responsives Wima-Design aktivieren",
+	"wima-advertising": "Werbung",
+	"wima-eventnote": "Veranstaltung",
+	"wima-hint": "Hinweis",
+	"wima-donations": "Wir bitten um",
+	"wima-facebook": "Besuche uns auf",
+	"wima-labelled": "gekennzeichnet mit"
 }
