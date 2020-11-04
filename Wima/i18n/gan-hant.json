@@ -1,7 +1,0 @@
-{
-	"@metadata": {
-		"authors": []
-	},
-	"wima.css": "/* 箇首嗰 CSS 會礙到正用Wima皮膚嗰用戶 */",
-	"wima.js": "/* 伓再使用；請用[[MediaWiki:common.js]] */"
-}

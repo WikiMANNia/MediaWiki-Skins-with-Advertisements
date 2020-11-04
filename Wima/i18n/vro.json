@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Võrok"
-		]
-	},
-	"wima.css": "/* Taa lehe pääl om Wima-vällänägemist muutvit kujonduisi. */",
-	"wima.js": "/* Olõi soovitõt; pruugiq [[MediaWiki:common.js]] */"
-}
