@@ -4,12 +4,12 @@
 			"Joanmp17"
 		]
 	},
-	"vector-action-delete": "ሰርዝ",
-	"vector-action-move": "ኣንቀሳቕስ",
-	"vector-action-protect": "ተኸላኸለ",
-	"vector-view-create": "ፈጠረ",
-	"vector-view-edit": "ኣተዓራረየ",
-	"vector-view-history": "ታሪኽ ርኣይ",
-	"vector-view-view": "ኣንብብ",
-	"vector-more-actions": "ተወሳኺ"
+	"vectorad-action-delete": "ሰርዝ",
+	"vectorad-action-move": "ኣንቀሳቕስ",
+	"vectorad-action-protect": "ተኸላኸለ",
+	"vectorad-view-create": "ፈጠረ",
+	"vectorad-view-edit": "ኣተዓራረየ",
+	"vectorad-view-history": "ታሪኽ ርኣይ",
+	"vectorad-view-view": "ኣንብብ",
+	"vectorad-more-actions": "ተወሳኺ"
 }

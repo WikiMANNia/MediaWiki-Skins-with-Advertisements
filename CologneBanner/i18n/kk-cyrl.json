@@ -6,9 +6,9 @@
 			"Kaztrans"
 		]
 	},
-	"skinname-cologneblue": "Көк зеңгірлігі (cologneblue)",
-	"cologneblue.css": "/* Мында орналастырылған CSS тек «Көлн зеңгірлігі» (cologneblue) мәнерін пайдаланушыларына ықпал етеді skin */",
-	"cologneblue.js": "/* Мындағы JavaScript тек «Көлн зеңгірлігі» (cologneblue) мәнерін пайдаланушылар үшін жегіледі */",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* Мында орналастырылған CSS тек «Көлн зеңгірлігі» (colognebanner) мәнерін пайдаланушыларына ықпал етеді skin */",
+	"colognebanner.js": "/* Мындағы JavaScript тек «Көлн зеңгірлігі» (colognebanner) мәнерін пайдаланушылар үшін жегіледі */",
 	"qbfind": "Табу",
 	"qbbrowse": "Шолу",
 	"qbedit": "Өңдеу",

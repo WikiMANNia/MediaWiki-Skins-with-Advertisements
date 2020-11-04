@@ -19,12 +19,12 @@
  * @since 1.35
  */
 
-use Vector\FeatureManagement\Requirements\LatestSkinVersionRequirement;
-use Vector\SkinVersionLookup;
+use VectorAd\FeatureManagement\Requirements\LatestSkinVersionRequirement;
+use VectorAd\SkinVersionLookup;
 
 /**
- * @group Vector
- * @coversDefaultClass \Vector\FeatureManagement\Requirements\LatestSkinVersionRequirement
+ * @group VectorAd
+ * @coversDefaultClass \VectorAd\FeatureManagement\Requirements\LatestSkinVersionRequirement
  */
 class LatestSkinVersionRequirementTest extends \MediaWikiTestCase {
 
@@ -32,7 +32,7 @@ class LatestSkinVersionRequirementTest extends \MediaWikiTestCase {
 	 * @covers ::isMet
 	 */
 	public function testUnmet() {
-		$config = new HashConfig( [ 'VectorDefaultSkinVersionForExistingAccounts' => '1' ] );
+		$config = new HashConfig( [ 'VectorAdDefaultSkinVersionForExistingAccounts' => '1' ] );
 
 		$requirement = new LatestSkinVersionRequirement(
 			new SkinVersionLookup( new WebRequest(), $this->getTestUser()->getUser(), $config )
@@ -45,7 +45,7 @@ class LatestSkinVersionRequirementTest extends \MediaWikiTestCase {
 	 * @covers ::isMet
 	 */
 	public function testMet() {
-		$config = new HashConfig( [ 'VectorDefaultSkinVersionForExistingAccounts' => '2' ] );
+		$config = new HashConfig( [ 'VectorAdDefaultSkinVersionForExistingAccounts' => '2' ] );
 
 		$requirement = new LatestSkinVersionRequirement(
 			new SkinVersionLookup( new WebRequest(), $this->getTestUser()->getUser(), $config )

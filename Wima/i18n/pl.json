@@ -8,17 +8,17 @@
 			"Sp5uhe"
 		]
 	},
-	"skinname-monobook": "Książka",
-	"monobook-desc": "Klasyczna skórka MediaWiki, stworzona w 2004 roku, nazwana od czarno-białego zdjęcia książki w tle strony",
-	"monobook.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Książka */",
-	"monobook.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Książka */",
-	"monobook-jumptotop": "powrót na górę",
-	"monobook-jumptopersonal": "narzędzia użytkownika",
-	"monobook-jumptonavigation": "Przejdź do nawigacji",
-	"monobook-jumptosearch": "Przejdź do wyszukiwania",
-	"monobook-more-actions": "Więcej",
-	"monobook-cactions-label": "Działania na stronie",
-	"monobook-notifications-link": "Powiadomienia ($1)",
-	"monobook-notifications-link-none": "Powiadomienia",
-	"monobook-responsive-label": "Włącz responsywną skórkę Książka"
+	"skinname-wima": "Wima",
+	"wima-desc": "Klasyczna skórka MediaWiki, stworzona w 2004 roku, nazwana od czarno-białego zdjęcia książki w tle strony",
+	"wima.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Wima */",
+	"wima.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Wima */",
+	"wima-jumptotop": "powrót na górę",
+	"wima-jumptopersonal": "narzędzia użytkownika",
+	"wima-jumptonavigation": "Przejdź do nawigacji",
+	"wima-jumptosearch": "Przejdź do wyszukiwania",
+	"wima-more-actions": "Więcej",
+	"wima-cactions-label": "Działania na stronie",
+	"wima-notifications-link": "Powiadomienia ($1)",
+	"wima-notifications-link-none": "Powiadomienia",
+	"wima-responsive-label": "Włącz responsywną skórkę Wima"
 }

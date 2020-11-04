@@ -5,16 +5,16 @@
 			"Dalinanir"
 		]
 	},
-	"vector-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
-	"vector-action-delete": "ⴽⴽⵙ",
-	"vector-action-move": "ⵙⵎⴰⵜⵜⵉ",
-	"vector-action-protect": "Ḥbu",
-	"vector-action-undelete": "Rard may mayḥiydn",
-	"vector-action-unprotect": "Ḥiyd aḥbu",
-	"vector-view-create": "ⵙⵏⵓⵍⴼⵓ",
-	"vector-view-edit": "ⵙⵏⴼⵍ",
-	"vector-view-history": "ⴰⵎⵣⵔⵓⵢ",
-	"vector-view-view": "ⵖⵔ",
-	"vector-view-viewsource": "ⵥⵔ ⴰⵙⴰⴳⵎ",
-	"vector-more-actions": "ⵓⴳⴳⴰⵔ"
+	"vectorad-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
+	"vectorad-action-delete": "ⴽⴽⵙ",
+	"vectorad-action-move": "ⵙⵎⴰⵜⵜⵉ",
+	"vectorad-action-protect": "Ḥbu",
+	"vectorad-action-undelete": "Rard may mayḥiydn",
+	"vectorad-action-unprotect": "Ḥiyd aḥbu",
+	"vectorad-view-create": "ⵙⵏⵓⵍⴼⵓ",
+	"vectorad-view-edit": "ⵙⵏⴼⵍ",
+	"vectorad-view-history": "ⴰⵎⵣⵔⵓⵢ",
+	"vectorad-view-view": "ⵖⵔ",
+	"vectorad-view-viewsource": "ⵥⵔ ⴰⵙⴰⴳⵎ",
+	"vectorad-more-actions": "ⵓⴳⴳⴰⵔ"
 }

@@ -19,11 +19,11 @@
  * @since 1.35
  */
 
-use Vector\SkinVersionLookup;
+use VectorAd\SkinVersionLookup;
 
 /**
- * @group Vector
- * @coversDefaultClass \Vector\SkinVersionLookup
+ * @group VectorAd
+ * @coversDefaultClass \VectorAd\SkinVersionLookup
  */
 class SkinVersionLookupTest extends \MediaWikiTestCase {
 	/**
@@ -47,8 +47,8 @@ class SkinVersionLookupTest extends \MediaWikiTestCase {
 			->willReturn( 'beta' );
 
 		$config = new HashConfig( [
-			'VectorDefaultSkinVersion' => '2',
-			'VectorDefaultSkinVersionForExistingAccounts' => '1'
+			'VectorAdDefaultSkinVersion' => '2',
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1'
 		] );
 
 		$skinVersionLookup = new SkinVersionLookup( $request, $user, $config );
@@ -86,8 +86,8 @@ class SkinVersionLookupTest extends \MediaWikiTestCase {
 			->willReturn( 'beta' );
 
 		$config = new HashConfig( [
-			'VectorDefaultSkinVersion' => '2',
-			'VectorDefaultSkinVersionForExistingAccounts' => '1'
+			'VectorAdDefaultSkinVersion' => '2',
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1'
 		] );
 
 		$skinVersionLookup = new SkinVersionLookup( $request, $user, $config );
@@ -125,8 +125,8 @@ class SkinVersionLookupTest extends \MediaWikiTestCase {
 			->willReturn( '1' );
 
 		$config = new HashConfig( [
-			'VectorDefaultSkinVersion' => '2',
-			'VectorDefaultSkinVersionForExistingAccounts' => '1'
+			'VectorAdDefaultSkinVersion' => '2',
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1'
 		] );
 
 		$skinVersionLookup = new SkinVersionLookup( $request, $user, $config );
@@ -164,8 +164,8 @@ class SkinVersionLookupTest extends \MediaWikiTestCase {
 			->willReturn( '2' );
 
 		$config = new HashConfig( [
-			'VectorDefaultSkinVersion' => '2',
-			'VectorDefaultSkinVersionForExistingAccounts' => '1'
+			'VectorAdDefaultSkinVersion' => '2',
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1'
 		] );
 
 		$skinVersionLookup = new SkinVersionLookup( $request, $user, $config );

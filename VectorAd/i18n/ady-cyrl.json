@@ -12,16 +12,16 @@
 			"SmartNart12"
 		]
 	},
-	"vector-action-addsection": "Ӏофтхьабз",
-	"vector-action-delete": "ТегъэкӀ",
-	"vector-action-move": "Хьы",
-	"vector-action-protect": "Иухъумэ",
-	"vector-action-undelete": "УмылъэкӀ",
-	"vector-action-unprotect": "Умыухъумэ",
-	"vector-view-create": "КъэшӀ",
-	"vector-view-edit": "ХэӀэзыхь",
-	"vector-view-history": "Тарихъым eплъ",
-	"vector-view-view": "Едж",
-	"vector-view-viewsource": "Еплъ лъапсэм",
-	"vector-more-actions": "Джыри"
+	"vectorad-action-addsection": "Ӏофтхьабз",
+	"vectorad-action-delete": "ТегъэкӀ",
+	"vectorad-action-move": "Хьы",
+	"vectorad-action-protect": "Иухъумэ",
+	"vectorad-action-undelete": "УмылъэкӀ",
+	"vectorad-action-unprotect": "Умыухъумэ",
+	"vectorad-view-create": "КъэшӀ",
+	"vectorad-view-edit": "ХэӀэзыхь",
+	"vectorad-view-history": "Тарихъым eплъ",
+	"vectorad-view-view": "Едж",
+	"vectorad-view-viewsource": "Еплъ лъапсэм",
+	"vectorad-more-actions": "Джыри"
 }

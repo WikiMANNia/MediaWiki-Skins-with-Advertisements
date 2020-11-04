@@ -7,13 +7,13 @@
 			"Դավիթ Սարոյան"
 		]
 	},
-	"vector-action-addsection": "Աւելցնել քննարկում",
-	"vector-action-delete": "Ջնջել",
-	"vector-action-move": "Տեղափոխել այս էջը",
-	"vector-action-protect": "Պահել",
-	"vector-view-create": "Ստեղծել",
-	"vector-view-edit": "Խմբագրել",
-	"vector-view-history": "Տեսնել պատմութիւնը",
-	"vector-view-view": "Կարդալ",
-	"vector-more-actions": "Աւելին"
+	"vectorad-action-addsection": "Աւելցնել քննարկում",
+	"vectorad-action-delete": "Ջնջել",
+	"vectorad-action-move": "Տեղափոխել այս էջը",
+	"vectorad-action-protect": "Պահել",
+	"vectorad-view-create": "Ստեղծել",
+	"vectorad-view-edit": "Խմբագրել",
+	"vectorad-view-history": "Տեսնել պատմութիւնը",
+	"vectorad-view-view": "Կարդալ",
+	"vectorad-more-actions": "Աւելին"
 }

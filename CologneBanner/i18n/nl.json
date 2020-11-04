@@ -5,10 +5,10 @@
 			"Siebrand"
 		]
 	},
-	"skinname-cologneblue": "Keuls blauw",
-	"cologneblue.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Keuls blauw */",
-	"cologneblue.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Keuls blauw gebruiken */",
-	"cologneblue-desc": "Een lichtgewicht uiterlijk met minimale opmaak",
+	"skinname-colognebanner": "Keuls Bannetje",
+	"colognebanner.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Keuls Bannetje */",
+	"colognebanner.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Keuls Bannetje gebruiken */",
+	"colognebanner-desc": "Een lichtgewicht uiterlijk met minimale opmaak",
 	"qbfind": "Zoeken",
 	"qbbrowse": "Bladeren",
 	"qbedit": "Bewerken",

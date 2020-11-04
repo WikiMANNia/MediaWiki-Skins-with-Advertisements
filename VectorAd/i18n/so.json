@@ -5,16 +5,16 @@
 			"Maax"
 		]
 	},
-	"vector-action-addsection": "Hadal ku dar",
-	"vector-action-delete": "Tirtir",
-	"vector-action-move": "Wareeji",
-	"vector-action-protect": "Difaac",
-	"vector-action-undelete": "Ha tirtirin",
-	"vector-action-unprotect": "Bedel difaacida",
-	"vector-view-create": "Abuur",
-	"vector-view-edit": "Wax ka badal",
-	"vector-view-history": "Fiiri taariikhda",
-	"vector-view-view": "Akhri",
-	"vector-view-viewsource": "Itusi xogta",
-	"vector-more-actions": "Dheeraad"
+	"vectorad-action-addsection": "Hadal ku dar",
+	"vectorad-action-delete": "Tirtir",
+	"vectorad-action-move": "Wareeji",
+	"vectorad-action-protect": "Difaac",
+	"vectorad-action-undelete": "Ha tirtirin",
+	"vectorad-action-unprotect": "Bedel difaacida",
+	"vectorad-view-create": "Abuur",
+	"vectorad-view-edit": "Wax ka badal",
+	"vectorad-view-history": "Fiiri taariikhda",
+	"vectorad-view-view": "Akhri",
+	"vectorad-view-viewsource": "Itusi xogta",
+	"vectorad-more-actions": "Dheeraad"
 }

@@ -20,7 +20,7 @@
  * @since 1.35
  */
 
-namespace Vector;
+namespace VectorAd;
 
 use Config;
 use User;
@@ -35,17 +35,17 @@ use WebRequest;
  * - useskinversion URL query parameter override. See readme.
  *
  * - User preference. The User object for new accounts is updated (persisted as a user preference)
- *   by hook according to VectorDefaultSkinVersionForNewAccounts. See Hooks and skin.json. The user
+ *   by hook according to VectorAdDefaultSkinVersionForNewAccounts. See Hooks and skin.json. The user
  *   may then change the preference at will.
  *
- * - Site configuration default. The default is controlled by VectorDefaultSkinVersion and
- *   VectorDefaultSkinVersionForExistingAccounts based on login state. The former is used
+ * - Site configuration default. The default is controlled by VectorAdDefaultSkinVersion and
+ *   VectorAdDefaultSkinVersionForExistingAccounts based on login state. The former is used
  *   for anonymous users and as a fallback configuration, the latter is logged in users (existing
  *   accounts). See skin.json.
  *
  * @unstable
  *
- * @package Vector
+ * @package VectorAd
  * @internal
  */
 final class SkinVersionLookup {

@@ -8,10 +8,10 @@
 			"Srdjan m"
 		]
 	},
-	"skinname-cologneblue": "Kelnsko plava",
-	"cologneblue.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Cologne Blue skin */",
-	"cologneblue.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Cologne Blue skin */",
-	"cologneblue-desc": "Lagahna tema s minimalnim formatiranjem",
+	"skinname-colognebanner": "Kelnsko banner",
+	"colognebanner.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Kelnsko banner skin */",
+	"colognebanner.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Kelnsko banner skin */",
+	"colognebanner-desc": "Lagahna tema s minimalnim formatiranjem",
 	"qbfind": "Pronađi",
 	"qbbrowse": "Potraži",
 	"qbedit": "Uredi",

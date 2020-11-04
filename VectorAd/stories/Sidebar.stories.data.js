@@ -2,7 +2,7 @@
 
 import sidebarTemplate from '!!raw-loader!../includes/templates/Sidebar.mustache';
 import sidebarLegacyTemplate from '!!raw-loader!../includes/templates/legacy/Sidebar.mustache';
-import { vectorMenuTemplate } from './MenuDropdown.stories.data';
+import { vectoradMenuTemplate } from './MenuDropdown.stories.data';
 import { PORTALS } from './MenuPortal.stories.data';
 
 const HTML_LOGO_ATTRIBUTES = `class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"`;
@@ -12,7 +12,7 @@ SidebarBeforeOutput hook as in this example.`;
 export { sidebarTemplate, sidebarLegacyTemplate };
 
 export const SIDEBAR_TEMPLATE_PARTIALS = {
-	Menu: vectorMenuTemplate
+	Menu: vectoradMenuTemplate
 };
 
 export const SIDEBAR_DATA = {
@@ -27,7 +27,7 @@ export const SIDEBAR_DATA = {
 		'data-emphasized-sidebar-action': {
 			href: '#',
 			text: 'Switch to old look',
-			title: 'Change your settings to go back to the old look of the skin (legacy Vector)'
+			title: 'Change your settings to go back to the old look of the skin (legacy VectorAd)'
 		},
 		'array-portals-rest': [
 			PORTALS.toolbox,

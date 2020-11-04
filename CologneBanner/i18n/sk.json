@@ -7,10 +7,10 @@
 			"TomášPolonec"
 		]
 	},
-	"skinname-cologneblue": "Kolínska modrá",
-	"cologneblue.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska modrá */",
-	"cologneblue.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska modrá */",
-	"cologneblue-desc": "Odľahčený vzhľad s minimálnym formátovaním",
+	"skinname-colognebanner": "Kolínska banner",
+	"colognebanner.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska banner */",
+	"colognebanner.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska banner */",
+	"colognebanner-desc": "Odľahčený vzhľad s minimálnym formátovaním",
 	"qbfind": "Hľadať",
 	"qbbrowse": "Prehliadať",
 	"qbedit": "Upraviť",

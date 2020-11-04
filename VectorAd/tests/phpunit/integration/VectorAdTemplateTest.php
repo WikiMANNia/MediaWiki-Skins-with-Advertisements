@@ -1,34 +1,34 @@
 <?php
-namespace MediaWiki\Skins\Vector\Tests\Integration;
+namespace MediaWiki\Skins\VectorAd\Tests\Integration;
 
 use GlobalVarConfig;
 use MediaWikiIntegrationTestCase;
 use RequestContext;
 use TemplateParser;
 use Title;
-use VectorTemplate;
+use VectorAdTemplate;
 use Wikimedia\TestingAccessWrapper;
 
 /**
- * Class VectorTemplateTest
- * @package MediaWiki\Skins\Vector\Tests\Unit
- * @group Vector
+ * Class VectorAdTemplateTest
+ * @package MediaWiki\Skins\VectorAd\Tests\Unit
+ * @group VectorAd
  * @group Skins
  *
- * @coversDefaultClass \VectorTemplate
+ * @coversDefaultClass \VectorAdTemplate
  */
-class VectorTemplateTest extends MediaWikiIntegrationTestCase {
+class VectorAdTemplateTest extends MediaWikiIntegrationTestCase {
 
 	/**
-	 * @return \VectorTemplate
+	 * @return \VectorAdTemplate
 	 */
-	private function provideVectorTemplateObject() {
-		$template = new VectorTemplate(
+	private function provideVectorAdTemplateObject() {
+		$template = new VectorAdTemplate(
 			GlobalVarConfig::newInstance(),
 			new TemplateParser(),
 			true
 		);
-		$template->set( 'skin', new \SkinVector() );
+		$template->set( 'skin', new \SkinVectorAd() );
 		return $template;
 	}
 
@@ -55,10 +55,10 @@ class VectorTemplateTest extends MediaWikiIntegrationTestCase {
 	 * @covers ::getMenuData
 	 */
 	public function testMakeListItemRespectsCollapsibleOption() {
-		$vectorTemplate = $this->provideVectorTemplateObject();
-		$template = TestingAccessWrapper::newFromObject( $vectorTemplate );
+		$vectoradTemplate = $this->provideVectorAdTemplateObject();
+		$template = TestingAccessWrapper::newFromObject( $vectoradTemplate );
 		$listItemClass = 'my_test_class';
-		$options = [ 'vector-collapsible' => true ];
+		$options = [ 'vectorad-collapsible' => true ];
 		$item = [ 'class' => $listItemClass ];
 		$propsCollapsible = $template->getMenuData(
 			'foo',
@@ -97,13 +97,13 @@ class VectorTemplateTest extends MediaWikiIntegrationTestCase {
 	 * @covers ::getMenuProps
 	 */
 	public function testGetMenuProps() {
-		$title = Title::newFromText( 'SkinTemplateVector' );
+		$title = Title::newFromText( 'SkinTemplateVectorAd' );
 		$context = RequestContext::getMain();
 		$context->setTitle( $title );
 		$context->setLanguage( 'fr' );
-		$vectorTemplate = $this->provideVectorTemplateObject();
+		$vectoradTemplate = $this->provideVectorAdTemplateObject();
 		// used internally by getPersonalTools
-		$vectorTemplate->set( 'personal_urls', [] );
+		$vectoradTemplate->set( 'personal_urls', [] );
 		$this->setMwGlobals( 'wgHooks', [
 			'SkinTemplateNavigation' => [
 				function ( &$skinTemplate, &$content_navigation ) {
@@ -116,9 +116,9 @@ class VectorTemplateTest extends MediaWikiIntegrationTestCase {
 				}
 			]
 		] );
-		$openVectorTemplate = TestingAccessWrapper::newFromObject( $vectorTemplate );
+		$openVectorAdTemplate = TestingAccessWrapper::newFromObject( $vectoradTemplate );
 
-		$props = $openVectorTemplate->getMenuProps();
+		$props = $openVectorAdTemplate->getMenuProps();
 		$views = $props['data-page-actions'];
 		$namespaces = $props['data-namespace-tabs'];
 
@@ -126,24 +126,24 @@ class VectorTemplateTest extends MediaWikiIntegrationTestCase {
 			'id' => 'p-views',
 			'label-id' => 'p-views-label',
 			'label' => $context->msg( 'views' )->text(),
-			'list-classes' => 'vector-menu-content-list',
+			'list-classes' => 'vectorad-menu-content-list',
 			'html-items' => '',
 			'is-dropdown' => false,
 			'html-tooltip' => '',
 			'html-after-portal' => '',
-			'class' => 'vector-menu-empty emptyPortlet vector-menu vector-menu-tabs vectorTabs',
+			'class' => 'vectorad-menu-empty emptyPortlet vectorad-menu vectorad-menu-tabs vectoradTabs',
 		] );
 
 		$variants = $props['data-variants'];
 		$actions = $props['data-page-actions-more'];
 		$this->assertSame( $namespaces['class'],
-			'vector-menu-empty emptyPortlet vector-menu vector-menu-tabs vectorTabs' );
+			'vectorad-menu-empty emptyPortlet vectorad-menu vectorad-menu-tabs vectoradTabs' );
 		$this->assertSame( $variants['class'],
-			'vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu' );
+			'vectorad-menu-empty emptyPortlet vectorad-menu vectorad-menu-dropdown vectoradMenu' );
 		$this->assertSame( $actions['class'],
-			'vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu' );
+			'vectorad-menu-empty emptyPortlet vectorad-menu vectorad-menu-dropdown vectoradMenu' );
 		$this->assertSame( $props['data-personal-menu']['class'],
-			'vector-menu-empty emptyPortlet vector-menu' );
+			'vectorad-menu-empty emptyPortlet vectorad-menu' );
 	}
 
 }

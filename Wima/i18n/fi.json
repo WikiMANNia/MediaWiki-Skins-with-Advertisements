@@ -8,17 +8,17 @@
 			"Nike"
 		]
 	},
-	"skinname-monobook": "Monobook",
-	"monobook-desc": "Klassinen MediaWiki-ulkoasu vuodesta 2004, saanut nimensä mustavalkoisesta kirjan kuvasta sivun taustalla",
-	"monobook.css": "/* Tämä sivu sisältää Monobook-ulkoasua muuttavia tyylejä. */",
-	"monobook.js": "/* Tämän sivun JavaScript-koodi liitetään Monobook-tyyliin */",
-	"monobook-jumptotop": "takaisin alkuun",
-	"monobook-jumptopersonal": "käyttäjätyökalut",
-	"monobook-jumptonavigation": "Siirry navigaatioon",
-	"monobook-jumptosearch": "Siirry hakuun",
-	"monobook-more-actions": "Lisää",
-	"monobook-cactions-label": "Sivun toiminnot",
-	"monobook-notifications-link": "Ilmoitukset ($1)",
-	"monobook-notifications-link-none": "Ilmoitukset",
-	"monobook-responsive-label": "Ota käyttöön responsiivinen MonoBook"
+	"skinname-wima": "Wima",
+	"wima-desc": "Klassinen MediaWiki-ulkoasu vuodesta 2004, saanut nimensä mustavalkoisesta kirjan kuvasta sivun taustalla",
+	"wima.css": "/* Tämä sivu sisältää Wima-ulkoasua muuttavia tyylejä. */",
+	"wima.js": "/* Tämän sivun JavaScript-koodi liitetään Wima-tyyliin */",
+	"wima-jumptotop": "takaisin alkuun",
+	"wima-jumptopersonal": "käyttäjätyökalut",
+	"wima-jumptonavigation": "Siirry navigaatioon",
+	"wima-jumptosearch": "Siirry hakuun",
+	"wima-more-actions": "Lisää",
+	"wima-cactions-label": "Sivun toiminnot",
+	"wima-notifications-link": "Ilmoitukset ($1)",
+	"wima-notifications-link-none": "Ilmoitukset",
+	"wima-responsive-label": "Ota käyttöön responsiivinen Wima"
 }

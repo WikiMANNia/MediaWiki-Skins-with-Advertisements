@@ -11,7 +11,7 @@ export default {
 	title: 'Skin (legacy)'
 };
 
-export const vectorLegacyLoggedOut = () => mustache.render(
+export const vectoradLegacyLoggedOut = () => mustache.render(
 	legacySkinTemplate,
 	Object.assign(
 		{},
@@ -21,7 +21,7 @@ export const vectorLegacyLoggedOut = () => mustache.render(
 	TEMPLATE_PARTIALS
 );
 
-export const vectorLegacyLoggedIn = () => mustache.render(
+export const vectoradLegacyLoggedIn = () => mustache.render(
 	legacySkinTemplate,
 	Object.assign(
 		{},

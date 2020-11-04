@@ -7,17 +7,17 @@
 			"Xelgen"
 		]
 	},
-	"skinname-vector": "Սովորական",
-	"vector-action-addsection": "Ավելացնել քննարկում",
-	"vector-action-delete": "Ջնջել",
-	"vector-action-move": "Տեղափոխել այս էջը",
-	"vector-action-protect": "Պաշտպանել",
-	"vector-action-undelete": "Վերականգնել",
-	"vector-action-unprotect": "Փոխել պաշտպանումը",
-	"vector-view-create": "Ստեղծել",
-	"vector-view-edit": "Խմբագրել",
-	"vector-view-history": "Դիտել պատմությունը",
-	"vector-view-view": "Կարդալ",
-	"vector-view-viewsource": "Դիտել ելատեքստը",
-	"vector-more-actions": "Ավելին"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-action-addsection": "Ավելացնել քննարկում",
+	"vectorad-action-delete": "Ջնջել",
+	"vectorad-action-move": "Տեղափոխել այս էջը",
+	"vectorad-action-protect": "Պաշտպանել",
+	"vectorad-action-undelete": "Վերականգնել",
+	"vectorad-action-unprotect": "Փոխել պաշտպանումը",
+	"vectorad-view-create": "Ստեղծել",
+	"vectorad-view-edit": "Խմբագրել",
+	"vectorad-view-history": "Դիտել պատմությունը",
+	"vectorad-view-view": "Կարդալ",
+	"vectorad-view-viewsource": "Դիտել ելատեքստը",
+	"vectorad-more-actions": "Ավելին"
 }

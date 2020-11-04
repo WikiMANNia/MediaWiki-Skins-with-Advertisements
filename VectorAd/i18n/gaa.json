@@ -7,13 +7,13 @@
 			"Mybluberet"
 		]
 	},
-	"vector-action-addsection": "Kɛ mlijaa yitso afata he",
-	"vector-action-delete": "Jiemɔ",
-	"vector-action-move": "Tsi",
-	"vector-action-protect": "Yibaamɔ",
-	"vector-view-create": "Bɔɔ",
-	"vector-view-edit": "Tsakemɔ",
-	"vector-view-history": "Kwɛmɔ nibii ni eho",
-	"vector-view-view": "Kanemɔ",
-	"vector-more-actions": "Pii"
+	"vectorad-action-addsection": "Kɛ mlijaa yitso afata he",
+	"vectorad-action-delete": "Jiemɔ",
+	"vectorad-action-move": "Tsi",
+	"vectorad-action-protect": "Yibaamɔ",
+	"vectorad-view-create": "Bɔɔ",
+	"vectorad-view-edit": "Tsakemɔ",
+	"vectorad-view-history": "Kwɛmɔ nibii ni eho",
+	"vectorad-view-view": "Kanemɔ",
+	"vectorad-more-actions": "Pii"
 }

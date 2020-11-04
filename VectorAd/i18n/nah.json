@@ -6,16 +6,16 @@
 			"Taresi"
 		]
 	},
-	"vector-action-addsection": "Xicahxilti netlahtolpepechtiliztli",
-	"vector-action-delete": "Xicpolo",
-	"vector-action-move": "Xiczaca",
-	"vector-action-protect": "Xicpiya",
-	"vector-action-undelete": "Xicmāquīxti",
-	"vector-action-unprotect": "Xicpatla tlapiyaliztli",
-	"vector-view-create": "Ticchihuaz",
-	"vector-view-edit": "Ticpatlaz",
-	"vector-view-history": "Tiquittaz tlahtollotl",
-	"vector-view-view": "Tamapohuaz",
-	"vector-view-viewsource": "Xiquitta tzintiliztli",
-	"vector-more-actions": "Ocachi"
+	"vectorad-action-addsection": "Xicahxilti netlahtolpepechtiliztli",
+	"vectorad-action-delete": "Xicpolo",
+	"vectorad-action-move": "Xiczaca",
+	"vectorad-action-protect": "Xicpiya",
+	"vectorad-action-undelete": "Xicmāquīxti",
+	"vectorad-action-unprotect": "Xicpatla tlapiyaliztli",
+	"vectorad-view-create": "Ticchihuaz",
+	"vectorad-view-edit": "Ticpatlaz",
+	"vectorad-view-history": "Tiquittaz tlahtollotl",
+	"vectorad-view-view": "Tamapohuaz",
+	"vectorad-view-viewsource": "Xiquitta tzintiliztli",
+	"vectorad-more-actions": "Ocachi"
 }

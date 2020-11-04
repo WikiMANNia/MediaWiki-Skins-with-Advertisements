@@ -2,7 +2,7 @@
 	string html-headelement a string of attribute HTML that begins with `<html>` and ends with
 		`</head>` and contains `meta` tags and ResourceLoader internals.
 	string|null html-site-notice the contents of a banner defined in MediaWiki:Sitenotice.
-		Also used by CentralNotice to inject banners into Vector.
+		Also used by CentralNotice to inject banners into VectorAd.
 	Indicator[] array-indicators wiki-defined badges such as "good article",
 		"featured article". An empty array if none are defined.
 	string page-langcode the content language of the article. Assumed to be escaped HTML.
@@ -12,8 +12,8 @@
 	string html-subtitle
 	string html-undelete-link
 	string html-newtalk
-	string msg-vector-jumptonavigation
-	string msg-vector-jumptosearch
+	string msg-vectorad-jumptonavigation
+	string msg-vectorad-jumptosearch
 	string html-body-content
 	string html-categories
 	string html-after-content
@@ -49,8 +49,8 @@
 			using this place to insert extra elements before.
 		}}
 		<div id="jump-to-nav"></div>
-		<a class="mw-jump-link" href="#mw-head">{{msg-vector-jumptonavigation}}</a>
-		<a class="mw-jump-link" href="#searchInput">{{msg-vector-jumptosearch}}</a>
+		<a class="mw-jump-link" href="#mw-head">{{msg-vectorad-jumptonavigation}}</a>
+		<a class="mw-jump-link" href="#searchInput">{{msg-vectorad-jumptosearch}}</a>
 		{{{html-body-content}}}
 		{{{html-categories}}}
 	</div>

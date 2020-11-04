@@ -9,16 +9,16 @@
 			"Uostofchuodnego"
 		]
 	},
-	"vector-action-addsection": "Przidej tymat",
-	"vector-action-delete": "Skasuj",
-	"vector-action-move": "Przeniyś",
-	"vector-action-protect": "Zawrzij",
-	"vector-action-undelete": "Wćep",
-	"vector-action-unprotect": "Uodymkńij",
-	"vector-view-create": "Stwōrz",
-	"vector-view-edit": "Edytuj",
-	"vector-view-history": "Pokŏż historyjõ",
-	"vector-view-view": "Czytej",
-	"vector-view-viewsource": "Zdrzůdłowy tekst",
-	"vector-more-actions": "Wiyncyj"
+	"vectorad-action-addsection": "Przidej tymat",
+	"vectorad-action-delete": "Skasuj",
+	"vectorad-action-move": "Przeniyś",
+	"vectorad-action-protect": "Zawrzij",
+	"vectorad-action-undelete": "Wćep",
+	"vectorad-action-unprotect": "Uodymkńij",
+	"vectorad-view-create": "Stwōrz",
+	"vectorad-view-edit": "Edytuj",
+	"vectorad-view-history": "Pokŏż historyjõ",
+	"vectorad-view-view": "Czytej",
+	"vectorad-view-viewsource": "Zdrzůdłowy tekst",
+	"vectorad-more-actions": "Wiyncyj"
 }

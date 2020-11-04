@@ -6,10 +6,10 @@
 			"Xuacu"
 		]
 	},
-	"skinname-cologneblue": "Azul Colonia",
-	"cologneblue.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Cologne Blue */",
-	"cologneblue.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Cologne Blue */",
-	"cologneblue-desc": "Un tema llixeru col mínimu formatu",
+	"skinname-colognebanner": "Colonia Banderín",
+	"colognebanner.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Colonia Banderín */",
+	"colognebanner.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Colonia Banderín */",
+	"colognebanner-desc": "Un tema llixeru col mínimu formatu",
 	"qbfind": "Alcontrar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

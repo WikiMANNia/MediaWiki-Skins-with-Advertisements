@@ -20,9 +20,9 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement;
+namespace VectorAd\FeatureManagement;
 
-use Vector\FeatureManagement\Requirements\SimpleRequirement;
+use VectorAd\FeatureManagement\Requirements\SimpleRequirement;
 use Wikimedia\Assert\Assert;
 
 /**

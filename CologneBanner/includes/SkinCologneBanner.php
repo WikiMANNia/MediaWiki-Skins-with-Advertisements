@@ -1,6 +1,6 @@
 <?php
 /**
- * Cologne Blue: A nicer-looking alternative to Standard.
+ * Cologne Banner: A nicer-looking alternative to Standard.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,9 +26,9 @@
  * @todo document
  * @ingroup Skins
  */
-class SkinCologneBlue extends SkinTemplate {
-	public $skinname = 'cologneblue';
-	public $template = 'CologneBlueTemplate';
+class SkinCologneBanner extends SkinTemplate {
+	public $skinname = 'colognebanner';
+	public $template = 'CologneBannerTemplate';
 
 	/**
 	 * @param OutputPage $out
@@ -40,7 +40,7 @@ class SkinCologneBlue extends SkinTemplate {
 
 	/**
 	 * Override langlink formatting behavior not to uppercase the language names.
-	 * See otherLanguages() in CologneBlueTemplate.
+	 * See otherLanguages() in CologneBannerTemplate.
 	 * @param string $name
 	 * @return string
 	 */

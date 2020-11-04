@@ -20,11 +20,11 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement\Requirements;
+namespace VectorAd\FeatureManagement\Requirements;
 
-use Vector\Constants;
-use Vector\FeatureManagement\Requirement;
-use Vector\SkinVersionLookup;
+use VectorAd\Constants;
+use VectorAd\FeatureManagement\Requirement;
+use VectorAd\SkinVersionLookup;
 
 /**
  * Retrieve the skin version for the request and compare it with `Constants::SKIN_VERSION_LATEST`.
@@ -35,22 +35,22 @@ use Vector\SkinVersionLookup;
  * - `useskinversion` URL query parameter override. See `README.md`.
  *
  * - User preference. The `User` object for new and existing accounts are updated by hook according
- *   to the `VectorDefaultSkinVersionForNewAccounts` and
- *  `VectorDefaultSkinVersionForExistingAccounts` config values. See the `Vector\Hooks` class and
+ *   to the `VectorAdDefaultSkinVersionForNewAccounts` and
+ *  `VectorAdDefaultSkinVersionForExistingAccounts` config values. See the `VectorAd\Hooks` class and
  *  `skin.json`.
  *
  *   If the skin version is evaluated prior to `User` preference hook invocations, an incorrect
  *   version may be returned as only query parameter and site configuration will be known.
  *
- * - Site configuration default. The default is controlled by the `VectorDefaultSkinVersion` config
+ * - Site configuration default. The default is controlled by the `VectorAdDefaultSkinVersion` config
  *   value. This is used for anonymous users and as a fallback configuration. See `skin.json`.
  *
- * This majority of this class is taken from Stephen Niedzielski's `Vector\SkinVersionLookup` class,
+ * This majority of this class is taken from Stephen Niedzielski's `VectorAd\SkinVersionLookup` class,
  * which was introduced in `d1072d0fdfb1`.
  *
  * @unstable
  *
- * @package Vector\FeatureManagement\Requirements
+ * @package VectorAd\FeatureManagement\Requirements
  * @internal
  */
 final class LatestSkinVersionRequirement implements Requirement {

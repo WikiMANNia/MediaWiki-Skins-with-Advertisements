@@ -8,15 +8,15 @@
 			"Silovan"
 		]
 	},
-	"vector-opt-out": "ჯვეში მეჯინაშა გინულა",
-	"vector-action-addsection": "თემაშ მიშაძინა",
-	"vector-action-delete": "ლასუა",
-	"vector-action-move": "გინოღალა",
-	"vector-action-protect": "თხილუა",
-	"vector-view-create": "დორსხუაფა",
-	"vector-view-edit": "რედაქტირაფა",
-	"vector-view-history": "ისტორიაშ ძირაფა",
-	"vector-view-view": "კითხირი",
-	"vector-view-viewsource": "ქიძირე წყუ",
-	"vector-more-actions": "უმოსი"
+	"vectorad-opt-out": "ჯვეში მეჯინაშა გინულა",
+	"vectorad-action-addsection": "თემაშ მიშაძინა",
+	"vectorad-action-delete": "ლასუა",
+	"vectorad-action-move": "გინოღალა",
+	"vectorad-action-protect": "თხილუა",
+	"vectorad-view-create": "დორსხუაფა",
+	"vectorad-view-edit": "რედაქტირაფა",
+	"vectorad-view-history": "ისტორიაშ ძირაფა",
+	"vectorad-view-view": "კითხირი",
+	"vectorad-view-viewsource": "ქიძირე წყუ",
+	"vectorad-more-actions": "უმოსი"
 }

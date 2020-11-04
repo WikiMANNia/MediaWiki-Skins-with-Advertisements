@@ -9,16 +9,16 @@
 			"Zanatos"
 		]
 	},
-	"vector-action-addsection": "زيد شي موضوع",
-	"vector-action-delete": "حدف",
-	"vector-action-move": "حوّل",
-	"vector-action-protect": "حمي",
-	"vector-action-undelete": "لغي الحدف",
-	"vector-action-unprotect": "بدّل الحماية",
-	"vector-view-create": "أنشئ",
-	"vector-view-edit": "بدل",
-	"vector-view-history": "تاريخ",
-	"vector-view-view": "قرا",
-	"vector-view-viewsource": "شوف المصدر",
-	"vector-more-actions": "كتر"
+	"vectorad-action-addsection": "زيد شي موضوع",
+	"vectorad-action-delete": "حدف",
+	"vectorad-action-move": "حوّل",
+	"vectorad-action-protect": "حمي",
+	"vectorad-action-undelete": "لغي الحدف",
+	"vectorad-action-unprotect": "بدّل الحماية",
+	"vectorad-view-create": "أنشئ",
+	"vectorad-view-edit": "بدل",
+	"vectorad-view-history": "تاريخ",
+	"vectorad-view-view": "قرا",
+	"vectorad-view-viewsource": "شوف المصدر",
+	"vectorad-more-actions": "كتر"
 }

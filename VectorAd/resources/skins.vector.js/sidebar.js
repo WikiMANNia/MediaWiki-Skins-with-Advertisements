@@ -19,7 +19,7 @@
 require( /** @type {string} */( 'mediawiki.page.ready' ) ).checkboxHack;
 var SIDEBAR_BUTTON_ID = 'mw-sidebar-button',
 	SIDEBAR_CHECKBOX_ID = 'mw-sidebar-checkbox',
-	SIDEBAR_PREFERENCE_NAME = 'VectorSidebarVisible';
+	SIDEBAR_PREFERENCE_NAME = 'VectorAdSidebarVisible';
 
 var debounce = require( /** @type {string} */ ( 'mediawiki.util' ) ).debounce;
 /** @type {MwApi} */ var api;

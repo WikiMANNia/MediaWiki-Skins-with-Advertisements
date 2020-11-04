@@ -6,17 +6,17 @@
 			"Metalhead64"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "Stellt eine klassische Benutzeroberfläche bereit",
-	"monobook.css": "/* Das folgende CSS wird für Benutzer der Benutzeroberfläche MonoBook geladen */",
-	"monobook.js": "/* Das folgende JavaScript wird für Benutzer der Benutzeroberfläche MonoBook geladen. */",
-	"monobook-jumptotop": "Zurück nach oben",
-	"monobook-jumptopersonal": "Benutzerwerkzeuge",
-	"monobook-jumptonavigation": "Zur Navigation springen",
-	"monobook-jumptosearch": "Zur Suche springen",
-	"monobook-more-actions": "Mehr",
-	"monobook-cactions-label": "Seitenaktionen",
-	"monobook-notifications-link": "Benachrichtigungen ($1)",
-	"monobook-notifications-link-none": "Benachrichtigungen",
-	"monobook-responsive-label": "Responsives Monobook-Design aktivieren"
+	"skinname-wima": "Wima",
+	"wima-desc": "Stellt eine klassische Benutzeroberfläche bereit",
+	"wima.css": "/* Das folgende CSS wird für Benutzer der Benutzeroberfläche Wima geladen. */",
+	"wima.js": "/* Das folgende JavaScript wird für Benutzer der Benutzeroberfläche Wima geladen. */",
+	"wima-jumptotop": "Zurück nach oben",
+	"wima-jumptopersonal": "Benutzerwerkzeuge",
+	"wima-jumptonavigation": "Zur Navigation springen",
+	"wima-jumptosearch": "Zur Suche springen",
+	"wima-more-actions": "Mehr",
+	"wima-cactions-label": "Seitenaktionen",
+	"wima-notifications-link": "Benachrichtigungen ($1)",
+	"wima-notifications-link-none": "Benachrichtigungen",
+	"wima-responsive-label": "Responsives Wima-Design aktivieren"
 }

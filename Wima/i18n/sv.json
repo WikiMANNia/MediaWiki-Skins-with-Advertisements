@@ -8,17 +8,17 @@
 			"WikiPhoenix"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "Det klassiska MediaWiki-utseendet sedan 2004, uppkallad efter det svart-vita foto på en bok som syns i bakgrunden på sidan.",
-	"monobook.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet MonoBook */",
-	"monobook.js": "/* JavaScript här kommer att laddas för dem som använder utseendet MonoBook */",
-	"monobook-jumptotop": "tillbaka till början",
-	"monobook-jumptopersonal": "användarverktyg",
-	"monobook-jumptonavigation": "Hoppa till navigering",
-	"monobook-jumptosearch": "Hoppa till sök",
-	"monobook-more-actions": "Fler",
-	"monobook-cactions-label": "Sidåtgärder",
-	"monobook-notifications-link": "Aviseringar ($1)",
-	"monobook-notifications-link-none": "Aviseringar",
-	"monobook-responsive-label": "Aktivera responsiv MonoBook-utseende"
+	"skinname-wima": "Wima",
+	"wima-desc": "Det klassiska MediaWiki-utseendet sedan 2004, uppkallad efter det svart-vita foto på en bok som syns i bakgrunden på sidan.",
+	"wima.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Wima */",
+	"wima.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Wima */",
+	"wima-jumptotop": "tillbaka till början",
+	"wima-jumptopersonal": "användarverktyg",
+	"wima-jumptonavigation": "Hoppa till navigering",
+	"wima-jumptosearch": "Hoppa till sök",
+	"wima-more-actions": "Fler",
+	"wima-cactions-label": "Sidåtgärder",
+	"wima-notifications-link": "Aviseringar ($1)",
+	"wima-notifications-link-none": "Aviseringar",
+	"wima-responsive-label": "Aktivera responsiv Wima-utseende"
 }

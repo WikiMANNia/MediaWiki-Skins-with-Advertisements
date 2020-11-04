@@ -7,17 +7,17 @@
 			"Felipe L. Ewald"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "O tema clássico do MediaWiki desde 2004, assim chamado pela imagem preto e branco de um livro que é colocada no plano de fundo da página",
-	"monobook.css": "/* CSS colocado aqui irá afetar usuários do tema MonoBook */",
-	"monobook.js": "/* Qualquer JavaScript aqui colocado será carregado para usuários usando o tema MonoBook */",
-	"monobook-jumptotop": "voltar ao topo",
-	"monobook-jumptopersonal": "ferramentas de usuário",
-	"monobook-jumptonavigation": "Ir para navegação",
-	"monobook-jumptosearch": "Ir para pesquisar",
-	"monobook-more-actions": "Mais",
-	"monobook-cactions-label": "Ações da página",
-	"monobook-notifications-link": "Notificações ($1)",
-	"monobook-notifications-link-none": "Notificações",
-	"monobook-responsive-label": "Ativar o MonoBook de resposta rápida"
+	"skinname-wima": "Wima",
+	"wima-desc": "O tema clássico do MediaWiki desde 2004, assim chamado pela imagem preto e branco de um livro que é colocada no plano de fundo da página",
+	"wima.css": "/* CSS colocado aqui irá afetar usuários do tema Wima */",
+	"wima.js": "/* Qualquer JavaScript aqui colocado será carregado para usuários usando o tema Wima */",
+	"wima-jumptotop": "voltar ao topo",
+	"wima-jumptopersonal": "ferramentas de usuário",
+	"wima-jumptonavigation": "Ir para navegação",
+	"wima-jumptosearch": "Ir para pesquisar",
+	"wima-more-actions": "Mais",
+	"wima-cactions-label": "Ações da página",
+	"wima-notifications-link": "Notificações ($1)",
+	"wima-notifications-link-none": "Notificações",
+	"wima-responsive-label": "Ativar o Wima de resposta rápida"
 }

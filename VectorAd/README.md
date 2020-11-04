@@ -1,4 +1,4 @@
-Vector Skin
+VectorAd Skin
 ========================
 
 Installation
@@ -27,24 +27,24 @@ project are noted at:
 URL query parameters
 --------------------
 
-- `useskinversion`: Like `useskin` but for overriding the Vector skin version
+- `useskinversion`: Like `useskin` but for overriding the VectorAd skin version
   user preference and configuration. E.g.,
-  http://localhost:8181?useskin=vector&useskinversion=2.
+  http://localhost:8181?useskin=vectorad&useskinversion=2.
 
 Skin preferences
 ----------------
 
-Vector defines skin-specific user preferences. These are exposed on
-Special:Preferences when the `VectorShowSkinPreferences` configuration is
+VectorAd defines skin-specific user preferences. These are exposed on
+Special:Preferences when the `VectorAdShowSkinPreferences` configuration is
 enabled. The user's preference state for skin preferences is used for skin
 previews and any other operation unless specified otherwise.
 
 ### Version
 
-Vector defines a "version" preference to enable users who prefer the December
-2019 version of Vector to continue to do so without any visible changes. This
-version is called "Legacy Vector." The related preference defaults are
-configurable via the configurations prefixed with `VectorDefaultSkinVersion`.
+VectorAd defines a "version" preference to enable users who prefer the December
+2019 version of VectorAd to continue to do so without any visible changes. This
+version is called "Legacy VectorAd." The related preference defaults are
+configurable via the configurations prefixed with `VectorAdDefaultSkinVersion`.
 Version preference and configuration may be overridden by the `useskinversion`
 URL query parameter.
 

@@ -5,16 +5,16 @@
 			"Don Alessandro"
 		]
 	},
-	"vector-action-addsection": "Мевзу къош",
-	"vector-action-delete": "Ёкъ эт",
-	"vector-action-move": "Адыны денъиштир",
-	"vector-action-protect": "Къорчала",
-	"vector-action-undelete": "Янъыдан ярат",
-	"vector-action-unprotect": "Къорчалавны денъиштир",
-	"vector-view-create": "Ярат",
-	"vector-view-edit": "Денъиштир",
-	"vector-view-history": "Кечмишини косьтер",
-	"vector-view-view": "Окъу",
-	"vector-view-viewsource": "Менба кодуны косьтер",
-	"vector-more-actions": "Башкъа арекетлер"
+	"vectorad-action-addsection": "Мевзу къош",
+	"vectorad-action-delete": "Ёкъ эт",
+	"vectorad-action-move": "Адыны денъиштир",
+	"vectorad-action-protect": "Къорчала",
+	"vectorad-action-undelete": "Янъыдан ярат",
+	"vectorad-action-unprotect": "Къорчалавны денъиштир",
+	"vectorad-view-create": "Ярат",
+	"vectorad-view-edit": "Денъиштир",
+	"vectorad-view-history": "Кечмишини косьтер",
+	"vectorad-view-view": "Окъу",
+	"vectorad-view-viewsource": "Менба кодуны косьтер",
+	"vectorad-more-actions": "Башкъа арекетлер"
 }

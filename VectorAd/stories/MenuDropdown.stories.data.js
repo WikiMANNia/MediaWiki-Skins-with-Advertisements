@@ -2,18 +2,18 @@
  * @external MenuDefinition
  */
 
-import vectorMenuTemplate from '!!raw-loader!../includes/templates/Menu.mustache';
+import vectoradMenuTemplate from '!!raw-loader!../includes/templates/Menu.mustache';
 import { htmluserlangattributes } from './utils';
 
-export { vectorMenuTemplate };
+export { vectoradMenuTemplate };
 
 /**
  * @type {MenuDefinition}
  */
 export const moreData = {
 	'is-dropdown': true,
-	class: 'vector-menu-dropdown',
-	'list-classes': 'vector-menu-content-list',
+	class: 'vectorad-menu-dropdown',
+	'list-classes': 'vectorad-menu-content-list',
 	label: 'More',
 	id: 'p-cactions',
 	'label-id': 'p-cactions-label',
@@ -37,8 +37,8 @@ export const moreData = {
  */
 export const variantsData = {
 	'is-dropdown': true,
-	class: 'vector-menu-dropdown',
-	'list-classes': 'vector-menu-content-list',
+	class: 'vectorad-menu-dropdown',
+	'list-classes': 'vectorad-menu-content-list',
 	label: '新加坡简体',
 	id: 'p-variants',
 	'label-id': 'p-variants-label',

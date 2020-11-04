@@ -6,16 +6,16 @@
 			"HalanTul"
 		]
 	},
-	"vector-action-addsection": "Тема кожор",
-	"vector-action-delete": "Јоголтор",
-	"vector-action-move": "Адын солыыр",
-	"vector-action-protect": "Корыыр",
-	"vector-action-undelete": "Орныктырар",
-	"vector-action-unprotect": "Корышты солыыр",
-	"vector-view-create": "Чаяалга",
-	"vector-view-edit": "Тӱзедери",
-	"vector-view-history": "Тӱӱкини кӧргӱзер",
-	"vector-view-view": "Кычырар",
-	"vector-view-viewsource": "Темдектерин кӧрӧр",
-	"vector-more-actions": "Ээчи"
+	"vectorad-action-addsection": "Тема кожор",
+	"vectorad-action-delete": "Јоголтор",
+	"vectorad-action-move": "Адын солыыр",
+	"vectorad-action-protect": "Корыыр",
+	"vectorad-action-undelete": "Орныктырар",
+	"vectorad-action-unprotect": "Корышты солыыр",
+	"vectorad-view-create": "Чаяалга",
+	"vectorad-view-edit": "Тӱзедери",
+	"vectorad-view-history": "Тӱӱкини кӧргӱзер",
+	"vectorad-view-view": "Кычырар",
+	"vectorad-view-viewsource": "Темдектерин кӧрӧр",
+	"vectorad-more-actions": "Ээчи"
 }

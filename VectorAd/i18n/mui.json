@@ -6,12 +6,12 @@
 			"Masjawad99"
 		]
 	},
-	"vector-action-addsection": "Imboke topik",
-	"vector-action-move": "Pindahke",
-	"vector-view-create": "Ngawék",
-	"vector-view-edit": "Robah",
-	"vector-view-history": "Selék riwayat",
-	"vector-view-view": "Baco",
-	"vector-view-viewsource": "Jingok sumber",
-	"vector-more-actions": "Laénnyo"
+	"vectorad-action-addsection": "Imboke topik",
+	"vectorad-action-move": "Pindahke",
+	"vectorad-view-create": "Ngawék",
+	"vectorad-view-edit": "Robah",
+	"vectorad-view-history": "Selék riwayat",
+	"vectorad-view-view": "Baco",
+	"vectorad-view-viewsource": "Jingok sumber",
+	"vectorad-more-actions": "Laénnyo"
 }

@@ -8,15 +8,15 @@
 			"Via maxima"
 		]
 	},
-	"vector-action-addsection": "Agiunghe cuntierra",
-	"vector-action-delete": "Burra",
-	"vector-action-move": "Move",
-	"vector-action-protect": "Barda",
-	"vector-action-undelete": "Recùpera",
-	"vector-view-create": "Crea",
-	"vector-view-edit": "Modìfica",
-	"vector-view-history": "Càstia istòria",
-	"vector-view-view": "Leghe",
-	"vector-view-viewsource": "Càstia mitza",
-	"vector-more-actions": "Prus"
+	"vectorad-action-addsection": "Agiunghe cuntierra",
+	"vectorad-action-delete": "Burra",
+	"vectorad-action-move": "Move",
+	"vectorad-action-protect": "Barda",
+	"vectorad-action-undelete": "Recùpera",
+	"vectorad-view-create": "Crea",
+	"vectorad-view-edit": "Modìfica",
+	"vectorad-view-history": "Càstia istòria",
+	"vectorad-view-view": "Leghe",
+	"vectorad-view-viewsource": "Càstia mitza",
+	"vectorad-more-actions": "Prus"
 }

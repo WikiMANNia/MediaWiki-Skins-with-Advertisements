@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -23,19 +23,19 @@
  */
 
 use MediaWiki\MediaWikiServices;
-use Vector\Constants;
+use VectorAd\Constants;
 use Wikimedia\WrappedString;
 
 /**
- * Skin subclass for Vector
+ * Skin subclass for VectorAd
  * @ingroup Skins
- * @final skins extending SkinVector are not supported
+ * @final skins extending SkinVectorAd are not supported
  * @unstable
  */
-class SkinVector extends SkinTemplate {
+class SkinVectorAd extends SkinTemplate {
 	public $skinname = Constants::SKIN_NAME;
-	public $stylename = 'Vector';
-	public $template = 'VectorTemplate';
+	public $stylename = 'VectorAd';
+	public $template = 'VectorAdTemplate';
 
 	/**
 	 * @inheritDoc
@@ -59,17 +59,17 @@ class SkinVector extends SkinTemplate {
 	}
 
 	/**
-	 * Set up the VectorTemplate. Overrides the default behaviour of SkinTemplate allowing
+	 * Set up the VectorAdTemplate. Overrides the default behaviour of SkinTemplate allowing
 	 * the safe calling of constructor with additional arguments. If dropping this method
-	 * please ensure that VectorTemplate constructor arguments match those in SkinTemplate.
+	 * please ensure that VectorAdTemplate constructor arguments match those in SkinTemplate.
 	 *
 	 * @internal
 	 * @param string $classname
-	 * @return VectorTemplate
+	 * @return VectorAdTemplate
 	 */
 	protected function setupTemplate( $classname ) {
 		$tp = new TemplateParser( __DIR__ . '/templates' );
-		return new VectorTemplate( $this->getConfig(), $tp, $this->isLegacy() );
+		return new VectorAdTemplate( $this->getConfig(), $tp, $this->isLegacy() );
 	}
 
 	/**
@@ -86,7 +86,7 @@ class SkinVector extends SkinTemplate {
 	}
 
 	/**
-	 * @internal only for use inside VectorTemplate
+	 * @internal only for use inside VectorAdTemplate
 	 * @return array of data for a Mustache template
 	 */
 	public function getTemplateData() {
@@ -131,7 +131,7 @@ class SkinVector extends SkinTemplate {
 	}
 
 	/**
-	 * @internal only for use inside VectorTemplate
+	 * @internal only for use inside VectorAdTemplate
 	 * @return array
 	 */
 	public function getMenuProps() {

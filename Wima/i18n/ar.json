@@ -7,17 +7,17 @@
 			"ديفيد"
 		]
 	},
-	"skinname-monobook": "مونوبوك",
-	"monobook-desc": "واجهة ميدياويكي الكلاسيكية منذ العام 2004، سميت على اسم الصورة البيضاء والسوداء من كتاب في خلفية الصفحة",
-	"monobook.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة مونوبوك */",
-	"monobook.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة مونوبوك */",
-	"monobook-jumptotop": "ارجع إلى الأعلى",
-	"monobook-jumptopersonal": "أدوات المستخدم",
-	"monobook-jumptonavigation": "اذهب إلى التنقل",
-	"monobook-jumptosearch": "اذهب الى البحث",
-	"monobook-more-actions": "مزيد",
-	"monobook-cactions-label": "أفعال الصفحة",
-	"monobook-notifications-link": "الإشعارات ($1)",
-	"monobook-notifications-link-none": "الإشعارات",
-	"monobook-responsive-label": "تمكين تصميم مونوبوك سريع الاستجابة"
+	"skinname-wima": "Wima",
+	"wima-desc": "واجهة ميدياويكي الكلاسيكية منذ العام 2004، سميت على اسم الصورة البيضاء والسوداء من كتاب في خلفية الصفحة",
+	"wima.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة مونوبوك */",
+	"wima.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة مونوبوك */",
+	"wima-jumptotop": "ارجع إلى الأعلى",
+	"wima-jumptopersonal": "أدوات المستخدم",
+	"wima-jumptonavigation": "اذهب إلى التنقل",
+	"wima-jumptosearch": "اذهب الى البحث",
+	"wima-more-actions": "مزيد",
+	"wima-cactions-label": "أفعال الصفحة",
+	"wima-notifications-link": "الإشعارات ($1)",
+	"wima-notifications-link-none": "الإشعارات",
+	"wima-responsive-label": "تمكين تصميم مونوبوك سريع الاستجابة"
 }

@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"skinname-monobook": "Dara kitap (monobook)",
-	"monobook.css": "/* Mında ornalastırılğan CSS tek «Dara kitap» (monobook) mänerin paýdalanwşılarına ıqpal etedi */",
-	"monobook.js": "/* Mındağı JavaScript tek «Dara kitap» (monobook) mänerin paýdalanwşılar üşin jegiledi */"
+	"skinname-wima": "Wima",
+	"wima.css": "/* Mında ornalastırılğan CSS tek Wima mänerin paýdalanwşılarına ıqpal etedi */",
+	"wima.js": "/* Mındağı JavaScript tek Wima mänerin paýdalanwşılar üşin jegiledi */"
 }

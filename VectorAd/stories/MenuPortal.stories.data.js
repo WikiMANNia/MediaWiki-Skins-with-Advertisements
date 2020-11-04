@@ -5,7 +5,7 @@
 /* eslint-disable quotes */
 
 import mustache from 'mustache';
-import { vectorMenuTemplate as portalTemplate } from './MenuDropdown.stories.data';
+import { vectoradMenuTemplate as portalTemplate } from './MenuDropdown.stories.data';
 import '../resources/skins.vector.styles/MenuPortal.less';
 import '../.storybook/common.less';
 import { placeholder, htmluserlangattributes } from './utils';
@@ -35,8 +35,8 @@ const portletAfter = ( html ) => {
 export const PORTALS = {
 	example: {
 		id: 'p-example',
-		class: 'vector-menu-portal portal',
-		'list-classes': 'vector-menu-content-list',
+		class: 'vectorad-menu-portal portal',
+		'list-classes': 'vectorad-menu-content-list',
 		'html-tooltip': 'Message tooltip-p-example acts as tooltip',
 		label: 'Portal title',
 		'label-id': 'p-example-label',
@@ -53,7 +53,7 @@ export const PORTALS = {
 	navigation: {
 		id: 'p-navigation',
 		class: 'portal portal-first',
-		'list-classes': 'vector-menu-content-list',
+		'list-classes': 'vectorad-menu-content-list',
 		'html-tooltip': 'A message tooltip-p-navigation must exist for this to appear',
 		label: 'Navigation',
 		'label-id': 'p-navigation-label',
@@ -65,8 +65,8 @@ export const PORTALS = {
 	},
 	toolbox: {
 		id: 'p-tb',
-		class: 'vector-menu-portal portal',
-		'list-classes': 'vector-menu-content-list',
+		class: 'vectorad-menu-portal portal',
+		'list-classes': 'vectorad-menu-content-list',
 		'html-tooltip': 'A message tooltip-p-tb must exist for this to appear',
 		label: 'Tools',
 		'label-id': 'p-tb-label',
@@ -78,8 +78,8 @@ export const PORTALS = {
 	},
 	langlinks: {
 		id: 'p-lang',
-		class: 'vector-menu-portal portal',
-		'list-classes': 'vector-menu-content-list',
+		class: 'vectorad-menu-portal portal',
+		'list-classes': 'vectorad-menu-content-list',
 		'html-tooltip': 'A message tooltip-p-lang must exist for this to appear',
 		label: 'In other languages',
 		'label-id': 'p-lang-label',
@@ -97,8 +97,8 @@ ${placeholder( `<p>Further hook output possible (lang)</p>`, 60 )}`
 	},
 	otherProjects: {
 		id: 'p-wikibase-otherprojects',
-		class: 'vector-menu-portal portal',
-		'list-classes': 'vector-menu-content-list',
+		class: 'vectorad-menu-portal portal',
+		'list-classes': 'vectorad-menu-content-list',
 		'html-tooltip': 'A message tooltip-p-wikibase-otherprojects must exist for this to appear',
 		label: 'In other projects',
 		'label-id': 'p-wikibase-otherprojects-label',

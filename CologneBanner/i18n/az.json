@@ -9,9 +9,9 @@
 			"Vago"
 		]
 	},
-	"skinname-cologneblue": "Cologne Blue",
-	"cologneblue.css": "/* Burada yerləşən CSS Cologne Blue skin istifadəçilərinə tətbiq olunur */",
-	"cologneblue.js": "/* Burada Cologne Blue skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* Burada yerləşən CSS Cologne Banner skin istifadəçilərinə tətbiq olunur */",
+	"colognebanner.js": "/* Burada Cologne Banner skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
 	"qbfind": "Tap",
 	"qbbrowse": "Gözdən keçir",
 	"qbedit": "Redaktə",

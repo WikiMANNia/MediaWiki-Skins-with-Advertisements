@@ -5,13 +5,13 @@
 			"Simartampua"
 		]
 	},
-	"vector-action-addsection": "Baen tema",
-	"vector-action-delete": "Apus",
-	"vector-action-move": "Pindah",
-	"vector-action-protect": "Jagoon",
-	"vector-view-create": "Baen",
-	"vector-view-edit": "Pature",
-	"vector-view-history": "Sise sejarah",
-	"vector-view-view": "Baca",
-	"vector-more-actions": "Lainna"
+	"vectorad-action-addsection": "Baen tema",
+	"vectorad-action-delete": "Apus",
+	"vectorad-action-move": "Pindah",
+	"vectorad-action-protect": "Jagoon",
+	"vectorad-view-create": "Baen",
+	"vectorad-view-edit": "Pature",
+	"vectorad-view-history": "Sise sejarah",
+	"vectorad-view-view": "Baca",
+	"vectorad-more-actions": "Lainna"
 }

@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/vector-skin",
+	"name": "mediawiki/vectorad-skin",
 	"type": "mediawiki-skin",
 	"description": "Modern version of the MonoBook skin",
 	"keywords": [
@@ -30,7 +30,7 @@
 		"branch-alias": {
 			"dev-master": "1.x-dev"
 		},
-		"installer-name": "Vector"
+		"installer-name": "VectorAd"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "31.0.0",

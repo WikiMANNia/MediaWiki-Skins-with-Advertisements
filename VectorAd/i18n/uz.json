@@ -9,17 +9,17 @@
 			"Sociologist"
 		]
 	},
-	"skinname-vector": "Vektor",
-	"vector-action-addsection": "Mavzu qoʻshish",
-	"vector-action-delete": "O‘chirish",
-	"vector-action-move": "Ko‘chirish",
-	"vector-action-protect": "Himoyalash",
-	"vector-action-undelete": "Tiklash",
-	"vector-action-unprotect": "Himoyani oʻzgartirish",
-	"vector-view-create": "Yaratish",
-	"vector-view-edit": "Tahrirlash",
-	"vector-view-history": "Tarix",
-	"vector-view-view": "Mutolaa",
-	"vector-view-viewsource": "Manbasini koʻrish",
-	"vector-more-actions": "Yana"
+	"skinname-vectorad": "VektorAd",
+	"vectorad-action-addsection": "Mavzu qoʻshish",
+	"vectorad-action-delete": "O‘chirish",
+	"vectorad-action-move": "Ko‘chirish",
+	"vectorad-action-protect": "Himoyalash",
+	"vectorad-action-undelete": "Tiklash",
+	"vectorad-action-unprotect": "Himoyani oʻzgartirish",
+	"vectorad-view-create": "Yaratish",
+	"vectorad-view-edit": "Tahrirlash",
+	"vectorad-view-history": "Tarix",
+	"vectorad-view-view": "Mutolaa",
+	"vectorad-view-viewsource": "Manbasini koʻrish",
+	"vectorad-more-actions": "Yana"
 }

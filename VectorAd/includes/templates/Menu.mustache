@@ -6,7 +6,7 @@
 <nav id="{{id}}" {{#class}}class="{{.}}"{{/class}} aria-labelledby="{{label-id}}" role="navigation" {{{html-tooltip}}}
 	 {{{html-userlangattributes}}}>
 	{{#is-dropdown}}
-	<input type="checkbox" class="vector-menu-checkbox vectorMenuCheckbox" aria-labelledby="{{label-id}}" />
+	<input type="checkbox" class="vectorad-menu-checkbox vectoradMenuCheckbox" aria-labelledby="{{label-id}}" />
 	{{/is-dropdown}}
 	<h3 id="{{label-id}}">
 		<span>{{label}}</span>
@@ -14,7 +14,7 @@
 	{{! `body` class for backwards compatibility but let editors know not to use
 	 it via HTML comment below: }}
 	<!-- Please do not use the .body class, it is deprecated. -->
-	<div class="body vector-menu-content">
+	<div class="body vectorad-menu-content">
 		<!-- Please do not use the .menu class, it is deprecated. -->
 		<ul class="{{list-classes}}">{{{html-items}}}</ul>
 		{{{html-after-portal}}}

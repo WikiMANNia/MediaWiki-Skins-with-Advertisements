@@ -6,10 +6,10 @@
 			"Yury Tarasievich"
 		]
 	},
-	"skinname-monobook": "Манабук",
-	"monobook-desc": "Класічная вокладка MediaWiki з 2004 года, названая ў гонар чорна-белай фатаграфіі кнігі ў фоне старонкі",
-	"monobook.css": "/* CSS, упісаны сюды, будзе дзейнічаць на браўзер кожнага чытача з актыўнай світай Monobook */",
-	"monobook.js": "/* Any JavaScript here will be loaded for users using the MonoBook skin */",
-	"monobook-jumptotop": "вярнуцца ўверх",
-	"monobook-more-actions": "Яшчэ"
+	"skinname-wima": "Wima",
+	"wima-desc": "Класічная вокладка MediaWiki з 2004 года, названая ў гонар чорна-белай фатаграфіі кнігі ў фоне старонкі",
+	"wima.css": "/* CSS, упісаны сюды, будзе дзейнічаць на браўзер кожнага чытача з актыўнай світай Wima */",
+	"wima.js": "/* Any JavaScript here will be loaded for users using the Wima skin */",
+	"wima-jumptotop": "вярнуцца ўверх",
+	"wima-more-actions": "Яшчэ"
 }

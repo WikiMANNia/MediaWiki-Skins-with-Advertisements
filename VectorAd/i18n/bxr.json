@@ -5,12 +5,12 @@
 			"Elvonudinium"
 		]
 	},
-	"vector-action-addsection": "Һэдэб нэмэхэ",
-	"vector-action-delete": "Усадхаха",
-	"vector-action-move": "Зөөхэ",
-	"vector-view-create": "Үүдхэхэ",
-	"vector-view-edit": "Заһабарилха",
-	"vector-view-history": "Түүхые хараха",
-	"vector-view-view": "Уншаха",
-	"vector-view-viewsource": "эшэ үндэһэндэнь хандаха"
+	"vectorad-action-addsection": "Һэдэб нэмэхэ",
+	"vectorad-action-delete": "Усадхаха",
+	"vectorad-action-move": "Зөөхэ",
+	"vectorad-view-create": "Үүдхэхэ",
+	"vectorad-view-edit": "Заһабарилха",
+	"vectorad-view-history": "Түүхые хараха",
+	"vectorad-view-view": "Уншаха",
+	"vectorad-view-viewsource": "эшэ үндэһэндэнь хандаха"
 }

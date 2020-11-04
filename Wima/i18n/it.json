@@ -6,16 +6,16 @@
 			"Sannita"
 		]
 	},
-	"monobook-desc": "Il tema classico di MediaWiki dal 2004, prende il nome dall'immagine in bianco e nero del libro usata come sfondo della pagina",
-	"monobook.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema Monobook */",
-	"monobook.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema MonoBook */",
-	"monobook-jumptotop": "torna all'inizio",
-	"monobook-jumptopersonal": "strumenti utente",
-	"monobook-jumptonavigation": "Vai alla navigazione",
-	"monobook-jumptosearch": "Vai alla ricerca",
-	"monobook-more-actions": "Altro",
-	"monobook-cactions-label": "Azioni sulla pagina",
-	"monobook-notifications-link": "Notifiche ($1)",
-	"monobook-notifications-link-none": "Notifiche",
-	"monobook-responsive-label": "Attiva il design adattabile di MonoBook"
+	"wima-desc": "Il tema classico di MediaWiki dal 2004, prende il nome dall'immagine in bianco e nero del libro usata come sfondo della pagina",
+	"wima.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano il tema Wima */",
+	"wima.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema Wima */",
+	"wima-jumptotop": "torna all'inizio",
+	"wima-jumptopersonal": "strumenti utente",
+	"wima-jumptonavigation": "Vai alla navigazione",
+	"wima-jumptosearch": "Vai alla ricerca",
+	"wima-more-actions": "Altro",
+	"wima-cactions-label": "Azioni sulla pagina",
+	"wima-notifications-link": "Notifiche ($1)",
+	"wima-notifications-link-none": "Notifiche",
+	"wima-responsive-label": "Attiva il design adattabile di Wima"
 }

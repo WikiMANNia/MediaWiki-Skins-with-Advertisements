@@ -6,17 +6,17 @@
 			"Saederup92"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "Det klassiske MediaWiki udseende siden 2004, opkaldt efter det sort-hvide foto af en bog i baggrunden af siderne",
-	"monobook.css": "/** CSS inkluderet her vil være aktivt for brugere af Monobook-temaet . */",
-	"monobook.js": "/* JavaScript i denne fil vil indlæses for brugere af udseendet MonoBook */",
-	"monobook-jumptotop": "tilbage til toppen",
-	"monobook-jumptopersonal": "brugerværktøj",
-	"monobook-jumptonavigation": "Spring til navigation",
-	"monobook-jumptosearch": "Spring til søgning",
-	"monobook-more-actions": "Mere",
-	"monobook-cactions-label": "Sidehandlinger",
-	"monobook-notifications-link": "Notifikationer ($1)",
-	"monobook-notifications-link-none": "Notifikationer",
-	"monobook-responsive-label": "Aktiver responsivt MonoBook-design"
+	"skinname-wima": "Wima",
+	"wima-desc": "Det klassiske MediaWiki udseende siden 2004, opkaldt efter det sort-hvide foto af en bog i baggrunden af siderne",
+	"wima.css": "/** CSS inkluderet her vil være aktivt for brugere af Wima-temaet. */",
+	"wima.js": "/* JavaScript i denne fil vil indlæses for brugere af udseendet Wima. */",
+	"wima-jumptotop": "tilbage til toppen",
+	"wima-jumptopersonal": "brugerværktøj",
+	"wima-jumptonavigation": "Spring til navigation",
+	"wima-jumptosearch": "Spring til søgning",
+	"wima-more-actions": "Mere",
+	"wima-cactions-label": "Sidehandlinger",
+	"wima-notifications-link": "Notifikationer ($1)",
+	"wima-notifications-link-none": "Notifikationer",
+	"wima-responsive-label": "Aktiver responsivt Wima-design"
 }

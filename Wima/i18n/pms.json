@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"monobook.css": "/* cangé st'archivi-sì për modifiché la formatassion dël sit antregh */",
-	"monobook.js": "/* Ës messagi-sì as dovrìa pa pì dovrelo; a sò pòst ch'a dòvra [[MediaWiki:common.js]] */"
+	"wima.css": "/* cangé st'archivi-sì për modifiché la formatassion dël sit antregh */",
+	"wima.js": "/* Ës messagi-sì as dovrìa pa pì dovrelo; a sò pòst ch'a dòvra [[MediaWiki:common.js]] */"
 }

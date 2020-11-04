@@ -12,10 +12,10 @@
 			"YvesNevelsteen"
 		]
 	},
-	"skinname-cologneblue": "Kolonja Bluo",
-	"cologneblue.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Blua temo. */",
-	"cologneblue.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Blua temo. */",
-	"cologneblue-desc": "Leĝera etoso kun minimuma aranĝado",
+	"skinname-colognebanner": "Kolonja Banner",
+	"colognebanner.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Banner temo. */",
+	"colognebanner.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Banner temo. */",
+	"colognebanner-desc": "Leĝera etoso kun minimuma aranĝado",
 	"qbfind": "Serĉi",
 	"qbbrowse": "Foliumi",
 	"qbedit": "Redakti",

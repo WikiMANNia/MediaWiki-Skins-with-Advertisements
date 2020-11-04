@@ -1,33 +1,33 @@
 {
-	"name": "MonoBook",
+	"name": "Wima",
 	"author": [
 		"Gabriel Wicke",
 		"Isarra Yos",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:MonoBook",
-	"descriptionmsg": "monobook-desc",
-	"namemsg": "skinname-monobook",
+	"url": "https://www.mediawiki.org/wiki/Skin:Wima",
+	"descriptionmsg": "wima-desc",
+	"namemsg": "skinname-wima",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
 	},
 	"ValidSkinNames": {
-		"monobook": "MonoBook"
+		"wima": "Wima"
 	},
 	"SkinOOUIThemes": {
-		"monobook": "Apex"
+		"wima": "Apex"
 	},
 	"DefaultUserOptions": {
-		"monobook-responsive": true
+		"wima-responsive": true
 	},
 	"Hooks": {
-		"GetPreferences": "SkinMonoBook::onGetPreferences",
-		"ResourceLoaderRegisterModules": "SkinMonoBook::registerMobileExtensionStyles"
+		"GetPreferences": "SkinWima::onGetPreferences",
+		"ResourceLoaderRegisterModules": "SkinWima::registerMobileExtensionStyles"
 	},
 	"MessagesDirs": {
-		"MonoBook": [
+		"Wima": [
 			"i18n"
 		]
 	},
@@ -88,7 +88,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "MonoBook"
+		"remoteSkinPath": "Wima"
 	},
 	"ResourceModuleSkinStyles": {
 		"monobook": {

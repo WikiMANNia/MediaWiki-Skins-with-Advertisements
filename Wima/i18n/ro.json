@@ -5,7 +5,7 @@
 			"Minisarm"
 		]
 	},
-	"skinname-monobook": "Monobook",
-	"monobook-desc": "Aspectul clasic al MediaWiki încă din 2004, botezat după fotografia alb-negru a unei cărți din fundal",
-	"monobook.css": "/* modificați acest fișier pentru a adapta înfățișarea monobook-ului pentru tot situl*/"
+	"skinname-wima": "Wima",
+	"wima-desc": "Aspectul clasic al MediaWiki încă din 2004, botezat după fotografia alb-negru a unei cărți din fundal",
+	"wima.css": "/* modificați acest fișier pentru a adapta înfățișarea wima-ului pentru tot situl */"
 }

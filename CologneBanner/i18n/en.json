@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": []
 	},
-	"skinname-cologneblue": "Cologne Blue",
-	"cologneblue.css": "/* All CSS here will be loaded for users of the Cologne Blue skin */",
-	"cologneblue.js": "/* All JavaScript here will be loaded for users of the Cologne Blue skin */",
-	"cologneblue-desc": "A lightweight skin with minimal formatting",
+	"skinname-colognebanner": "Cologne Banner",
+	"colognebanner.css": "/* All CSS here will be loaded for users of the Cologne Banner skin */",
+	"colognebanner.js": "/* All JavaScript here will be loaded for users of the Cologne Banner skin */",
+	"colognebanner-desc": "A lightweight skin with minimal formatting",
 	"qbfind": "Find",
 	"qbbrowse": "Browse",
 	"qbedit": "Edit",

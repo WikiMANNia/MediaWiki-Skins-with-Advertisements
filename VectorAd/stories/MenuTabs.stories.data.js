@@ -9,8 +9,8 @@ import { htmluserlangattributes } from './utils';
  */
 export const pageActionsData = {
 	id: 'p-views',
-	class: 'vector-menu-tabs vectorTabs',
-	'list-classes': 'vector-menu-content-list',
+	class: 'vectorad-menu-tabs vectoradTabs',
+	'list-classes': 'vectorad-menu-content-list',
 	'label-id': 'p-views-label',
 	label: 'Views',
 	'html-userlangattributes': htmluserlangattributes,
@@ -32,8 +32,8 @@ You can view its source [⌃⌥e]" accesskey="e">View source</a></li>
  */
 export const namespaceTabsData = {
 	id: 'p-namespaces',
-	class: 'vector-menu-tabs vectorTabs',
-	'list-classes': 'vector-menu-content-list',
+	class: 'vectorad-menu-tabs vectoradTabs',
+	'list-classes': 'vectorad-menu-content-list',
 	'label-id': 'p-namespaces-label',
 	label: 'Namespaces',
 	'html-userlangattributes': htmluserlangattributes,

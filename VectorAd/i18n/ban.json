@@ -8,14 +8,14 @@
 			"NoiX180"
 		]
 	},
-	"vector-action-addsection": "Tambeh topik",
-	"vector-action-delete": "Usap",
-	"vector-action-move": "Gingsirang",
-	"vector-action-protect": "Saib",
-	"vector-view-create": "Kardi",
-	"vector-view-edit": "Uah",
-	"vector-view-history": "Cingak babad",
-	"vector-view-view": "Wacén",
-	"vector-view-viewsource": "Cingak wit",
-	"vector-more-actions": "Lianan"
+	"vectorad-action-addsection": "Tambeh topik",
+	"vectorad-action-delete": "Usap",
+	"vectorad-action-move": "Gingsirang",
+	"vectorad-action-protect": "Saib",
+	"vectorad-view-create": "Kardi",
+	"vectorad-view-edit": "Uah",
+	"vectorad-view-history": "Cingak babad",
+	"vectorad-view-view": "Wacén",
+	"vectorad-view-viewsource": "Cingak wit",
+	"vectorad-more-actions": "Lianan"
 }

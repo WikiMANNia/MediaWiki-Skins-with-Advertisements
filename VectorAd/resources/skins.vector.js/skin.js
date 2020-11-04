@@ -1,5 +1,5 @@
 var collapsibleTabs = require( '../skins.vector.legacy.js/collapsibleTabs.js' ),
-	vector = require( '../skins.vector.legacy.js/vector.js' ),
+	vectorad = require( '../skins.vector.legacy.js/vector.js' ),
 	sidebar = require( './sidebar.js' );
 
 /**
@@ -7,7 +7,7 @@ var collapsibleTabs = require( '../skins.vector.legacy.js/collapsibleTabs.js' ),
  *
  * Some CSS animations and transitions are "disabled" by default as a workaround to this old Chrome
  * bug, https://bugs.chromium.org/p/chromium/issues/detail?id=332189, which otherwise causes them to
- * render in their terminal state on page load. By adding the `vector-animations-ready` class to the
+ * render in their terminal state on page load. By adding the `vectorad-animations-ready` class to the
  * `html` root element **after** first paint, the animation selectors suddenly match causing the
  * animations to become "enabled" when they will work properly. A similar pattern is used in Minerva
  * (see T234570#5779890, T246419).
@@ -22,7 +22,7 @@ var collapsibleTabs = require( '../skins.vector.legacy.js/collapsibleTabs.js' ),
  *
  * // This transition will be disabled initially for JavaScript users. It will never be enabled for
  * // no-JS users.
- * .vector-animations-ready .foo {
+ * .vectorad-animations-ready .foo {
  *     .transition( transform 100ms ease-out; );
  * }
  * ```
@@ -31,7 +31,7 @@ var collapsibleTabs = require( '../skins.vector.legacy.js/collapsibleTabs.js' ),
  * @return {void}
  */
 function enableCssAnimations( document ) {
-	document.documentElement.classList.add( 'vector-animations-ready' );
+	document.documentElement.classList.add( 'vectorad-animations-ready' );
 }
 
 /**
@@ -42,7 +42,7 @@ function main( window ) {
 	enableCssAnimations( window.document );
 	collapsibleTabs.init();
 	sidebar.init( window );
-	$( vector.init );
+	$( vectorad.init );
 }
 
 main( window );

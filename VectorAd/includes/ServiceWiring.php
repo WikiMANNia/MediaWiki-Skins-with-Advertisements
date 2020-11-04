@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Service Wirings for Vector skin
+ * Service Wirings for VectorAd skin
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,11 +23,11 @@
  */
 
 use MediaWiki\MediaWikiServices;
-use Vector\Constants;
-use Vector\FeatureManagement\FeatureManager;
-use Vector\FeatureManagement\Requirements\DynamicConfigRequirement;
-use Vector\FeatureManagement\Requirements\LatestSkinVersionRequirement;
-use Vector\SkinVersionLookup;
+use VectorAd\Constants;
+use VectorAd\FeatureManagement\FeatureManager;
+use VectorAd\FeatureManagement\Requirements\DynamicConfigRequirement;
+use VectorAd\FeatureManagement\Requirements\LatestSkinVersionRequirement;
+use VectorAd\SkinVersionLookup;
 
 return [
 	Constants::SERVICE_CONFIG => function ( MediaWikiServices $services ) {

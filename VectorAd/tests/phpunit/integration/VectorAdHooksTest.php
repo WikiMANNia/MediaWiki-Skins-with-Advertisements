@@ -4,25 +4,25 @@
  * @ingroup skins
  */
 
-use Vector\Hooks;
+use VectorAd\Hooks;
 
 const SKIN_PREFS_SECTION = 'rendering/skin/skin-prefs';
 
 /**
- * Integration tests for Vector Hooks.
+ * Integration tests for VectorAd Hooks.
  *
- * @group Vector
- * @coversDefaultClass \Vector\Hooks
+ * @group VectorAd
+ * @coversDefaultClass \VectorAd\Hooks
  */
-class VectorHooksTest extends \MediaWikiTestCase {
+class VectorAdHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onGetPreferences
 	 */
 	public function testOnGetPreferencesShowPreferencesDisabled() {
 		$config = new HashConfig( [
-			'VectorShowSkinPreferences' => false,
+			'VectorAdShowSkinPreferences' => false,
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$prefs = [];
 		Hooks::onGetPreferences( $this->getTestUser()->getUser(), $prefs );
@@ -34,12 +34,12 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	 */
 	public function testOnGetPreferencesShowPreferencesEnabledSkinSectionFoundLegacy() {
 		$config = new HashConfig( [
-			'VectorShowSkinPreferences' => true,
+			'VectorAdShowSkinPreferences' => true,
 			// '1' is Legacy.
-			'VectorDefaultSkinVersionForExistingAccounts' => '1',
-			'VectorDefaultSidebarVisibleForAuthorisedUser' => true
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1',
+			'VectorAdDefaultSidebarVisibleForAuthorisedUser' => true
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$prefs = [
 			'foo' => [],
@@ -52,16 +52,16 @@ class VectorHooksTest extends \MediaWikiTestCase {
 			[
 				'foo' => [],
 				'skin' => [],
-				'VectorSkinVersion' => [
+				'VectorAdSkinVersion' => [
 					'type' => 'toggle',
-					'label-message' => 'prefs-vector-enable-vector-1-label',
-					'help-message' => 'prefs-vector-enable-vector-1-help',
+					'label-message' => 'prefs-vectorad-enable-vectorad-1-label',
+					'help-message' => 'prefs-vectorad-enable-vectorad-1-help',
 					'section' => SKIN_PREFS_SECTION,
 					// '1' is enabled which means Legacy.
 					'default' => '1',
-					'hide-if' => [ '!==', 'wpskin', 'vector' ]
+					'hide-if' => [ '!==', 'wpskin', 'vectorad' ]
 				],
-				'VectorSidebarVisible' => [
+				'VectorAdSidebarVisible' => [
 					'type' => 'api',
 					'default' => true
 				],
@@ -76,12 +76,12 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	 */
 	public function testOnGetPreferencesShowPreferencesEnabledSkinSectionMissingLegacy() {
 		$config = new HashConfig( [
-			'VectorShowSkinPreferences' => true,
+			'VectorAdShowSkinPreferences' => true,
 			// '1' is Legacy.
-			'VectorDefaultSkinVersionForExistingAccounts' => '1',
-			'VectorDefaultSidebarVisibleForAuthorisedUser' => true
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '1',
+			'VectorAdDefaultSidebarVisibleForAuthorisedUser' => true
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$prefs = [
 			'foo' => [],
@@ -93,16 +93,16 @@ class VectorHooksTest extends \MediaWikiTestCase {
 			[
 				'foo' => [],
 				'bar' => [],
-				'VectorSkinVersion' => [
+				'VectorAdSkinVersion' => [
 					'type' => 'toggle',
-					'label-message' => 'prefs-vector-enable-vector-1-label',
-					'help-message' => 'prefs-vector-enable-vector-1-help',
+					'label-message' => 'prefs-vectorad-enable-vectorad-1-label',
+					'help-message' => 'prefs-vectorad-enable-vectorad-1-help',
 					'section' => SKIN_PREFS_SECTION,
 					// '1' is enabled which means Legacy.
 					'default' => '1',
-					'hide-if' => [ '!==', 'wpskin', 'vector' ]
+					'hide-if' => [ '!==', 'wpskin', 'vectorad' ]
 				],
-				'VectorSidebarVisible' => [
+				'VectorAdSidebarVisible' => [
 					'type' => 'api',
 					'default' => true
 				],
@@ -116,12 +116,12 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	 */
 	public function testOnGetPreferencesShowPreferencesEnabledSkinSectionMissingLatest() {
 		$config = new HashConfig( [
-			'VectorShowSkinPreferences' => true,
+			'VectorAdShowSkinPreferences' => true,
 			// '2' is latest.
-			'VectorDefaultSkinVersionForExistingAccounts' => '2',
-			'VectorDefaultSidebarVisibleForAuthorisedUser' => true
+			'VectorAdDefaultSkinVersionForExistingAccounts' => '2',
+			'VectorAdDefaultSidebarVisibleForAuthorisedUser' => true
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$prefs = [
 			'foo' => [],
@@ -133,16 +133,16 @@ class VectorHooksTest extends \MediaWikiTestCase {
 			[
 				'foo' => [],
 				'bar' => [],
-				'VectorSkinVersion' => [
+				'VectorAdSkinVersion' => [
 					'type' => 'toggle',
-					'label-message' => 'prefs-vector-enable-vector-1-label',
-					'help-message' => 'prefs-vector-enable-vector-1-help',
+					'label-message' => 'prefs-vectorad-enable-vectorad-1-label',
+					'help-message' => 'prefs-vectorad-enable-vectorad-1-help',
 					'section' => SKIN_PREFS_SECTION,
 					// '0' is disabled (which means latest).
 					'default' => '0',
-					'hide-if' => [ '!==', 'wpskin', 'vector' ]
+					'hide-if' => [ '!==', 'wpskin', 'vectorad' ]
 				],
-				'VectorSidebarVisible' => [
+				'VectorAdSidebarVisible' => [
 					'type' => 'api',
 					'default' => true
 				],
@@ -154,18 +154,18 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onPreferencesFormPreSave
 	 */
-	public function testOnPreferencesFormPreSaveVectorEnabledLegacyNewPreference() {
+	public function testOnPreferencesFormPreSaveVectorAdEnabledLegacyNewPreference() {
 		$formData = [
-			'skin' => 'vector',
+			'skin' => 'vectorad',
 			// True is Legacy.
-			'VectorSkinVersion' => true,
+			'VectorAdSkinVersion' => true,
 		];
 		$form = $this->createMock( HTMLForm::class );
 		$user = $this->createMock( \User::class );
 		$user->expects( $this->once() )
 			->method( 'setOption' )
 			// '1' is Legacy.
-			->with( 'VectorSkinVersion', '1' );
+			->with( 'VectorAdSkinVersion', '1' );
 		$result = true;
 		$oldPreferences = [];
 
@@ -175,18 +175,18 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onPreferencesFormPreSave
 	 */
-	public function testOnPreferencesFormPreSaveVectorEnabledLatestNewPreference() {
+	public function testOnPreferencesFormPreSaveVectorAdEnabledLatestNewPreference() {
 		$formData = [
-			'skin' => 'vector',
+			'skin' => 'vectorad',
 			// False is latest.
-			'VectorSkinVersion' => false,
+			'VectorAdSkinVersion' => false,
 		];
 		$form = $this->createMock( HTMLForm::class );
 		$user = $this->createMock( \User::class );
 		$user->expects( $this->once() )
 			->method( 'setOption' )
 			// '2' is latest.
-			->with( 'VectorSkinVersion', '2' );
+			->with( 'VectorAdSkinVersion', '2' );
 		$result = true;
 		$oldPreferences = [];
 
@@ -196,9 +196,9 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onPreferencesFormPreSave
 	 */
-	public function testOnPreferencesFormPreSaveVectorEnabledNoNewPreference() {
+	public function testOnPreferencesFormPreSaveVectorAdEnabledNoNewPreference() {
 		$formData = [
-			'skin' => 'vector',
+			'skin' => 'vectorad',
 		];
 		$form = $this->createMock( HTMLForm::class );
 		$user = $this->createMock( \User::class );
@@ -213,10 +213,10 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onPreferencesFormPreSave
 	 */
-	public function testOnPreferencesFormPreSaveVectorDisabledNoOldPreference() {
+	public function testOnPreferencesFormPreSaveVectorAdDisabledNoOldPreference() {
 		$formData = [
 			// False is latest.
-			'VectorSkinVersion' => false,
+			'VectorAdSkinVersion' => false,
 		];
 		$form = $this->createMock( HTMLForm::class );
 		$user = $this->createMock( \User::class );
@@ -231,19 +231,19 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	/**
 	 * @covers ::onPreferencesFormPreSave
 	 */
-	public function testOnPreferencesFormPreSaveVectorDisabledOldPreference() {
+	public function testOnPreferencesFormPreSaveVectorAdDisabledOldPreference() {
 		$formData = [
 			// False is latest.
-			'VectorSkinVersion' => false,
+			'VectorAdSkinVersion' => false,
 		];
 		$form = $this->createMock( HTMLForm::class );
 		$user = $this->createMock( \User::class );
 		$user->expects( $this->once() )
 			->method( 'setOption' )
-			->with( 'VectorSkinVersion', 'old' );
+			->with( 'VectorAdSkinVersion', 'old' );
 		$result = true;
 		$oldPreferences = [
-			'VectorSkinVersion' => 'old',
+			'VectorAdSkinVersion' => 'old',
 		];
 
 		Hooks::onPreferencesFormPreSave( $formData, $form, $user, $result, $oldPreferences );
@@ -255,15 +255,15 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	public function testOnLocalUserCreatedLegacy() {
 		$config = new HashConfig( [
 			// '1' is Legacy.
-			'VectorDefaultSkinVersionForNewAccounts' => '1',
+			'VectorAdDefaultSkinVersionForNewAccounts' => '1',
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$user = $this->createMock( \User::class );
 		$user->expects( $this->once() )
 		->method( 'setOption' )
 			// '1' is Legacy.
-			->with( 'VectorSkinVersion', '1' );
+			->with( 'VectorAdSkinVersion', '1' );
 		$isAutoCreated = false;
 		Hooks::onLocalUserCreated( $user, $isAutoCreated );
 	}
@@ -274,15 +274,15 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	public function testOnLocalUserCreatedLatest() {
 		$config = new HashConfig( [
 			// '2' is latest.
-			'VectorDefaultSkinVersionForNewAccounts' => '2',
+			'VectorAdDefaultSkinVersionForNewAccounts' => '2',
 		] );
-		$this->setService( 'Vector.Config', $config );
+		$this->setService( 'VectorAd.Config', $config );
 
 		$user = $this->createMock( \User::class );
 		$user->expects( $this->once() )
 		->method( 'setOption' )
 			// '2' is latest.
-			->with( 'VectorSkinVersion', '2' );
+			->with( 'VectorAdSkinVersion', '2' );
 		$isAutoCreated = false;
 		Hooks::onLocalUserCreated( $user, $isAutoCreated );
 	}
@@ -292,9 +292,9 @@ class VectorHooksTest extends \MediaWikiTestCase {
 	 */
 	public function testOnSkinTemplateNavigation() {
 		$this->setMwGlobals( [
-			'wgVectorUseIconWatch' => true
+			'wgVectorAdUseIconWatch' => true
 		] );
-		$skin = new SkinVector();
+		$skin = new SkinVectorAd();
 		$contentNavWatch = [
 			'actions' => [
 				'watch' => [ 'class' => 'watch' ],

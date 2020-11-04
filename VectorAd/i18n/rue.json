@@ -6,16 +6,16 @@
 			"Tkalyn"
 		]
 	},
-	"vector-action-addsection": "Придати тему",
-	"vector-action-delete": "Вымазати",
-	"vector-action-move": "Переменовати",
-	"vector-action-protect": "Всокотити",
-	"vector-action-undelete": "Обновити",
-	"vector-action-unprotect": "Змінити замок",
-	"vector-view-create": "Створити",
-	"vector-view-edit": "Едітовати",
-	"vector-view-history": "Видїти історію",
-	"vector-view-view": "Чітати",
-	"vector-view-viewsource": "Видїти код",
-	"vector-more-actions": "Веце"
+	"vectorad-action-addsection": "Придати тему",
+	"vectorad-action-delete": "Вымазати",
+	"vectorad-action-move": "Переменовати",
+	"vectorad-action-protect": "Всокотити",
+	"vectorad-action-undelete": "Обновити",
+	"vectorad-action-unprotect": "Змінити замок",
+	"vectorad-view-create": "Створити",
+	"vectorad-view-edit": "Едітовати",
+	"vectorad-view-history": "Видїти історію",
+	"vectorad-view-view": "Чітати",
+	"vectorad-view-viewsource": "Видїти код",
+	"vectorad-more-actions": "Веце"
 }

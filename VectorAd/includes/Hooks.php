@@ -1,6 +1,6 @@
 <?php
 
-namespace Vector;
+namespace VectorAd;
 
 use ExtensionRegistry;
 use HTMLForm;
@@ -9,11 +9,11 @@ use OutputPage;
 use RequestContext;
 use Skin;
 use SkinTemplate;
-use SkinVector;
+use SkinVectorAd;
 use User;
 
 /**
- * Presentation hook handlers for Vector skin.
+ * Presentation hook handlers for VectorAd skin.
  *
  * Hook handler method names should be in the form of:
  *	on<HookName>()
@@ -22,14 +22,14 @@ class Hooks {
 	/**
 	 * BeforePageDisplayMobile hook handler
 	 *
-	 * Make Legacy Vector responsive when $wgVectorResponsive = true
+	 * Make Legacy VectorAd responsive when $wgVectorAdResponsive = true
 	 *
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 * @param OutputPage $out
 	 * @param SkinTemplate $sk
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $sk ) {
-		if ( !$sk instanceof SkinVector ) {
+		if ( !$sk instanceof SkinVectorAd ) {
 			return;
 		}
 
@@ -45,7 +45,7 @@ class Hooks {
 		}
 
 		if ( $skinVersionLookup->isLegacy()
-			&& ( $mobile || $sk->getConfig()->get( 'VectorResponsive' ) )
+			&& ( $mobile || $sk->getConfig()->get( 'VectorAdResponsive' ) )
 		) {
 			$out->addMeta( 'viewport', 'width=device-width, initial-scale=1' );
 			$out->addModuleStyles( 'skins.vector.styles.responsive' );
@@ -67,7 +67,7 @@ class Hooks {
 	}
 
 	/**
-	 * Upgrades Vector's watch action to a watchstar.
+	 * Upgrades VectorAd's watch action to a watchstar.
 	 *
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/SkinTemplateNavigation
 	 * @param SkinTemplate $sk
@@ -75,8 +75,8 @@ class Hooks {
 	 */
 	public static function onSkinTemplateNavigation( $sk, &$content_navigation ) {
 		if (
-			$sk->getSkinName() === 'vector' &&
-			$sk->getConfig()->get( 'VectorUseIconWatch' )
+			$sk->getSkinName() === 'vectorad' &&
+			$sk->getConfig()->get( 'VectorAdUseIconWatch' )
 		) {
 			$key = null;
 			if ( isset( $content_navigation['actions']['watch'] ) ) {
@@ -97,14 +97,14 @@ class Hooks {
 	}
 
 	/**
-	 * Add Vector preferences to the user's Special:Preferences page directly underneath skins.
+	 * Add VectorAd preferences to the user's Special:Preferences page directly underneath skins.
 	 *
 	 * @param User $user User whose preferences are being modified.
 	 * @param array[] &$prefs Preferences description array, to be fed to a HTMLForm object.
 	 */
 	public static function onGetPreferences( User $user, array &$prefs ) {
 		if ( !self::getConfig( Constants::CONFIG_KEY_SHOW_SKIN_PREFERENCES ) ) {
-			// Do not add Vector skin specific preferences.
+			// Do not add VectorAd skin specific preferences.
 			return;
 		}
 
@@ -113,19 +113,19 @@ class Hooks {
 		);
 
 		// Preferences to add.
-		$vectorPrefs = [
+		$vectoradPrefs = [
 			Constants::PREF_KEY_SKIN_VERSION => [
 				'type' => 'toggle',
 				// The checkbox title.
-				'label-message' => 'prefs-vector-enable-vector-1-label',
+				'label-message' => 'prefs-vectorad-enable-vectorad-1-label',
 				// Show a little informational snippet underneath the checkbox.
-				'help-message' => 'prefs-vector-enable-vector-1-help',
+				'help-message' => 'prefs-vectorad-enable-vectorad-1-help',
 				// The tab location and title of the section to insert the checkbox. The bit after the slash
 				// indicates that a prefs-skin-prefs string will be provided.
 				'section' => 'rendering/skin/skin-prefs',
 				// Convert the preference string to a boolean presentation.
 				'default' => $skinVersionLookup->isLegacy() ? '1' : '0',
-				// Only show this section when the Vector skin is checked. The JavaScript client also uses
+				// Only show this section when the VectorAd skin is checked. The JavaScript client also uses
 				// this state to determine whether to show or hide the whole section.
 				'hide-if' => [ '!==', 'wpskin', Constants::SKIN_NAME ]
 			],
@@ -135,18 +135,18 @@ class Hooks {
 			],
 		];
 
-		// Seek the skin preference section to add Vector preferences just below it.
+		// Seek the skin preference section to add VectorAd preferences just below it.
 		$skinSectionIndex = array_search( 'skin', array_keys( $prefs ) );
 		if ( $skinSectionIndex !== false ) {
-			// Skin preference section found. Inject Vector skin-specific preferences just below it.
+			// Skin preference section found. Inject VectorAd skin-specific preferences just below it.
 			// This pattern can be found in Popups too. See T246162.
-			$vectorSectionIndex = $skinSectionIndex + 1;
-			$prefs = array_slice( $prefs, 0, $vectorSectionIndex, true )
-				+ $vectorPrefs
-				+ array_slice( $prefs, $vectorSectionIndex, null, true );
+			$vectoradSectionIndex = $skinSectionIndex + 1;
+			$prefs = array_slice( $prefs, 0, $vectoradSectionIndex, true )
+				+ $vectoradPrefs
+				+ array_slice( $prefs, $vectoradSectionIndex, null, true );
 		} else {
-			// Skin preference section not found. Just append Vector skin-specific preferences.
-			$prefs += $vectorPrefs;
+			// Skin preference section not found. Just append VectorAd skin-specific preferences.
+			$prefs += $vectoradPrefs;
 		}
 	}
 
@@ -169,11 +169,11 @@ class Hooks {
 		$oldPreferences
 	) {
 		$preference = null;
-		$isVectorEnabled = ( $formData[ 'skin' ] ?? '' ) === Constants::SKIN_NAME;
-		if ( $isVectorEnabled && array_key_exists( Constants::PREF_KEY_SKIN_VERSION, $formData ) ) {
+		$isVectorAdEnabled = ( $formData[ 'skin' ] ?? '' ) === Constants::SKIN_NAME;
+		if ( $isVectorAdEnabled && array_key_exists( Constants::PREF_KEY_SKIN_VERSION, $formData ) ) {
 			// A preference was set. However, Special:Preferences converts the result to a boolean when a
 			// version name string is wanted instead. Convert the boolean to a version string in case the
-			// preference display is changed to a list later (e.g., a "_new_ new Vector" / '3' or
+			// preference display is changed to a list later (e.g., a "_new_ new VectorAd" / '3' or
 			// 'alpha').
 			$preference = $formData[ Constants::PREF_KEY_SKIN_VERSION ] ?
 				Constants::SKIN_VERSION_LEGACY :
@@ -215,12 +215,12 @@ class Hooks {
 		);
 
 		if ( $skinVersionLookup->isLegacy() ) {
-			$bodyAttrs['class'] .= ' skin-vector-legacy';
+			$bodyAttrs['class'] .= ' skin-vectorad-legacy';
 			return;
 		}
 
 		if ( self::getConfig( Constants::CONFIG_KEY_LAYOUT_MAX_WIDTH ) ) {
-			$bodyAttrs['class'] .= ' skin-vector-max-width';
+			$bodyAttrs['class'] .= ' skin-vectorad-max-width';
 		}
 	}
 

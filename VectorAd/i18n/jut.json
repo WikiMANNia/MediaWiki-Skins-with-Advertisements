@@ -5,12 +5,12 @@
 			"Jyllanj"
 		]
 	},
-	"vector-action-addsection": "Ny emn",
-	"vector-action-move": "Flytt",
-	"vector-action-protect": "Beskøtt",
-	"vector-view-create": "Oprett",
-	"vector-view-edit": "Redigiir",
-	"vector-view-history": "Sie historik",
-	"vector-view-view": "Läs",
-	"vector-more-actions": "Mier"
+	"vectorad-action-addsection": "Ny emn",
+	"vectorad-action-move": "Flytt",
+	"vectorad-action-protect": "Beskøtt",
+	"vectorad-view-create": "Oprett",
+	"vectorad-view-edit": "Redigiir",
+	"vectorad-view-history": "Sie historik",
+	"vectorad-view-view": "Läs",
+	"vectorad-more-actions": "Mier"
 }

@@ -1,10 +1,10 @@
 <?php
-namespace Vector;
+namespace VectorAd;
 
 use FatalError;
 
 /**
- * A namespace for Vector constants for internal Vector usage only. **Do not rely on this file as an
+ * A namespace for VectorAd constants for internal VectorAd usage only. **Do not rely on this file as an
  * API as it may change without warning at any time.**
  */
 final class Constants {
@@ -12,7 +12,7 @@ final class Constants {
 	 * This is tightly coupled to the ConfigRegistry field in skin.json.
 	 * @var string
 	 */
-	public const SKIN_NAME = 'vector';
+	public const SKIN_NAME = 'vectorad';
 
 	// These are tightly coupled to PREF_KEY_SKIN_VERSION and skin.json's configs. See skin.json for
 	// documentation.
@@ -28,59 +28,59 @@ final class Constants {
 	/**
 	 * @var string
 	 */
-	public const SERVICE_CONFIG = 'Vector.Config';
+	public const SERVICE_CONFIG = 'VectorAd.Config';
 
 	/**
 	 * @var string
 	 */
-	public const SERVICE_FEATURE_MANAGER = 'Vector.FeatureManager';
+	public const SERVICE_FEATURE_MANAGER = 'VectorAd.FeatureManager';
 
 	// These are tightly coupled to skin.json's config.
 	/**
 	 * @var string
 	 */
-	public const CONFIG_KEY_SHOW_SKIN_PREFERENCES = 'VectorShowSkinPreferences';
+	public const CONFIG_KEY_SHOW_SKIN_PREFERENCES = 'VectorAdShowSkinPreferences';
 	/**
 	 * @var string
 	 */
-	public const CONFIG_KEY_DEFAULT_SKIN_VERSION = 'VectorDefaultSkinVersion';
+	public const CONFIG_KEY_DEFAULT_SKIN_VERSION = 'VectorAdDefaultSkinVersion';
 	/**
 	 * @var string
 	 */
 	public const CONFIG_KEY_DEFAULT_SKIN_VERSION_FOR_EXISTING_ACCOUNTS =
-		'VectorDefaultSkinVersionForExistingAccounts';
+		'VectorAdDefaultSkinVersionForExistingAccounts';
 	/**
 	 * @var string
 	 */
 	public const CONFIG_KEY_DEFAULT_SKIN_VERSION_FOR_NEW_ACCOUNTS =
-		'VectorDefaultSkinVersionForNewAccounts';
+		'VectorAdDefaultSkinVersionForNewAccounts';
 
 	/**
 	 * @var string
 	 */
 	public const CONFIG_KEY_DEFAULT_SIDEBAR_VISIBLE_FOR_AUTHORISED_USER =
-		'VectorDefaultSidebarVisibleForAuthorisedUser';
+		'VectorAdDefaultSidebarVisibleForAuthorisedUser';
 
 	/**
 	 * @var string
 	 */
 	public const CONFIG_KEY_DEFAULT_SIDEBAR_VISIBLE_FOR_ANONYMOUS_USER =
-		'VectorDefaultSidebarVisibleForAnonymousUser';
+		'VectorAdDefaultSidebarVisibleForAnonymousUser';
 
 	/**
 	 * @var string
 	 */
-	public const CONFIG_KEY_LAYOUT_MAX_WIDTH = 'VectorLayoutMaxWidth';
+	public const CONFIG_KEY_LAYOUT_MAX_WIDTH = 'VectorAdLayoutMaxWidth';
 
 	/**
 	 * @var string
 	 */
-	public const PREF_KEY_SKIN_VERSION = 'VectorSkinVersion';
+	public const PREF_KEY_SKIN_VERSION = 'VectorAdSkinVersion';
 
 	/**
 	 * @var string
 	 */
-	public const PREF_KEY_SIDEBAR_VISIBLE = 'VectorSidebarVisible';
+	public const PREF_KEY_SIDEBAR_VISIBLE = 'VectorAdSidebarVisible';
 
 	// These are used in the Feature Management System.
 	/**

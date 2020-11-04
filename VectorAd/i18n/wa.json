@@ -5,16 +5,16 @@
 			"Srtxg"
 		]
 	},
-	"vector-action-addsection": "Radjouter on sudjet",
-	"vector-action-delete": "Disfacer",
-	"vector-action-move": "Displaecî",
-	"vector-action-protect": "Protedjî",
-	"vector-action-undelete": "Rapexhî",
-	"vector-action-unprotect": "Candjî l' protedjaedje",
-	"vector-view-create": "Ahiver",
-	"vector-view-edit": "Candjî",
-	"vector-view-history": "Vey l’&nbsp;istwere",
-	"vector-view-view": "Lére",
-	"vector-view-viewsource": "Vey côde sourdant",
-	"vector-more-actions": "Di pus"
+	"vectorad-action-addsection": "Radjouter on sudjet",
+	"vectorad-action-delete": "Disfacer",
+	"vectorad-action-move": "Displaecî",
+	"vectorad-action-protect": "Protedjî",
+	"vectorad-action-undelete": "Rapexhî",
+	"vectorad-action-unprotect": "Candjî l' protedjaedje",
+	"vectorad-view-create": "Ahiver",
+	"vectorad-view-edit": "Candjî",
+	"vectorad-view-history": "Vey l’&nbsp;istwere",
+	"vectorad-view-view": "Lére",
+	"vectorad-view-viewsource": "Vey côde sourdant",
+	"vectorad-more-actions": "Di pus"
 }

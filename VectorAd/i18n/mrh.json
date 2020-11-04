@@ -5,10 +5,10 @@
 			"Teitei Para"
 		]
 	},
-	"vector-action-addsection": "Chôtlâhpi khô",
-	"vector-view-create": "Tao",
-	"vector-view-edit": "Taopathi",
-	"vector-view-history": "Chhichânazy palâ teih",
-	"vector-view-view": "Reih teih",
-	"vector-more-actions": "Ahluhviapa"
+	"vectorad-action-addsection": "Chôtlâhpi khô",
+	"vectorad-view-create": "Tao",
+	"vectorad-view-edit": "Taopathi",
+	"vectorad-view-history": "Chhichânazy palâ teih",
+	"vectorad-view-view": "Reih teih",
+	"vectorad-more-actions": "Ahluhviapa"
 }

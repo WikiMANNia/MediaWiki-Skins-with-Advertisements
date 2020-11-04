@@ -4,11 +4,11 @@
 			"Katelem"
 		]
 	},
-	"vector-action-addsection": "Tap Ibot-ikọ gbaalek",
-	"vector-action-delete": "Chọk",
-	"vector-view-create": "Nama",
-	"vector-view-edit": "Nen̄e ge",
-	"vector-view-history": "Kpọ mfufuk",
-	"vector-view-view": "Fuk",
-	"vector-more-actions": "Ofifi sin̄"
+	"vectorad-action-addsection": "Tap Ibot-ikọ gbaalek",
+	"vectorad-action-delete": "Chọk",
+	"vectorad-view-create": "Nama",
+	"vectorad-view-edit": "Nen̄e ge",
+	"vectorad-view-history": "Kpọ mfufuk",
+	"vectorad-view-view": "Fuk",
+	"vectorad-more-actions": "Ofifi sin̄"
 }

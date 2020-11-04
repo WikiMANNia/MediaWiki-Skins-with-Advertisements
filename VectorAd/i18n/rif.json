@@ -5,11 +5,11 @@
 			"MoubarikBelkasim"
 		]
 	},
-	"vector-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
-	"vector-action-delete": "ⴽⴽⵙ",
-	"vector-action-move": "ⵙⵎⵓⵜⵜⵉ",
-	"vector-view-create": "ⵙⵏⵓⵍⴼⵓ",
-	"vector-view-edit": "ⵙⵏⴼⵍ",
-	"vector-view-history": "ⴰⵎⵣⵔⵓⵢ",
-	"vector-view-view": "ⵖⵔ"
+	"vectorad-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
+	"vectorad-action-delete": "ⴽⴽⵙ",
+	"vectorad-action-move": "ⵙⵎⵓⵜⵜⵉ",
+	"vectorad-view-create": "ⵙⵏⵓⵍⴼⵓ",
+	"vectorad-view-edit": "ⵙⵏⴼⵍ",
+	"vectorad-view-history": "ⴰⵎⵣⵔⵓⵢ",
+	"vectorad-view-view": "ⵖⵔ"
 }

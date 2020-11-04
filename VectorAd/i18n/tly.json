@@ -6,16 +6,16 @@
 			"Гусейн"
 		]
 	},
-	"vector-action-addsection": "Мывзу зијод кардеј",
-	"vector-action-delete": "Bısü",
-	"vector-action-move": "Номи дәгиш кардеј",
-	"vector-action-protect": "Mıdofiə karde",
-	"vector-action-undelete": "Бәрпо кардеј",
-	"vector-action-unprotect": "Мыдофијә дәгиш кардеј",
-	"vector-view-create": "Офәјеј",
-	"vector-view-edit": "Dəqiş karde",
-	"vector-view-history": "Тarix",
-	"vector-view-view": "Bahand",
-	"vector-view-viewsource": "Дијә кардеј",
-	"vector-more-actions": "Həniyən"
+	"vectorad-action-addsection": "Мывзу зијод кардеј",
+	"vectorad-action-delete": "Bısü",
+	"vectorad-action-move": "Номи дәгиш кардеј",
+	"vectorad-action-protect": "Mıdofiə karde",
+	"vectorad-action-undelete": "Бәрпо кардеј",
+	"vectorad-action-unprotect": "Мыдофијә дәгиш кардеј",
+	"vectorad-view-create": "Офәјеј",
+	"vectorad-view-edit": "Dəqiş karde",
+	"vectorad-view-history": "Тarix",
+	"vectorad-view-view": "Bahand",
+	"vectorad-view-viewsource": "Дијә кардеј",
+	"vectorad-more-actions": "Həniyən"
 }

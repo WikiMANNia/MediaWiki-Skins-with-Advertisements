@@ -4,10 +4,10 @@
 			"McDutchie"
 		]
 	},
-	"skinname-cologneblue": "Colonia Blau",
-	"cologneblue.css": "/* Le CSS placiate hic afficera le usatores del apparentia Colonia Blau */",
-	"cologneblue.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Colonia Blau */",
-	"cologneblue-desc": "Apparentia legier e minimalista",
+	"skinname-colognebanner": "Colonia Banner",
+	"colognebanner.css": "/* Le CSS placiate hic afficera le usatores del apparentia Colonia Banner */",
+	"colognebanner.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Colonia Banner */",
+	"colognebanner-desc": "Apparentia legier e minimalista",
 	"qbfind": "Cercar",
 	"qbbrowse": "Foliar",
 	"qbedit": "Modificar",

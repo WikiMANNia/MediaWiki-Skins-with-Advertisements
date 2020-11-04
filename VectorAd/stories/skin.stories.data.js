@@ -9,7 +9,7 @@ import { placeholder } from './utils';
 
 import { PERSONAL_MENU_TEMPLATE_DATA, menuTemplate } from './Menu.stories.data';
 import { pageActionsData, namespaceTabsData } from './MenuTabs.stories.data';
-import { vectorMenuTemplate, moreData, variantsData } from './MenuDropdown.stories.data';
+import { vectoradMenuTemplate, moreData, variantsData } from './MenuDropdown.stories.data';
 import { searchBoxData, searchBoxTemplate } from './SearchBox.stories.data';
 import { SIDEBAR_DATA, SIDEBAR_TEMPLATE_PARTIALS,
 	sidebarLegacyTemplate, sidebarTemplate } from './Sidebar.stories.data';
@@ -54,7 +54,7 @@ export const TEMPLATE_PARTIALS = Object.assign( {}, SIDEBAR_TEMPLATE_PARTIALS, {
 	SearchBox: searchBoxTemplate,
 	'legacy/Sidebar': sidebarLegacyTemplate,
 	Sidebar: sidebarTemplate,
-	VectorMenu: vectorMenuTemplate,
+	VectorAdMenu: vectoradMenuTemplate,
 	Menu: menuTemplate,
 	Footer: footerTemplate
 } );
@@ -83,12 +83,12 @@ const DATA_INDICATORS = [ {
 } ];
 
 export const LEGACY_TEMPLATE_DATA = {
-	'html-title': 'Vector 2019',
+	'html-title': 'VectorAd 2019',
 	'page-isarticle': true,
 	'msg-tagline': 'From Wikipedia, the free encyclopedia',
 	'html-userlangattributes': htmluserlangattributes,
-	'msg-vector-jumptonavigation': 'Jump to navigation',
-	'msg-vector-jumptosearch': 'Jump to search',
+	'msg-vectorad-jumptonavigation': 'Jump to navigation',
+	'msg-vectorad-jumptosearch': 'Jump to search',
 
 	// site specific
 	'data-footer': FOOTER_TEMPLATE_DATA,
@@ -102,19 +102,19 @@ export const LEGACY_TEMPLATE_DATA = {
 	'html-categories': placeholder( 'Category links component from mediawiki core', 50 ),
 
 	// extension dependent..
-	'html-hook-vector-before-footer': placeholder( 'VectorBeforeFooter hook output', 100 ),
+	'html-hook-vectorad-before-footer': placeholder( 'VectorAdBeforeFooter hook output', 100 ),
 	'html-after-content': placeholder( 'Extensions can add here e.g. Related Articles.', 100 ),
 	'array-indicators': DATA_INDICATORS,
 	'html-subtitle': placeholder( 'Extensions can configure subtitle', 20 )
 };
 
 export const MODERN_TEMPLATE_DATA = {
-	'html-title': 'Vector 2020',
+	'html-title': 'VectorAd 2020',
 	'page-isarticle': true,
 	'msg-tagline': 'From Wikipedia, the free encyclopedia',
 	'html-userlangattributes': htmluserlangattributes,
-	'msg-vector-jumptonavigation': 'Jump to navigation',
-	'msg-vector-jumptosearch': 'Jump to search',
+	'msg-vectorad-jumptonavigation': 'Jump to navigation',
+	'msg-vectorad-jumptosearch': 'Jump to search',
 
 	// site specific
 	'data-footer': FOOTER_TEMPLATE_DATA,

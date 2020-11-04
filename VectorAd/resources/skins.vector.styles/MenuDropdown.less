@@ -2,7 +2,7 @@
 @import 'mediawiki.mixins.less';
 
 /* Variants and Actions */
-.vector-menu-dropdown {
+.vectorad-menu-dropdown {
 	direction: ltr;
 	float: left;
 	cursor: pointer;
@@ -46,7 +46,7 @@
 	}
 
 	// The menu itself.
-	.vector-menu-content-list {
+	.vectorad-menu-content-list {
 		background-color: @background-color-base;
 		list-style: none none;
 		// Match the width of the dropdown "heading" (the tab)
@@ -66,14 +66,14 @@
 		z-index: @z-index-menu;
 	}
 
-	&:hover .vector-menu-content-list {
+	&:hover .vectorad-menu-content-list {
 		opacity: 1;
 		visibility: visible;
 	}
 
 	// This is in a separate block, so that browsers supporting :hover but not :checked still apply the rule above
 	// Support: IE8
-	.vector-menu-checkbox:checked ~ .vector-menu-content .vector-menu-content-list {
+	.vectorad-menu-checkbox:checked ~ .vectorad-menu-content .vectorad-menu-content-list {
 		opacity: 1;
 		visibility: visible;
 	}
@@ -101,26 +101,26 @@
 	}
 }
 
-#mw-head .vector-menu-dropdown h3 {
+#mw-head .vectorad-menu-dropdown h3 {
 	// Tab separator: Outer end (right in LTR) border of "Actions" menu.
 	background-position: right bottom;
 	float: left;
 	height: unit( 40 / @font-size-tabs / @font-size-browser, em );
 	margin: 0 -@border-width-base 0 0;
 	// `padding-right` >= `1px` effectively moves the "background border" outside of the element to
-	// act like a real border. It is necessary for `.vector-menu-dropdown .vector-menu-content-list` dropdown to align well.
+	// act like a real border. It is necessary for `.vectorad-menu-dropdown .vectorad-menu-content-list` dropdown to align well.
 	// 0.5em equals `8px` at computed `font-size` of `14px` as visually harmonically with
-	// `padding-left` in `.vector-menu-dropdown h3 a`
+	// `padding-left` in `.vectorad-menu-dropdown h3 a`
 	padding-right: unit( 24 / @font-size-tabs / @font-size-browser, em );
 }
 
 // Tab Separators
-// `.vectorTabs`: Outer start border (left in LTR) of tab row.
-// `.vectorTabs a`: Border between tabs and outer end (right in LTR) border.
-// `#mw-head .vector-menu-dropdown h3`: // Outer end (right in LTR) border of "Actions" menu.
-.vector-menu-tabs,
-.vector-menu-tabs a,
-#mw-head .vector-menu-dropdown h3 {
+// `.vectoradTabs`: Outer start border (left in LTR) of tab row.
+// `.vectoradTabs a`: Border between tabs and outer end (right in LTR) border.
+// `#mw-head .vectorad-menu-dropdown h3`: // Outer end (right in LTR) border of "Actions" menu.
+.vectorad-menu-tabs,
+.vectorad-menu-tabs a,
+#mw-head .vectorad-menu-dropdown h3 {
 	background-image: url( images/tab-separator.png );
 	background-image: linear-gradient( to bottom, rgba( 167, 215, 249, 0 ) 0, @border-color-content 100% );
 	background-repeat: no-repeat;
@@ -129,7 +129,7 @@
 }
 
 // Invisible checkbox covering the dropdown menu handle
-.vector-menu-checkbox {
+.vectorad-menu-checkbox {
 	cursor: pointer;
 	position: absolute;
 	top: 0;

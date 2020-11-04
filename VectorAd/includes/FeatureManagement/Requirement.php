@@ -20,7 +20,7 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement;
+namespace VectorAd\FeatureManagement;
 
 /**
  * NOTE: This API hasn't settled. It may change at any time without warning. Please don't bind to

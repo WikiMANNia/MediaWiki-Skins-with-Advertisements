@@ -10,10 +10,10 @@
 			"Stryn"
 		]
 	},
-	"skinname-cologneblue": "Kölnin sininen",
-	"cologneblue.css": "/* Tämä sivu sisältää Kölnin sininen -ulkoasua muuttavia tyylejä. */",
-	"cologneblue.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin sininen -tyyliin */",
-	"cologneblue-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
+	"skinname-colognebanner": "Kölnin banner",
+	"colognebanner.css": "/* Tämä sivu sisältää Kölnin banner -ulkoasua muuttavia tyylejä. */",
+	"colognebanner.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin banner -tyyliin */",
+	"colognebanner-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
 	"qbfind": "Etsi",
 	"qbbrowse": "Selaa",
 	"qbedit": "Muokkaa",

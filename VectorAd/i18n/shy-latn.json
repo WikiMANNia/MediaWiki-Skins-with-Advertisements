@@ -4,13 +4,13 @@
 			"Vikoula5"
 		]
 	},
-	"vector-action-addsection": "Rnud ameggay",
-	"vector-action-delete": "Mḥu",
-	"vector-action-move": "Snifel isem",
-	"vector-action-protect": "Ḥrez",
-	"vector-view-create": "Rnu",
-	"vector-view-edit": "Glef",
-	"vector-view-history": "Wali amazray",
-	"vector-view-view": "Ɣer",
-	"vector-more-actions": "Ugar"
+	"vectorad-action-addsection": "Rnud ameggay",
+	"vectorad-action-delete": "Mḥu",
+	"vectorad-action-move": "Snifel isem",
+	"vectorad-action-protect": "Ḥrez",
+	"vectorad-view-create": "Rnu",
+	"vectorad-view-edit": "Glef",
+	"vectorad-view-history": "Wali amazray",
+	"vectorad-view-view": "Ɣer",
+	"vectorad-more-actions": "Ugar"
 }

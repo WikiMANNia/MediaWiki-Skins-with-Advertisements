@@ -5,6 +5,6 @@
 			"Dori"
 		]
 	},
-	"monobook.css": "/* redaktoni këtë faqe për të përshtatur pamjen Monobook për tëra faqet tuaja */",
-	"monobook-responsive-label": "Mundeso dizajnin pergjegjes te MonoLibrit"
+	"wima.css": "/* redaktoni këtë faqe për të përshtatur pamjen Wima për tëra faqet tuaja */",
+	"wima-responsive-label": "Mundeso dizajnin pergjegjes te Wima"
 }

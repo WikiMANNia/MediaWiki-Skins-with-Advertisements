@@ -4,13 +4,13 @@
 			"Songhay"
 		]
 	},
-	"vector-action-addsection": "Furari tonton",
-	"vector-action-delete": "Tuusu",
-	"vector-action-move": "Ganandi",
-	"vector-action-protect": "Jejebu",
-	"vector-view-create": "Tee",
-	"vector-view-edit": "Barmay",
-	"vector-view-history": "Taarikoo guna",
-	"vector-view-view": "Caw",
-	"vector-more-actions": "Ka tonton"
+	"vectorad-action-addsection": "Furari tonton",
+	"vectorad-action-delete": "Tuusu",
+	"vectorad-action-move": "Ganandi",
+	"vectorad-action-protect": "Jejebu",
+	"vectorad-view-create": "Tee",
+	"vectorad-view-edit": "Barmay",
+	"vectorad-view-history": "Taarikoo guna",
+	"vectorad-view-view": "Caw",
+	"vectorad-more-actions": "Ka tonton"
 }

@@ -5,10 +5,10 @@
 			"WikedKentaur"
 		]
 	},
-	"skinname-cologneblue": "Kölni sinine",
-	"cologneblue.css": "/* Siin asuv kaskaadilaadistik laaditakse kõigi Kölni sinise kujunduse kasutajate jaoks. */",
-	"cologneblue.js": "/* Siin asuv JavaScript laaditakse kõigi Kölni sinise kujunduse kasutajate jaoks. */",
-	"cologneblue-desc": "Lihtne minimaalse vormistusega kujundus",
+	"skinname-colognebanner": "Kölni banner",
+	"colognebanner.css": "/* Siin asuv kaskaadilaadistik laaditakse kõigi Kölni banner kujunduse kasutajate jaoks. */",
+	"colognebanner.js": "/* Siin asuv JavaScript laaditakse kõigi Kölni banner kujunduse kasutajate jaoks. */",
+	"colognebanner-desc": "Lihtne minimaalse vormistusega kujundus",
 	"qbfind": "Otsi",
 	"qbbrowse": "Sirvi",
 	"qbedit": "Redigeeri",

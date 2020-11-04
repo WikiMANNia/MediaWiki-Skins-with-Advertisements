@@ -4,13 +4,13 @@
 			"Trondtr"
 		]
 	},
-	"vector-action-addsection": "Lasseet fáádá",
-	"vector-action-delete": "Siho",
-	"vector-action-move": "Sirde",
-	"vector-action-protect": "Suoijii",
-	"vector-view-create": "Räähti",
-	"vector-view-edit": "Mute",
-	"vector-view-history": "Čääiti historiá",
-	"vector-view-view": "Luuvâ",
-	"vector-more-actions": "Eenâb"
+	"vectorad-action-addsection": "Lasseet fáádá",
+	"vectorad-action-delete": "Siho",
+	"vectorad-action-move": "Sirde",
+	"vectorad-action-protect": "Suoijii",
+	"vectorad-view-create": "Räähti",
+	"vectorad-view-edit": "Mute",
+	"vectorad-view-history": "Čääiti historiá",
+	"vectorad-view-view": "Luuvâ",
+	"vectorad-more-actions": "Eenâb"
 }

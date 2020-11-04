@@ -14,10 +14,10 @@
 			"Vivaelcelta"
 		]
 	},
-	"skinname-cologneblue": "Colonia azul",
-	"cologneblue.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Cologne Blue */",
-	"cologneblue.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Cologne Blue */",
-	"cologneblue-desc": "Una apariencia ligera con formato minimalista",
+	"skinname-colognebanner": "Colonia Banderín",
+	"colognebanner.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Colonia Banderín */",
+	"colognebanner.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Colonia Banderín */",
+	"colognebanner-desc": "Una apariencia ligera con formato minimalista",
 	"qbfind": "Buscar",
 	"qbbrowse": "Navegar",
 	"qbedit": "Editar",

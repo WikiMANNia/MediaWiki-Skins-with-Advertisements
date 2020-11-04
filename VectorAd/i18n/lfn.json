@@ -6,13 +6,13 @@
 			"Katxis"
 		]
 	},
-	"vector-action-addsection": "Ajunta un tema",
-	"vector-action-delete": "Sutrae",
-	"vector-action-move": "Move",
-	"vector-action-protect": "Proteje",
-	"vector-view-create": "Crea",
-	"vector-view-edit": "Edita",
-	"vector-view-history": "Mostra istoria",
-	"vector-view-view": "Leje",
-	"vector-more-actions": "Plu"
+	"vectorad-action-addsection": "Ajunta un tema",
+	"vectorad-action-delete": "Sutrae",
+	"vectorad-action-move": "Move",
+	"vectorad-action-protect": "Proteje",
+	"vectorad-view-create": "Crea",
+	"vectorad-view-edit": "Edita",
+	"vectorad-view-history": "Mostra istoria",
+	"vectorad-view-view": "Leje",
+	"vectorad-more-actions": "Plu"
 }

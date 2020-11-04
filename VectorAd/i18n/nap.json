@@ -7,17 +7,18 @@
 			"Sannita"
 		]
 	},
-	"vector-skin-desc": "Verziona muderna 'e MonoBook cu n'aspetto nuovo nuovo e tante migliuramente d'uso",
-	"vector-action-addsection": "Aggiunge chiacchierata",
-	"vector-action-delete": "Scancèlla",
-	"vector-action-move": "Mòve",
-	"vector-action-protect": "Prutegge",
-	"vector-action-undelete": "Arrepiglia",
-	"vector-action-unprotect": "Càgna prutezzione",
-	"vector-view-create": "Crèa",
-	"vector-view-edit": "Cagna",
-	"vector-view-history": "Vide 'a cronologgia",
-	"vector-view-view": "Liegge",
-	"vector-view-viewsource": "Vire sorgente",
-	"vector-more-actions": "Cchiù"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "Verziona muderna 'e MonoBook cu n'aspetto nuovo nuovo e tante migliuramente d'uso",
+	"vectorad-action-addsection": "Aggiunge chiacchierata",
+	"vectorad-action-delete": "Scancèlla",
+	"vectorad-action-move": "Mòve",
+	"vectorad-action-protect": "Prutegge",
+	"vectorad-action-undelete": "Arrepiglia",
+	"vectorad-action-unprotect": "Càgna prutezzione",
+	"vectorad-view-create": "Crèa",
+	"vectorad-view-edit": "Cagna",
+	"vectorad-view-history": "Vide 'a cronologgia",
+	"vectorad-view-view": "Liegge",
+	"vectorad-view-viewsource": "Vire sorgente",
+	"vectorad-more-actions": "Cchiù"
 }

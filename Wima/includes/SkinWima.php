@@ -1,6 +1,6 @@
 <?php
 /**
- * MonoBook nouveau.
+ * Wima nouveau.
  *
  * Translated from gwicke's previous TAL template version to remove
  * dependency on PHPTAL.
@@ -28,11 +28,11 @@
  * Inherit main code from SkinTemplate, set the CSS and template filter.
  * @ingroup Skins
  */
-class SkinMonoBook extends SkinTemplate {
-	/** Using MonoBook. */
-	public $skinname = 'monobook';
-	public $stylename = 'MonoBook';
-	public $template = 'MonoBookTemplate';
+class SkinWima extends SkinTemplate {
+	/** Using Wima. */
+	public $skinname = 'wima';
+	public $stylename = 'Wima';
+	public $template = 'WimaTemplate';
 
 	/**
 	 * @param OutputPage $out
@@ -40,7 +40,7 @@ class SkinMonoBook extends SkinTemplate {
 	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		if ( $out->getUser()->getOption( 'monobook-responsive' ) ) {
+		if ( $out->getUser()->getOption( 'wima-responsive' ) ) {
 			$out->addMeta( 'viewport',
 				'width=device-width, initial-scale=1.0, ' .
 				'user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0'
@@ -75,13 +75,13 @@ class SkinMonoBook extends SkinTemplate {
 	 * @param array &$preferences
 	 */
 	public static function onGetPreferences( User $user, array &$preferences ) {
-		$preferences['monobook-responsive'] = [
+		$preferences['wima-responsive'] = [
 			'type' => 'toggle',
-			'label-message' => 'monobook-responsive-label',
+			'label-message' => 'wima-responsive-label',
 			'section' => 'rendering/skin/skin-prefs',
-			// Only show this section when the Monobook skin is checked. The JavaScript client also uses
+			// Only show this section when the Wima skin is checked. The JavaScript client also uses
 			// this state to determine whether to show or hide the whole section.
-			'hide-if' => [ '!==', 'wpskin', 'monobook' ],
+			'hide-if' => [ '!==', 'wpskin', 'wima' ],
 		];
 	}
 
@@ -95,7 +95,7 @@ class SkinMonoBook extends SkinTemplate {
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'Echo' ) ) {
 			$resourceLoader->register( 'skins.monobook.mobile.echohack', [
 				'localBasePath' => __DIR__ . '/..',
-				'remoteSkinPath' => 'MonoBook',
+				'remoteSkinPath' => 'Wima',
 
 				'targets' => [ 'desktop', 'mobile' ],
 				'scripts' => [ 'resources/mobile-echo.js' ],
@@ -103,14 +103,14 @@ class SkinMonoBook extends SkinTemplate {
 					'media' => 'screen and (max-width: 550px)'
 				] ],
 				'dependencies' => [ 'oojs-ui.styles.icons-alerts', 'mediawiki.util' ],
-				'messages' => [ 'monobook-notifications-link', 'monobook-notifications-link-none' ]
+				'messages' => [ 'wima-notifications-link', 'wima-notifications-link-none' ]
 			] );
 		}
 
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'UniversalLanguageSelector' ) ) {
 			$resourceLoader->register( 'skins.monobook.mobile.uls', [
 				'localBasePath' => __DIR__ . '/..',
-				'remoteSkinPath' => 'MonoBook',
+				'remoteSkinPath' => 'Wima',
 
 				'targets' => [ 'desktop' ],
 				'scripts' => [ 'resources/mobile-uls.js' ],

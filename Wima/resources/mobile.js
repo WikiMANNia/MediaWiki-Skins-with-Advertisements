@@ -2,7 +2,7 @@
 $( function () {
 	var mobileMediaQuery = window.matchMedia( 'screen and (max-width: 550px)' ),
 		// Track if DOM has been set up for mobile fanciness yet
-		monobookMobileElements = false,
+		wimaMobileElements = false,
 		// Toggles and targets for popouts
 		toggles = {
 			'#sidebar-toggle': '#sidebar-mobilejs',
@@ -19,9 +19,9 @@ $( function () {
 	}
 
 	// Set up DOM for mobile fanciness
-	// We don't automatically do this because MonoBook; most users will be on desktop
-	function setupMonoBookMobile() {
-		if ( !monobookMobileElements && mobileMediaQuery.matches ) {
+	// We don't automatically do this because Wima; most users will be on desktop
+	function setupWimaMobile() {
+		if ( !wimaMobileElements && mobileMediaQuery.matches ) {
 			// Duplicate nav
 			$( '#column-one' ).append(
 				$( '#sidebar' ).clone().find( '*' ).addBack().each( function () {
@@ -81,10 +81,10 @@ $( function () {
 			// TODO: tap events on same (if not already included in 'click') - also close
 			// TODO: appropriate swipe event(s) - also close
 
-			monobookMobileElements = true;
+			wimaMobileElements = true;
 		}
 	}
 
-	$( window ).on( 'resize', setupMonoBookMobile );
-	setupMonoBookMobile();
+	$( window ).on( 'resize', setupWimaMobile );
+	setupWimaMobile();
 } );

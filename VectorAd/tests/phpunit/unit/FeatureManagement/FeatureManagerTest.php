@@ -19,14 +19,14 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement\Tests;
+namespace VectorAd\FeatureManagement\Tests;
 
-use Vector\FeatureManagement\FeatureManager;
+use VectorAd\FeatureManagement\FeatureManager;
 
 /**
- * @group Vector
+ * @group VectorAd
  * @group FeatureManagement
- * @coversDefaultClass \Vector\FeatureManagement\FeatureManager
+ * @coversDefaultClass \VectorAd\FeatureManagement\FeatureManager
  */
 class FeatureManagerTest extends \MediaWikiUnitTestCase {
 

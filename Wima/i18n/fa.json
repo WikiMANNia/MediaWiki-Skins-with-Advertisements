@@ -6,17 +6,17 @@
 			"Reza1615"
 		]
 	},
-	"skinname-monobook": "مونوبوک",
-	"monobook-desc": "پوسته کلاسیک مدیاویکی از سال ۲۰۰۴، از نگارهٔ سیاه و سفید در زمینهٔ برگهٔ نسک نام گرفت",
-	"monobook.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ مونوبوک استفاده کنند تحت تاثیر قرار می‌دهند. */",
-	"monobook.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ منوبوک بارگیری می‌شود * /",
-	"monobook-jumptotop": "برگشت به بالا",
-	"monobook-jumptopersonal": "ابزارهای کاربر",
-	"monobook-jumptonavigation": "پرش به ناوبری",
-	"monobook-jumptosearch": "پرش به جستجو",
-	"monobook-more-actions": "بیشتر",
-	"monobook-cactions-label": "کنش‌های صفحه",
-	"monobook-notifications-link": "آگاه‌سازی‌ها ($1)",
-	"monobook-notifications-link-none": "آگاه‌سازی‌ها",
-	"monobook-responsive-label": "فعال‌سازی طرح واکنش‌گرای مونوبوک"
+	"skinname-wima": "Wima",
+	"wima-desc": "پوسته کلاسیک مدیاویکی از سال ۲۰۰۴، از نگارهٔ سیاه و سفید در زمینهٔ برگهٔ نسک نام گرفت",
+	"wima.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ مونوبوک استفاده کنند تحت تاثیر قرار می‌دهند. */",
+	"wima.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ منوبوک بارگیری می‌شود * /",
+	"wima-jumptotop": "برگشت به بالا",
+	"wima-jumptopersonal": "ابزارهای کاربر",
+	"wima-jumptonavigation": "پرش به ناوبری",
+	"wima-jumptosearch": "پرش به جستجو",
+	"wima-more-actions": "بیشتر",
+	"wima-cactions-label": "کنش‌های صفحه",
+	"wima-notifications-link": "آگاه‌سازی‌ها ($1)",
+	"wima-notifications-link-none": "آگاه‌سازی‌ها",
+	"wima-responsive-label": "فعال‌سازی طرح واکنش‌گرای مونوبوک"
 }

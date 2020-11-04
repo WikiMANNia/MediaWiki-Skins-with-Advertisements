@@ -20,9 +20,9 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement\Requirements;
+namespace VectorAd\FeatureManagement\Requirements;
 
-use Vector\FeatureManagement\Requirement;
+use VectorAd\FeatureManagement\Requirement;
 
 /**
  * Some application state changes throughout the lifetime of the application, e.g. `wgSitename` or

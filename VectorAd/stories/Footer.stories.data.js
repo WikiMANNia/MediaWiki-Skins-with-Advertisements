@@ -75,6 +75,6 @@ export { footerTemplate };
 
 export const FOOTER_TEMPLATE_DATA = {
 	'html-userlangattributes': htmluserlangattributes,
-	'html-hook-vector-before-footer': placeholder( 'output of VectorBeforeFooter hook (deprecated 1.35)', 20 ),
+	'html-hook-vectorad-before-footer': placeholder( 'output of VectorAdBeforeFooter hook (deprecated 1.35)', 20 ),
 	'array-footer-rows': FOOTER_ROWS
 };

@@ -20,14 +20,14 @@
  * @since 1.35
  */
 
-namespace Vector\FeatureManagement\Tests;
+namespace VectorAd\FeatureManagement\Tests;
 
-use Vector\FeatureManagement\Requirements\DynamicConfigRequirement;
+use VectorAd\FeatureManagement\Requirements\DynamicConfigRequirement;
 
 /**
- * @group Vector
+ * @group VectorAd
  * @group FeatureManagement
- * @coversDefaultClass \Vector\FeatureManagement\Requirements\DynamicConfigRequirement
+ * @coversDefaultClass \VectorAd\FeatureManagement\Requirements\DynamicConfigRequirement
  */
 class DynamicConfigRequirementTest extends \MediaWikiUnitTestCase {
 

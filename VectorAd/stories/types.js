@@ -16,8 +16,8 @@
 /**
  * @typedef {Object} ResourceLoaderSkinModuleLogos
  * @property {string} [icon] e.g. Wikipedia globe
- * @property {LogoOptions} [wordmark] e.g. Legacy Vector logo
- * @property {LogoOptions} [tagline] e.g. Legacy Vector logo
+ * @property {LogoOptions} [wordmark] e.g. Legacy VectorAd logo
+ * @property {LogoOptions} [tagline] e.g. Legacy VectorAd logo
  */
 
 /**

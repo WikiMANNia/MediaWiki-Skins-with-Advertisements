@@ -11,10 +11,10 @@
 			"WikiPhoenix"
 		]
 	},
-	"skinname-cologneblue": "Cologne blå",
-	"cologneblue.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Cologne blå */",
-	"cologneblue.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Cologne blå */",
-	"cologneblue-desc": "Ett lättviktsutseende med minimal formatering",
+	"skinname-colognebanner": "Cologne banner",
+	"colognebanner.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Cologne banner */",
+	"colognebanner.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Cologne banner */",
+	"colognebanner-desc": "Ett lättviktsutseende med minimal formatering",
 	"qbfind": "Hitta",
 	"qbbrowse": "Bläddra igenom",
 	"qbedit": "Redigera",

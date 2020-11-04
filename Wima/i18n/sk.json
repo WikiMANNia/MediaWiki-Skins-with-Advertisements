@@ -7,12 +7,12 @@
 			"Teslaton"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook-desc": "Klasický vzhľad MediaWiki od roku 2004, pomenovaný po čiernobielej fotografii knihy v pozadí stránky",
-	"monobook.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Monobook */",
-	"monobook.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Monobook */",
-	"monobook-more-actions": "Viac",
-	"monobook-notifications-link": "Upozornenia ($1)",
-	"monobook-notifications-link-none": "Upozornenia",
-	"monobook-responsive-label": "Zapnúť responzívny dizajn MonoBooku"
+	"skinname-wima": "Wima",
+	"wima-desc": "Klasický vzhľad MediaWiki od roku 2004, pomenovaný po čiernobielej fotografii knihy v pozadí stránky",
+	"wima.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Wima */",
+	"wima.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Wima */",
+	"wima-more-actions": "Viac",
+	"wima-notifications-link": "Upozornenia ($1)",
+	"wima-notifications-link-none": "Upozornenia",
+	"wima-responsive-label": "Zapnúť responzívny dizajn Wima"
 }

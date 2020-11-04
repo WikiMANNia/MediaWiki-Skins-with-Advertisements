@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -22,18 +22,18 @@
  * @ingroup Skins
  */
 
-use Vector\Constants;
+use VectorAd\Constants;
 
 /**
- * QuickTemplate subclass for Vector
+ * QuickTemplate subclass for VectorAd
  * @ingroup Skins
  * @deprecated Since 1.35, duplicate class locally if its functionality is needed.
  * Extensions or skins should extend it under no circumstances.
  */
-class VectorTemplate extends BaseTemplate {
+class VectorAdTemplate extends BaseTemplate {
 	/** @var array of alternate message keys for menu labels */
 	private const MENU_LABEL_KEYS = [
-		'cactions' => 'vector-more-actions',
+		'cactions' => 'vectorad-more-actions',
 		'tb' => 'toolbox',
 		'personal' => 'personaltools',
 		'lang' => 'otherlanguages',
@@ -49,7 +49,7 @@ class VectorTemplate extends BaseTemplate {
 	/**
 	 * T243281: Code used to track clicks to opt-out link.
 	 *
-	 * The "vct" substring is used to describe the newest "Vector" (non-legacy)
+	 * The "vct" substring is used to describe the newest "VectorAd" (non-legacy)
 	 * feature. The "w" describes the web platform. The "1" describes the version
 	 * of the feature.
 	 *
@@ -106,8 +106,8 @@ class VectorTemplate extends BaseTemplate {
 
 	/**
 	 * @deprecated Please use Skin::getTemplateData instead
-	 * @return array Returns an array of data shared between Vector and legacy
-	 * Vector.
+	 * @return array Returns an array of data shared between VectorAd and legacy
+	 * VectorAd.
 	 */
 	private function getSkinData() : array {
 		// @phan-suppress-next-line PhanUndeclaredMethod
@@ -149,8 +149,8 @@ class VectorTemplate extends BaseTemplate {
 
 			'html-newtalk' => $newTalksHtml ? '<div class="usermessage">' . $newTalksHtml . '</div>' : '',
 
-			'msg-vector-jumptonavigation' => $skin->msg( 'vector-jumptonavigation' )->text(),
-			'msg-vector-jumptosearch' => $skin->msg( 'vector-jumptosearch' )->text(),
+			'msg-vectorad-jumptonavigation' => $skin->msg( 'vectorad-jumptonavigation' )->text(),
+			'msg-vectorad-jumptosearch' => $skin->msg( 'vectorad-jumptosearch' )->text(),
 
 			'html-printfooter' => $skin->printSource(),
 			'html-categories' => $skin->getCategories(),
@@ -166,10 +166,10 @@ class VectorTemplate extends BaseTemplate {
 
 			'data-sidebar' => $this->buildSidebar(),
 			'sidebar-visible' => $this->isSidebarVisible(),
-			'msg-vector-action-toggle-sidebar' => $skin->msg( 'vector-action-toggle-sidebar' )->text(),
+			'msg-vectorad-action-toggle-sidebar' => $skin->msg( 'vectorad-action-toggle-sidebar' )->text(),
 		] + $this->getMenuProps();
 
-		// The following logic is unqiue to Vector (not used by legacy Vector) and
+		// The following logic is unqiue to VectorAd (not used by legacy VectorAd) and
 		// is planned to be moved in a follow-up patch.
 		if ( !$this->isLegacy && $skin->getUser()->isLoggedIn() ) {
 			$commonSkinData['data-sidebar']['data-emphasized-sidebar-action'] = [
@@ -178,8 +178,8 @@ class VectorTemplate extends BaseTemplate {
 					false,
 					'mw-prefsection-rendering-skin-skin-prefs'
 				)->getLinkURL( 'wprov=' . self::OPT_OUT_LINK_TRACKING_CODE ),
-				'text' => $skin->msg( 'vector-opt-out' )->text(),
-				'title' => $skin->msg( 'vector-opt-out-tooltip' )->text(),
+				'text' => $skin->msg( 'vectorad-opt-out' )->text(),
+				'title' => $skin->msg( 'vectorad-opt-out-tooltip' )->text(),
 			];
 		}
 
@@ -242,12 +242,12 @@ class VectorTemplate extends BaseTemplate {
 		}
 
 		ob_start();
-		Hooks::run( 'VectorBeforeFooter', [], '1.35' );
-		$htmlHookVectorBeforeFooter = ob_get_contents();
+		Hooks::run( 'VectorAdBeforeFooter', [], '1.35' );
+		$htmlHookVectorAdBeforeFooter = ob_get_contents();
 		ob_end_clean();
 
 		$data = [
-			'html-hook-vector-before-footer' => $htmlHookVectorBeforeFooter,
+			'html-hook-vectorad-before-footer' => $htmlHookVectorAdBeforeFooter,
 			'array-footer-rows' => $footerRows,
 		];
 
@@ -311,7 +311,7 @@ class VectorTemplate extends BaseTemplate {
 					// Run deprecated hook.
 					// Use SidebarBeforeOutput instead.
 					ob_start();
-					Hooks::run( 'VectorAfterToolbox', [], '1.35' );
+					Hooks::run( 'VectorAdAfterToolbox', [], '1.35' );
 					$props[] = $portal + [
 						'html-hook-vector-after-toolbox' => ob_get_clean(),
 					];
@@ -331,7 +331,7 @@ class VectorTemplate extends BaseTemplate {
 					break;
 				default:
 					// Historically some portals have been defined using HTML rather than arrays.
-					// Let's move away from that to a uniform definition.
+					// Let's move away from that to an uniform definition.
 					if ( !is_array( $content ) ) {
 						$html = $content;
 						$content = [];
@@ -394,16 +394,16 @@ class VectorTemplate extends BaseTemplate {
 	) : array {
 		$skin = $this->getSkin();
 		$extraClasses = [
-			self::MENU_TYPE_DROPDOWN => 'vector-menu vector-menu-dropdown vectorMenu',
-			self::MENU_TYPE_TABS => 'vector-menu vector-menu-tabs vectorTabs',
-			self::MENU_TYPE_PORTAL => 'vector-menu vector-menu-portal portal',
-			self::MENU_TYPE_DEFAULT => 'vector-menu',
+			self::MENU_TYPE_DROPDOWN => 'vectorad-menu vectorad-menu-dropdown vectoradMenu',
+			self::MENU_TYPE_TABS => 'vectorad-menu vectorad-menu-tabs vectoradTabs',
+			self::MENU_TYPE_PORTAL => 'vectorad-menu vectorad-menu-portal portal',
+			self::MENU_TYPE_DEFAULT => 'vectorad-menu',
 		];
 		// A list of classes to apply the list element and override the default behavior.
 		$listClasses = [
 			// `.menu` is on the portal for historic reasons.
 			// It should not be applied elsewhere per T253329.
-			self::MENU_TYPE_DROPDOWN => 'menu vector-menu-content-list',
+			self::MENU_TYPE_DROPDOWN => 'menu vectorad-menu-content-list',
 		];
 		$isPortal = self::MENU_TYPE_PORTAL === $type;
 
@@ -415,7 +415,7 @@ class VectorTemplate extends BaseTemplate {
 			'label-id' => "p-{$label}-label",
 			// If no message exists fallback to plain text (T252727)
 			'label' => $msgObj->exists() ? $msgObj->text() : $label,
-			'list-classes' => $listClasses[$type] ?? 'vector-menu-content-list',
+			'list-classes' => $listClasses[$type] ?? 'vectorad-menu-content-list',
 			'html-items' => '',
 			'is-dropdown' => self::MENU_TYPE_DROPDOWN === $type,
 			'html-tooltip' => Linker::tooltip( 'p-' . $label ),
@@ -425,7 +425,7 @@ class VectorTemplate extends BaseTemplate {
 			// Add CSS class 'collapsible' to all links EXCEPT watchstar.
 			if (
 				$key !== 'watch' && $key !== 'unwatch' &&
-				isset( $options['vector-collapsible'] ) && $options['vector-collapsible'] ) {
+				isset( $options['vectorad-collapsible'] ) && $options['vectorad-collapsible'] ) {
 				if ( !isset( $item['class'] ) ) {
 					$item['class'] = '';
 				}
@@ -446,7 +446,7 @@ class VectorTemplate extends BaseTemplate {
 
 		// Mark the portal as empty if it has no content
 		$class = ( count( $urls ) == 0 && !$props['html-after-portal'] )
-			? 'vector-menu-empty emptyPortlet' : '';
+			? 'vectorad-menu-empty emptyPortlet' : '';
 		$props['class'] = trim( "$class $extraClasses[$type]" );
 		return $props;
 	}
@@ -460,7 +460,7 @@ class VectorTemplate extends BaseTemplate {
 		$personalTools = $this->getPersonalTools();
 		$skin = $this->getSkin();
 
-		// For logged out users Vector shows a "Not logged in message"
+		// For logged out users VectorAd shows a "Not logged in message"
 		// This should be upstreamed to core, with instructions for how to hide it for skins
 		// that do not want it.
 		// For now we create a dedicated list item to avoid having to sync the API internals
@@ -505,7 +505,7 @@ class VectorTemplate extends BaseTemplate {
 				'views',
 				$contentNavigation[ 'views' ] ?? [],
 				self::MENU_TYPE_TABS, [
-					'vector-collapsible' => true,
+					'vectorad-collapsible' => true,
 				]
 			),
 			'data-page-actions-more' => $this->getMenuData(

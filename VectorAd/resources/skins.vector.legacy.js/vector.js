@@ -1,5 +1,5 @@
 /**
- * Collapsible tabs for Vector
+ * Collapsible tabs for VectorAd
  */
 function init() {
 	// eslint-disable-next-line no-jquery/no-global-selector
@@ -29,7 +29,7 @@ function init() {
 			// If the dropdown was hidden, show it
 			// eslint-disable-next-line no-jquery/no-class-state
 			if ( $cactions.hasClass( 'emptyPortlet' ) ) {
-				$cactions.removeClass( 'emptyPortlet vector-menu-empty' );
+				$cactions.removeClass( 'emptyPortlet vectorad-menu-empty' );
 				// Now that it is visible, force-render it virtually
 				// to get its expanded width, then shrink it 1px before we
 				// yield from JS (which means the expansion won't be visible).
@@ -47,7 +47,7 @@ function init() {
 				// eslint-disable-next-line no-jquery/no-animate
 				$cactions.find( 'h3' ).animate( { width: '1px' }, 'normal', function () {
 					$( this ).attr( 'style', '' )
-						.parent().addClass( 'emptyPortlet vector-menu-empty' );
+						.parent().addClass( 'emptyPortlet vectorad-menu-empty' );
 				} );
 			}
 		} )

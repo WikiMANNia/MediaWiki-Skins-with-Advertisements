@@ -5,14 +5,14 @@
 			"Ильнар"
 		]
 	},
-	"skinname-monobook": "Китап",
-	"monobook-desc": "MediaWiki проектының 2004 елда ясалган классик күренеше, үз исемен исемен аклы-каралы китап фотосурәтеннән алган",
-	"monobook-jumptotop": "өскә кайту",
-	"monobook-jumptopersonal": "кулланучы кораллары",
-	"monobook-jumptonavigation": "Навигациягә күчү",
-	"monobook-jumptosearch": "Эзләүгә күчү",
-	"monobook-more-actions": "Тагын",
-	"monobook-cactions-label": "Биттәге гамәлләр",
-	"monobook-notifications-link": "Хəбəрнамəләр ($1)",
-	"monobook-notifications-link-none": "Белдермәләр"
+	"skinname-wima": "Wima",
+	"wima-desc": "MediaWiki проектының 2004 елда ясалган классик күренеше, үз исемен исемен аклы-каралы китап фотосурәтеннән алган",
+	"wima-jumptotop": "өскә кайту",
+	"wima-jumptopersonal": "кулланучы кораллары",
+	"wima-jumptonavigation": "Навигациягә күчү",
+	"wima-jumptosearch": "Эзләүгә күчү",
+	"wima-more-actions": "Тагын",
+	"wima-cactions-label": "Биттәге гамәлләр",
+	"wima-notifications-link": "Хəбəрнамəләр ($1)",
+	"wima-notifications-link-none": "Белдермәләр"
 }

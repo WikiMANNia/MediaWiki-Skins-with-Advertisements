@@ -4,13 +4,13 @@
 			"Oromoo"
 		]
 	},
-	"vector-action-addsection": "Mata-dure ida'i",
-	"vector-action-delete": "Balleessi",
-	"vector-action-undelete": "Hin balleessin",
-	"vector-view-create": "Uumi",
-	"vector-view-edit": "Gulaali",
-	"vector-view-history": "Seenaa laali",
-	"vector-view-view": "Dubbisi",
-	"vector-jumptosearch": "Gara barbaadutti ce'i",
-	"vector-more-actions": "Dabalata"
+	"vectorad-action-addsection": "Mata-dure ida'i",
+	"vectorad-action-delete": "Balleessi",
+	"vectorad-action-undelete": "Hin balleessin",
+	"vectorad-view-create": "Uumi",
+	"vectorad-view-edit": "Gulaali",
+	"vectorad-view-history": "Seenaa laali",
+	"vectorad-view-view": "Dubbisi",
+	"vectorad-jumptosearch": "Gara barbaadutti ce'i",
+	"vectorad-more-actions": "Dabalata"
 }

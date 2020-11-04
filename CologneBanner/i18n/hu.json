@@ -7,10 +7,10 @@
 			"ViDam"
 		]
 	},
-	"skinname-cologneblue": "Kölni kék",
-	"cologneblue.css": "/* Az ide elhelyezett CSS hatással lesz a Kölni kék felület használóira */",
-	"cologneblue.js": "/* A Kölni kék felületet használó szerkesztők számára betöltendő JavaScriptek */",
-	"cologneblue-desc": "Egy pehelykönnyű felület minimális formázással",
+	"skinname-colognebanner": "Kölni banner",
+	"colognebanner.css": "/* Az ide elhelyezett CSS hatással lesz a Kölni banner felület használóira */",
+	"colognebanner.js": "/* A Kölni banner felületet használó szerkesztők számára betöltendő JavaScriptek */",
+	"colognebanner-desc": "Egy pehelykönnyű felület minimális formázással",
 	"qbfind": "Keresés",
 	"qbbrowse": "Böngészés",
 	"qbedit": "Szerkesztés",

@@ -5,14 +5,14 @@
 			"MokaAkashiyaPT"
 		]
 	},
-	"vector-action-addsection": "Nuobo cacho",
-	"vector-action-delete": "Botar fuora",
-	"vector-action-move": "Arrastrar",
-	"vector-action-protect": "Porteger",
-	"vector-action-unprotect": "Altarar la porteçon",
-	"vector-view-create": "Criar",
-	"vector-view-edit": "Eiditar",
-	"vector-view-history": "Ber stórico",
-	"vector-view-view": "Lher",
-	"vector-more-actions": "Mais"
+	"vectorad-action-addsection": "Nuobo cacho",
+	"vectorad-action-delete": "Botar fuora",
+	"vectorad-action-move": "Arrastrar",
+	"vectorad-action-protect": "Porteger",
+	"vectorad-action-unprotect": "Altarar la porteçon",
+	"vectorad-view-create": "Criar",
+	"vectorad-view-edit": "Eiditar",
+	"vectorad-view-history": "Ber stórico",
+	"vectorad-view-view": "Lher",
+	"vectorad-more-actions": "Mais"
 }
