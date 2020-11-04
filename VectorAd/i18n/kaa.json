@@ -4,15 +4,15 @@
 			"Atabek"
 		]
 	},
-	"vector-action-addsection": "Tema qosıw",
-	"vector-action-delete": "O'shiriw",
-	"vector-action-move": "Ko'shiriw",
-	"vector-action-protect": "Qorg'aw",
-	"vector-action-undelete": "Qayta tiklew",
-	"vector-action-unprotect": "Qorg'awdı o'zgertiw",
-	"vector-view-create": "Jaratıw",
-	"vector-view-edit": "O'zgertiw",
-	"vector-view-history": "Tariyxın ko'riw",
-	"vector-view-view": "Oqıw",
-	"vector-view-viewsource": "Deregin ko'riw"
+	"vectorad-action-addsection": "Tema qosıw",
+	"vectorad-action-delete": "O'shiriw",
+	"vectorad-action-move": "Ko'shiriw",
+	"vectorad-action-protect": "Qorg'aw",
+	"vectorad-action-undelete": "Qayta tiklew",
+	"vectorad-action-unprotect": "Qorg'awdı o'zgertiw",
+	"vectorad-view-create": "Jaratıw",
+	"vectorad-view-edit": "O'zgertiw",
+	"vectorad-view-history": "Tariyxın ko'riw",
+	"vectorad-view-view": "Oqıw",
+	"vectorad-view-viewsource": "Deregin ko'riw"
 }

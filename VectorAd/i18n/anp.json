@@ -4,11 +4,11 @@
 			"Angpradesh"
 		]
 	},
-	"vector-action-addsection": "विषय जोड़ऽ",
-	"vector-action-move": "चलऽ",
-	"vector-view-create": "सृजन करऽ",
-	"vector-view-edit": "संपादन करऽ",
-	"vector-view-history": "इतिहास देखऽ",
-	"vector-view-view": "पढ़ऽ",
-	"vector-more-actions": "आरू जादा"
+	"vectorad-action-addsection": "विषय जोड़ऽ",
+	"vectorad-action-move": "चलऽ",
+	"vectorad-view-create": "सृजन करऽ",
+	"vectorad-view-edit": "संपादन करऽ",
+	"vectorad-view-history": "इतिहास देखऽ",
+	"vectorad-view-view": "पढ़ऽ",
+	"vectorad-more-actions": "आरू जादा"
 }

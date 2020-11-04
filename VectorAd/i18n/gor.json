@@ -4,10 +4,10 @@
 			"Marwan Mohamad"
 		]
 	},
-	"vector-action-addsection": "Duhengi topik",
-	"vector-view-create": "Mohutu",
-	"vector-view-edit": "Monguba",
-	"vector-view-history": "Bilohi riwayati",
-	"vector-view-view": "Baca",
-	"vector-more-actions": "Pe'eentapo"
+	"vectorad-action-addsection": "Duhengi topik",
+	"vectorad-view-create": "Mohutu",
+	"vectorad-view-edit": "Monguba",
+	"vectorad-view-history": "Bilohi riwayati",
+	"vectorad-view-view": "Baca",
+	"vectorad-more-actions": "Pe'eentapo"
 }

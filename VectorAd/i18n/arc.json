@@ -6,15 +6,15 @@
 			"Michaelovic"
 		]
 	},
-	"vector-action-addsection": "ܐܘܣܦ ܡܠܘܐܐ",
-	"vector-action-delete": "ܫܘܦ",
-	"vector-action-move": "ܫܢܝ",
-	"vector-action-protect": "ܛܪ",
-	"vector-action-undelete": "ܠܐ ܫܘܦ",
-	"vector-action-unprotect": "ܫܚܠܦ ܢܛܝܪܘܬܐ",
-	"vector-view-create": "ܒܪܝ",
-	"vector-view-edit": "ܫܚܠܦ",
-	"vector-view-history": "ܚܙܝ ܬܫܥܝܬܐ",
-	"vector-view-view": "ܩܪܝ",
-	"vector-view-viewsource": "ܚܙܝ ܡܒܘܥܐ"
+	"vectorad-action-addsection": "ܐܘܣܦ ܡܠܘܐܐ",
+	"vectorad-action-delete": "ܫܘܦ",
+	"vectorad-action-move": "ܫܢܝ",
+	"vectorad-action-protect": "ܛܪ",
+	"vectorad-action-undelete": "ܠܐ ܫܘܦ",
+	"vectorad-action-unprotect": "ܫܚܠܦ ܢܛܝܪܘܬܐ",
+	"vectorad-view-create": "ܒܪܝ",
+	"vectorad-view-edit": "ܫܚܠܦ",
+	"vectorad-view-history": "ܚܙܝ ܬܫܥܝܬܐ",
+	"vectorad-view-view": "ܩܪܝ",
+	"vectorad-view-viewsource": "ܚܙܝ ܡܒܘܥܐ"
 }

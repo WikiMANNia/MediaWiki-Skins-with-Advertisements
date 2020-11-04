@@ -1,22 +1,22 @@
 {
-	"name": "Cologne Blue",
+	"name": "Cologne Banner",
 	"author": [
 		"Lee Daniel Crocker",
 		"..."
 	],
 	"url": "https://www.mediawiki.org/wiki/Skin:Cologne_Blue",
-	"descriptionmsg": "cologneblue-desc",
-	"namemsg": "skinname-cologneblue",
+	"descriptionmsg": "colognebanner-desc",
+	"namemsg": "skinname-colognebanner",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
-		"cologneblue": "CologneBlue"
+		"colognebanner": "CologneBanner"
 	},
 	"requires": {
 		"MediaWiki": ">= 1.25.0"
 	},
 	"MessagesDirs": {
-		"CologneBlue": [
+		"CologneBanner": [
 			"i18n"
 		]
 	},
@@ -35,7 +35,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "CologneBlue"
+		"remoteSkinPath": "CologneBanner"
 	},
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {

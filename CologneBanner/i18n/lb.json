@@ -5,8 +5,8 @@
 			"Robby"
 		]
 	},
-	"cologneblue.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Köln Blo''  */",
-	"cologneblue.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn Köln Blo benotzt */",
-	"skinname-cologneblue": "Köln Blo",
-	"cologneblue-desc": "E liicht Ausgesi mat minimaler Formatéierung"
+	"skinname-colognebanner": "Köln Banner",
+	"colognebanner.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Köln Banner'' */",
+	"colognebanner.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn Köln Banner benotzt */",
+	"colognebanner-desc": "E liicht Ausgesi mat minimaler Formatéierung"
 }

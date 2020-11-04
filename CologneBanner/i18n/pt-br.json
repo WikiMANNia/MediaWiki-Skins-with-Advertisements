@@ -5,8 +5,8 @@
 			"Cainamarques"
 		]
 	},
-	"cologneblue.css": "/* o código CSS colocado aqui terá efeito nos usuários do tema Cologne Blue */",
-	"cologneblue.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do tema Cologne Blue */",
-	"skinname-cologneblue": "Azul Colonial",
-	"cologneblue-desc": "Um tema leve com formatação mínima"
+	"skinname-colognebanner": "Colônia Bandeira",
+	"colognebanner-desc": "Um tema leve com formatação mínima",
+	"colognebanner.css": "/* o código CSS colocado aqui terá efeito nos usuários do tema Colônia Bandeira */",
+	"colognebanner.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do tema Colônia Bandeira */"
 }

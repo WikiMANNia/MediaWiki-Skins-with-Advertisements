@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Glas Cwlen"
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-colognebanner": "Glas Cwlen"
 }

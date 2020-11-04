@@ -4,7 +4,7 @@
 			"Objectivesea"
 		]
 	},
-	"skinname-monobook": "Librejo",
-	"monobook.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Libreja temo. */",
-	"monobook.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Libreja temo. */"
+	"skinname-wima": "Wima",
+	"wima.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Wima temo. */",
+	"wima.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Wima temo. */"
 }

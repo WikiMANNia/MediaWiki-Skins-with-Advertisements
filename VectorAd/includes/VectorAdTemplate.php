@@ -1,6 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
+ * VectorAd - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -23,10 +23,10 @@
  */
 
 /**
- * QuickTemplate class for Vector skin
+ * QuickTemplate class for VectorAd skin
  * @ingroup Skins
  */
-class VectorTemplate extends BaseTemplate {
+class VectorAdTemplate extends BaseTemplate {
 	/* Functions */
 
 	/**
@@ -36,7 +36,7 @@ class VectorTemplate extends BaseTemplate {
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
 
-		if ( $this->config->get( 'VectorUseIconWatch' ) ) {
+		if ( $this->config->get( 'VectorAdUseIconWatch' ) ) {
 			$mode = $this->getSkin()->getUser()->isWatched( $this->getSkin()->getRelevantTitle() )
 				? 'unwatch'
 				: 'watch';
@@ -354,7 +354,7 @@ class VectorTemplate extends BaseTemplate {
 			switch ( $element ) {
 				case 'NAMESPACES':
 					?>
-					<div id="p-namespaces" role="navigation" class="vectorTabs<?php
+					<div id="p-namespaces" role="navigation" class="vectoradTabs<?php
 					if ( count( $this->data['namespace_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -383,7 +383,7 @@ class VectorTemplate extends BaseTemplate {
 					break;
 				case 'VARIANTS':
 					?>
-					<div id="p-variants" role="navigation" class="vectorMenu<?php
+					<div id="p-variants" role="navigation" class="vectoradMenu<?php
 					if ( count( $this->data['variant_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -428,7 +428,7 @@ class VectorTemplate extends BaseTemplate {
 					break;
 				case 'VIEWS':
 					?>
-					<div id="p-views" role="navigation" class="vectorTabs<?php
+					<div id="p-views" role="navigation" class="vectoradTabs<?php
 					if ( count( $this->data['view_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -462,13 +462,13 @@ class VectorTemplate extends BaseTemplate {
 					break;
 				case 'ACTIONS':
 					?>
-					<div id="p-cactions" role="navigation" class="vectorMenu<?php
+					<div id="p-cactions" role="navigation" class="vectoradMenu<?php
 					if ( count( $this->data['action_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
 					?>" aria-labelledby="p-cactions-label">
 						<h3 id="p-cactions-label"><span><?php
-							$this->msg( 'vector-more-actions' )
+							$this->msg( 'vectorad-more-actions' )
 						?></span><a href="#"></a></h3>
 
 						<div class="menu">
@@ -549,7 +549,7 @@ class VectorTemplate extends BaseTemplate {
 						</h3>
 
 						<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-							<div<?php echo $this->config->get( 'VectorUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
+							<div<?php echo $this->config->get( 'VectorAdUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
 							<?php
 							echo $this->makeSearchInput( [ 'id' => 'searchInput' ] );
 							echo Html::hidden( 'title', $this->get( 'searchtitle' ) );

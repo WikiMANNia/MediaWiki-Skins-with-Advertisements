@@ -1,25 +1,25 @@
 {
-	"name": "MonoBook",
+	"name": "Wima",
 	"author": [
 		"Gabriel Wicke",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:MonoBook",
-	"descriptionmsg": "monobook-desc",
-	"namemsg": "skinname-monobook",
+	"url": "https://www.mediawiki.org/wiki/Skin:Wima",
+	"descriptionmsg": "wima-desc",
+	"namemsg": "skinname-wima",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.25.0"
 	},
 	"ValidSkinNames": {
-		"monobook": "MonoBook"
+		"wima": "Wima"
 	},
 	"SkinOOUIThemes": {
-		"monobook": "Apex"
+		"wima": "Apex"
 	},
 	"MessagesDirs": {
-		"MonoBook": [
+		"Wima": [
 			"i18n"
 		]
 	},
@@ -35,7 +35,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "MonoBook"
+		"remoteSkinPath": "Wima"
 	},
 	"ResourceModuleSkinStyles": {
 		"monobook": {

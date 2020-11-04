@@ -1,5 +1,5 @@
 /*
-** MediaWiki 'monobook' style sheet for CSS2-capable browsers.
+** MediaWiki 'wima' style sheet for CSS2-capable browsers.
 ** Copyright Gabriel Wicke - http://wikidev.net/
 ** License: GPL (http://www.gnu.org/copyleft/gpl.html)
 **
@@ -721,6 +721,6 @@ div.mw-lag-warn-high {
 }
 
 /* mediawiki.notification */
-.skin-monobook .mw-notification {
+.skin-wima .mw-notification {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.125);
 }

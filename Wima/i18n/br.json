@@ -4,7 +4,7 @@
 			"Fulup"
 		]
 	},
-	"skinname-monobook": "MonoBook",
-	"monobook.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Monobook */",
-	"monobook.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur MonoBook */"
+	"skinname-wima": "Wima",
+	"wima.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Wima */",
+	"wima.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Wima */"
 }

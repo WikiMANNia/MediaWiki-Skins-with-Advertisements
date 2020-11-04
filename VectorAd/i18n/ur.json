@@ -11,17 +11,18 @@
 			"Obaid Raza"
 		]
 	},
-	"vector-skin-desc": "مونوبک کا جدید نسخہ (ورژن) مع شائستہ صورت اور کئی افادیت میں بہتریاں",
-	"vector-action-addsection": "نیا موضوع",
-	"vector-action-delete": "حذف کریں",
-	"vector-action-move": "منتقل کریں",
-	"vector-action-protect": "محفوظ کریں",
-	"vector-action-undelete": "بحال کریں",
-	"vector-action-unprotect": "تحفظ میں تبدیلی کریں",
-	"vector-view-create": "تخلیق کریں",
-	"vector-view-edit": "ترمیم",
-	"vector-view-history": "تاریخچہ دیکھیے",
-	"vector-view-view": "پڑھیے",
-	"vector-view-viewsource": "مسودہ دیکھیے",
-	"vector-more-actions": "مزید"
+	"skinname-vectorad": "VectorAd",
+	"vectorad-skin-desc": "مونوبک کا جدید نسخہ (ورژن) مع شائستہ صورت اور کئی افادیت میں بہتریاں",
+	"vectorad-action-addsection": "نیا موضوع",
+	"vectorad-action-delete": "حذف کریں",
+	"vectorad-action-move": "منتقل کریں",
+	"vectorad-action-protect": "محفوظ کریں",
+	"vectorad-action-undelete": "بحال کریں",
+	"vectorad-action-unprotect": "تحفظ میں تبدیلی کریں",
+	"vectorad-view-create": "تخلیق کریں",
+	"vectorad-view-edit": "ترمیم",
+	"vectorad-view-history": "تاریخچہ دیکھیے",
+	"vectorad-view-view": "پڑھیے",
+	"vectorad-view-viewsource": "مسودہ دیکھیے",
+	"vectorad-more-actions": "مزید"
 }

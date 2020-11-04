@@ -4,6 +4,6 @@
 			"Võrok"
 		]
 	},
-	"monobook.css": "/* Taa lehe pääl om Monobook-vällänägemist muutvit kujonduisi. */",
-	"monobook.js": "/* Olõi soovitõt; pruugiq [[MediaWiki:common.js]] */"
+	"wima.css": "/* Taa lehe pääl om Wima-vällänägemist muutvit kujonduisi. */",
+	"wima.js": "/* Olõi soovitõt; pruugiq [[MediaWiki:common.js]] */"
 }

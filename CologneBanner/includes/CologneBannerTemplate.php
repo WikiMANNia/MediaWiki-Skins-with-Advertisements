@@ -1,6 +1,6 @@
 <?php
 /**
- * Cologne Blue: A nicer-looking alternative to Standard.
+ * Cologne Banner: A nicer-looking alternative to Standard.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-class CologneBlueTemplate extends BaseTemplate {
+class CologneBannerTemplate extends BaseTemplate {
 	function execute() {
 		// Suppress warnings to prevent notices about missing indexes in $this->data
 		wfSuppressWarnings();
@@ -64,7 +64,7 @@ class CologneBlueTemplate extends BaseTemplate {
 
 		$html = '';
 
-		// We override SkinTemplate->formatLanguageName() in SkinCologneBlue
+		// We override SkinTemplate->formatLanguageName() in SkinCologneBanner
 		// not to capitalize the language names.
 		$language_urls = $this->data['language_urls'];
 		if ( !empty( $language_urls ) ) {
@@ -220,7 +220,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$companionTitle = $title->isTalkPage() ? $title->getSubjectPage() : $title->getTalkPage();
 		$companionNamespace = $companionTitle->getNamespace();
 
-		// TODO these messages are only be used by CologneBlue,
+		// TODO these messages are only be used by CologneBanner,
 		// kill and replace with something more sensibly named?
 		$nsToMessage = array(
 			NS_MAIN => 'articlepage',
@@ -439,7 +439,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	}
 
 	/**
-	 * Adds CologneBlue-specific items to the sidebar: qbedit, qbpageoptions and qbmyoptions menus.
+	 * Adds CologneBanner-specific items to the sidebar: qbedit, qbpageoptions and qbmyoptions menus.
 	 *
 	 * @param array $bar Sidebar data
 	 * @return array Modified sidebar data
@@ -531,7 +531,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		}
 
 		// Output the sidebar
-		// CologneBlue uses custom messages for some portlets, but we should keep the ids for consistency
+		// CologneBanner uses custom messages for some portlets, but we should keep the ids for consistency
 		$idToMessage = array(
 			'search' => 'qbfind',
 			'navigation' => 'qbbrowse',

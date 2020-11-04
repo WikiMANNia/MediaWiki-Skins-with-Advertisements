@@ -6,10 +6,10 @@
 			"Erdemaslancan"
 		]
 	},
-	"vector-action-delete": "Jili",
-	"vector-action-move": "Tori",
-	"vector-action-protect": "İçvi",
-	"vector-view-create": "dokʼidi",
-	"vector-view-edit": "Doktiri",
-	"vector-view-view": "İǩitxi"
+	"vectorad-action-delete": "Jili",
+	"vectorad-action-move": "Tori",
+	"vectorad-action-protect": "İçvi",
+	"vectorad-view-create": "dokʼidi",
+	"vectorad-view-edit": "Doktiri",
+	"vectorad-view-view": "İǩitxi"
 }

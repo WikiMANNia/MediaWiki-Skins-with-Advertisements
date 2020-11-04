@@ -5,12 +5,12 @@
 			"Hangmanwa7id"
 		]
 	},
-	"vector-action-delete": "Supprimer",
-	"vector-action-move": "Renommer",
-	"vector-action-protect": "Protéger",
-	"vector-view-create": "Créer",
-	"vector-view-edit": "Changer",
-	"vector-view-view": "Lire",
-	"vector-view-viewsource": "Regarder la source",
-	"vector-more-actions": "Plus"
+	"vectorad-action-delete": "Supprimer",
+	"vectorad-action-move": "Renommer",
+	"vectorad-action-protect": "Protéger",
+	"vectorad-view-create": "Créer",
+	"vectorad-view-edit": "Changer",
+	"vectorad-view-view": "Lire",
+	"vectorad-view-viewsource": "Regarder la source",
+	"vectorad-more-actions": "Plus"
 }
