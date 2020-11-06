@@ -93,6 +93,12 @@ class SkinVectorAd extends SkinTemplate {
 		$out = $this->getOutput();
 		$title = $out->getTitle();
 
+		// FSM-Altersklassifizierungssystems: www.altersklassifizierung.de
+		global $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent;
+		if ( !empty( $wgAgeClassificationMetaName ) AND !empty( $wgAgeClassificationMetaContent ) ) {
+			$out->addMeta( $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent );
+		}
+
 		$indicators = [];
 		foreach ( $out->getIndicators() as $id => $content ) {
 			$indicators[] = [
