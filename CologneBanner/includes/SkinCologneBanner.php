@@ -37,6 +37,12 @@ class SkinCologneBanner extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
 		$out->addModuleStyles( 'skins.cologneblue' );
+
+		// FSM-Altersklassifizierungssystems: www.altersklassifizierung.de
+		global $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent;
+		if ( !empty( $wgAgeClassificationMetaName ) AND !empty( $wgAgeClassificationMetaContent ) ) {
+			$out->addMeta( $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent );
+		}
 	}
 
 	/**
