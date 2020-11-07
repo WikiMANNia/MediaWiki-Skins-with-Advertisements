@@ -37,7 +37,7 @@ The donation button can be hidden by $wgDonationButton and the link to the donat
 * $wgDonationButtonURL = 'yourdomain.org/donationpage.php?lang=';
 * $wgDonationButtonIMG = $wgServer.'/images/Donate_Button.gif';
 
-The facebook button can be hidden by $wgFacebookButton and the link to the donation page can be set explicitly by $wgFacebookButtonURL:
+The facebook button can be hidden by $wgFacebookButton and the link to the facebook page can be set explicitly by $wgFacebookButtonURL:
 
 * $wgFacebookButton = false;
 * $wgFacebookButtonURL = 'www.facebook.com/pages/YourPage/xxxxxxxxxxxxxxx';
