@@ -80,6 +80,12 @@ class SkinVectorAd extends SkinTemplate {
 	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
+		// FSM-Altersklassifizierungssystems: www.altersklassifizierung.de
+		global $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent;
+		if ( !empty( $wgAgeClassificationMetaName ) AND !empty( $wgAgeClassificationMetaContent ) ) {
+			$out->addMeta( $wgAgeClassificationMetaName, $wgAgeClassificationMetaContent );
+		}
+
 		$out->addModuleStyles( [
 			'mediawiki.skinning.interface',
 			'skins.vector.styles',
