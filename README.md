@@ -37,9 +37,20 @@ The donation button can be hidden by $wgDonationButton and the link to the donat
 * $wgDonationButtonURL = 'yourdomain.org/donationpage.php?lang=';
 * $wgDonationButtonIMG = $wgServer.'/images/Donate_Button.gif';
 
-The facebook button can be hidden by $wgDonationButton and the link to the donation page can be set explicitly by $wgFacebookButtonURL:
+The facebook button can be hidden by $wgFacebookButton and the link to the facebook page can be set explicitly by $wgFacebookButtonURL:
 
 * $wgFacebookButton = false;
 * $wgFacebookButtonURL = 'www.facebook.com/pages/YourPage/xxxxxxxxxxxxxxx';
 * $wgFacebookButtonIMG = 'yourdomain.org/images/Logo-Facebook.png';
 
+An age classification can be set:
+
+* $wgAgeClassificationButton = true;
+* $wgAgeClassificationURL = 'www.altersklassifizierung.de/';
+* $wgAgeClassificationIMG = 'yourdomain.org/skins/fsm-aks148.png';
+* $wgAgeClassificationMetaName = 'age-de-meta-label';
+* $wgAgeClassificationMetaContent = 'age=0 hash: yourdigitalcode v=1.0 kind=sl protocol=all';
+
+Note:
+
+For the REL1_23 version you have to insert extra data into the “languages/i18n/$1.json” files to get the labels translated.
