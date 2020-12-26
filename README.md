@@ -4,7 +4,8 @@ Provide original MediaWiki skins with advertising possibilities
 
 The advertising space 1 alternates randomly with Sitenotice. Advertising space 2 is located at the bottom of the article content. The advertising spaces 3 and 4 are located in the Sidebar. The exact positioning is determined with the entries “*AD1” and “*AD2” in the “MediaWiki:Sidebar”.
 
-IMPORTANT NOTE: "master" contains the original files of the skins monobook, modern, cologneblue and vector. For the skins [colognebanner](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-colognebanner), [vectorad](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-vectorad) and [wima](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-wima) you have to switch and select the corresponding branch!!!
+IMPORTANT NOTE: The branch "master" contains the original files of the skins monobook, modern, cologneblue and vector. For the skins [colognebanner](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-colognebanner), [vectorad](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-vectorad) and [wima](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-wima) you have to switch and select the corresponding branch!!!
+SEE ALSO: More detailed information on [MediaWiki](https://www.mediawiki.org/wiki/Skin:VectorAd#Use).
 
 Two advertising spaces can also be used as event information. These variables have to be set:
 
