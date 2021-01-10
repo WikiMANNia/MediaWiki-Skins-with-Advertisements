@@ -6,6 +6,8 @@ The advertising space 1 alternates randomly with Sitenotice. Advertising space 2
 
 IMPORTANT NOTE: The branch "master" contains the original files of the skins monobook, modern, cologneblue and vector. For the skins [colognebanner](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-colognebanner), [vectorad](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-vectorad) and [wima](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/tree/REL1_35-wima) you have to switch and select the corresponding [branch](https://github.com/WikiMANNia/MediaWiki-Skins-with-Advertisements/branches)!!!
 
+IMPORTANT NOTE: This project is abandoned in favor of [WimaAdvertising](https://github.com/WikiMANNia/MediaWiki-Extension-WimaAdvertising) and [DonateButton](https://github.com/WikiMANNia/MediaWiki-Extension-DonateButton).
+
 SEE ALSO: More detailed information on [MediaWiki](https://www.mediawiki.org/wiki/Skin:VectorAd#Use).
 
 Two advertising spaces can also be used as event information. These variables have to be set:
